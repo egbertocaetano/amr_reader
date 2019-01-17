@@ -1,57 +1,41 @@
-import nltk
-tab = "      "# tab no AMR Parser é igual a 6 espaços
+import re
+tab = "     "  # tab no AMR Parser é igual a 6 espaços
+space = " "
 open_clasula = "("
 close_clasula = ")"
 stack_vertices = []
-stack_open_parenthesis = []
+label_pattern = re.compile(":[A-Z|a-z|\-|of|0-9]+")
 
 
-with open("file_amr.txt", "r") as f:
-    
-    #concept_root
+with open("data/file_amr.txt", "r") as f:
+
+    # concept_root
     line = f.readline()
 
-    stack_open_parenthesis.append(open_clasula)
-    
-    limit = line.find(close_clasula)
+    line = line.replace("(", "").replace(")", "").replace("\n", "")
 
-    if limit > 0:
-    	vertice = {"name": line[line.find(open_clasula): limit], "children_vertices":{}}
-    else:
-		vertice = {"name": line[line.find(open_clasula):], "children_vertices":{}}
+    vertice = {"name": line.strip(), "children_vertices": {}}
 
     stack_vertices.append(vertice)
 
-    for line in f: 
-    
-    	lvl = line.count(tab)
+    for line in f:
 
-    	edge_name = line[line.find(":") - 1: line.find("(")].strip()
-		
-		######Parenthesis handling##########
-    	stack_open_parenthesis.append(open_clasula)
+        line = line.replace("(", "").replace(")", "").replace("\n", "")
 
-    	count_close_parenthesis = line.count(close_clasula)
+        lvl = line.count(tab)
 
-    	i == 0
-    	while i < count_parenthesis:
-    		stack_open_parenthesis.pop()
-    		i++
-    	######Parenthesis handling##########
+        label_edge = re.search(label_pattern, line)
 
-    	######vertice handling#########
-    	while len(stack_vertices) > lvl:
-        	stack_vertices.pop()
+        edge_name = line[label_edge.start(): label_edge.end()]
 
-    	limit = line.find(close_clasula)
-	    if limit > 0:
-	    	vertice = {"name": line[line.find(open_clasula): limit], "children_vertices":{}}
-	    else:
-			vertice = {"name": line[line.find(open_clasula):], "children_vertices":{}}
+        ######vertice handling#########
+        while len(stack_vertices) > lvl:
+            stack_vertices.pop()
 
-    	stack_vertices[-1]["children_vertices"][edge_name] = vertice
-    	######vertice handling#########
+        vertice = {"name": line[label_edge.end()+1:].strip(), "children_vertices": {}}
 
-    
+        stack_vertices[-1]["children_vertices"][edge_name] = vertice
+        stack_vertices.append(vertice)
+        ######vertice handling#########
 
-print(data)
+print(stack_vertices)

@@ -1,6 +1,5 @@
-0-1|0.0.1.0+0.0.1+0.0 ::annotator JAMR dev v0.3 ::date 2019-01-09T08:08:49.276
-(a / accuse-01 
-      :ARG0 (p2 / person 
+(a / accuse-01
+     :ARG0 (p2 / person
             :ARG0-of (h2 / have-rel-role-91 
                   :ARG1 (p / person 
                         :ARG0-of (w / witness-01) 

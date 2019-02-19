@@ -125,7 +125,7 @@ class AMRTools(object):
             pkl.dump(graph_list, f)
 
     @staticmethod
-    def read_graph_list_in_file(read_path):
+    def load_document_graph(read_path):
         """
 
         :param read_path:
@@ -166,7 +166,7 @@ class AMRTools(object):
         return files_path
 
     @staticmethod
-    def parse_graph(parse__graph_str_list, graph_type=nx.DiGraph, vocabulary: dict = {}):
+    def parse_graph(parse__graph_str_list, graph_type=nx.DiGraph):
         """
 
         :param parse__graph_str_list:
@@ -181,9 +181,13 @@ class AMRTools(object):
 
             graph = nx.parse_edgelist(lines=graph_str, nodetype=str, create_using=graph_type)
 
+            parse__graph_list.append(graph)
+
+            """
             # Building dictionary TODO: Test this
             nodes = graph.nodes()
 
+            
             size = len(vocabulary)
 
             # TODO: Using dictionary may cause excessive usage memory consumption
@@ -192,12 +196,12 @@ class AMRTools(object):
                 if node not in vocabulary.keys():
                     size = size + 1
                     vocabulary[node] = size
-
             parse__graph_list.append(graph)
+            """
 
         return parse__graph_list
 
-    def generate_bag_of_concepts(self, generate__path_list, only_main_concept=False):
+    def generate_bag_of_concepts(self, generate__path_list, only_main_concept=False, with_prefix=False):
 
         generate__bOC = []
 
@@ -216,8 +220,16 @@ class AMRTools(object):
 
                 for generate__concept in generate__concepts:
 
-                    if generate__concept not in generate__bOC:
-                        generate__bOC.append(generate__concept)
+                    entity = generate__concept.split('/')[-1].strip()
+
+                    if entity not in generate__bOC:
+
+                        if with_prefix is False:
+
+                            generate__bOC.append(entity)
+
+                        else:
+                            generate__bOC.append(generate__concept.strip())
 
         return generate__bOC
 
@@ -339,6 +351,7 @@ if __name__ == '__main__':
                    parse_amr__output_path=output_path_amr)
     """
     files_amr = [
+        '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/source-document00015_splitted.amr',
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/amr_results/suspicious-document02968.amr',
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/amr_results/suspicious-document10403.amr',
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/amr_results/suspicious-document01501.amr',

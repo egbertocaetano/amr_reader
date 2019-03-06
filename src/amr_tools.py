@@ -4,6 +4,8 @@ import os
 import networkx as nx
 from preprocessor.preprocessor import Preprocessor
 import pickle as pkl
+import matplotlib.pyplot as plt
+
 
 
 class AMRTools(object):
@@ -67,7 +69,7 @@ class AMRTools(object):
                 while i < size:
 
                     # Verifying end of graph
-                    if lines[i][0] == "\n" or lines[i][0] == self.octothorp:
+                    if lines[i][0] == "\n" or lines[i][0] == self.octothorp or len(lines[i]) == 0:
                         # Setting graph in list
                         graph_list.append(edge_list)
 
@@ -110,6 +112,9 @@ class AMRTools(object):
                     ###### Vertex handling #########
 
                     i = i + 1
+
+                    if not i < size:
+                        graph_list.append(edge_list)
 
             else:
 
@@ -178,7 +183,6 @@ class AMRTools(object):
         parse__graph_list = []
 
         for graph_str in parse__graph_str_list:
-
             graph = nx.parse_edgelist(lines=graph_str, nodetype=str, create_using=graph_type)
 
             parse__graph_list.append(graph)
@@ -301,12 +305,155 @@ class AMRTools(object):
         del parse_amr__file_list
         print('Parse terminated!')
 
+    # TODO: Test - DONE
+    @staticmethod
+    def collapse_graph(G):
+        """
+
+        :param graph_list:
+        :return:
+
+        """
+
+        # Generating node in queue
+        node_list = [node for node in G.nodes]
+
+        contract_graph = {}
+
+        # Getting size graph nodes
+        size_list = len(node_list)
+
+        # Starting processing nodes equal 0
+        processed = 0
+
+        # Iterating over graph to collapse nodes
+        while processed < size_list:
+
+            # Getting node name
+            node_name = node_list.pop(0)
+
+            # Plus in processed counter
+            processed = processed + 1
+
+            # Getting node successors
+            successors = G[node_name]
+
+            # If successors is equal 1 then collapse may possible
+            if len(successors) == 1:
+
+                # Appending node name to collapse step
+                names_to_join = [node_name]
+
+                # Getting successor node name
+                successor_equal_1 = list(dict(successors.items()).keys())
+
+                # Iterating over successors of successor
+                while len(successor_equal_1) > 0:
+
+                    # Getting successor name
+                    successor_name = successor_equal_1.pop(0)
+
+                    # Getting successors of successors
+                    successors_of_successor = G[successor_name]
+
+                    # Verifying if successor is adequate to collapsed condition
+                    if len(successors_of_successor) == 1:
+
+                        # If yes, then add successor of successor to verified in collapsed condition
+                        successor_of_successor = list(dict(successors_of_successor.items()).keys())[0]
+                        successor_equal_1.append(successor_of_successor)
+
+                        # Adding node name to collapse
+                        names_to_join.append(successor_name)
+
+                    # Verifying if is leaf
+                    elif len(successors_of_successor) == 0:
+
+                        # If is leaf, add in list to collapse
+                        names_to_join.append(successor_name)
+
+                    else:
+                        continue
+
+                # If has more than 1, the nodes must collapsed
+                if len(names_to_join) > 1:
+
+                    # Building new name to collapsed nodes
+                    new_name_node = "_".join(names_to_join)
+
+                    # Adding collapsed nodes to graph list to contracted
+                    contract_graph[new_name_node] = names_to_join
+
+                # Removing node_names from node_list
+                for node_name_i in names_to_join:
+
+                    # Verifying if name_node is in node_list
+                    if node_name_i in node_list:
+
+                        # If in, remove node_name
+                        processed = processed + 1
+                        node_list.remove(node_name_i)
+
+        # If has nodes to collapse, do contraction in G graph in iteration
+        for key, node_name_list in contract_graph.items():
+
+            # Getting first node in collapsed node
+            first_node_in_collapse = node_name_list[0]
+
+            # Get ancestor of first node in collapse
+            ancestor = list(G.predecessors(first_node_in_collapse))
+            ancestor = ancestor[0] if len(ancestor) > 0 else None
+
+            # adding collapsed node in G graph
+            G.add_node(key)
+
+            # Create edge between ancestor and collapsed node
+            if ancestor is not None:
+
+                # Get edge name if have ancestor
+                edge_name = G.get_edge_data(ancestor, first_node_in_collapse)
+
+                # Creating new edge between ancestor and new node
+                G.add_edge(ancestor, key, edge_name=edge_name['edge_name'])
+
+            # Remove nodes in collapsed node from G graph
+            for node_name_i in node_name_list:
+
+                G.remove_node(node_name_i)
+
+        return G
+
+    @staticmethod
+    def merge_graphs(graph_1, graph_2):
+        pass
+
 
 if __name__ == '__main__':
     path = "src/data/source-document00015.txt"
     result_path = "src/data/document_splitted/"
 
     tool = AMRTools()
+
+    R = tool.amr_graph_reader(
+        '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/amr_results/test_1.amr')
+
+    graph_list = tool.parse_graph(R)
+
+    for G in graph_list:
+
+        nx.draw(G)
+
+        plt.show()
+
+        g_line = tool.collapse_graph(G)
+
+        nx.draw(g_line)
+
+        plt.show()
+
+
+
+    exit()
 
     # print(tool.amr_graph_reader(
     #    "/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/amr_results/suspicious-document02968.amr"))
@@ -325,7 +472,7 @@ if __name__ == '__main__':
     #             "/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/documents_amr/file_amr_3"]
 
     # boc = tool.generate_bag_of_concepts(path_list, True)
-
+    """
     file_list = [
         "/home/forrest/workspace/LINE/plagiarism_rae_rst/datasets/pan-plagiarism-corpus-2010/suspicious-document/part6/suspicious-document02968.txt",
         "/home/forrest/workspace/LINE/plagiarism_rae_rst/datasets/pan-plagiarism-corpus-2010/suspicious-document/part21/suspicious-document10403.txt",
@@ -339,6 +486,7 @@ if __name__ == '__main__':
     # files_splitted = tool.document_to_splitted_sentences(document__file_list=file_list,
     #                                                     document__result_path=output_path_splitted)
     """
+    """
     files_splitted = [
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/source-document00015_splitted.txt',
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/suspicious-document06001.txt',
@@ -350,6 +498,7 @@ if __name__ == '__main__':
                    parse_amr__file_list=files_splitted,
                    parse_amr__output_path=output_path_amr)
     """
+    """
     files_amr = [
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/source-document00015_splitted.amr',
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/amr_results/suspicious-document02968.amr',
@@ -359,3 +508,4 @@ if __name__ == '__main__':
     ]
 
     print(tool.generate_bag_of_concepts(files_amr, False))
+    """

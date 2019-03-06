@@ -65,6 +65,12 @@ def reweighting_document_concept_matrix(document_concept_matrix, vocabulary):
     return document_concept_matrix
 
 
+def svd(matrix):
+
+    svd = TruncatedSVD(n_components=100)
+
+    return svd.fit(matrix)
+
 if __name__ == '__main__':
 
     amr_document_list = [
@@ -80,7 +86,7 @@ if __name__ == '__main__':
     matrix_l = reweighting_document_concept_matrix(matrix, vocabulary)
 
     # LSA Truncated SVD
-    svd = TruncatedSVD()
+
 
     matrix_l_truncated = svd.fit(matrix_l)
 

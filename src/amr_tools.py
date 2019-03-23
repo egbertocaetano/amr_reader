@@ -13,7 +13,7 @@ class AMRTools(object):
     . {scripts_path}PARSE.sh < source-document00015_splitted.txt > {output_path} 2> out.out
     """
 
-    def __init__(self):
+    def __init__(self, jamr_root_path):
 
         self.tab = "      "  # tab no AMR Parser é igual a 6 espaços
         self.space = " "
@@ -21,12 +21,10 @@ class AMRTools(object):
         self.close_parentheses = ")"
         self.octothorp = "#"
         self.label_pattern = re.compile(":[A-Z|a-z|\-|of|0-9]+")
-        self.jamr_root_path = "/home/forrest/workspace/LINE/Baselines/AMR/jamr"
+        self.jamr_root_path = jamr_root_path
         self.script_folder = os.path.join(self.jamr_root_path, "scripts")
         self.parser_path = os.path.join(self.jamr_root_path, self.script_folder)
         self.jamr_parse_config_cmd = ". {scripts_path}/config.sh"
-        self.log_out_path = "/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/amr_out/"
-        self.root_path = "/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader"
 
     # TODO: Improvement this method - OK
     # TODO:Must be return a graph set - OK
@@ -143,24 +141,34 @@ class AMRTools(object):
         return data
 
     @staticmethod
-    def document_to_splitted_sentences(document__file_list, document__result_path):
+    def document_to_splitted_sentences(document__file_list, document__output_path):
         """
 
         :param document__file_list:
-        :param document__result_path:
+        :param document__output_path:
         :return:
         """
         files_path = []
         for file in document__file_list:
 
+            file_name = file.split("/")[-1].replace(".txt", "")
+            out_path = document__output_path + file_name + ".txt"
+
+            if os.path.exists(out_path):
+                print("The document %s was skipped because was processed!!!" % file_name)
+                files_path.append(out_path)
+                continue
+
             if os.path.exists(file):
+
+                print('Split processing %s ...' % file)
                 document = Preprocessor().raw_document_splitter(file)
 
             else:
-                raise Exception("")
+                raise Exception("Document doesn't exists!!!")
 
             file_name = file.split("/")[-1].replace(".txt", "")
-            out_path = document__result_path + file_name + ".txt"
+            out_path = document__output_path + file_name + ".txt"
 
             with open(out_path, "w") as f:
 
@@ -240,11 +248,11 @@ class AMRTools(object):
     def amr_parse(self, parse_amr__jamr_path, parse_amr__file_list, parse_amr__output_path):
 
         """
-                From a text file the parser convert raw text to discourse tree structure
+        From a text file the parser convert raw text to discourse tree structure
 
-                This method need:
-                    - A file with path of all texts will be parsed
-                    - The out path where parsed files will be saved
+        This method need:
+            - A file with path of all texts will be parsed
+            - The out path where parsed files will be saved
 
         """
 
@@ -256,6 +264,8 @@ class AMRTools(object):
         print('Starting parse...')
 
         length = len(parse_amr__file_list)
+
+        path_list = []
 
         for i in range(0, length):
 
@@ -270,6 +280,7 @@ class AMRTools(object):
 
             if os.path.exists(name_output):
                 print("The document %s was skipped because was processed!!!" % name)
+                path_list.append(name_output)
                 continue
 
             file = file.split('\n')[0]
@@ -285,6 +296,7 @@ class AMRTools(object):
                 out_path=name_output
             )
 
+            print(cmd)
             # Setting of process
             parser = subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                                       stderr=subprocess.PIPE, universal_newlines=True)
@@ -293,11 +305,12 @@ class AMRTools(object):
 
                 if stderr != '':
                     raise OSError('Some error occurred in parser subprocess, error info:\n%s' % stderr)
+
                 else:
                     print(stdout)
 
                 print('File: {file} concluded'.format(file=name))
-
+                path_list.append(name_output)
             except Exception as e:
 
                 raise e
@@ -305,12 +318,154 @@ class AMRTools(object):
         del parse_amr__file_list
         print('Parse terminated!')
 
+        return path_list
+
+    # TODO: Test -
+    def amr_parse_corpus_in_one_file(self, parse_amr__jamr_path, parse_amr__file, parse_amr__output_path):
+        """
+        From a text file the parser convert raw text to discourse tree structure
+
+        This method need:
+            - A file with path of all texts will be parsed
+            - The out path where parsed files will be saved
+
+        """
+
+        print('Verifying dependencies...')
+
+        if not os.path.exists(parse_amr__output_path):
+            raise Exception("Output path: %s doesn't exists!!" % parse_amr__output_path)
+
+        print('Starting parse...')
+
+        file = parse_amr__file
+
+        name = file.split("/")[-1].split('\n')[0]
+        name_output = name[0: name.find('.txt')] + '.amr'
+        name_output = os.path.join(parse_amr__output_path, name_output)
+
+        if os.path.exists(name_output):
+
+            print("The document %s was skipped because was processed!!!" % name)
+
+            return self.__split_msr_paraphrase_corpus(split_msrpc__file_path=name_output,
+                                                      split_msrpc__output_path=parse_amr__output_path
+                                                      )
+
+        file = file.split('\n')[0]
+
+        if not os.path.exists(file):
+            raise Exception("The file %s doesn't exists!!" % file)
+
+        print('Starting %s file processing ...' % name)
+
+        # Mounting command
+        cmd = "./amr_generator.sh {jamr_path} {file_path} {out_path}".format(
+            jamr_path=parse_amr__jamr_path,
+            file_path=file,
+            out_path=name_output
+        )
+
+        print(cmd)
+        # Setting of process
+        parser = subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                                  stderr=subprocess.PIPE, universal_newlines=True)
+        try:
+            stdout, stderr = parser.communicate()
+
+            if stderr != '':
+                raise OSError('Some error occurred in parser subprocess, error info:\n%s' % stderr)
+
+            else:
+                print(stdout)
+
+            print('File: {file} concluded'.format(file=name))
+
+        except Exception as e:
+
+            raise e
+
+        print('Parse terminated!')
+
+        return self.__split_msr_paraphrase_corpus(split_msrpc__file_path=name_output,
+                                                  split_msrpc__output_path=parse_amr__output_path
+                                                  )
+
+    # TODO: Test -
+    def __split_msr_paraphrase_corpus(self, split_msrpc__file_path, split_msrpc__output_path):
+        """
+        """
+
+        lines = None
+        prefix_name = 'msrpc_'
+        path_list = []
+
+        with open(split_msrpc__file_path, "r") as f:
+
+            lines = f.readlines()
+
+        size = len(lines)
+        
+        i = 0
+        j = 0
+        k = 0
+
+        while i < size:
+
+            content_file = []
+
+            if lines[i][0] == self.open_parentheses:
+
+                # Getting content
+                content_file.append(lines[i])
+                
+                i = i + 1
+
+                # Iterating over graph
+                while i < size:
+
+                    # Verifying end of graph
+                    if lines[i][0] == "\n" or lines[i][0] == self.octothorp or len(lines[i]) == 0:
+                        
+                        # Getting content
+                        content_file.append(lines[i])
+
+                        file_name = prefix_name + str(k) + '_' + str(j) + '.amr'
+                        file_name = split_msrpc__output_path + '/' + file_name
+
+                        with open(file_name, 'w') as f:
+
+                            f.write(''.join(content_file))
+
+                        path_list.append(file_name)
+
+                        i = i + 1
+                        j = j + 1
+
+                        if j > 1:
+
+                            j = 0
+                            k = k + 1
+
+                        break
+
+                    # Getting content
+                    content_file.append(lines[i])
+
+                    i = i + 1
+            else:
+
+                i = i + 1
+                continue
+
+        return path_list
+
     # TODO: Test - DONE
     @staticmethod
     def collapse_graph(G):
         """
 
-        :param graph_list:
+        :param G:
         :return:
 
         """
@@ -347,6 +502,11 @@ class AMRTools(object):
                 # Getting successor node name
                 successor_equal_1 = list(dict(successors.items()).keys())
 
+                # Getting edge labels in names to join
+                edge_name = G.get_edge_data(node_name, successor_equal_1[0])
+                # Adding edge label in name to join
+                names_to_join.append(edge_name['edge_name'])
+
                 # Iterating over successors of successor
                 while len(successor_equal_1) > 0:
 
@@ -365,6 +525,11 @@ class AMRTools(object):
 
                         # Adding node name to collapse
                         names_to_join.append(successor_name)
+
+                        # Getting edge labels in names to join
+                        edge_name = G.get_edge_data(successor_name, successor_of_successor)
+                        # Adding edge label in name to join
+                        names_to_join.append(edge_name['edge_name'])
 
                     # Verifying if is leaf
                     elif len(successors_of_successor) == 0:
@@ -419,26 +584,55 @@ class AMRTools(object):
             # Remove nodes in collapsed node from G graph
             for node_name_i in node_name_list:
 
-                G.remove_node(node_name_i)
+                # If node name in graph, then delete
+                if G.has_node(node_name_i):
+                    G.remove_node(node_name_i)
 
         return G
 
     @staticmethod
-    def merge_graphs(graph_1, graph_2):
-        pass
+    def collapse_merge_graphs(G, H):
+        """
+
+        :param G:
+        :param H:
+        :return:
+        """
+        # Searching for equal concepts
+        has_equal = [node_name for node_name in G.nodes if H.has_node(node_name)]
+
+        # Verifying exists nodes to collapse_merge
+        if len(has_equal) < 1:
+
+            return None
+
+        else:
+
+            return nx.compose(G, H)
+
+    @staticmethod
+    def concept_rank(G):
+        """
+
+        :param G:
+        :return:
+        """
+        return nx.pagerank(G)
 
 
 if __name__ == '__main__':
+    """
     path = "src/data/source-document00015.txt"
     result_path = "src/data/document_splitted/"
 
-    tool = AMRTools()
+    tool = AMRTools("/home/forrest/workspace/LINE/Baselines/AMR/jamr/scripts")
 
     R = tool.amr_graph_reader(
-        '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/amr_results/test_1.amr')
+        '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/amr_results/test_2.amr')
 
     graph_list = tool.parse_graph(R)
 
+    
     for G in graph_list:
 
         nx.draw(G)
@@ -451,10 +645,12 @@ if __name__ == '__main__':
 
         plt.show()
 
+    
 
+    merged_graph = tool.collapse_merge_graphs(graph_list[0], graph_list[1])
 
     exit()
-
+    """
     # print(tool.amr_graph_reader(
     #    "/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/amr_results/suspicious-document02968.amr"))
 
@@ -486,7 +682,7 @@ if __name__ == '__main__':
     # files_splitted = tool.document_to_splitted_sentences(document__file_list=file_list,
     #                                                     document__result_path=output_path_splitted)
     """
-    """
+
     files_splitted = [
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/source-document00015_splitted.txt',
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/suspicious-document06001.txt',
@@ -494,10 +690,12 @@ if __name__ == '__main__':
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/suspicious-document01501.txt',
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/suspicious-document02968.txt']
 
+    tool = AMRTools("/home/forrest/workspace/LINE/Baselines/AMR/jamr/scripts")
+
     tool.amr_parse(parse_amr__jamr_path="/home/forrest/workspace/LINE/Baselines/AMR/jamr/scripts",
                    parse_amr__file_list=files_splitted,
-                   parse_amr__output_path=output_path_amr)
-    """
+                   parse_amr__output_path='/home/forrest/workspace/LINE/Baselines/AMR/results/19-03-17__17-23-29__TestCorpus/amrs')
+
     """
     files_amr = [
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/source-document00015_splitted.amr',

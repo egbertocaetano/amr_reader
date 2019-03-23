@@ -1,0 +1,595 @@
+# ::snt ï»¿Just behind Jacob sat two little pink-cheeked girls five and four years old, Violet and Rose Featherstone.
+# ::tok ï " ¿ Just behind Jacob sat two little pink - cheeked girls five and four years old , Violet and Rose Featherstone .
+# ::alignments 22-23|0.2.0 21-22|0.2 20-21|0 19-20|0.1 17-18|0.1.0 16-17|0.0.3.2.0.1+0.0.3.2.0 15-16|0.0.3.2.0.0 14-15|0.0.3 13-14|0.0.3.2 12-13|0.0.3.1 11-12|0.0.3.0 9-10|0.0.3.1.0 8-9|0.0.3.1.0.0 7-8|0.0.0 6-7|0.0 5-6|0.0.2 4-5|0.0.1 3-4|0.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:04:39.583
+(a / and 
+      :op1 (s / sit-01 
+            :ARG1 2 
+            :ARG2 (b / behind 
+                  :mod (j2 / just)) 
+            :manner (j / jacob) 
+            :op1-of (a2 / and 
+                  :op2 (c / cheek) 
+                  :op3 (g / girl 
+                        :ARG1-of (p / pink-04 
+                              :ARG0 (l / little))) 
+                  :op4 (5 / 5 
+                        :quant-of (t / temporal-quantity 
+                              :quant 4 
+                              :unit (y / year))))) 
+      :op2 (v / violet 
+            :mod (o / old)) 
+      :op3 (r / rise-01 
+            :ARG1 (f / Featherstone)))
+
+# ::snt Violet brought the younger Rose every day and was a miracle of sisterly devotion.
+# ::tok Violet brought the younger Rose every day and was a miracle of sisterly devotion .
+# ::alignments 13-14|0.0.0.0.0 12-13|0.0.0.0.0.0 10-11|0 7-8|0.0 6-7|0.0.0.2 5-6|0.0.0.2.0 4-5|0.0.0.1.1.0+0.0.0.1.1+0.0.0.1 3-4|0.0.0.1.0 1-2|0.0.0 0-1|0.0.0.0.1.0+0.0.0.0.1+0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:04:39.784
+(m / miracle 
+      :op2-of (a / and 
+            :op1 (b / bring-01 
+                  :ARG0 (p2 / person 
+                        :ARG1-of (d / devote-01 
+                              :mod (s / sisterly)) 
+                        :name (n2 / name 
+                              :op1 "Violet")) 
+                  :ARG1 (p / person 
+                        :mod (y / young) 
+                        :name (n / name 
+                              :op1 "Rose")) 
+                  :time (d2 / day 
+                        :mod (e / every)))))
+
+# ::snt I did not see the mother for some months after the little pair entered, as she had work that kept her from home during the hours when it was possible for me to call upon her, and she lived at a long distance from the kindergarten in a neighborhood from which none of our other children came.
+# ::tok I did not see the mother for some months after the little pair entered , as she had work that kept her from home during the hours when it was possible for me to call upon her , and she lived at a long distance from the kindergarten in a neighborhood from which none of our other children came .
+# ::alignments 58-59|0.0.4 57-58|0.0.4.0.0 56-57|0.0.4.0.0.0 55-56|0.0.4.0.0.1 53-54|0.0.4.0 50-51|0.0.2 47-48|0.0.3.0 44-45|0.0.3 43-44|0.0.3.1 40-41|0.0 38-39|0 34-35|0.0.0.0.0.0.0.0 32-33|0.0.0.0.0.0.0 30-31|0.0.0.0.0.0.0.0.0 26-27|0.0.1.1.2+0.0.1.1.2.0 23-24|0.0.1.1.1 21-22|0.0.1.1.0 20-21|0.0.1.1 18-19|0.0.1 16-17|0.0.1.0 13-14|0.0.0.0.2.0 12-13|0.0.0.0.2.0.1 11-12|0.0.0.0.2.0.1.0 9-10|0.0.0.0.2 8-9|0.0.0.0.2.0.0.0+0.0.0.0.2.0.0 7-8|0.0.0.0.2.0.0.0.0 5-6|0.0.0.0.0.0.1+0.0.0.0.0.0+0.0.0.0.0 3-4|0.0.0.0 2-3|0.0.0.0.1 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:04:50.895
+(a / and 
+      :op1 (l2 / live-01 
+            :ARG0 (i2 / i 
+                  :ARG0-of (s4 / see-01 
+                        :ARG1 (p3 / person 
+                              :ARG0-of (h3 / have-rel-role-91 
+                                    :ARG1 (i / i 
+                                          :ARG0-of (c3 / call-01 
+                                                :ARG1-of (p / possible-01))) 
+                                    :ARG2 (m2 / mother))) 
+                        :polarity - 
+                        :time (a2 / after 
+                              :op1 (e / enter-01 
+                                    :ARG0 (t2 / temporal-quantity 
+                                          :unit (m / month 
+                                                :mod (s3 / some))) 
+                                    :ARG1 (p2 / pair-01 
+                                          :mod (l3 / little)))))) 
+            :ARG1 (w2 / work-01 
+                  :ARG0 (s2 / she) 
+                  :ARG0-of (k2 / keep-01 
+                        :ARG1 (s / she) 
+                        :ARG2 (h2 / home) 
+                        :time (h / hour 
+                              :unit-of (t / temporal-quantity)))) 
+            :location (n2 / neighborhood) 
+            :location (d / distance-01 
+                  :ARG1 (k / kindergarten) 
+                  :ARG1-of (l / long-03)) 
+            :time-of (c / come-01 
+                  :ARG1 (n / none 
+                        :mod-of (c2 / child 
+                              :mod (o / other) 
+                              :poss (w / we))))))
+
+# ::snt I had no anxiety about them however, as the looks, behavior, and clothing of all my children was always an absolute test of the conditions prevailing in the home.
+# ::tok I had no anxiety about them however , as the looks , behavior , and clothing of all my children was always an absolute test of the conditions prevailing in the home .
+# ::alignments 31-32|0.1 28-29|0 27-28|0.0 24-25|0.0.0 23-24|0.0.0.1 21-22|0.0.0.2 19-20|0.0.0.0.1.1 17-18|0.0.0.0.0.0 15-16|0.0.0.0.2 14-15|0.0.0.0 12-13|0.0.0.0.1 10-11|0.0.0.0.0 3-4|0.0.0.0.1.0.0 2-3|0.0.0.0.2.0 0-1|0.0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:04:51.120
+(p / prevail-02 
+      :ARG1 (c / condition 
+            :ARG1-of (t / test-01 
+                  :ARG0 (a4 / and 
+                        :op1 (l / look-02 
+                              :ARG1 (a3 / all)) 
+                        :op2 (b / behave-01 
+                              :ARG0 (i / i 
+                                    :ARG0-of (a5 / anxiety)) 
+                              :ARG1 (c2 / child)) 
+                        :op3 (c3 / clothe-01 
+                              :ARG1 -)) 
+                  :mod (a / absolute) 
+                  :time (a2 / always))) 
+      :location (h / home))
+
+# ::snt What was my surprise then, one day to receive a note from a certain Mrs. Hannah Googins, a name not in my register.
+# ::tok What was my surprise then , one day to receive a note from a certain Mrs. Hannah Googins , a name not in my register .
+# ::alignments 24-25|0.1.3 21-22|0.0 20-21|0.1.3.0 16-18|0.1.2.2.1+0.1.2.2.0+0.1.2.2+0.1.2 15-16|0.1.2.1 14-15|0.1.2.0 11-12|0.1.1 9-10|0.1 7-8|0.1.0 4-5|0.3 3-4|0 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:04:51.435
+(s / surprise-01 
+      :ARG0 - 
+      :ARG1 (r2 / receive-01 
+            :ARG0 (d / day) 
+            :ARG1 (n3 / note) 
+            :ARG2 (p / person 
+                  :mod (c / certain) 
+                  :mod (m / mrs.) 
+                  :name (n2 / name 
+                        :op1 "Hannah" 
+                        :op2 "Googins,")) 
+            :ARG3 (r / register-02 
+                  :ARG1 (n / name))) 
+      :ARG2 (a / amr-unknown) 
+      :time (t / then))
+
+# ::snt She said her Emma Abby had been bringing home pieces of sewing and weaving of late, marked "Violet Featherstone."
+# ::tok She said her Emma Abby had been bringing home pieces of sewing and weaving of late , marked " Violet Featherstone . "
+# ::alignments 19-21|0.1.0.1.1.1+0.1.0.1.1.0+0.1.0.1.1+0.1.0.1 17-18|0.1.0.1.0 15-16|0.2 13-14|0.1.0 12-13|0.1 11-12|0.0.0 9-10|0.1.0.0.0.0 8-9|0.1.0.0.0.0.0 7-8|0.1.0.0.0 3-5|0.1.0.0.1.1+0.1.0.0.1.0+0.1.0.0.1+0.1.0.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:04:52.365
+(s2 / say-01 
+      :ARG0 (s3 / she 
+            :ARG1-of (s / sew-01)) 
+      :ARG1 (a / and 
+            :op1 (w / weave-01 
+                  :ARG0 (p3 / person 
+                        :ARG0-of (b / bring-01 
+                              :ARG1 (p2 / piece 
+                                    :mod (h / home))) 
+                        :name (n2 / name 
+                              :op1 "Emma" 
+                              :op2 "Abby")) 
+                  :ARG1 (p / person 
+                        :ARG1-of (m / mark-01) 
+                        :name (n / name 
+                              :op1 "Violet" 
+                              :op2 "Featherstone.")))) 
+      :op1-of (l / late))
+
+# ::snt She would like to see some of Emma Abby's own work and find out whether she had taken that of any other child by mistake.
+# ::tok She would like to see some of Emma Abby 's own work and find out whether she had taken that of any other child by mistake .
+# ::alignments 25-26|0.3.0.0 23-24|0.1.0.0 22-23|0.1.0.0.0 21-22|0.1.0 19-20|0.2.1 18-19|0.2 16-17|0.2.0 13-14|0.1 12-13|0 11-12|0.3 7-9|0.3.0.1.1+0.3.0.1.0+0.3.0.1+0.3.0 5-6|0.0.1 4-5|0.0 2-3|0.0.2 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:04:53.082
+(a2 / and 
+      :op1 (s3 / see-01 
+            :ARG0 (s4 / she) 
+            :ARG1 (s2 / some) 
+            :ARG1-of (l / like-02 
+                  :ARG0 s4)) 
+      :op2 (f / find-01 
+            :ARG0 (a / any 
+                  :mod-of (c / child 
+                        :mod (o / other)))) 
+      :op3 (t2 / take-01 
+            :ARG0 (s / she) 
+            :ARG1 (t / that)) 
+      :poss-of (w / work-01 
+            :ARG0 (p / person 
+                  :ARG0-of (m / mistake-02) 
+                  :name (n / name 
+                        :op1 "Emma" 
+                        :op2 "Abby's"))))
+
+# ::snt A long and puzzling investigation followed the receipt of this letter and I found that the romantic little Emma Abby Googins, not caring for the name given her by her maternal parent, had assumed that of Violet Featherstone.
+# ::tok A long and puzzling investigation followed the receipt of this letter and I found that the romantic little Emma Abby Googins , not caring for the name given her by her maternal parent , had assumed that of Violet Featherstone .
+# ::alignments 38-40|0.0.1.0.0.0.0.1+0.0.1.0.0.0.0.0+0.0.1.0.0.0.0+0.0.1.0.0.0 35-36|0.0.1.0.0 32-33|0.0.0.0.0 31-32|0.0.0.0.0.0 28-29|0.0.0.0.1 27-28|0.0.0.0 26-27|0.0.0.0.2.0 23-24|0.0.0.0.2 22-23|0.0.0.0.2.1 18-21|0.0.1.0.3.2+0.0.1.0.3.1+0.0.1.0.3.0+0.0.1.0.3+0.0.1.0 17-18|0.0.1.0.2 16-17|0.0.1.0.1 13-14|0.1 12-13|0.1.0 11-12|0 10-11|0.1.1 9-10|0.1.1.0 7-8|0.0.2 5-6|0.0 4-5|0.0.1 3-4|0.0.1.1 2-3|0.0.0 1-2|0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:04:55.563
+(a2 / and 
+      :op1 (f2 / follow-01 
+            :ARG0 (a3 / and 
+                  :ARG1-of (g / give-01 
+                        :ARG0 (p2 / parent 
+                              :mod (m / maternal)) 
+                        :ARG2 (s / she) 
+                        :ARG2-of (c / care-03 
+                              :ARG1 (n2 / name) 
+                              :polarity -)) 
+                  :op1 (l3 / long-03)) 
+            :ARG1 (i2 / investigate-01 
+                  :ARG1 (p3 / person 
+                        :ARG0-of (a / assume-02 
+                              :ARG1 (p / person 
+                                    :name (n / name 
+                                          :op1 "Violet" 
+                                          :op2 "Featherstone."))) 
+                        :ARG1-of (r / romantic-03) 
+                        :mod (l / little) 
+                        :name (n3 / name 
+                              :op1 "Emma" 
+                              :op2 "Abby" 
+                              :op3 "Googins,")) 
+                  :ARG1-of (p4 / puzzle-01)) 
+            :ARG2 (r2 / receipt)) 
+      :op2 (f / find-01 
+            :ARG0 (i / i) 
+            :ARG1 (l2 / letter 
+                  :mod (t / this))))
+
+# ::snt Also, being an only child and greatly desiring a sister, she had plucked a certain little Nellie Taylor from a family near by, named her "Rose Featherstone" and taken her to and from the kindergarten daily, a distance of at least half a mile of crowded streets.
+# ::tok Also , being an only child and greatly desiring a sister , she had plucked a certain little Nellie Taylor from a family near by , named her " Rose Featherstone " and taken her to and from the kindergarten daily , a distance of at least half a mile of crowded streets .
+# ::alignments 52-53|0.0.0.0.0.0.1 51-52|0.0.0.0.0.0 49-50|0.0.0.0.0.0.1.1.0+0.0.0.0.0.0.1.1 47-48|0.0.0.0.1.1.0.0 43-44|0.0.0.0.0.0.1.0 40-41|0.0.0.0.0.1 39-40|0.0.0.0.0.1.0 36-37|0 33-34|0.0.0.0.0 32-33|0.0.0.0.0.2 29-31|0.0.0.0.0.2.0.0.1+0.0.0.0.0.2.0.0.0+0.0.0.0.0.2.0.0+0.0.0.0.0.2.0 27-28|0.0.0.0.0.0.0 23-24|0.0.0.0.1.1.0 22-23|0.0.0.0.1.1 18-20|0.0.0.0.4.1+0.0.0.0.4.0+0.0.0.0.4+0.0.0.0 17-18|0.0.0.0.2 16-17|0.0.0.0.3 14-15|0.0.0.0.1 12-13|0.0.0.0.1.0 10-11|0.0.0.1+0.0.0+0.0 8-9|0.0.1 7-8|0.0.1.0 6-7|0.0.1.1 5-6|0.0.1.1.0 4-5|0.0.1.1.0.0 0-1|0.0.0.0.0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:04:59.115
+(a / and 
+      :op1 (p3 / person 
+            :ARG0-of (h2 / have-rel-role-91 
+                  :ARG1 (p / person 
+                        :ARG0-of (t / take-01 
+                              :ARG1 (c / crowd-01 
+                                    :ARG0 (s2 / she) 
+                                    :ARG1 (s / street 
+                                          :ARG1-of (d2 / distance-01 
+                                                :ARG0 (a4 / also)) 
+                                          :source-of (d / distance-quantity 
+                                                :unit (m / mile)))) 
+                              :ARG3 (d3 / daily 
+                                    :mod (k / kindergarten)) 
+                              :op2-of (a2 / and 
+                                    :op1 (t2 / thing 
+                                          :name (n / name 
+                                                :op1 (r / Rose) 
+                                                :op2 (f / Featherstone))))) 
+                        :ARG1-of (p2 / pluck-01 
+                              :ARG0 (s3 / she) 
+                              :ARG2 (f2 / family 
+                                    :ARG1-of (n2 / near-02 
+                                          :ARG0 (h / half)))) 
+                        :mod (l / little) 
+                        :mod (c2 / certain) 
+                        :name (n3 / name 
+                              :op1 "Nellie" 
+                              :op2 "Taylor")) 
+                  :ARG2 (s4 / sister)) 
+            :ARG1-of (d4 / desire-01 
+                  :degree (g / great) 
+                  :op2-of (a3 / and 
+                        :op1 (c3 / child 
+                              :mod (o / only))))))
+
+# ::snt The affair was purely one of innocent romance.
+# ::tok The affair was purely one of innocent romance .
+# ::alignments 7-8|0 6-7|0.1 3-4|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:04:59.135
+(r / romance-01 
+      :ARG1 (p / pure-02 
+            :ARG1 (a / affair)) 
+      :ARG1-of (i / innocent-01))
+
+# ::snt Emma Abby Googins never told a fib or committed the slightest fault or folly save that of burying her name, assuming a more distinguished one, and introducing a sister to me who had no claim to the Googins blood.
+# ::tok Emma Abby Googins never told a fib or committed the slightest fault or folly save that of burying her name , assuming a more distinguished one , and introducing a sister to me who had no claim to the Googins blood .
+# ::alignments 40-41|0.1.0.0.1.0 36-37|0.1.0.0.0.1.1 35-36|0.1.0.0.0.1.1.0 32-33|0.0.0.0 30-31|0.0.0.1+0.0.0+0.0 28-29|0 27-28|0.1 25-26|0.1.1 24-25|0.1.1.0 23-24|0.1.1.0.0 21-22|0.1.1.1 19-20|0.1.0.1 17-18|0.1.0 15-16|0.1.0.0 14-15|0.1.0.0.1 13-14|0.1.0.0.0.1.2 12-13|0.1.0.0.0.1 11-12|0.1.0.0.0 10-11|0.1.0.0.0.0.0+0.1.0.0.0.0 8-9|0.1.0.0.0.1.0 7-8|0.1.0.0.0.1.0.0 6-7|0.1.0.0.0.1.0.0.0.1 4-5|0.1.0.0.0.1.0.0.0 0-3|0.1.0.0.0.1.0.0.0.0.0.2+0.1.0.0.0.1.0.0.0.0.0.1+0.1.0.0.0.1.0.0.0.0.0.0+0.1.0.0.0.1.0.0.0.0.0+0.1.0.0.0.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:00.226
+(i2 / introduce-02 
+      :ARG1 (p / person 
+            :ARG0-of (h / have-rel-role-91 
+                  :ARG1 (i / i) 
+                  :ARG2 (s / sister))) 
+      :op3-of (a / and 
+            :op1 (b2 / bury-01 
+                  :ARG0 (t / that 
+                        :ARG1-of (f2 / fault-01 
+                              :mod (s3 / slight 
+                                    :degree (m2 / most)) 
+                              :op1-of (o2 / or 
+                                    :ARG1-of (c2 / commit-01 
+                                          :op2-of (o3 / or 
+                                                :op1 (t2 / tell-01 
+                                                      :ARG0 (p2 / person 
+                                                            :name (n2 / name 
+                                                                  :op1 "Emma" 
+                                                                  :op2 "Abby" 
+                                                                  :op3 "Googins")) 
+                                                      :ARG2 (f3 / fib)))) 
+                                    :ARG1-of (c / claim-01 
+                                          :polarity -) 
+                                    :op2 (f / folly))) 
+                        :ARG1-of (s2 / save-02 
+                              :ARG0 (b / blood))) 
+                  :ARG1 (n / name)) 
+            :op2 (o / one 
+                  :ARG1-of (d / distinguish-01 
+                        :degree (m / more)) 
+                  :ARG1-of (a2 / assume-02))))
+
+# ::snt Her mother was thoroughly mystified by the occurrence and I no less so, but Emma Abby simply opened her blue eyes wider and protested that she "liked to be Violet" and Rose liked to be Rose, and that was the only excuse for her conduct, which she seemed to think needed neither apology nor explanation.
+# ::tok Her mother was thoroughly mystified by the occurrence and I no less so , but Emma Abby simply opened her blue eyes wider and protested that she " liked to be Violet " and Rose liked to be Rose , and that was the only excuse for her conduct , which she seemed to think needed neither apology nor explanation .
+# ::alignments 59-60|0.0.3.0.0.0 57-58|0.0.3.0.0.1.1.0.1.0 55-56|0.0.3.0.0.1.1.0.1 54-55|0.0.3.0.0.1.1.0 52-53|0.0.3.0.0.1.1 48-49|0.0.3.0.0.1.0 45-46|0.0.3.0.0.1 44-45|0.0.3.0.0.1.2 40-41|0.0.3.0.1 35-36|0.0.3.0 34-35|0.0.3.0.0.2.0+0.0.3.0.0.2+0.0.3.0.0 33-34|0.1.1 31-32|0.1.2.1.1.0.0+0.1.2.1.1.0+0.1.2.1.1 28-29|0.1.2.1 26-27|0.1.2.1.0 24-25|0.1.2 23-24|0.1 22-23|0.1.0.1.0 21-22|0.1.0.1 20-21|0.1.0.1.1 18-19|0.1.0 17-18|0.1.0.2 15-17|0.1.0.0.0.1+0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 14-15|0 11-12|0.1.2.0.0 10-11|0.1.2.0 9-10|0.0.3.0.0.1.1.0.0 8-9|0.0.3 7-8|0.0.0 4-5|0.0 3-4|0.0.2 1-2|0.0.1.0.1+0.0.1.0+0.0.1 0-1|0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:02.300
+(c2 / contrast-01 
+      :ARG1 (m / mystify-01 
+            :ARG0 (o3 / occurrence) 
+            :ARG1 (p5 / person 
+                  :ARG0-of (h / have-rel-role-91 
+                        :ARG1 (s4 / she) 
+                        :ARG2 (m2 / mother))) 
+            :manner (t2 / thorough) 
+            :op1-of (a5 / and 
+                  :op2 (l / like-01 
+                        :ARG0 (p / person 
+                              :ARG0-of (e / explain-01) 
+                              :ARG0-of (e2 / excuse-02 
+                                    :ARG1 (c / conduct-01) 
+                                    :ARG2 (s / seem-01 
+                                          :ARG1 (t / think-01 
+                                                :ARG0 (i / i) 
+                                                :ARG1 (n / need-01 
+                                                      :ARG1 (a / apologize-01)))) 
+                                    :mod (o / only)) 
+                              :name (n2 / name 
+                                    :op1 "Rose")) 
+                        :ARG1 (a2 / and)))) 
+      :ARG2 (a4 / and 
+            :op1 (o2 / open-01 
+                  :ARG0 (p4 / person 
+                        :name (n4 / name 
+                              :op1 "Emma" 
+                              :op2 "Abby")) 
+                  :ARG1 (e3 / eye 
+                        :ARG1-of (w / wide-02) 
+                        :mod (b / blue)) 
+                  :manner (s3 / simple)) 
+            :op1-of (a3 / and) 
+            :op2 (p3 / protest-01 
+                  :ARG0 (- / - 
+                        :polarity-of (l3 / less)) 
+                  :ARG1 (l2 / like-01 
+                        :ARG0 (s2 / she) 
+                        :ARG1 (p2 / person 
+                              :name (n3 / name 
+                                    :op1 "Violet"))))))
+
+# ::snt Now comes the darling of the group, the heart's ease, the nonesuch, the Rose of Erin, the lovely, the indescribable Rosaleen Clancy.
+# ::tok Now comes the darling of the group , the heart 's ease , the nonesuch , the Rose of Erin , the lovely , the indescribable Rosaleen Clancy .
+# ::alignments 26-28|0.0.1.0.1.1.1+0.0.1.0.1.1.0+0.0.1.0.1.1+0.0.1.0.1 25-26|0.0.1.0.1.0 22-23|0.0.1.0.2.0 19-20|0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 17-18|0.0.1.0.0.0.0+0.0.1.0.0.0+0.0.1.0.0 14-15|0 11-12|0.0.0 9-10|0.0.0.0 6-7|0.0 3-4|0.0.1 1-2|0.0.1.0 0-1|0.0.1.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:02.710
+(n4 / nonesuch 
+      :mod-of (g / group 
+            :mod (e / ease-02 
+                  :ARG1 (h / heart 
+                        :part-of (p2 / person 
+                              :name (n2 / name 
+                                    :op1 "Erin,")))) 
+            :poss-of (d / darling 
+                  :ARG1-of (c / come-01 
+                        :ARG0 (p3 / person 
+                              :name (n3 / name 
+                                    :op1 "Rose")) 
+                        :ARG3 (p / person 
+                              :mod (i / indescribable) 
+                              :name (n / name 
+                                    :op1 "Rosaleen" 
+                                    :op2 "Clancy.")) 
+                        :time (n5 / now 
+                              :mod (l / lovely))))))
+
+# ::snt We were all working busily and happily one morning when a young woman tapped at the door and led in that flower and pearl of babyhood, the aforesaid Rosaleen.
+# ::tok We were all working busily and happily one morning when a young woman tapped at the door and led in that flower and pearl of babyhood , the aforesaid Rosaleen .
+# ::alignments 29-30|0.0.1.0.1.0+0.0.1.0.1+0.0.1.0 28-29|0.0.1.0.0 25-26|0.0.1.1 23-24|0.1 22-23|0 21-22|0.0.1 20-21|0.0.1.2 18-19|0.0 17-18|0.0.2 16-17|0.0.2.0.1 13-14|0.0.2.0 12-13|0.0.2.0.0 11-12|0.0.2.0.0.0 8-9|0.0.0 6-7|0.0.0.0 5-6|0.0.2.1 4-5|0.0.2.1.0.1 3-4|0.0.2.1.0 2-3|0.0.2.1.0.0.0 0-1|0.0.2.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:03.292
+(a2 / and 
+      :ARG0-of (l / lead-02 
+            :ARG1 (m / morning 
+                  :mod (h / happy)) 
+            :ARG2 (f / flower-01 
+                  :ARG0 (p / person 
+                        :mod (a / aforesaid) 
+                        :name (n / name 
+                              :op1 "Rosaleen.")) 
+                  :ARG1 (b / babyhood) 
+                  :mod (t / that)) 
+            :op2-of (a3 / and 
+                  :op1 (t2 / tap-01 
+                        :ARG1 (w / woman 
+                              :mod (y / young)) 
+                        :ARG2 (d / door)) 
+                  :op2-of (a4 / and 
+                        :op1 (w2 / work-01 
+                              :ARG0 (w3 / we 
+                                    :quant (a5 / all)) 
+                              :manner (b2 / busily))))) 
+      :op1 (p2 / pearl))
+
+# ::snt The young woman said she knew that the kindergarten was full, and indeed had a long waiting list, but the Clancy family had just arrived from Ireland; that there were two little boys; a new baby twenty-four hours old; Mr. Clancy had not yet found work, and could we take care of Rosaleen even for a week or two?
+# ::tok The young woman said she knew that the kindergarten was full , and indeed had a long waiting list , but the Clancy family had just arrived from Ireland ; that there were two little boys ; a new baby twenty - four hours old ; Mr. Clancy had not yet found work , and could we take care of Rosaleen even for a week or two ?
+# ::alignments 67-68|0.0.2.0.0 66-67|0.1.2.0.1 65-66|0.0.2.2.1 64-65|0.0.2.2.2 61-62|0.0.2.2.2.0 58-59|0.0.2.2.0 57-58|0.0.2.2 56-57|0.0.2.2.0.0 55-56|0.0.2.0 54-55|0.0.2 52-53|0.1.2.0 51-52|0.1.2.0.0 50-51|0.1.2.0.0.2 49-50|0.1.2.0.0.1 46-48|0.1.2.0.0.0.0.1+0.1.2.0.0.0.0.0+0.1.2.0.0.0.0+0.1.2.0.0.0 44-45|0.0.2.1 43-44|0.0.1.1.1.0.2.0.0.0+0.0.1.1.1.0.2.0.0 42-43|0.0.1.1.1.0.0 40-41|0.0.2.2.0.1.0 39-40|0.0.2.2.0.1 38-39|0.0.1.1.1.0.2.0 35-36|0.1.0 34-35|0.1.0.0 33-34|0.1.0.1 29-30|0.2 28-29|0.1.2.2+0.1.2.1.0+0.1.2.1+0.1.2 26-27|0.1 25-26|0.1.3 23-24|0.1.1 22-23|0.1.1.0.1+0.1.1.0+0.1.1.0.0 20-21|0 18-19|0.0.1.1.1.0 17-18|0.0.1.1.1.0.2 16-17|0.0.1.1.1.0.1 13-14|0.1.4 12-13|0.0.1.1.1 10-11|0.0.1.1 8-9|0.0.1.1.0 5-6|0.0.1 4-5|0.0.1.0 3-4|0.0 2-3|0.0.0 1-2|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:10.929
+(c4 / contrast-01 
+      :ARG1 (s2 / say-01 
+            :ARG0 (w5 / woman 
+                  :mod (y2 / young)) 
+            :ARG1 (k2 / know-01 
+                  :ARG0 (s / she) 
+                  :ARG1 (f3 / full 
+                        :domain (k / kindergarten) 
+                        :op1-of (a4 / and 
+                              :op2 (l2 / list-01 
+                                    :ARG1 4 
+                                    :ARG1-of (l3 / long-03) 
+                                    :ARG2 (w4 / wait-01 
+                                          :ARG1 (n2 / new 
+                                                :mod-of (t3 / temporal-quantity 
+                                                      :unit (h / hour)))))))) 
+            :op1-of (a / and 
+                  :ARG1-of (p / possible-01 
+                        :mode (i / interrogative)) 
+                  :op2 (o2 / old) 
+                  :op3 (t / take-01 
+                        :ARG1 (c / care-03 
+                              :ARG0 (w2 / we) 
+                              :ARG1 (b / baby 
+                                    :mod-of (t4 / twenty))) 
+                        :ARG2 (o / or) 
+                        :purpose (w / week 
+                              :mod (e / even))))) 
+      :ARG2 (a3 / arrive-01 
+            :ARG0 (b2 / boy 
+                  :mod (l / little) 
+                  :quant 2) 
+            :ARG1 (f2 / family 
+                  :name (n4 / name 
+                        :name-of (p2 / person) 
+                        :op1 "Clancy")) 
+            :ARG4 (c3 / country 
+                  :ARG0-of (w3 / work-01 
+                        :ARG1-of (f / find-01 
+                              :ARG0 (t2 / thing 
+                                    :name (n / name 
+                                          :op1 (m / Mr.) 
+                                          :op2 (c2 / Clancy))) 
+                              :polarity - 
+                              :time (y / yet)) 
+                        :op1-of 2) 
+                  :name (n3 / name 
+                        :op1 "Ireland") 
+                  :wiki "Republic_of_Ireland") 
+            :mod (j / just) 
+            :polarity (i2 / indeed)) 
+      :op1-of (a2 / and))
+
+# ::snt "quoth the Baron" is also published in house hold words written by MONTAGU WILLIAMS, Q.C. and Magistrate" which helps in easy conversational narration,keen appreciation of humour and indeed for graphic touch.
+# ::tok " quoth the Baron " is also published in house hold words written by MONTAGU WILLIAMS , Q.C. and Magistrate " which helps in easy conversational narration , keen appreciation of humour and indeed for graphic touch .
+# ::alignments 36-37|0.0.1.0.0.0.0 35-36|0.0.1.0.0.0.0.1 33-34|0.0.1.0.1.2 32-33|0.0.1.0.0 31-32|0.0.1.0.0.0.0.0 29-30|0.0.1.0.0.0 28-29|0.0.1.0.0.0.1 26-27|0.0.1.0.1 25-26|0.0.1.0.1.1 24-25|0.0.1.0.1.0 22-23|0.0.1.0 19-20|0 18-19|0.0 17-18|0.0.1.1.0+0.0.1.1+0.0.1 14-16|0.0.0.1.1+0.0.0.1.0+0.0.0.1+0.0.0 12-13|0.0.0.0 11-12|0.0.0.0.0 10-11|0.0.0.0.0.0.2 9-10|0.0.0.0.0.0.1 7-8|0.0.0.0.0.0 6-7|0.0.0.0.0.0.3 3-4|0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:11.983
+(m / magistrate 
+      :op3-of (a3 / and 
+            :op1 (o / organization 
+                  :ARG0-of (w / write-01 
+                        :ARG1 (w2 / word 
+                              :ARG0-of (p / publish-01 
+                                    :ARG1 (b / baron) 
+                                    :location (h4 / house) 
+                                    :location (h3 / hold-01) 
+                                    :mod (a4 / also)))) 
+                  :name (n3 / name 
+                        :op1 "MONTAGU" 
+                        :op2 "WILLIAMS,")) 
+            :op2 (c2 / country 
+                  :ARG2-of (h2 / help-01 
+                        :ARG0 (a / and 
+                              :op1 (a2 / appreciation 
+                                    :ARG0-of (t / touch-01 
+                                          :location (h / humour) 
+                                          :mod (g / graphic)) 
+                                    :ARG1-of (k / keen-02))) 
+                        :ARG1 (n / narration 
+                              :ARG1-of (e / easy-05) 
+                              :mod (c / conversational) 
+                              :mod (i / indeed))) 
+                  :name (n2 / name 
+                        :op1 "Q.C."))))
+
+# ::snt A little flat, sort of "pork pie" hat of blue velveteen sat on the back of her adorable head, showing the satiny rings of yellow hair that curled round her ears and hung close to her neck.
+# ::tok A little flat , sort of " pork pie " hat of blue velveteen sat on the back of her adorable head , showing the satiny rings of yellow hair that curled round her ears and hung close to her neck .
+# ::alignments 40-41|0.2.1 36-37|0.2 35-36|0 34-35|0.1.1.0 32-33|0.1.1 31-32|0.1 29-30|0.2.0 28-29|0.2.0.0 26-27|0.1.0 25-26|0.1.0.1 23-24|0.1.0.0 21-22|0.0.2.0 20-21|0.0.2.0.1 17-18|0.0.2 14-15|0.0 13-14|0.0.1 12-13|0.0.1.0 10-11|0.0.0 8-9|0.1.0.0.0.0 7-8|0.1.0.0.0.0.0 4-5|0.1.0.0.0 2-3|0.0.2.0.0.0 1-2|0.0.2.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:12.798
+(a / and 
+      :op1 (s3 / sit-01 
+            :ARG0 (h4 / hat) 
+            :ARG1 (v / velveteen 
+                  :mod (b2 / blue)) 
+            :ARG2 (b / back 
+                  :ARG0-of (h3 / head-01 
+                        :ARG1 (l / little 
+                              :mod-of (f / flat)) 
+                        :time (a2 / adorable)))) 
+      :op2 (c / curl-01 
+            :ARG0 (r2 / ring 
+                  :ARG1-of (s2 / show-01 
+                        :ARG0 (s4 / sort 
+                              :mod-of (p / pie 
+                                    :mod (p2 / pork)))) 
+                  :mod (s / satiny)) 
+            :ARG1 (r / round-05 
+                  :ARG1 (e / ear))) 
+      :op3 (h / hang-on-04 
+            :ARG0 (h2 / hair 
+                  :ARG1-of (y / yellow-02)) 
+            :ARG1 (n / neck)))
+
+# ::snt (No wonder!)
+# ::tok ( No wonder ! )
+# ::alignments 3-4|0.0 2-3|0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:12.813
+(w / wonder-01 
+      :mod-of (e / expressive) 
+      :polarity -)
+
+# ::snt She had gray-blue eyes with long upper and under lashes and a perfect mouth that disclosed the pearly teeth usually confined to the heroines of novels.
+# ::tok She had gray - blue eyes with long upper and under lashes and a perfect mouth that disclosed the pearly teeth usually confined to the heroines of novels .
+# ::alignments 27-28|0.1.0.0.0 25-26|0.1.0.0 22-23|0.1.0 21-22|0.1.0.1 20-21|0.1 19-20|0.1.1 17-18|0 15-16|0.0 14-15|0.0.0 12-13|0.0.1 11-12|0.0.1.1.1+0.0.1.1 9-10|0.0.1.1.0 8-9|0.0.1.0 7-8|0.0.1.0.0 5-6|0.0.1.1.0.0 4-5|0.0.1.1.0.0.0 2-3|0.0.1.1.0.0.0.0 0-1|0.0.1.1.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:13.222
+(d / disclose-01 
+      :ARG0 (m / mouth 
+            :ARG1-of (p2 / perfect-02) 
+            :op3-of (a / and 
+                  :op1 (u2 / upper 
+                        :ARG1-of (l2 / long-03)) 
+                  :op2 (l / lash 
+                        :op1-of (a2 / and 
+                              :topic-of (e / eye 
+                                    :mod (b / blue 
+                                          :ARG1-of (g / gray-02 
+                                                :ARG2 (s / she))))) 
+                        :wiki -))) 
+      :ARG1 (t / tooth 
+            :ARG1-of (c / confine-01 
+                  :ARG2 (h / heroin 
+                        :mod (n / novel)) 
+                  :mod (u / usual)) 
+            :mod (p / pearly)))
+
+# ::snt As to her skin you would say that Jersey cream was the principal ingredient in its composition.
+# ::tok As to her skin you would say that Jersey cream was the principal ingredient in its composition .
+# ::alignments 16-17|0.1.2 13-14|0.1 12-13|0.1.1 9-10|0.1.0 8-9|0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 6-7|0 4-5|0.0 3-4|0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:13.368
+(s / say-01 
+      :ARG0 (y / you) 
+      :ARG1 (i / ingredient 
+            :domain (c2 / cream-01 
+                  :ARG1 (c3 / country 
+                        :name (n / name 
+                              :op1 "Jersey"))) 
+            :mod (p / principal) 
+            :topic (c / compose-01)) 
+      :time (s2 / skin))
+
+# ::snt The children had stopped their weaving needles and were gazing open-mouthed at this vision of beauty, though Rosaleen had by no means unmasked all her batteries.
+# ::tok The children had stopped their weaving needles and were gazing open - mouthed at this vision of beauty , though Rosaleen had by no means unmasked all her batteries .
+# ::alignments 28-29|0.2.1 26-27|0.2.1.0 25-26|0.2 24-25|0.2.0 23-24|0.2.0.0 17-18|0.1.0.0 15-16|0.1.1 14-15|0.1.1.0 12-13|0.1.0 10-11|0.1.0.1 9-10|0.1 7-8|0 6-7|0.0.1 5-6|0.0.0.0 3-4|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:13.948
+(a2 / and 
+      :op1 (s / stop-01 
+            :ARG0 (c / child 
+                  :ARG0-of (w / weave-01)) 
+            :ARG1 (n / needle)) 
+      :op2 (g / gaze-01 
+            :ARG1 (m2 / mouth-01 
+                  :ARG1 (b2 / beauty) 
+                  :ARG1-of (o / open-01)) 
+            :ARG2 (v / vision 
+                  :mod (t / this))) 
+      :time (u / unmask-01 
+            :ARG0 (m / mean-01 
+                  :polarity -) 
+            :ARG1 (b / battery 
+                  :quant (a / all))))
+
+# ::snt She came nearer my chair, and without being invited, slipped her hand in mine in a blarneyish and deludthering way not unknown in her native isle.
+# ::tok She came nearer my chair , and without being invited , slipped her hand in mine in a blarneyish and deludthering way not unknown in her native isle .
+# ::alignments 27-28|0.0.0.0.0.1.0.1.0.0 26-27|0.0.0.0.0.1.0.1.0.0.0 23-24|0.0.0.0.0.1.0.1.0.1+0.0.0.0.0.1.0.1.0 22-23|0.0.0.0.0.1.0.1.0.2 21-22|0.0.0 20-21|0.0 19-20|0 15-16|0.0.0.0 13-14|0.0.0.0.0.0 11-12|0.0.0.0.0 9-10|0.0.0.0.0.0.0 6-7|0.0.0.0.0.1 4-5|0.0.0.0.0.1.0.0 2-3|0.0.0.0.0.1.0.2 1-2|0.0.0.0.0.1.0 0-1|0.0.0.0.0.1.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:15.151
+(a / and 
+      :op1 (d / deludther 
+            :mod-of (w / way 
+                  :manner-of (m / mine 
+                        :medium-of (s / slip-01 
+                              :ARG1 (h / hand 
+                                    :ARG0-of (i2 / invite-01)) 
+                              :op2-of (a2 / and 
+                                    :op1 (c2 / come-01 
+                                          :ARG0 (c / chair) 
+                                          :ARG1 (s2 / she 
+                                                :ARG0-of (k / know-01 
+                                                      :ARG1 (i / isle 
+                                                            :mod (n / native)) 
+                                                      :polarity - 
+                                                      :polarity -)) 
+                                          :manner (n2 / near-01))))))))
+
+# ::snt The same Jersey cream had gone into its skin, there were dimples in the knuckles, and baby hand though it was, its satin touch had a thrill in it, and responded instantly to my pressure.
+# ::tok The same Jersey cream had gone into its skin , there were dimples in the knuckles , and baby hand though it was , its satin touch had a thrill in it , and responded instantly to my pressure .
+# ::alignments 38-39|0.2.1.1 35-36|0.2.1.2 34-35|0.2.1 33-34|0.2 29-30|0.2.0 26-27|0.2.1.0 25-26|0.2.1.0.0 19-20|0.1.0 18-19|0.1 17-18|0 15-16|0.2.0.0 12-13|0.2.1.1.0 8-9|0.0.1 5-6|0.0 3-4|0.0.0 2-3|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 1-2|0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:05:15.476
+(a2 / and 
+      :op1 (g / go-02 
+            :ARG0 (c / cream-01 
+                  :ARG1 (c2 / country 
+                        :name (n / name 
+                              :op1 "Jersey")) 
+                  :ARG1-of (s3 / same-01)) 
+            :ARG4 (s2 / skin)) 
+      :op2 (b / baby 
+            :mod-of (h / hand)) 
+      :op3 (a / and 
+            :op1 (t / thrill-01 
+                  :ARG1 (k / knuckle)) 
+            :op2 (r / respond-01 
+                  :ARG0 (t2 / touch-01 
+                        :ARG1 (s / satin)) 
+                  :ARG1 (p / pressure-01 
+                        :ARG1 (d / dimple)) 
+                  :manner (i / instant))))
+

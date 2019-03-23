@@ -1,0 +1,24 @@
+# ::snt Referring to him as only "the witness", Amrozi accused his brother of deliberately distorting his evidence.
+# ::tok Referring to him as only " the witness " , Amrozi accused his brother of deliberately distorting his evidence .
+# ::alignments 18-19|0.2.0 16-17|0.2 15-16|0.2.1 13-14|0.1+0.0.1 11-12|0 10-11|0.0.2.0+0.0.2+0.0 7-8|0.0.1.0.0+0.0.1.0 4-5|0.2.0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-01-09T08:08:50.058
+(a / accuse-01
+      :ARG0 (p / person
+            :ARG0-of (r / refer-01)
+
+# ::snt Referring to him as only "the witness", Amrozi accused his brother of deliberately distorting his evidence.
+# ::tok Referring to him as only " the witness " , Amrozi accused his brother of deliberately distorting his evidence .
+# ::alignments 18-19|0.2.0 16-17|0.2 15-16|0.2.1 13-14|0.1+0.0.1 11-12|0 10-11|0.0.2.0+0.0.2+0.0 7-8|0.0.1.0.0+0.0.1.0 4-5|0.2.0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-01-09T08:08:50.058            :ARG1-of (h / have-rel-role-91
+(p2 / person
+      :ARG0-of (r / refer-01))
+            :ARG2 b)
+      :name (n / name
+             :op1 "Amrozi"))
+
+# ::snt Referring to him as only "the witness", Amrozi accused his brother of deliberately distorting his evidence.
+# ::tok Referring to him as only " the witness " , Amrozi accused his brother of deliberately distorting his evidence .
+# ::alignments 18-19|0.2.0 16-17|0.2 15-16|0.2.1 13-14|0.1+0.0.1 11-12|0 10-11|0.0.2.0+0.0.2+0.0 7-8|0.0.1.0.0+0.0.1.0 4-5|0.2.0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-01-09T08:08:50.058            :ARG1-of (h / have-rel-role-91
+(b / brother)
+      :ARG2 (d / distort-01
+            :ARG1 (e / evidence-01
+                  :ARG1 (o / only))
+            :manner ("Amrozi")))

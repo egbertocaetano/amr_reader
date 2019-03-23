@@ -14,7 +14,8 @@ class Preprocessor:
 
     def __init__(self):
         ROOT_PATH = os.getcwd()
-        self.SPLITTER_SENTENCE_PATH = "src/preprocessor/tools/text_spliter"
+        # self.SPLITTER_SENTENCE_PATH = "src/preprocessor/tools/text_spliter"
+        self.SPLITTER_SENTENCE_PATH = "preprocessor/tools/text_spliter"
         self.SPLITTER_SENTENCE = os.path.join(ROOT_PATH, self.SPLITTER_SENTENCE_PATH)
 #         self.SPLITTER_SENTENCE = "/home/forrest/workspace/LINE"
         self.max_sentence_len = 100

@@ -1,0 +1,3001 @@
+# ::snt ï»¿Transcriber's Note:
+# ::tok ï " ¿ Transcriber 's Note :
+# ::alignments 6-7|0.2 5-6|0 4-5|0.0 3-4|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:31.886
+(n / note-01 
+      :ARG1 (' / ') 
+      :ARG1-of (t / transcribe-01) 
+      :ARG1-of (m / mean-01))
+
+# ::snt Spelling, punctuation and capitalization are as in the original.
+# ::tok Spelling , punctuation and capitalization are as in the original .
+# ::alignments 9-10|0.0.0 4-5|0.2 3-4|0 2-3|0.1 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:32.067
+(a / and 
+      :op1 (s / spell-01 
+            :ARG1 (o / original)) 
+      :op2 (p / punctuation) 
+      :op3 (c / capitalization))
+
+# ::snt This includes the writer's various spellings of her own name.
+# ::tok This includes the writer 's various spellings of her own name .
+# ::alignments 10-11|0.0.1 6-7|0.0 5-6|0.0.0 3-4|0.0.2.0+0.0.2 1-2|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:32.472
+(i / include-01 
+      :ARG1 (s / spelling 
+            :mod (v / various) 
+            :name (n / name) 
+            :poss (p / person 
+                  :ARG0-of (w / write-01))) 
+      :ARG2 (t / this))
+
+# ::snt Ordinals such as "0st", "0d", "0th" were consistently written in superscript.
+# ::tok Ordinals such as " 0st " , " 0d " , " 0th " were consistently written in superscript .
+# ::alignments 18-19|0.2 16-17|0 15-16|0.3 12-13|0.1 8-9|0.0 4-5|0.2.0 1-2|0.2.1 0-1|0.2.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:32.710
+(w / write-01 
+      :ARG0 0d 
+      :ARG1 0th 
+      :location (s / superscript 
+            :mod-of 0st 
+            :poss-of (s2 / such 
+                  :mod (o / ordinal))) 
+      :manner (c / consistent))
+
+# ::snt They are shown here as unmarked text.
+# ::tok They are shown here as unmarked text .
+# ::alignments 6-7|0.1 5-6|0.1.0 3-4|0.0.0 2-3|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:32.792
+(s / show-01 
+      :ARG1 (t2 / they 
+            :domain-of (h / here)) 
+      :ARG2 (t / text 
+            :mod (u / unmark)))
+
+# ::snt Other superscript abbreviations are shown with caret as M^rs, Hon^d.
+# ::tok Other superscript abbreviations are shown with caret as M ^ rs , Hon ^ d.
+# ::alignments 10-11|0.2.0 8-9|0.0.1+0.0.0.0+0.0.0+0.0 6-7|0.2 4-5|0 2-3|0.1 1-2|0.1.0 0-1|0.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:33.083
+(s / show-01 
+      :ARG0 (v / vehicle 
+            :name (n / name 
+                  :op1 "M1") 
+            :wiki "M1_Abrams") 
+      :ARG1 (a / abbreviation 
+            :mod (s2 / superscript) 
+            :mod (o / other)) 
+      :mod (c / caret 
+            :prep-with (r / r)))
+
+# ::snt The printed book included a facsimile image of a typical diary page.
+# ::tok The printed book included a facsimile image of a typical diary page .
+# ::alignments 11-12|0.0.1 10-11|0.0.1.1 9-10|0.0.1.0 6-7|0.0 5-6|0.0.0 3-4|0 2-3|0.1 1-2|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:33.211
+(i2 / include-01 
+      :ARG1 (i / image 
+            :mod (f / facsimile) 
+            :topic (p / page 
+                  :ARG1-of (t / typical-02) 
+                  :mod (d / diary))) 
+      :ARG2 (b / book 
+            :mod (p2 / print-01)))
+
+# ::snt A transcription of this passage appears immediately before the diary proper.
+# ::tok A transcription of this passage appears immediately before the diary proper .
+# ::alignments 10-11|0.2.1.0 9-10|0.2.1 7-8|0.2 6-7|0.2.0 5-6|0 4-5|0.0 3-4|0.0.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:33.665
+(a / appear-02 
+      :ARG0 (p2 / pass-01 
+            :mod (t / this)) 
+      :ARG1 (t2 / transcription) 
+      :time (b / before 
+            :mod (i / immediate) 
+            :op1 (d / diary 
+                  :mod-of (p / proper))))
+
+# ::snt In the year 0, a bright little girl ten years of age, Anna Green Winslow, was sent from her far away home in Nova Scotia to Boston, the birthplace of her parents, to be "finished" at Boston schools by Boston teachers.
+# ::tok In the year 0 , a bright little girl ten years of age , Anna Green Winslow , was sent from her far away home in Nova Scotia to Boston , the birthplace of her parents , to be " finished " at Boston schools by Boston teachers .
+# ::alignments 47-48|0.1.0.0.0+0.1.0.0 46-47|0.1.0.0.0.0.2+0.1.0.0.0.0.1.0+0.1.0.0.0.0.1+0.1.0.0.0.0 44-45|0.1.0.0.0.0.0 43-44|0.1.0.0.0.0.0.0.1+0.1.0.0.0.0.0.0.0.0+0.1.0.0.0.0.0.0.0+0.1.0.0.0.0.0.0 40-41|0.1.0 35-36|0.1.0.0.1.1+0.1.0.0.1+0.1.0.0.1.0 32-33|0.1.0.0.1.0.1 29-30|0.2.2+0.2.1.0+0.2.1+0.2 26-28|0.2.0.0.1+0.2.0.0.0+0.2.0.0+0.2.0 24-25|0.1.0.0.2 23-24|0.3 22-23|0.3.0 21-22|0.0 19-20|0 14-17|0.1.0.0.1.0.1.0.0.2+0.1.0.0.1.0.1.0.0.1+0.1.0.0.1.0.1.0.0.0+0.1.0.0.1.0.1.0.0+0.1.0.0.1.0.1.0 12-13|0.1.0.0.1.0.0 10-11|0.1.0.0.1.0.0.1.0+0.1.0.0.1.0.0.1 8-9|0.1 7-8|0.1.2 6-7|0.1.1 3-4|0.1.0.0.1.0.0.0 2-3|0.4 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:38.546
+(s3 / send-01 
+      :ARG0 (s2 / she) 
+      :ARG1 (g / girl 
+            :ARG1-of (f / finish-01 
+                  :ARG0 (p / person 
+                        :ARG0-of (t / teach-01 
+                              :ARG1 (c / city 
+                                    :location-of (s / school 
+                                          :location (c2 / city 
+                                                :name (n2 / name 
+                                                      :op1 "Boston") 
+                                                :wiki "Boston")) 
+                                    :name (n / name 
+                                          :op1 "Boston") 
+                                    :wiki "Boston")) 
+                        :ARG1-of (h / have-rel-role-91 
+                              :ARG0 (p2 / person 
+                                    :ARG1-of (a2 / age-01 
+                                          :ARG0 0 
+                                          :location-of (t2 / temporal-quantity 
+                                                :unit (y / year))) 
+                                    :ARG1-of (b / birth-01 
+                                          :ARG0 (p4 / person 
+                                                :name (n5 / name 
+                                                      :op1 "Anna" 
+                                                      :op2 "Green" 
+                                                      :op3 "Winslow,")))) 
+                              :ARG2 (p3 / parent)) 
+                        :poss-of (h2 / home))) 
+            :ARG1-of (b2 / bright-02) 
+            :mod (l / little)) 
+      :ARG2 (c3 / city 
+            :location (c4 / country 
+                  :name (n4 / name 
+                        :op1 "Nova" 
+                        :op2 "Scotia")) 
+            :name (n3 / name 
+                  :op1 "Boston") 
+            :wiki "Boston") 
+      :direction (a / away 
+            :mod (f2 / far)) 
+      :time (y2 / year))
+
+# ::snt She wrote, with evident eagerness and loving care, for the edification of her parents and her own practice in penmanship, this interesting and quaint diary, which forms a most sprightly record, not only of the life of a young girl at that time, but of the prim and narrow round of daily occurrences in provincial Boston.
+# ::tok She wrote , with evident eagerness and loving care , for the edification of her parents and her own practice in penmanship , this interesting and quaint diary , which forms a most sprightly record , not only of the life of a young girl at that time , but of the prim and narrow round of daily occurrences in provincial Boston .
+# ::alignments 61-62|0.0.0.0.0.2+0.0.0.0.0.1.0+0.0.0.0.0.1+0.0.0.0.0 60-61|0.0.0.0.0.0 58-59|0.0.0.0 55-56|0.0.0 54-55|0.0 53-54|0.0.0.1 52-53|0.0.0.1.0 49-50|0 47-48|0.1.0.0.0 46-47|0.1.0.0 44-45|0.1.1.0.0.0.0.1.0.0.0 43-44|0.1.1.0.0.0.0.1.0.0.0.0 40-41|0.1.1.0.0.0.0.1.0.0 37-38|0.1.0.1 36-37|0.1.0.1.0 34-35|0.1.2.0.0 33-34|0.1.2.0.0.0 32-33|0.1.2.0.0.0.0 30-31|0.1.2.0 27-28|0.1.2 26-27|0.1.1.2+0.1.1.1.0+0.1.1.1+0.1.1 25-26|0.1 24-25|0.1.0 23-24|0.1.1.0.0.0.0.1.1.2.0 21-22|0.1.1.0.0.0.0.0.0 19-20|0.1.1.0.0.0.0.0 16-17|0.1.1.0.0.0.0 15-16|0.1.1.0.1+0.1.1.0+0.1.1.0.0 12-13|0.1.1.0.0.0 8-9|0.1.1.0.0.0.0.1.1.2 7-8|0.1.1.0.0.0.0.1.1.1 6-7|0.1.1.0.0.0.0.1.1 5-6|0.1.1.0.0.0.0.1.1.0 4-5|0.1.1.0.0.0.0.1.1.0.0 1-2|0.1.1.0.0.0.0.1 0-1|0.1.1.0.0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:46.087
+(c2 / contrast-01 
+      :ARG1 (n2 / narrow-02 
+            :ARG1 (r / round 
+                  :mod (o / occurrenc 
+                        :location (c / city 
+                              :location (p / province) 
+                              :name (n / name 
+                                    :op1 "Boston") 
+                              :wiki "Boston")) 
+                  :op2-of (a / and 
+                        :op1 (p2 / prim)))) 
+      :ARG2 (a2 / and 
+            :op1 (i / interest-01 
+                  :ARG0 (t2 / that 
+                        :mod-of (t / time)) 
+                  :ARG1 (o2 / only 
+                        :polarity -)) 
+            :op2 (p3 / person 
+                  :ARG1-of (h / have-rel-role-91 
+                        :ARG0 (p6 / person 
+                              :poss-of (e / edification 
+                                    :op1-of (a3 / and 
+                                          :op2 (p5 / practice-01 
+                                                :ARG1 (p4 / penmanship)) 
+                                          :purpose-of (w / write-01 
+                                                :ARG0 (s2 / she 
+                                                      :poss-of (l / life 
+                                                            :poss (g / girl 
+                                                                  :mod (y / young)))) 
+                                                :ARG1 (a4 / and 
+                                                      :op1 (e2 / eagernes 
+                                                            :mod (e3 / evident)) 
+                                                      :op2 (l2 / love-01) 
+                                                      :op3 (c3 / care-03 
+                                                            :ARG1 (t3 / this))))))) 
+                        :ARG2 (p7 / parent)) 
+                  :name (n3 / name 
+                        :op1 "quaint") 
+                  :wiki -) 
+            :op3 (d / diary 
+                  :ARG0-of (f / form-02 
+                        :ARG1 (r2 / record 
+                              :mod (s / sprightly 
+                                    :degree (m / most)))))))
+
+# ::snt It thus assumes a positive value as an historical picture of the domestic life of that day; a value of which the little girl who wrote it, or her kinsfolk who affectionately preserved it to our own day, never could have dreamed.
+# ::tok It thus assumes a positive value as an historical picture of the domestic life of that day ; a value of which the little girl who wrote it , or her kinsfolk who affectionately preserved it to our own day , never could have dreamed .
+# ::alignments 44-45|0.0.0 42-43|0.0.0.1 39-40|0.0.0.0.0.0.0.0.1 37-38|0.0.0.0.0.0.0.0.1.0 34-35|0.0.0.0.0.0.0.0 33-34|0.0.0.0.0.0.0.0.2 31-32|0.0.0.0.0.0.0 29-30|0.0.0.0.0.0 26-27|0.0.0.0.0 24-25|0.0.0.0 23-24|0.0.0.0.1 19-20|0.0 17-18|0 16-17|0.0.0.0.0.0.0.0.0.0 15-16|0.0.0.0.0.0.0.0.0.0.0 13-14|0.0.0.0.0.0.0.0.0.1.1.1 12-13|0.0.0.0.0.0.0.0.0.1.1.1.0 9-10|0.0.0.0.0.0.0.0.0.1.1 8-9|0.0.0.0.0.0.0.0.0.1.1.0 5-6|0.0.0.0.0.0.0.0.0 4-5|0.0.1 2-3|0.0.0.0.0.0.0.0.0.1 1-2|0.0.0.0.0.0.0.0.0.1.2 0-1|0.0.0.0.0.0.0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:47.271
+(a2 / and 
+      :op1 (v / value-01 
+            :ARG1-of (d / dream-up-02 
+                  :ARG0 (g / girl 
+                        :ARG0-of (w2 / write-01 
+                              :ARG1 (o / or 
+                                    :op1 (k / kinsfolk 
+                                          :ARG0-of (p2 / preserve-01 
+                                                :ARG1 (v2 / value-01 
+                                                      :ARG1 (d3 / day 
+                                                            :mod (t / that)) 
+                                                      :ARG1-of (a3 / assume-02 
+                                                            :ARG0 (i / it) 
+                                                            :ARG2 (p3 / picture 
+                                                                  :mod (h / history) 
+                                                                  :poss (l2 / life 
+                                                                        :mod (d4 / domestic))) 
+                                                            :time (t2 / thus-far))) 
+                                                :ARG2 (d2 / day 
+                                                      :poss (w / we)) 
+                                                :manner (a / affectionately))))) 
+                        :mod (l / little)) 
+                  :ARG1-of (p / possible-01)) 
+            :ARG2 (p4 / positive)))
+
+# ::snt To many New England families it is specially interesting as a complete rendering, a perfect presentment, of the childish life of their great grandmothers, her companions.
+# ::tok To many New England families it is specially interesting as a complete rendering , a perfect presentment , of the childish life of their great grandmothers , her companions .
+# ::alignments 28-29|0.1.0 25-26|0.0.2.1 24-25|0.0.2.1.0 21-22|0.0.2 20-21|0.0.2.0 16-17|0.0.0 15-16|0.0.0.0 12-13|0.0 11-12|0.0.1 8-9|0 7-8|0.1 4-5|0.2 3-4|0.2.0.1+0.2.0.0.0+0.2.0.0+0.2.0 1-2|0.2.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:47.811
+(i / interest-01 
+      :ARG1 (r / render-01 
+            :ARG0 (p / presentment 
+                  :ARG1-of (p2 / perfect-02)) 
+            :ARG1-of (c3 / complete-02) 
+            :ARG2 (l / life 
+                  :mod (c2 / childish) 
+                  :poss (g / grandmother 
+                        :mod (g2 / great)))) 
+      :ARG1-of (s / special-02 
+            :ARG0 (c / companion)) 
+      :ARG2 (f / family 
+            :mod (c4 / country 
+                  :name (n / name 
+                        :op1 "England") 
+                  :wiki "England") 
+            :quant (m / many)))
+
+# ::snt It is an even chance which ruling thought in the clever little writer, a love of religion or a love of dress, shows most plainly its influence on this diary.
+# ::tok It is an even chance which ruling thought in the clever little writer , a love of religion or a love of dress , shows most plainly its influence on this diary .
+# ::alignments 31-32|0.0.1 30-31|0.0.1.0 28-29|0.0 26-27|0.0.0 25-26|0.0.0.0 24-25|0 22-23|0.1.0.0.3.1.0 20-21|0.1.0.0.3.1 18-19|0.1.0.0.3 17-18|0.1.0.0.3.0.0 15-16|0.1.0.0.3.0 12-13|0.1.0.0.0+0.1.0.0 11-12|0.1.0.0.1 10-11|0.1.0.0.2 7-8|0.1.0 6-7|0.1.0.2 4-5|0.1 3-4|0.1.1 0-1|0.1.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:48.165
+(s / show-01 
+      :ARG0 (i / influence-01 
+            :ARG0 (p / plain 
+                  :degree (m / most)) 
+            :ARG1 (d / diary 
+                  :mod (t / this))) 
+      :ARG1 (c2 / chance-02 
+            :ARG1 (t2 / think-01 
+                  :ARG0 (p2 / person 
+                        :ARG0-of (w / write-01) 
+                        :mod (l3 / little) 
+                        :mod (c / clever-01) 
+                        :op1-of (o / or 
+                              :op2 (l2 / love-01 
+                                    :ARG1 (r / religion)) 
+                              :op3 (l / love-01 
+                                    :ARG1 (d2 / dress)))) 
+                  :ARG1 (i2 / it) 
+                  :ARG1-of (r2 / rule-03)) 
+            :ARG2 (e / even)))
+
+# ::snt On the whole, I think that youthful vanity, albeit of a very natural and innocent sort, is more pervasive of the pages.
+# ::tok On the whole , I think that youthful vanity , albeit of a very natural and innocent sort , is more pervasive of the pages .
+# ::alignments 24-25|0.1.2 21-22|0.1 20-21|0.1.0 17-18|0.1.1.0.0 16-17|0.1.1.0 15-16|0.1.1.0.1 14-15|0.1.1.0.1.0 13-14|0.1.1.0.1.0.0 8-9|0.1.1 7-8|0.1.1.1 5-6|0 4-5|0.0 2-3|0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:48.481
+(t / think-01 
+      :ARG0 (i2 / i) 
+      :ARG1 (p2 / pervasive 
+            :degree (m / more) 
+            :domain (v2 / vanity 
+                  :ARG0-of (i / innocent-01 
+                        :ARG1 (s / sort) 
+                        :op2-of (a / and 
+                              :op1 (n / natural-03 
+                                    :degree (v / very)))) 
+                  :mod (y / youthful)) 
+            :mod (p / page)) 
+      :time (w / whole))
+
+# ::snt And it is fortunate that this is the case; for, from the frankly frivolous though far from self-conscious entries we gain a very exact notion, a very valuable picture, of the dress of a young girl at that day.
+# ::tok And it is fortunate that this is the case ; for , from the frankly frivolous though far from self - conscious entries we gain a very exact notion , a very valuable picture , of the dress of a young girl at that day .
+# ::alignments 44-45|0.1.0.0.0.0.0.0 41-42|0.1.1 40-41|0.1.1.0 37-38|0.1 33-34|0.1.0.0.1.0 32-33|0.1.0.0.1 31-32|0.1.0.0.1.1 28-29|0.1.0.0.0.0.1 27-28|0.1.0.0.0.0.1.0 26-27|0.1.0.0.0.0.1.0.0 24-25|0.1.0.0.0.0 23-24|0.1.0.0.0.0.0 22-23|0.1.0.0.0 21-22|0.1.0.0.0.1 19-20|0.1.0.0.0.1.0 17-18|0.1.0.0.1.3 15-16|0.1.0.0.1.2 14-15|0.1.0.0.1.2.0 9-10|0.1.0 8-9|0.1.0.0 5-6|0.1.0.0.2 3-4|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:50.257
+(a2 / and 
+      :op1 (f4 / fortunate) 
+      :op2 (d2 / dress 
+            :op1-of (a / and 
+                  :ARG2-of (c2 / case-03 
+                        :ARG0 (e2 / entry 
+                              :ARG2-of (g2 / gain-02 
+                                    :ARG0 (w / we 
+                                          :poss-of (d / day)) 
+                                    :ARG1 (n / notion 
+                                          :mod (e / exact 
+                                                :degree (v3 / very)))) 
+                              :mod (c / conscious 
+                                    :mod (s / self))) 
+                        :ARG2-of (v / value-02 
+                              :ARG1 (p / picture) 
+                              :degree (v2 / very) 
+                              :op1-of (f2 / frivolou 
+                                    :manner (f3 / frank)) 
+                              :op1-of (f / far)) 
+                        :domain (t / this))) 
+            :poss (g / girl 
+                  :mod (y / young))))
+
+# ::snt We know all the details of her toilet, from the "pompedore" shoes and the shifts (which she had never worn till she lived in Boston), to the absurd and top-heavy head-decoration of "black feathers, my past comb & all my past garnet marquasett and jet pins, together with my silver plume."
+# ::tok We know all the details of her toilet , from the " pompedore " shoes and the shifts ( which she had never worn till she lived in Boston ) , to the absurd and top - heavy head - decoration of " black feathers , my past comb & all my past garnet marquasett and jet pins , together with my silver plume . "
+# ::alignments 63-64|0.0.4.1.0.0.1.0.0 62-63|0.0.4.1.0.0.1.0 59-60|0.0.4.1.0.0.3 57-58|0.3 56-57|0.2 55-56|0 54-55|0.1 53-54|0.0.4.0 52-53|0.0.4.0.0 50-51|0.0.4.1.0.0.0.0.0 48-49|0.0.4.1.0.0.1 47-48|0.0.4.1.0.0.1.1 44-45|0.0.4.1 43-44|0.0.4.1.0 40-41|0.0.5 38-39|0.0.4 37-38|0.0.3 35-36|0.0.2 34-35|0.0 33-34|0.0.1 28-29|0.0.4.1.0.0.2.1+0.0.4.1.0.0.2.0.0+0.0.4.1.0.0.2.0+0.0.4.1.0.0.2 26-27|0.0.4.1.0.0 24-25|0.0.4.1.0.0.4 23-24|0.0.4.1.0.0.0.0 20-21|0.0.4.1.0.0.0 17-18|0.0.0.2.0.1 15-16|0.0.0.2.0 14-15|0.0.0.2 12-13|0.0.0.2.0.0 7-8|0.0.0.1.0 4-5|0.0.0.1 2-3|0.0.0.1.1 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:52.178
+(a / and 
+      :op1 (a3 / and 
+            :ARG2-of (k / know-01 
+                  :ARG0 (w2 / we) 
+                  :ARG1 (d2 / detail-01 
+                        :ARG1 (t4 / toilet) 
+                        :mod (a6 / all)) 
+                  :source (s4 / shoe 
+                        :op1-of (a5 / and 
+                              :mod (p5 / pompedore) 
+                              :op2 (s3 / shift)))) 
+            :op1 (a4 / absurd) 
+            :op2 (t2 / top) 
+            :op3 (h2 / heavy) 
+            :op4 (h / head-01 
+                  :ARG0 (g / garnet 
+                        :mod (p3 / past)) 
+                  :ARG1 (f / feather 
+                        :ARG1-of (b / black-04 
+                              :ARG1-of (l / live-01 
+                                    :ARG0 (s2 / she 
+                                          :ARG0-of (w / wear-06 
+                                                :ARG1 (a2 / all))) 
+                                    :ARG1-of (c / comb-01 
+                                          :ARG0 (s / silver 
+                                                :mod-of (p / plume)) 
+                                          :time (p4 / past)) 
+                                    :location (c2 / city 
+                                          :name (n / name 
+                                                :op1 "Boston") 
+                                          :wiki "Boston") 
+                                    :mod (t / together) 
+                                    :op1-of (t3 / till))))) 
+            :op5 (d / decoration)) 
+      :op2 (m / marquasett) 
+      :op3 (j / jet) 
+      :op4 (p2 / pin))
+
+# ::snt If this fantastic assemblage of ornament were set upon the "Heddus roll," so graphically described, it is easy to understand the denunciations of the time upon women's headgear.
+# ::tok If this fantastic assemblage of ornament were set upon the " Heddus roll , " so graphically described , it is easy to understand the denunciations of the time upon women 's headgear .
+# ::alignments 32-33|0.0.0.1.0.2.0 30-31|0.0.0.1.0.2 28-29|0.0.0.1.0.1.0 25-26|0.0.0.1.0.1 23-24|0.0.0.1.0 21-22|0.0.0.1 17-18|0.0 16-17|0 15-16|0.0.0 12-13|0.0.0.1.0.0 11-12|0.0.0.1.0.0.0.0.0+0.0.0.1.0.0.0.0+0.0.0.1.0.0.0 5-6|0.0.0.0.2 3-4|0.0.0.0 2-3|0.0.0.0.0 1-2|0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:53.590
+(g / graphically 
+      :ARG0-of (d2 / describe-01 
+            :ARG1-of (c / cause-01 
+                  :ARG0 (a / assemblage 
+                        :ARG1-of (f / fantastic-03) 
+                        :mod (t3 / this) 
+                        :mod (o / ornament-01)) 
+                  :ARG2 (e / easy-05 
+                        :ARG1 (u / understand-01 
+                              :ARG0 (r / roll 
+                                    :mod (t2 / thing 
+                                          :name (n / name 
+                                                :op1 "Heddus"))) 
+                              :ARG1 (d / denunciation 
+                                    :mod (t / time)) 
+                              :ARG2 (w / woman 
+                                    :mod-of (h / headgear)))))))
+
+# ::snt In no contemporary record or account, no matter who the writer, can be found such a vivacious and witty description of the modish hairdressing of that day as in the pages of this diary.
+# ::tok In no contemporary record or account , no matter who the writer , can be found such a vivacious and witty description of the modish hairdressing of that day as in the pages of this diary .
+# ::alignments 35-36|0.1.2.0 34-35|0.1.2.0.0 32-33|0.1.2.0.1 28-29|0.1.0.0.0.0.1 27-28|0.1.0.0.0.0.1.0 25-26|0.1.0.0.0.0 24-25|0.1.0.0.0.0.0 21-22|0.1.0.0.0+0.1.0.0 20-21|0.1.0.0.1 19-20|0.1.0 18-19|0.1.1 16-17|0.1.1.0 15-16|0.1 13-14|0.1.2 11-12|0+0.0 8-9|0.1.2.0.0.0 7-8|0.1.2.0.0.0.0 5-6|0.1.3.1 4-5|0.1.3 3-4|0.1.3.0 2-3|0.1.3.0.0 1-2|0.1.4 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:08:58.309
+(w2 / write-01 
+      :ARG0 (p3 / person) 
+      :ARG1 (f / find-01 
+            :ARG0 (a / and 
+                  :op1 (t3 / thing 
+                        :ARG2-of (d3 / describe-01 
+                              :ARG1 (h / hairdressing 
+                                    :mod (m / modish) 
+                                    :part-of (d2 / day 
+                                          :mod (t2 / that)))) 
+                        :mod (w / witty))) 
+            :ARG1 (v / vivaciou 
+                  :mod (s / such)) 
+            :ARG1-of (p2 / possible-01 
+                  :ARG0 (d / diary 
+                        :mod (t / this 
+                              :mod-of (m2 / matter 
+                                    :polarity -)) 
+                        :part (p / page))) 
+            :location (o / or 
+                  :op1 (r / record 
+                        :time (c / contemporary)) 
+                  :op2 (a2 / account)) 
+            :polarity -))
+
+# ::snt But there are many entries in the journal of this vain little Puritan devotee to show an almost equal attention to religion; records of sermons which she had heard, and of religious conversations in which she had taken a self-possessed part; and her frequent use of Biblical expressions and comparisons shows that she also remembered fully what she read.
+# ::tok But there are many entries in the journal of this vain little Puritan devotee to show an almost equal attention to religion ; records of sermons which she had heard , and of religious conversations in which she had taken a self - possessed part ; and her frequent use of Biblical expressions and comparisons shows that she also remembered fully what she read .
+# ::alignments 63-64|0.1.3.0 60-61|0.1.3.2 59-60|0.1.3 58-59|0.1.3.1 55-56|0.1.2 54-55|0.1.2.1.2 53-54|0.1.2.1 52-53|0.1.1.0 51-52|0.1.1.0.0 49-50|0.1.1 48-49|0.1.1.1 46-47|0.1 43-44|0.1.0 41-42|0.1.0.0 39-40|0.1.2.1.1 34-35|0.1.2.1.1.0 33-34|0.1.2.1.1.0.0 31-32|0.1.2.0.0.0.2 29-30|0.1.2.1.0 27-28|0.1.2.1.0.0 25-26|0.1.2.0.0.0.0.0 23-24|0.0.0 22-23|0.0 21-22|0.1.2.0.0.0.0 19-20|0.1.2.0.0.0 18-19|0.1.2.0.0.0.1 17-18|0.1.2.0.0.0.1.0 15-16|0.1.2.0.0 13-14|0.1.2.0.0.1 12-13|0.1.2.0.0.1.0 11-12|0.1.2.0.0.1.3 10-11|0.1.2.0.0.1.2 9-10|0.1.2.0.0.1.1 7-8|0.1.2.0.0.1.4 4-5|0.1.2.0 3-4|0.1.2.0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:03.015
+(c3 / contrast-01 
+      :ARG1 (a5 / and 
+            :op1 (r4 / record)) 
+      :ARG2 (a3 / and 
+            :op1 (p / possess-01 
+                  :ARG1 (s2 / self)) 
+            :op2 (u / use-01 
+                  :ARG1 (e / expression 
+                        :mod (b / biblical)) 
+                  :ARG1-of (f2 / frequent-02)) 
+            :op3 (s / show-01 
+                  :ARG0 (e3 / entry 
+                        :ARG0-of (s5 / show-01 
+                              :ARG1 (a6 / attend-02 
+                                    :ARG1 (r5 / religion 
+                                          :poss (s4 / sermon)) 
+                                    :ARG1-of (e2 / equal-01 
+                                          :mod (a7 / almost)) 
+                                    :ARG2 (a4 / and)) 
+                              :ARG2-of (d / devote-01 
+                                    :ARG1 (p2 / puritan) 
+                                    :mod (t2 / this) 
+                                    :mod (v / vain) 
+                                    :mod (l / little) 
+                                    :poss-of (j / journal))) 
+                        :quant (m / many)) 
+                  :ARG1 (a2 / and 
+                        :ARG1-of (h / hear-01 
+                              :ARG0 (s3 / she)) 
+                        :op1 (t / take-01 
+                              :ARG1 (c2 / conversation 
+                                    :mod (r3 / religion))) 
+                        :op2 (c / compare-01))) 
+            :op4 (r2 / remember-01 
+                  :ARG1 (r / read-01) 
+                  :mod (a / also) 
+                  :mod (f / full))))
+
+# ::snt Her ambitious theological sermon-notes were evidently somewhat curtailed by the sensible advice of the aunt with whom she resided, who thereby checked also the consequent injudicious praise of her pastor, the Old South minister.
+# ::tok Her ambitious theological sermon - notes were evidently somewhat curtailed by the sensible advice of the aunt with whom she resided , who thereby checked also the consequent injudicious praise of her pastor , the Old South minister .
+# ::alignments 37-38|0.0.0.0.0.2.0.0.0.0+0.0.0.0.0.2.0.0.0 35-37|0+0.0.1+0.0+0.0.0 32-33|0.0.0.0.0.2.0.0 29-30|0.0.0.0.0.2.0 28-29|0.0.0.0.0.2.0.1 27-28|0.0.0.0.0.2.0.2 25-26|0.0.0.0.0.2.2 24-25|0.0.0.0.0.2 23-24|0.0.0.0.0.2.1 20-21|0.0.0.0.0.1.0 19-20|0.0.0.0.0.1.0.0 16-17|0.0.0.0.0.1 13-14|0.0.0.0.0 12-13|0.0.0.0 9-10|0.0.0.0.0.0 8-9|0.0.0.0.0.0.2 7-8|0.0.0.0.0.0.3 5-6|0.0.0.0.0.0.1 3-4|0.0.0.0.0.0.0 2-3|0.0.0.0.0.0.0.0 1-2|0.0.0.0.0.0.1.0 0-1|0.0.0.0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:05.271
+(s / South 
+      :op2-of (n / name 
+            :name-of (t / thing 
+                  :ARG1-of (s3 / sense-02 
+                        :ARG3 (a3 / advise-01 
+                              :ARG0-of (c3 / curtail-01 
+                                    :ARG1 (s5 / sermon 
+                                          :mod (t3 / theological) 
+                                          :poss (s6 / she)) 
+                                    :ARG2 (n2 / note 
+                                          :mod (a4 / ambitious)) 
+                                    :degree (s4 / somewhat) 
+                                    :manner (e / evident)) 
+                              :ARG1 (a2 / aunt 
+                                    :ARG1-of (r / reside-01 
+                                          :ARG0 (s2 / she))) 
+                              :ARG2 (c2 / check-01 
+                                    :ARG1 (p2 / praise-01 
+                                          :ARG1 (p / pastor 
+                                                :ARG0-of (h / have-org-role-91 
+                                                      :ARG2 (m / minister))) 
+                                          :mod (i / injudiciou) 
+                                          :mod (c / consequent)) 
+                                    :manner (t2 / thereby) 
+                                    :mod (a / also))))) 
+            :op1 (o / Old)))
+
+# ::snt For Anna and her kinsfolk were of the congregation of the Old South church; and this diary is in effect a record of the life of Old South church attendants.
+# ::tok For Anna and her kinsfolk were of the congregation of the Old South church ; and this diary is in effect a record of the life of Old South church attendants .
+# ::alignments 30-31|0.3.0 29-30|0.3.0.0 27-29|0.3.1.1+0.3.1.0+0.3.1+0.3 25-26|0.2.1 22-23|0.2 20-21|0.2.0 17-18|0.0.0.2 16-17|0.0.0.2.0 15-16|0 14-15|0.1 13-14|0.0.0.1.0 11-13|0.0.0.1.0.0.0.1+0.0.0.1.0.0.0.0+0.0.0.1.0.0.0+0.0.0.1.0.0 8-9|0.0.0.1 4-5|0.0 2-3|0.0.0 1-2|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:05.472
+(a2 / and 
+      :op1 (k / kinsfolk 
+            :op2-of (a4 / and 
+                  :op1 (p / person 
+                        :name (n3 / name 
+                              :op1 "Anna")) 
+                  :op3 (c5 / congregation 
+                        :poss (c3 / church 
+                              :mod (c4 / country 
+                                    :name (n2 / name 
+                                          :op1 "Old" 
+                                          :op2 "South")))) 
+                  :op4 (d / diary 
+                        :mod (t / this)))) 
+      :op1-of (a3 / and) 
+      :op2 (r / record 
+            :ARG1-of (e / effect-03) 
+            :poss (l / life)) 
+      :op3 (c2 / country 
+            :mod-of (a / attendant 
+                  :mod (c / church)) 
+            :name (n / name 
+                  :op1 "Old" 
+                  :op2 "South")))
+
+# ::snt Many were what Anna terms "sisters of the Old South," and nine tenths of the names of her companions and friends may be found on the baptismal and membership records of that church.
+# ::tok Many were what Anna terms " sisters of the Old South , " and nine tenths of the names of her companions and friends may be found on the baptismal and membership records of that church .
+# ::alignments 35-36|0.2.1 34-35|0.2.1.0 32-33|0.2 31-32|0.1 30-31|0 29-30|0.0 26-27|0.2.0 24-25|0.2.0.2 23-24|0.2.0.2.0.1.0.1+0.2.0.2.0.1.0+0.2.0.2.0.1 22-23|0.2.0.2.0 21-22|0.2.0.2.0.0 18-19|0.2.0.2.0.0.0 15-16|0.2.0.2.0.0.0.0 14-15|0.2.0.0 13-14|0.2.0.1 9-11|0.2.0.1.0.0.0.1+0.2.0.1.0.0.0.0+0.2.0.1.0.0.0+0.2.0.1.0.0 6-7|0.2.0.1.0 4-5|0.2.0.2.0.1.0.0.0 3-4|0.2.0.2.0.1.0.0.1.0+0.2.0.2.0.1.0.0.1+0.2.0.2.0.1.0.0 0-1|0.2.0.2.0.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:08.145
+(a / and 
+      :op1 (b / baptismal) 
+      :op2 (m / membership) 
+      :op3 (r / record 
+            :location-of (f / find-01 
+                  :ARG0 9 
+                  :ARG1 (a3 / and 
+                        :op1 (s / sister 
+                              :poss (c3 / country 
+                                    :name (n2 / name 
+                                          :op1 "Old" 
+                                          :op2 "South,")))) 
+                  :ARG1-of (p / possible-01 
+                        :op3-of (a2 / and 
+                              :op1 (c2 / companion 
+                                    :poss-of (n / name 
+                                          :name-of (t2 / tenth))) 
+                              :op2 (p2 / person 
+                                    :ARG0-of (h / have-rel-role-91 
+                                          :ARG1 (p3 / person 
+                                                :mod-of (t3 / term) 
+                                                :name (n3 / name 
+                                                      :op1 "Anna")) 
+                                          :ARG2 (f2 / friend)) 
+                                    :quant (m2 / many))))) 
+            :topic (c / church 
+                  :mod (t / that))))
+
+# ::snt Anna was an industrious little wight, active in all housewifely labors and domestic accomplishments, and attentive to her lessons.
+# ::tok Anna was an industrious little wight , active in all housewifely labors and domestic accomplishments , and attentive to her lessons .
+# ::alignments 20-21|0.2.1.1.0 17-18|0.2.1.1 16-17|0.2.1 14-15|0.3 13-14|0.3.0 12-13|0 11-12|0.2 10-11|0.2.0 9-10|0.1 7-8|0.0 5-6|0.2.1.0 4-5|0.0.0.1 3-4|0.0.0 0-1|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:08.362
+(a4 / and 
+      :location-of (a6 / activity-06 
+            :ARG1 (i / industriou 
+                  :domain (p / person 
+                        :name (n / name 
+                              :op1 "Anna")) 
+                  :mod (l3 / little))) 
+      :mod (a5 / all) 
+      :op1 (l2 / labor-01 
+            :ARG0 (h / housewifely) 
+            :ARG1 (a2 / and 
+                  :op1 (w / wight) 
+                  :op2 (a / attentive 
+                        :prep-to (l / lesson)))) 
+      :op2 (a3 / accomplish-01 
+            :mod (d / domestic)))
+
+# ::snt She could make "pyes," and fine network; she could knit lace, and spin linen thread and woolen yarn; she could make purses, and embroider pocket-books, and weave watch strings, and piece patchwork.
+# ::tok She could make " pyes , " and fine network ; she could knit lace , and spin linen thread and woolen yarn ; she could make purses , and embroider pocket - books , and weave watch strings , and piece patchwork .
+# ::alignments 42-43|0.0.1 41-42|0.0.0 40-41|0.0 38-39|0.0.2.3.0 37-38|0.0.2.3.0.0 36-37|0.0.2.3 35-36|0.0.2 33-34|0.0.2.2 31-32|0.0.2.1 30-31|0.0.2.1.0 29-30|0.0.2.3.1 27-28|0.0.2.0 25-26|0 22-23|0.0.2.3.2.0.2.1 21-22|0.0.2.3.2.0.2.1.0 20-21|0.0.2.3.2.0.2 19-20|0.0.2.3.2.0.1 18-19|0.0.2.3.2.0.1.0 17-18|0.0.2.3.2.0 16-17|0.0.2.3.2.0.3 14-15|0.0.2.3.2.0.0.0.0 13-14|0.0.2.3.2.0.0.0 12-13|0.0.2.3.2.0.0.0.1 11-12|0.0.2.3.2.0.0 10-11|0.0.2.3.2 9-10|0.0.2.0.1.0 8-9|0.0.2.0.1 7-8|0.0.2.3.2.0.2.0.1 4-5|0.0.2.3.2.0.2.0.0 1-2|0.0.2.3.2.0.2.0 0-1|0.0.2.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:13.416
+(p5 / possible-01 
+      :ARG1 (a / and 
+            :op1 (p2 / piece) 
+            :op2 (p / patchwork) 
+            :op5-of (a2 / and 
+                  :op1 (p4 / purse-01 
+                        :ARG0 (s4 / she) 
+                        :ARG1 (f / fine-04 
+                              :ARG1 (n / network))) 
+                  :op2 (p3 / pocket 
+                        :ARG1-of (e / embroider-01)) 
+                  :op3 (b / book) 
+                  :op4 (w2 / weave-01 
+                        :ARG1 (s / string 
+                              :ARG1-of (w / watch-01)) 
+                        :op1-of (a3 / and) 
+                        :op2-of (a6 / and 
+                              :op1 (s2 / spin-03 
+                                    :ARG0 (s3 / she 
+                                          :ARG0-of (k / knit-03 
+                                                :ARG1 (l2 / lace) 
+                                                :ARG1-of (p6 / possible-01))) 
+                                    :ARG1 (t / thread 
+                                          :mod (l / linen)) 
+                                    :ARG2 (a4 / and 
+                                          :op1 (p8 / possible-01 
+                                                :ARG1 (p7 / py) 
+                                                :op1-of (a7 / and)) 
+                                          :op2 (y / yarn 
+                                                :mod (w3 / woolen))) 
+                                    :op1-of (a5 / and)))))))
+
+# ::snt She learned "dansing, or danceing I should say," from one Master Turner; she attended a sewing school, to become a neat and deft little sempstress, and above all, she attended a writing school to learn that most indispensable and most appreciated of eighteenth century accomplishments--fine writing.
+# ::tok She learned " dansing , or danceing I should say , " from one Master Turner ; she attended a sewing school , to become a neat and deft little sempstress , and above all , she attended a writing school to learn that most indispensable and most appreciated of eighteenth century accomplishments -- fine writing .
+# ::alignments 55-56|0.1.0.0.0.3.0.0.0 54-55|0.1.0.0.0.3.0.0 52-53|0.1.0.0.0.3.0 51-52|0.1.0.0.0.3.0.1.0+0.1.0.0.0.3.0.1 50-51|0.1.0.0.0.3.0.3 48-49|0.1.0.0.0.3.0.2.2.0 47-48|0.1.0.0.0.3.0.2.2.0.0 46-47|0.1.0.0.0.3.0.2.2 45-46|0.1.0.0.0.3.0.2 44-45|0.1.0.0.0.3.0.2.1 43-44|0.1.0.0.0.3.0.2.2.1 42-43|0.1.0.0.0.3 40-41|0.1.0.0.0.0 39-40|0.1.0.0.0.0.0 37-38|0.1.0.0.0 34-35|0.1.0.0.0.3.0.0.0.0 33-34|0.1.0.0.0.2 32-33|0.1.0.0.0.1 30-31|0.1.0.0.0.1.0.0 29-30|0.1.0.0.0.1.0.0.0 28-29|0.1.0.0.0.1.0.1.1 27-28|0.1.0.0.0.1.0.1 26-27|0.1.0.0.0.1.0.1.0 24-25|0.1.0.0.0.1.0 21-22|0.1.0.1 20-21|0.1.0.1.0 18-19|0.1.0 17-18|0.1.0.0 16-17|0.1.0.2 15-16|0.1.0.0.0.0.0.0.0+0.1.0.0.0.0.0.0 14-15|0.1.0.0.0.3.0.2.0.0+0.1.0.0.0.3.0.2.0 9-10|0 8-9|0.1 7-8|0.0 6-7|0.0.0 5-6|0.0.0.0 1-2|0.2 0-1|0.2.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:16.471
+(s6 / say-01 
+      :ARG0 (i2 / i 
+            :ARG1-of (d2 / dance-01 
+                  :op1-of (o / or))) 
+      :ARG1-of (r / recommend-01 
+            :purpose (a9 / attend-01 
+                  :ARG0 (s5 / she 
+                        :ARG0-of (a4 / attend-01 
+                              :ARG1 (s / school 
+                                    :ARG1-of (w2 / write-01 
+                                          :ARG0 (n2 / name 
+                                                :op1 "Turner"))) 
+                              :op1-of (a7 / and 
+                                    :ARG1-of (b / become-01 
+                                          :ARG2 (s2 / sempstres 
+                                                :mod (l2 / little)) 
+                                          :op1-of (a8 / and 
+                                                :op2 (n / neat) 
+                                                :op3 (d / deft)))) 
+                              :path (a6 / above) 
+                              :purpose (l / learn-01 
+                                    :ARG1 (a / accomplish-01 
+                                          :ARG0-of (f / fine-04 
+                                                :ARG1 (w / write-01 
+                                                      :ARG1 (a5 / all))) 
+                                          :ARG1 (t / temporal-quantity 
+                                                :unit (c / century)) 
+                                          :ARG1-of (i / indispensable-01 
+                                                :ARG0 (n3 / name 
+                                                      :op1 "Master") 
+                                                :degree (m2 / most) 
+                                                :op1-of (a3 / and 
+                                                      :op2 (a2 / appreciate-02 
+                                                            :degree (m / most)) 
+                                                      :quant (t2 / that))) 
+                                          :mod (e / eighteenth))))) 
+                  :ARG1 (s3 / school 
+                        :ARG1-of (s4 / sew-01)) 
+                  :op1-of (a10 / and))) 
+      :ARG1-of (l3 / learn-01 
+            :ARG0 (s7 / she)))
+
+# ::snt Her handwriting, of which a fac-simile is here shown, was far better than that of most girls of twelve to-day; with truth and justice could Anna say, "Aunt says I can write pretily."
+# ::tok Her handwriting , of which a fac - simile is here shown , was far better than that of most girls of twelve to - day ; with truth and justice could Anna say , " Aunt says I can write pretily . "
+# ::alignments 40-41|0.1.1.0.0 39-40|0.1.1.1 38-39|0.1.1.0 37-38|0.1.1 36-37|0.1.1.0.0.0 33-34|0 31-32|0.1 30-31|0.1.2.1 29-30|0.1.2 28-29|0.1.2.0 26-27|0.1.1.1.1 25-26|0.1.1.0.0.1.0.0 22-23|0.1.1.1.0 20-21|0.1.1.0.0.1.0 19-20|0.1.1.0.0.1 17-18|0.0.0.1.0 15-16|0.0.0.1 14-15|0.1.0 11-12|0.0.0.0 10-11|0.0.0.0.2 8-9|0.0.0.0.1 6-7|0.0.0.0.0 1-2|0.0.0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:19.010
+(s2 / say-01 
+      :ARG0 (s5 / she 
+            :part (h2 / handwrite 
+                  :ARG0-of (s3 / show-01 
+                        :ARG1 (f2 / fac) 
+                        :ARG2 (s4 / simile) 
+                        :location (h / here)) 
+                  :domain-of (g2 / good 
+                        :compared-to (t3 / that)))) 
+      :ARG1 (p2 / possible-01 
+            :ARG0 (f / far) 
+            :condition-of (s / say-01 
+                  :ARG0 (i / i 
+                        :ARG0-of (w / write-01 
+                              :ARG1 (a / aunt) 
+                              :ARG2 (m / most 
+                                    :quant-of (g / girl 
+                                          :consist-of (d / day))))) 
+                  :ARG1 (p / possible-01 
+                        :ARG0 (t2 / twelve) 
+                        :ARG1 (a3 / and))) 
+            :op3-of (a2 / and 
+                  :op1 (t / truth) 
+                  :op2 (j / justice))))
+
+# ::snt Her orthography was quite equal to that of grown persons of her time, and her English as good as that of Mercy Warren, her older contemporary writer.
+# ::tok Her orthography was quite equal to that of grown persons of her time , and her English as good as that of Mercy Warren , her older contemporary writer .
+# ::alignments 28-29|0.3.2.0+0.3.2 27-28|0.3.2.2 26-27|0.3.2.1 22-24|0.3.1.1.1+0.3.1.1.0+0.3.1.1+0.3.1 18-19|0.3.0 16-17|0.3.0.0.1+0.3.0.0.0.0+0.3.0.0.0+0.3.0.0 14-15|0.3 12-13|0.3.1.0.0.0 9-10|0.3.1.0.0 8-9|0.3.1.0 6-7|0.0 4-5|0 3-4|0.2 1-2|0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:19.906
+(e / equal-01 
+      :ARG1 (t2 / that) 
+      :ARG2 (o2 / orthography 
+            :part-of (s / she)) 
+      :mod (q / quite) 
+      :op1-of (a / and 
+            :op2 (g / good 
+                  :domain (l / language 
+                        :name (n2 / name 
+                              :op1 "English") 
+                        :wiki "English_language")) 
+            :op3 (p2 / person 
+                  :ARG0-of (g2 / grow-03 
+                        :ARG1 (p3 / person 
+                              :mod (t / time))) 
+                  :name (n / name 
+                        :op1 "Mercy" 
+                        :op2 "Warren,")) 
+            :op4 (p / person 
+                  :ARG0-of (w / write-01) 
+                  :mod (o / old) 
+                  :time (c / contemporary))))
+
+# ::snt And let me speak also of the condition of her diary.
+# ::tok And let me speak also of the condition of her diary .
+# ::alignments 10-11|0.0.1.1.0 7-8|0.0.1.1 4-5|0.0.0 3-4|0.0.1 2-3|0.0.1.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:19.964
+(a2 / and 
+      :op1 (l / let-01 
+            :ARG0 (a / also) 
+            :ARG1 (s / speak-01 
+                  :ARG0 (i / i) 
+                  :ARG1 (c / condition 
+                        :poss (d / diary)))))
+
+# ::snt It covers seventy-two pages of paper about eight inches long by six and a half inches wide.
+# ::tok It covers seventy - two pages of paper about eight inches long by six and a half inches wide .
+# ::alignments 18-19|0.0.0.1.0.0.0 17-18|0.0.0.1.0.0.2+0.0.0.1.0.0 16-17|0.0.0.1.0 14-15|0.0.0.1 13-14|0.0.0.1.0.0.1 11-12|0.0.0 10-11|0.0.0.0.1+0.0.0.0 9-10|0.0.0.0.0.0 8-9|0.0.0.0.0 7-8|0.1.1 5-6|0.1 4-5|0.0.0.1.0.0.0.0 2-3|0.1.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:20.315
+(c / cover-01 
+      :ARG0 (i3 / it 
+            :ARG1-of (l / long-03 
+                  :ARG0 (d2 / distance-quantity 
+                        :op2-of (a2 / about 
+                              :op1 8) 
+                        :unit (i2 / inch)) 
+                  :op1-of (a / and 
+                        :op2 (h / half 
+                              :mod-of (d / distance-quantity 
+                                    :ARG1-of (w / wide-02 
+                                          :ARG0 2) 
+                                    :quant 6 
+                                    :unit (i / inch)))))) 
+      :ARG1 (p2 / page 
+            :mod (s / seventy) 
+            :part-of (p / paper)))
+
+# ::snt The writing is uniform in size, every letter is perfectly formed; it is as legible as print, and in the entire diary but three blots can be seen, and these are very small.
+# ::tok The writing is uniform in size , every letter is perfectly formed ; it is as legible as print , and in the entire diary but three blots can be seen , and these are very small .
+# ::alignments 36-37|0.2 35-36|0.0 33-34|0.2.0 32-33|0.1.0.2.4 30-31|0.1.0 28-29|0.1 27-28|0.1.0.1 26-27|0.1.0.2.0.0.0.0 25-26|0 24-25|0.1.0.3 23-24|0.1.0.3.0 20-21|0.1.0.2 18-19|0.1.0.0 16-17|0.1.0.2.3 12-13|0.1.0.2.1 11-12|0.1.0.2.2 10-11|0.1.0.2.2.1 8-9|0.1.0.2.2.0 7-8|0.1.0.2.2.0.0 5-6|0.1.0.2.0.0.1 3-4|0.1.0.2.0.0+0.1.0.2.0 1-2|0.1.0.2.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:21.835
+(c / contrast-01 
+      :ARG0 (v / very) 
+      :ARG1 (p / possible-01 
+            :ARG1 (s2 / see-01 
+                  :ARG0 (p2 / print-01) 
+                  :ARG1 (b / blot-01) 
+                  :op4-of (a2 / and 
+                        :op1 (t2 / thing 
+                              :ARG1-of (u / uniform-01 
+                                    :ARG0 (w / write-01 
+                                          :ARG1 3) 
+                                    :ARG2 (s3 / size))) 
+                        :op1-of (a3 / and) 
+                        :op2 (f / form-01 
+                              :ARG1 (l2 / letter 
+                                    :mod (e2 / every)) 
+                              :ARG1-of (p3 / perfect-02)) 
+                        :op3 (l / legible) 
+                        :op5 (a / and)) 
+                  :time (d / diary 
+                        :mod (e / entire)))) 
+      :ARG2 (s / small 
+            :domain (t / this)))
+
+# ::snt A few pages were ruled by the writer, the others are unruled.
+# ::tok A few pages were ruled by the writer , the others are unruled .
+# ::alignments 10-11|0.0.0.0 7-8|0.0.0+0.0 4-5|0 2-3|0.1 1-2|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:21.946
+(r / rule-03 
+      :ARG0 (p / person 
+            :ARG0-of (w / write-01 
+                  :ARG1 (o / other))) 
+      :ARG1 (p2 / page 
+            :quant (f / few)))
+
+# ::snt The old paper, though heavy and good, is yellow with age, and the water marks C.F.R. and the crown stand out distinctly.
+# ::tok The old paper , though heavy and good , is yellow with age , and the water marks C.F.R. and the crown stand out distinctly .
+# ::alignments 24-25|0.0.1 22-23|0.0 21-22|0 19-20|0.0.2 17-18|0.0.3.1 16-17|0.0.0 14-15|0.0.3 12-13|0.0.3.0.0 10-11|0.0.3.0 7-8|0.0.3.1.0.1.0.0 6-7|0.0.3.1.0.1.0 5-6|0.0.3.1.0.1 2-3|0.0.3.1.0 1-2|0.0.3.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:22.051
+(c / crown-01 
+      :ARG1-of (s / stand-01 
+            :ARG0 (w / water) 
+            :ARG2 (d / distinct) 
+            :op1-of (a / and) 
+            :op3-of (a2 / and 
+                  :op1 (y / yellow-02 
+                        :ARG2 (a3 / age-01)) 
+                  :op2 (m / mark-01 
+                        :ARG1 (p / paper 
+                              :mod (o / old) 
+                              :mod (h / heavy 
+                                    :op1-of (a4 / and 
+                                          :op2 (g / good))))))))
+
+# ::snt The sheets are sewed in a little book, on which a marbled paper cover has been placed, probably by a later hand than Anna's.
+# ::tok The sheets are sewed in a little book , on which a marbled paper cover has been placed , probably by a later hand than Anna 's .
+# ::alignments 25-26|0.0.2.0.0.0+0.0.2.0.0+0.0.2.0 23-24|0.0.2 22-23|0.0.2.1 19-20|0 17-18|0.0 14-15|0.0.1 13-14|0.0.1.0 12-13|0.0.1.1 7-8|0.0.0 6-7|0.0.0.1 3-4|0.0.0.0 1-2|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:22.322
+(p2 / probable 
+      :mod-of (p3 / place-01 
+            :ARG0 (b / book 
+                  :ARG0-of (s / sew-01 
+                        :ARG1 (s2 / sheet)) 
+                  :quant (l2 / little)) 
+            :ARG1 (c / cover-up-04 
+                  :ARG1 (p4 / paper) 
+                  :mod (m / marble)) 
+            :ARG2 (h / hand 
+                  :part-of (p / person 
+                        :name (n / name 
+                              :op1 "Anna's.")) 
+                  :time (l / late))))
+
+# ::snt Altogether it is a remarkably creditable production for a girl of twelve.
+# ::tok Altogether it is a remarkably creditable production for a girl of twelve .
+# ::alignments 11-12|0.1.0.1 9-10|0.0 6-7|0 5-6|0.1 4-5|0.1.0 0-1|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:22.366
+(p / produce-01 
+      :ARG1 (g / girl) 
+      :mod (c / creditable 
+            :ARG1-of (r / remarkable-02 
+                  :ARG0 (a / altogeth) 
+                  :ARG2 (t / twelve))))
+
+# ::snt It is well also to compare her constant diligence and industry displayed to us through her records of a day's work--and at another time, of a week's work--with that of any girl of her age in a corresponding station of life nowadays.
+# ::tok It is well also to compare her constant diligence and industry displayed to us through her records of a day 's work -- and at another time , of a week 's work -- with that of any girl of her age in a corresponding station of life nowadays .
+# ::alignments 48-49|0.1.1 47-48|0.1.2 45-46|0.1 44-45|0.1.0 41-42|0 38-39|0.0 37-38|0.0.1 35-36|0.0.2 32-33|0.0.0.1.0.1.0.1 30-31|0.0.0.0 26-27|0.0.0.1.0.1.0 25-26|0.0.0.1.0.1.0.0 23-24|0.0.0.1.0.1 21-22|0.0.0 19-20|0.0.0.2 16-17|0.0.0.1 11-12|0.0.0.1.0 10-11|0.0.0.1.0.1.0.1.0 9-10|0.0.0.1.0.0 8-9|0.0.0.1.0.0.0 7-8|0.0.0.1.0.0.0.1 5-6|0.0.0.1.0.0.0.0 3-4|0.0.0.1.0.1.0.1.1 0-1|0.0.0.1.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:23.856
+(a / age-01 
+      :ARG0 (g / girl 
+            :ARG0-of (w3 / work-01 
+                  :ARG1 (w2 / week) 
+                  :mod (r / record 
+                        :location-of (d2 / display-01 
+                              :ARG0 (a5 / and 
+                                    :op1 (d3 / diligence 
+                                          :ARG1-of (c3 / compare-01 
+                                                :ARG0 (i2 / it)) 
+                                          :mod (c2 / constant))) 
+                              :ARG1 (a4 / and 
+                                    :op1 (t2 / time 
+                                          :mod (a3 / another) 
+                                          :mod-of (w / work-01 
+                                                :ARG1 (i / industry) 
+                                                :mod (a6 / also)))))) 
+                  :time (d / day)) 
+            :mod (a2 / any) 
+            :mod (t / that)) 
+      :ARG1 (s / station 
+            :ARG1-of (c / correspond-01) 
+            :location (n / nowadays) 
+            :mod (l / life)))
+
+# ::snt We learn that physical pain or disability were no excuse for slothfulness; Anna was not always well--had heavy colds, and was feverish; but well or ill was always employed.
+# ::tok We learn that physical pain or disability were no excuse for slothfulness ; Anna was not always well -- had heavy colds , and was feverish ; but well or ill was always employed .
+# ::alignments 33-34|0.1.3 32-33|0.1.3.1 30-31|0.1.3.0.1 29-30|0.1.3.0 28-29|0.1.3.0.0 27-28|0 25-26|0.1.2 23-24|0.1 21-22|0.1.1 20-21|0.1.1.0 16-17|0.2.0.0 15-16|0.2.0.0.0 13-14|0.1.0.0.0+0.1.0.0+0.1.0 12-13|0.2 11-12|0.0.1.0 9-10|0.0.1 8-9|0.0.1.1 6-7|0.2.0.2.0 5-6|0.2.0.2 4-5|0.2.0 3-4|0.2.0.1 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:25.161
+(c / contrast-01 
+      :ARG1 (l / learn-01 
+            :ARG0 (w2 / we) 
+            :ARG1 (e2 / excuse-02 
+                  :ARG1 (s / slothfulnes) 
+                  :polarity -)) 
+      :ARG2 (a2 / and 
+            :op1 (p / person 
+                  :name (n / name 
+                        :op1 "Anna")) 
+            :op2 (c2 / cold 
+                  :mod (h / heavy)) 
+            :op3 (f / feverish) 
+            :op4 (e / employ-01 
+                  :ARG1 (o / or 
+                        :op1 (w / well) 
+                        :op2 (i / ill)) 
+                  :time (a / always))) 
+      :op2-of (a4 / and 
+            :op1 (p2 / pain-01 
+                  :ARG0 (a3 / always 
+                        :polarity -) 
+                  :mod (p3 / physical) 
+                  :op1-of (o2 / or 
+                        :op2 (d / disability)))))
+
+# ::snt Even with painful local afflictions such as a "whitloe," she still was industrious, "improving it to perfect myself in learning to spin flax."
+# ::tok Even with painful local afflictions such as a " whitloe , " she still was industrious , " improving it to perfect myself in learning to spin flax . "
+# ::alignments 27-28|0.0.1 26-27|0.0 24-25|0 21-22|0.1 18-19|0.1.2 13-14|0.0.0 12-13|0.1.2.0 9-10|0.1.2.0.0.0.0 5-6|0.1.1 4-5|0.1.2.0.0 3-4|0.1.2.0.0.1 2-3|0.1.2.0.0.0 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:25.532
+(l / learn-01 
+      :ARG1 (s / spin-03 
+            :ARG0 (s2 / still) 
+            :ARG1 (f / flax)) 
+      :ARG2-of (p / perfect-02 
+            :ARG0 (e / even) 
+            :ARG1 (s4 / such) 
+            :ARG1-of (i / improve-01 
+                  :ARG0 (s3 / she 
+                        :poss-of (a / affliction 
+                              :ARG0-of (p2 / pain-01 
+                                    :ARG1 (w / whitloe)) 
+                              :ARG1-of (l2 / local-02))))))
+
+# ::snt She read much--the Bible constantly--and also found amusement in reading "a variety of composures."
+# ::tok She read much -- the Bible constantly -- and also found amusement in reading " a variety of composures . "
+# ::alignments 18-19|0.2.0.1.1.0 16-17|0.2.0.1.1 13-14|0.2.0.1 11-12|0.2.0.0 10-11|0.2.0 9-10|0.2.0.2 8-9|0.2 6-7|0.2.0.0.0 5-6|0.2.0.1.0.1+0.2.0.1.0.0.0+0.2.0.1.0.0+0.2.0.1.0 2-3|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:25.836
+(r2 / read-01 
+      :ARG0 (s / she) 
+      :ARG1 (m / much) 
+      :op1-of (a3 / and 
+            :op2 (f / find-01 
+                  :ARG1 (a / amuse-01 
+                        :ARG1 (c2 / constant)) 
+                  :ARG2 (r / read-01 
+                        :ARG0 (b / book 
+                              :name (n / name 
+                                    :op1 "Bible") 
+                              :wiki "Bible") 
+                        :ARG1 (v / variety 
+                              :mod-of (c / composur))) 
+                  :mod (a2 / also))))
+
+# ::snt She was a friendly little soul, eager to be loved; resenting deeply that her Aunt Storer let "either one of her chaises, her chariot or babyhutt," pass the door every day, without sending for her; going cheerfully tea-drinking from house to house of her friends; delighting even in the catechising and the sober Thursday Lecture.
+# ::tok She was a friendly little soul , eager to be loved ; resenting deeply that her Aunt Storer let " either one of her chaises , her chariot or babyhutt , " pass the door every day , without sending for her ; going cheerfully tea - drinking from house to house of her friends ; delighting even in the catechising and the sober Thursday Lecture .
+# ::alignments 65-66|0.0.2.0.1.0.0.0.0.1 64-65|0.0.2.0.1.0.0.0.0.1.1 63-64|0.0.2.0.1.0.0.0.0.1.2 61-62|0.0.2.0.1.0.0.0.0 60-61|0.0.2.0.1.0.0.0.0.0 57-58|0.0.2.0.1.0.0.0.1 56-57|0.0.2.0.1.0.0.0 54-55|0.0.2.0.1.0.1+0.0.2.0.1.0+0.0.2.0.1.0.0 51-52|0.0.2.0.1.0.0.1 49-50|0.0.2.0.1.0.0.1.0.1 47-48|0.0.2.0.1.0.0.1.0 45-46|0.0.2.0.1.0.0.1.0.0 44-45|0.0.2.0.1.0.0.0.0.1.0 39-40|0.0.0.1.0.0 36-37|0.0.0.1.2 35-36|0.0.0.1.2.0 34-35|0.0.0.1.0 32-33|0.0.0.1 29-30|0.0.0.1.1.0.1 28-29|0.0.0.1.1.0 27-28|0.0.0.1.1 24-25|0.0.0.1.1.0.0 20-21|0.0.0.2 18-19|0.0.0 16-18|0.0.0.0.0.1+0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 13-14|0.0.1 12-13|0.0 11-12|0 10-11|0.0.2 7-8|0.0.2.1 5-6|0.0.2.0 4-5|0.0.2.0.2 3-4|0.0.2.0.0 0-1|0.0.2.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:29.121
+(a3 / and 
+      :op1 (r / resent-01 
+            :ARG1 (l2 / let-01 
+                  :ARG0 (t3 / thing 
+                        :name (n / name 
+                              :op1 (a2 / Aunt) 
+                              :op2 (s3 / Storer))) 
+                  :ARG1 (p2 / pass-01 
+                        :ARG1 (d4 / door 
+                              :ARG0-of (s2 / send-01)) 
+                        :ARG2 (c3 / chariot-01 
+                              :op2-of (o / or 
+                                    :op1 (c4 / chais) 
+                                    :op3 (b / babyhutt))) 
+                        :time (d3 / day 
+                              :mod (e2 / every))) 
+                  :manner (e3 / either)) 
+            :ARG1-of (d5 / deep-02) 
+            :manner (l3 / love-01 
+                  :ARG0 (s4 / soul 
+                        :ARG1-of (f2 / friendly-01) 
+                        :domain (s5 / she 
+                              :ARG1-of (h / have-rel-role-91 
+                                    :ARG0 (p / person 
+                                          :ARG1-of (d / delight-01 
+                                                :ARG0 (a / and 
+                                                      :op1 (c / catechise) 
+                                                      :op2 (l / lecture-01 
+                                                            :ARG0 (c2 / cheerfully) 
+                                                            :ARG1 (t / thursday) 
+                                                            :ARG1-of (s / sober-01))) 
+                                                :mod (e / even)) 
+                                          :poss-of (h2 / house 
+                                                :ARG4-of (d2 / drink-01 
+                                                      :ARG1 (t2 / tea) 
+                                                      :ARG2 (h3 / house)))) 
+                                    :ARG2 (f / friend))) 
+                        :mod (l4 / little)) 
+                  :ARG1-of (e4 / eager-01))))
+
+# ::snt She had few amusements and holidays compared with the manifold pleasures that children have nowadays, though she had one holiday which the Revolution struck from our calendar--the King's Coronation Day.
+# ::tok She had few amusements and holidays compared with the manifold pleasures that children have nowadays , though she had one holiday which the Revolution struck from our calendar -- the King 's Coronation Day .
+# ::alignments 32-34|0.0.1+0+0.0+0.0.0 30-31|0.0.0.0.1+0.0.0.0 27-28|0.0.0.0.2.0.0.0.2 26-27|0.0.0.0.2.0.0.0.2.0 24-25|0.0.0.0.2.0.0.0 23-24|0.0.0.0.2.0.0.0.1 20-21|0.0.0.0.2.0.0 17-18|0.0.0.0.2.0.0.0.0 14-15|0.0.0.0.0 12-13|0.0.0.0.2.0.0.0.1.0 10-11|0.0.0.0.2.2 9-10|0.0.0.0.2.2.0 6-7|0.0.0.0.2 5-6|0.0.0.0.2.1.1 4-5|0.0.0.0.2.1 3-4|0.0.0.0.2.1.0 2-3|0.0.0.0.2.1.0.0 0-1|0.0.0.0.2.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:30.703
+(c / Coronation 
+      :op1-of (n / name 
+            :name-of (t / thing 
+                  :ARG0-of (h / have-org-role-91 
+                        :ARG1 (n2 / nowadays) 
+                        :ARG2 (k / king) 
+                        :purpose-of (c4 / compare-01 
+                              :ARG0 (s3 / she 
+                                    :poss-of (h2 / holiday 
+                                          :ARG1-of (s / strike-01 
+                                                :ARG0 (s2 / she) 
+                                                :ARG2 (r / revolution-03 
+                                                      :ARG1 (c3 / child)) 
+                                                :ARG3 (c2 / calendar 
+                                                      :poss (w / we))))) 
+                              :ARG1 (a / and 
+                                    :op1 (a2 / amusement 
+                                          :quant (f / few)) 
+                                    :op2 (h3 / holiday)) 
+                              :ARG2 (p / pleasur 
+                                    :mod (m / manifold))))) 
+            :op2 (d / Day)))
+
+# ::snt She saw the Artillery Company drill, and she visited brides and babies and old folks, and attended some funerals.
+# ::tok She saw the Artillery Company drill , and she visited brides and babies and old folks , and attended some funerals .
+# ::alignments 20-21|0 19-20|0.1 18-19|0.0 17-18|0.0.0 15-16|0.0.0.2 14-15|0.0.0.0.3.0.1.0 13-14|0.0.0.0.1 12-13|0.0.0.1 11-12|0.0.0.0.2 10-11|0.0.0.0.1.0 9-10|0.0.0.0 8-9|0.0.0.0.0 7-8|0.0.0.0.3 5-6|0.0.0.0.3.0.1 3-5|0.0.0.0.3.0.1.1.0.1+0.0.0.0.3.0.1.1.0.0+0.0.0.0.3.0.1.1.0+0.0.0.0.3.0.1.1 1-2|0.0.0.0.3.0 0-1|0.0.0.0.3.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:32.880
+(f / funeral 
+      :ARG1-of (a / attend-01 
+            :op4-of (a2 / and 
+                  :op1 (v / visit-01 
+                        :ARG0 (s2 / she) 
+                        :ARG1 (a3 / and 
+                              :op1 (b2 / brid)) 
+                        :op1-of (a4 / and) 
+                        :op2-of (a5 / and 
+                              :op1 (s3 / see-01 
+                                    :ARG0 (s4 / she) 
+                                    :ARG1 (d / drill-01 
+                                          :ARG0 (o / old) 
+                                          :ARG1 (t / thing 
+                                                :name (n / name 
+                                                      :op1 "Artillery" 
+                                                      :op2 "Company")))))) 
+                  :op2 (b / baby) 
+                  :op3 (f2 / folk))) 
+      :quant (s / some))
+
+# ::snt When she was twelve years old she "came out"--became a "miss in her teens"--and went to a succession of prim little routs or parties, which she called "constitutions."
+# ::tok When she was twelve years old she " came out " -- became a " miss in her teens " -- and went to a succession of prim little routs or parties , which she called " constitutions . "
+# ::alignments 35-36|0.2 31-32|0.1.1 30-31|0.1 29-30|0.1.0 28-29|0.1.0.0 27-28|0.1.0.1 25-26|0 22-23|0.3 21-22|0.3.0 18-19|0.3.0.1.2.0 15-16|0.3.0.1.2 12-13|0.3.0.1 8-9|0.3.0.1.0 5-6|0.3.0.0 4-5|0.3.0.1.1.0.0+0.3.0.1.1.0 3-4|0.0 1-2|0.3.0.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:33.267
+(s / succeed-03 
+      :ARG0 (t3 / twelve) 
+      :ARG1 (o / or 
+            :op1 (r / rout 
+                  :mod (l / little) 
+                  :mod (p2 / prim)) 
+            :op2 (p / party)) 
+      :ARG1-of (c / call-01) 
+      :ARG4-of (g / go-02 
+            :op3-of (a / and 
+                  :op1 (o2 / old) 
+                  :op2 (b / become-01 
+                        :ARG0 (c2 / come-01) 
+                        :ARG1 (s2 / she 
+                              :age (t2 / temporal-quantity 
+                                    :unit (y / year))) 
+                        :ARG2 (m / miss-01 
+                              :ARG1 (t / teen))))))
+
+# ::snt To these decorous assemblies girls only were invited,--no rough Boston boys.
+# ::tok To these decorous assemblies girls only were invited , -- no rough Boston boys .
+# ::alignments 13-14|0.1.1 12-13|0.1.3+0.1.2.0+0.1.2+0.1 11-12|0.1.0 10-11|0.1.1.0 7-8|0 5-6|0.2 4-5|0.0 3-4|0.0.0 2-3|0.0.0.0 1-2|0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:33.365
+(i / invite-01 
+      :ARG0 (g / girl 
+            :mod (a / assembli 
+                  :mod (d / decorou) 
+                  :mod (t / this))) 
+      :ARG1 (c / city 
+            :ARG1-of (r / rough-04) 
+            :location-of (b / boy 
+                  :polarity -) 
+            :name (n / name 
+                  :op1 "Boston") 
+            :wiki "Boston") 
+      :mod (o / only))
+
+# ::snt But Anna was not solemn; she was always happy, and often merry--full of life and wit.
+# ::tok But Anna was not solemn ; she was always happy , and often merry -- full of life and wit .
+# ::alignments 19-20|0.2.0.1.1 18-19|0.2.0.1 17-18|0.2.0.1.0 15-16|0.0 13-14|0.2.0.1.1.0.1 12-13|0.2.0.1.1.0.1.0 11-12|0.2.0.1.1.0 9-10|0.2.0.1.1.0.0 8-9|0.2.0.1.1.0.0.1 6-7|0.2.0.1.1.0.0.0 5-6|0.1 4-5|0.2 3-4|0.2.1 1-2|0.2.0.0.0+0.2.0.0+0.2.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:33.618
+(c / contrast-01 
+      :ARG0 (f / full) 
+      :ARG1 (a4 / and) 
+      :ARG2 (s2 / solemn 
+            :domain (p / person 
+                  :name (n / name 
+                        :op1 "Anna") 
+                  :op1-of (a / and 
+                        :op2 (l / life) 
+                        :op3 (w / wit 
+                              :op3-of (a2 / and 
+                                    :op1 (h / happy 
+                                          :domain (s / she) 
+                                          :time (a3 / always)) 
+                                    :op2 (m / merry 
+                                          :frequency (o / often)))))) 
+            :polarity -))
+
+# ::snt She jested about getting a "fresh seasoning with Globe salt," and wrote some labored jokes and some unconscious ones home to her mother.
+# ::tok She jested about getting a " fresh seasoning with Globe salt , " and wrote some labored jokes and some unconscious ones home to her mother .
+# ::alignments 25-26|0.1.0.0.0.0.1+0.1.0.0.0.0+0.1.0.0.0 22-23|0.1.0.0 21-22|0.1.0.0.2 20-21|0.1.0.0.1.0+0.1.0.0.1 19-20|0.1.0.0.0.0.0 18-19|0.1.0 17-18|0.2 16-17|0.2.0 15-16|0.1.0.0.3 14-15|0.1 13-14|0 10-11|0.0.0.0.0 9-10|0.0.0.0.0.0.0.0+0.0.0.0.0.0.0+0.0.0.0.0.0 7-8|0.0.0.0 6-7|0.0.0.0.1 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:34.542
+(a2 / and 
+      :op1 (j2 / jest-01 
+            :ARG0 (s5 / she 
+                  :ARG0-of (s4 / season-01 
+                        :ARG1 (s3 / salt 
+                              :mod (o2 / organization 
+                                    :name (n / name 
+                                          :op1 "Globe"))) 
+                        :ARG1-of (f / fresh-04)))) 
+      :op2 (w / write-01 
+            :ARG1 (a / and 
+                  :op1 (h2 / home 
+                        :beneficiary (p / person 
+                              :ARG0-of (h / have-rel-role-91 
+                                    :ARG1 (s / some) 
+                                    :ARG2 (m / mother))) 
+                        :mod (c / conscious 
+                              :polarity -) 
+                        :mod (o / one) 
+                        :mod (s2 / some)))) 
+      :op3 (j / joke-01 
+            :ARG1-of (l / labor-01)))
+
+# ::snt She was subject to "egregious fits of laughterre," and fully proved the statement, "Aunt says I am a whimsical child."
+# ::tok She was subject to " egregious fits of laughterre , " and fully proved the statement , " Aunt says I am a whimsical child . "
+# ::alignments 24-25|0.1 23-24|0.1.2 20-21|0.1.1 19-20|0 18-19|0.0 15-16|0.1.0 13-14|0.1.0.0 12-13|0.1.0.0.1 11-12|0.1.0.0.2 8-9|0.1.0.0.0.1.0 6-7|0.1.0.0.0.0 5-6|0.1.0.0.0.0.0 2-3|0.1.0.0.0.1 0-1|0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:34.876
+(s / say-01 
+      :ARG0 (a / aunt) 
+      :ARG1 (c / child 
+            :ARG1-of (s2 / state-01 
+                  :ARG1-of (p / prove-01 
+                        :ARG0 (s4 / she 
+                              :ARG0-of (f2 / fit-06 
+                                    :mod (e / egregiou)) 
+                              :ARG1-of (s3 / subject-01 
+                                    :ARG2 (l / laughterre))) 
+                        :degree (f / full) 
+                        :op1-of (a2 / and))) 
+            :domain (i / i) 
+            :mod (w / whimsical)))
+
+# ::snt She was not beautiful.
+# ::tok She was not beautiful .
+# ::alignments 3-4|0 2-3|0.1 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:34.884
+(b / beautiful-02 
+      :ARG0 (s / she) 
+      :polarity -)
+
+# ::snt Her miniature is now owned by Miss Elizabeth C. Trott of Niagara Falls, the great grand-daughter of General John Winslow, and a copy is shown in the frontispiece.
+# ::tok Her miniature is now owned by Miss Elizabeth C. Trott of Niagara Falls , the great grand - daughter of General John Winslow , and a copy is shown in the frontispiece .
+# ::alignments 31-32|0.1.2 28-29|0.1 26-27|0.1.1.0+0.1.1 24-25|0 22-23|0.0.0.0 21-22|0.0.0.0.0.2+0.0.0.0.0.1.0+0.0.0.0.0.1+0.0.0.0.0 20-21|0.0.0.0.0.0 18-19|0.0.0.1+0.0.0+0.0 16-17|0.0.1.0 15-16|0.0.1 11-13|0.1.0.1.0.1+0.1.0.1.0.0+0.1.0.1.0+0.1.0.1 6-10|0.1.0.2.3+0.1.0.2.2+0.1.0.2.1+0.1.0.2.0+0.1.0.2+0.1.0 4-5|0.1.0.0 3-4|0.1.0.0.1 1-2|0.1.0.0.0 0-1|0.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:36.672
+(a / and 
+      :op1 (p2 / person 
+            :ARG0-of (h / have-rel-role-91 
+                  :ARG1 (w / winslow 
+                        :mod (p / person 
+                              :mod (g / general) 
+                              :name (n / name 
+                                    :op1 "John") 
+                              :wiki -)) 
+                  :ARG2 (d / daughter)) 
+            :mod (g3 / great 
+                  :mod-of (g2 / grand))) 
+      :op2 (s / show-01 
+            :ARG0 (p3 / person 
+                  :ARG0-of (o / own-01 
+                        :ARG1 (m / miniature 
+                              :part-of (s2 / she)) 
+                        :time (n4 / now)) 
+                  :mod (c2 / country 
+                        :name (n2 / name 
+                              :op1 "Niagara" 
+                              :op2 "Falls,")) 
+                  :name (n3 / name 
+                        :op1 "Miss" 
+                        :op2 "Elizabeth" 
+                        :op3 "C." 
+                        :op4 "Trott")) 
+            :ARG1 (t / thing 
+                  :ARG2-of (c / copy-01)) 
+            :time (f / frontispiece)))
+
+# ::snt It displays a gentle, winning little face, delicate in outline, as is also the figure, and showing some hint also of delicacy of constitution.
+# ::tok It displays a gentle , winning little face , delicate in outline , as is also the figure , and showing some hint also of delicacy of constitution .
+# ::alignments 27-28|0.0.0.0 25-26|0.0.0 23-24|0.0.2 22-23|0.0 21-22|0.0.3 20-21|0.0.1 19-20|0.0.1.0 17-18|0.0.1.0.2 15-16|0.0.1.0.2.0 11-12|0 9-10|0.0.1.0.1.0.0 7-8|0.0.1.0.1.0 6-7|0.0.1.0.1.0.1 5-6|0.0.1.0.1 3-4|0.0.1.0.0.0.0 1-2|0.0.1.0.0 0-1|0.0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:37.041
+(o / outline-01 
+      :ARG1 (h / hint-01 
+            :ARG1 (d / delicacy 
+                  :poss (c / constitution)) 
+            :ARG1-of (s2 / show-01 
+                  :op3-of (a2 / and 
+                        :ARG1-of (d3 / display-01 
+                              :ARG0 (i / it 
+                                    :ARG1-of (g / gentle-01))) 
+                        :op1 (w / win-01 
+                              :ARG1 (f2 / face 
+                                    :mod (d2 / delicate) 
+                                    :mod (l / little))) 
+                        :op2 (f / figure 
+                              :mod (a3 / also)))) 
+            :mod (a / also) 
+            :mod (s / some)))
+
+# ::snt It may be imagination to think that it is plainly the face of one who could never live to be old--a face typical of youth.
+# ::tok It may be imagination to think that it is plainly the face of one who could never live to be old -- a face typical of youth .
+# ::alignments 26-27|0.0.2 24-25|0.0 23-24|0.0.1 20-21|0.1.0.0 17-18|0.1.0 15-16|0.1 11-12|0.1.1 9-10|0.0.0 5-6|0.1.1.0 1-2|0 0-1|0.1.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:37.355
+(p3 / possible-01 
+      :ARG2 (t / typical-02 
+            :ARG0 (p2 / plain) 
+            :ARG1 (f / face) 
+            :ARG2 (y / youth)) 
+      :condition-of (p / possible-01 
+            :ARG1 (l / live-01 
+                  :ARG1 (o / old)) 
+            :location (f2 / face 
+                  :ARG1-of (t2 / think-01 
+                        :ARG0 (i / it)))))
+
+# ::snt Let us glance at the stock from whence sprung this tender and engaging little blossom.
+# ::tok Let us glance at the stock from whence sprung this tender and engaging little blossom .
+# ::alignments 14-15|0.0.2.0 13-14|0.0.2.0.0 12-13|0.0.2 11-12|0.0 10-11|0.0.1.1 9-10|0.0.1.1.0 8-9|0.0.1 7-8|0.0.1.0 5-6|0.0.0.0 2-3|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:37.463
+(l2 / let-01 
+      :ARG1 (a / and 
+            :ARG1-of (g / glance-01 
+                  :ARG0 (s2 / stock)) 
+            :op1 (s / spring-up-02 
+                  :ARG0 (w / whence) 
+                  :ARG1 (t / tender-02 
+                        :mod (t2 / this))) 
+            :op2 (e / engage-01 
+                  :ARG1 (b / blossom-01 
+                        :mod (l / little)))))
+
+# ::snt When the weary Pilgrims landed at Cape Cod before they made their memorable landing at Plymouth, a sprightly young girl jumped on shore, and was the first English woman to set foot on the soil of New England.
+# ::tok When the weary Pilgrims landed at Cape Cod before they made their memorable landing at Plymouth , a sprightly young girl jumped on shore , and was the first English woman to set foot on the soil of New England .
+# ::alignments 39-40|0.0.1.0.0.2+0.0.1.0.0.0.0+0.0.1.0.0.0+0.0.1.0.0 36-37|0.0.1.0 33-34|0.0.1.0.0.1 30-31|0.2 29-30|0.1.1+0.1.0.0+0.1.0+0.1 25-26|0 23-24|0.0.1 21-22|0.0 20-21|0.0.0 19-20|0.0.0.0 18-19|0.0.0.1 15-16|0.0.2.2.0.1.0.0+0.0.2.2.0.1.0+0.0.2.2.0.1 13-14|0.0.2.2.0 12-13|0.0.2.2.0.2 9-10|0.0.2.2.0.0 8-9|0.0.2.2 6-8|0.0.2.1.0.1+0.0.2.1.0.0+0.0.2.1.0+0.0.2.1 4-5|0.0.2 3-4|0.0.2.0.1.0+0.0.2.0.1+0.0.2.0 2-3|0.0.2.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:38.302
+(a / and 
+      :op1 (j / jump-03 
+            :ARG0 (g / girl 
+                  :mod (y / young) 
+                  :mod (s3 / sprightly)) 
+            :ARG1 (s2 / shore-01 
+                  :ARG1 (s / soil 
+                        :part-of (c / country 
+                              :name (n / name 
+                                    :op1 "England") 
+                              :poss-of (f / foot) 
+                              :wiki "England"))) 
+            :condition (l3 / land-01 
+                  :ARG0 (o / organization 
+                        :ARG1-of (w2 / weary-01) 
+                        :name (n5 / name 
+                              :op1 "Pilgrims")) 
+                  :ARG1 (c3 / country 
+                        :name (n4 / name 
+                              :op1 "Cape" 
+                              :op2 "Cod")) 
+                  :time (b / before 
+                        :op1 (l2 / land-01 
+                              :ARG1 (t / they) 
+                              :location (c2 / country 
+                                    :name (n3 / name 
+                                          :op1 "Plymouth,")) 
+                              :mod (m / memorable))))) 
+      :op2 (l / language 
+            :name (n2 / name 
+                  :op1 "English") 
+            :wiki "English_language") 
+      :op3 (w / woman))
+
+# ::snt Her name was Mary Chilton.
+# ::tok Her name was Mary Chilton .
+# ::alignments 3-5|0.0.1+0.0.0+0.0+0 1-2|0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:38.315
+(p / person 
+      :name (n / name 
+            :op1 "Mary" 
+            :op2 "Chilton.") 
+      :name (n2 / name 
+            :poss (s / she)))
+
+# ::snt She married John Winslow, the brother of Governor Edward Winslow.
+# ::tok She married John Winslow , the brother of Governor Edward Winslow .
+# ::alignments 9-11|0.1.0.0.1.1+0.1.0.0.1.0+0.1.0.0.1+0.1.0.0 8-9|0.1.0.0.0.1+0.1.0.0.0+0.1.0.0.0.0 6-7|0.1.0.1+0.1.0 2-4|0.1.1.1+0.1.1.0+0.1.1+0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:40.046
+(m / marry-01 
+      :ARG0 (s / she) 
+      :ARG1 (p3 / person 
+            :ARG0-of (h2 / have-rel-role-91 
+                  :ARG1 (p / person 
+                        :ARG1-of (h / have-org-role-91 
+                              :ARG0 (p2 / person) 
+                              :ARG2 (g / governor)) 
+                        :name (n / name 
+                              :op1 "Edward" 
+                              :op2 "Winslow.")) 
+                  :ARG2 (b / brother)) 
+            :name (n2 / name 
+                  :op1 "John" 
+                  :op2 "Winslow,")))
+
+# ::snt Anna Green Winslow was Mary Chilton's direct descendant in the sixth generation.
+# ::tok Anna Green Winslow was Mary Chilton 's direct descendant in the sixth generation .
+# ::alignments 12-13|0.1 11-12|0.1.0 8-9|0 7-8|0.0 4-6|0.2.0.1+0.2.0.0+0.2.0+0.2 0-3|0.0.0.0.2+0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:40.239
+(d / descendant 
+      :ARG1-of (d2 / direct-02 
+            :ARG0 (p2 / person 
+                  :name (n2 / name 
+                        :op1 "Anna" 
+                        :op2 "Green" 
+                        :op3 "Winslow"))) 
+      :location (g / generation 
+            :mod (s / sixth)) 
+      :poss (p / person 
+            :name (n / name 
+                  :op1 "Mary" 
+                  :op2 "Chilton's")))
+
+# ::snt Anna's grandfather, John Winslow the fourth, was born in Boston.
+# ::tok Anna 's grandfather , John Winslow the fourth , was born in Boston .
+# ::alignments 12-13|0.0.1.1+0.0.1.0.0+0.0.1.0+0.0.1 10-11|0.0 7-8|0 4-6|0.0.0.0.0.0.0.1+0.0.0.0.0.0.0.0+0.0.0.0.0.0.0+0.0.0.0.0.0 2-3|0.0.0.0.1+0.0.0.0+0.0.0 0-1|0.0.0.0.0.1.0+0.0.0.0.0.1+0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:40.744
+(f / fourth 
+      :ARG0-of (b / bear-02 
+            :ARG1 (p2 / person 
+                  :ARG0-of (h / have-rel-role-91 
+                        :ARG1 (p3 / person 
+                              :domain (p / person 
+                                    :name (n2 / name 
+                                          :op1 "John" 
+                                          :op2 "Winslow")) 
+                              :name (n3 / name 
+                                    :op1 "Anna's")) 
+                        :ARG2 (g / grandfather))) 
+            :location (c / city 
+                  :name (n / name 
+                        :op1 "Boston") 
+                  :wiki "Boston")))
+
+# ::snt His son Joshua wrote thus in the Winslow Family Bible: "Jno Winslow my Honor'd Father was born ye 0 Dec. at 0 o'c. in the morning on the Lords Day, 0, and was baptized by Mr. Willard the next day & dyed att sea Octo. 0, 0 aged 0 years."
+# ::tok His son Joshua wrote thus in the Winslow Family Bible : " Jno Winslow my Honor 'd Father was born ye 0 Dec. at 0 o'c . in the morning on the Lords Day , 0 , and was baptized by Mr. Willard the next day & dyed att sea Octo . 0 , 0 aged 0 years . "
+# ::alignments 57-58|0.2.1.1+0.2.1 56-57|0.2.1.0 55-56|0 54-55|0.1 52-53|0.0 50-51|0.2.0 49-50|0.2.0.0 48-49|0.2.0.0.0 47-48|0.2 45-46|0.2.2.1.0 44-45|0.2.2.1.0.0 41-43|0.2.2.2.1.0.0.1+0.2.2.2.1.0.0.0+0.2.2.2.1.0.0+0.2.2.2.1.0 39-40|0.2.2.2.1 37-38|0.2.2.2.1.1 35-36|0.2.2.0.0.4 33-34|0.2.2.3 32-33|0.2.2.3.0.1+0.2.2.3.0.0.0+0.2.2.3.0.0+0.2.2.3.0 29-30|0.2.2.4 24-25|0.2.2.0.0.1 22-23|0.2.2.1.1+0.2.2.1 21-22|0.2.2.1.2 19-20|0.2.2 17-18|0.2.2.2.0.1+0.2.2.2.0+0.2.2.2 15-16|0.2.2.0.0.0 12-14|0.2.2.0.0.0.0.0.1+0.2.2.0.0.0.0.0.0+0.2.2.0.0.0.0.0+0.2.2.0.0.0.0 9-10|0.2.2.0.0.2.2+0.2.2.0.0.2.1.0+0.2.2.0.0.2.1+0.2.2.0.0.2 8-9|0.2.2.0.0.2.0 7-8|0.2.2.2.0.0.0.0+0.2.2.2.0.0.0+0.2.2.2.0.0 4-5|0.2.2.0.0.3 3-4|0.2.2.0.0 2-3|0.2.2.0.1.0+0.2.2.0.1+0.2.2.0 1-2|0.2.2.0.2.0.1+0.2.2.0.2.0+0.2.2.0.2.0.0 0-1|0.2.2.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:55.374
+(a / age-01 
+      :ARG0 0 
+      :ARG1 0 
+      :purpose (d / dye-01 
+            :ARG1 (o / Octo 
+                  :location (s / sea 
+                        :mod (a2 / att))) 
+            :op1-of (t / temporal-quantity 
+                  :quant 0 
+                  :unit (y / year)) 
+            :purpose-of (b2 / bear-02 
+                  :ARG0 (p3 / person 
+                        :ARG0-of (w3 / write-01 
+                              :ARG1 (h2 / honor-01 
+                                    :ARG1 (t3 / thing 
+                                          :name (n4 / name 
+                                                :op1 (j / Jno) 
+                                                :op2 (w2 / Winslow)))) 
+                              :ARG2 0 
+                              :location (b3 / book 
+                                    :mod (f2 / family) 
+                                    :name (n5 / name 
+                                          :op1 "Bible") 
+                                    :wiki "Bible") 
+                              :manner (t4 / thus-far) 
+                              :op1-of 0) 
+                        :name (n7 / name 
+                              :op1 "Joshua") 
+                        :poss (h4 / he 
+                              :ARG1-of (h3 / have-rel-role-91 
+                                    :ARG0 (p4 / person) 
+                                    :ARG2 (s2 / son)))) 
+                  :ARG1 (d4 / date-entity 
+                        :mod (d2 / day 
+                              :mod (n / next)) 
+                        :month 12 
+                        :quant 0) 
+                  :ARG2 (p / person 
+                        :ARG0-of (h / have-rel-role-91 
+                              :ARG1 (p2 / person 
+                                    :name (n6 / name 
+                                          :op1 "Winslow")) 
+                              :ARG2 (f / father)) 
+                        :ARG1-of (b / baptize-01 
+                              :ARG0 (t2 / thing 
+                                    :name (n2 / name 
+                                          :op1 (m / Mr.) 
+                                          :op2 (w / Willard))) 
+                              :op1-of (a3 / and))) 
+                  :time (d3 / day 
+                        :mod (g / government-organization 
+                              :name (n3 / name 
+                                    :op1 "Lords") 
+                              :wiki "House_of_Lords")) 
+                  :time (m2 / morning))))
+
+# ::snt A curious attitude was assumed by certain Puritan ministers, of reluctance and even decided objection and refusal to baptize children who were unlucky enough to be born on the Lord's Day; but Samuel Willard, the pastor of the "South Church" evidently did not concur in that extraordinary notion, for on the day following "Jno's" birth--on New Year's Day--he was baptized.
+# ::tok A curious attitude was assumed by certain Puritan ministers , of reluctance and even decided objection and refusal to baptize children who were unlucky enough to be born on the Lord 's Day ; but Samuel Willard , the pastor of the " South Church " evidently did not concur in that extraordinary notion , for on the day following " Jno 's " birth -- on New Year 's Day -- he was baptized .
+# ::alignments 74-75|0.3.0 72-73|0.3.0.0 67-69|0.3.0.1.0.0.0.1+0.3.0.1.0.0.0.0+0.3.0.1.0.0.0+0.3.0.1.0.0 64-65|0.3.0.1.0.1 61-62|0.3.0.1.0.1.0.0.0+0.3.0.1.0.1.0.0+0.3.0.1.0.1.0 59-60|0.3.0.1.0 58-59|0.3.0.1 53-54|0.2.2.1.1 52-53|0.2.2.1.1.1 51-52|0.2.2.1.1.0 49-50|0.2.2.1 48-49|0.2.2.1.3 46-47|0.2.2.1.2 43-45|0.2.2.1.0.1.0.1+0.2.2.1.0.1.0.0+0.2.2.1.0.1.0+0.2.2.1.0.1 39-40|0.0 35-37|0.2.2.1.0.0.1+0.2.2.1.0.0.0+0.2.2.1.0.0+0.2.2.1.0 34-35|0 33-34|0.3 32-33|0.2.3.0.0.0 30-31|0.2.3.0.0.0.0.1+0.2.3.0.0.0.0.0.0+0.2.3.0.0.0.0.0+0.2.3.0.0.0.0 27-28|0.2.3.0.0 24-25|0.2.3.0.1.0 23-24|0.2.3.0.1 20-21|0.2.3.0 19-20|0.2.3 17-18|0.2.3.1 16-17|0.2.0 15-16|0.2.0.0 14-15|0.2 13-14|0.2.1 12-13|0.2.2 11-12|0.2.2.0.0.0.0 8-9|0.2.2.0.0.0.1+0.2.2.0.0.0+0.2.2.0.0 7-8|0.2.2.0.0.0.1.0 6-7|0.2.2.0.0.0.1.1 4-5|0.2.2.0 2-3|0.2.2.0.1 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:09:59.725
+(c2 / contrast-01 
+      :ARG1 (p2 / pastor) 
+      :ARG1-of (c5 / curious-01) 
+      :ARG2 (d3 / decide-01 
+            :ARG1 (a2 / and 
+                  :op1 (o / object-01)) 
+            :mod (e4 / even) 
+            :op2-of (a3 / and 
+                  :op1 (a4 / assume-02 
+                        :ARG0 (p5 / person 
+                              :ARG0-of (h2 / have-org-role-91 
+                                    :ARG1 (r2 / reluctant) 
+                                    :ARG2 (m / minister 
+                                          :mod (p6 / puritan) 
+                                          :mod (c4 / certain)))) 
+                        :ARG1 (a5 / attitude)) 
+                  :op3 (c / concur-01 
+                        :ARG0 (p3 / person 
+                              :name (n5 / name 
+                                    :op1 "Samuel" 
+                                    :op2 "Willard,") 
+                              :poss (t2 / thing 
+                                    :name (n4 / name 
+                                          :op1 "South" 
+                                          :op2 "Church"))) 
+                        :ARG2 (n3 / notion 
+                              :mod (t / that) 
+                              :mod (e / extraordinary)) 
+                        :manner (e2 / evident) 
+                        :polarity -)) 
+            :purpose (b4 / baptize-01 
+                  :ARG1 (c3 / child 
+                        :ARG0-of (b3 / bear-02 
+                              :time (d2 / day 
+                                    :poss (p4 / person 
+                                          :name (n6 / name 
+                                                :op1 "Lord") 
+                                          :wiki "Lord"))) 
+                        :domain-of (u / unlucky 
+                              :degree (e3 / enough))) 
+                  :ARG1-of (r / refuse-01))) 
+      :op1-of (a / and 
+            :ARG0-of (b / baptize-01 
+                  :ARG1 (h / he) 
+                  :time (d / day 
+                        :ARG1-of (f2 / follow-01 
+                              :ARG0 (f / festival 
+                                    :name (n / name 
+                                          :op1 "New" 
+                                          :op2 "Year")) 
+                              :ARG2 (b2 / birth-01 
+                                    :ARG0 (p / person 
+                                          :name (n2 / name 
+                                                :op1 "Jno's"))))))))
+
+# ::snt He was married on September 0, 0, to Sarah Pierce, and in their ten years of married life they had three children.
+# ::tok He was married on September 0 , 0 , to Sarah Pierce , and in their ten years of married life they had three children .
+# ::alignments 24-25|0.0.0.0 23-24|0.0.0.3 21-22|0.0.0.2.1.1 20-21|0.0.0.2.1 19-20|0.0.0.2 17-18|0.0.0.2.1.0.0+0.0.0.2.1.0 13-14|0 10-12|0.0.1.1+0.0.1.0+0.0.1+0.0 7-8|0.0.0.2.0 5-6|0.0.0.2.2 4-5|0.0.0.2.3 2-3|0.0.0 0-1|0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:00.013
+(a / and 
+      :op1 (p / person 
+            :ARG2-of (m2 / marry-01 
+                  :ARG0 (c / child) 
+                  :ARG1 (h / he) 
+                  :manner-of (m / marry-01 
+                        :ARG0 0 
+                        :ARG1 (l / life 
+                              :part (t2 / temporal-quantity 
+                                    :unit (y / year)) 
+                              :poss (t / they)) 
+                        :op1-of 0 
+                        :op1-of 9) 
+                  :op1-of 3) 
+            :name (n / name 
+                  :op1 "Sarah" 
+                  :op2 "Pierce,")))
+
+# ::snt Joshua Winslow, Anna's father, was the second child.
+# ::tok Joshua Winslow , Anna 's father , was the second child .
+# ::alignments 10-11|0.1.0 5-6|0.2+0+0.0 3-4|0.1.1.0+0.1.1+0.1 0-2|0.1.0.0.0.1+0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:00.705
+(h / have-rel-role-91 
+      :ARG0 (p / person) 
+      :ARG1 (p2 / person 
+            :domain-of (c / child 
+                  :domain (p3 / person 
+                        :name (n2 / name 
+                              :op1 "Joshua" 
+                              :op2 "Winslow,"))) 
+            :name (n / name 
+                  :op1 "Anna's")) 
+      :ARG2 (f / father))
+
+# ::snt He was born January 0, 0, and was baptized at the Old South.
+# ::tok He was born January 0 , 0 , and was baptized at the Old South .
+# ::alignments 13-15|0.0.2.1.1+0.0.2.1.0+0.0.2.1+0.0.2 10-11|0.0 8-9|0 6-7|0.0.2.0 4-5|0.0.0 3-4|0.0.1.0.0 2-3|0.0.1.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:00.887
+(a / and 
+      :op1 (b / baptize-01 
+            :ARG0 0 
+            :ARG1 (h / he 
+                  :ARG1-of (b2 / bear-02 
+                        :time 1)) 
+            :ARG2 (c / country 
+                  :mod-of 0 
+                  :name (n / name 
+                        :op1 "Old" 
+                        :op2 "South."))))
+
+# ::snt He was "published" with his cousin Anna Green on December 0, 0, and married to her four weeks later, January 0, 0.
+# ::tok He was " published " with his cousin Anna Green on December 0 , 0 , and married to her four weeks later , January 0 , 0 .
+# ::alignments 27-28|0.0.2 25-26|0.0.3 24-25|0.0.0 22-23|0.1.2.1.0 21-22|0.1.2.1+0.1.2 20-21|0.1.2.0 17-18|0.1 16-17|0 14-15|0.1.3 12-13|0.0.1 11-12|0.1.0 8-10|0.0.4.1.1+0.0.4.1.0+0.0.4.1+0.0.4 7-8|0.0.4.0.1+0.0.4.0+0.0.4.0.0 3-4|0.0 0-1|0.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:01.977
+(a / and 
+      :op1 (p3 / publish-01 
+            :ARG0 1 
+            :op1-of 0 
+            :op1-of 0 
+            :op1-of 0 
+            :prep-with (p / person 
+                  :ARG1-of (h / have-rel-role-91 
+                        :ARG0 (p2 / person) 
+                        :ARG2 (c / cousin)) 
+                  :name (n / name 
+                        :op1 "Anna" 
+                        :op2 "Green"))) 
+      :op2 (m / marry-01 
+            :ARG0 12 
+            :ARG1 (h2 / he) 
+            :ARG2 (t / temporal-quantity 
+                  :quant 4 
+                  :unit (w / week 
+                        :time (l / late))) 
+            :time 0))
+
+# ::snt An old piece of embroidered tapestry herein shown gives a good portrayal of a Boston wedding-party at that date; the costumes, coach, and cut of the horses' mane and tail are very curious and interesting to note.
+# ::tok An old piece of embroidered tapestry herein shown gives a good portrayal of a Boston wedding - party at that date ; the costumes , coach , and cut of the horses ' mane and tail are very curious and interesting to note .
+# ::alignments 42-43|0.1.0.0.1.0 40-41|0.1.0.0.1 39-40|0.1.2 38-39|0.1 37-38|0.1.1 35-36|0.0 34-35|0 33-34|0.1.0.1 31-32|0.0.0 28-29|0.1.2.1 27-28|0.1.0 25-26|0.1.2.0.0+0.1.2.0 23-24|0.1.0.0 21-22|0.1.0.0.0 20-21|0.1.0.0.1.0.0.0.2 19-20|0.1.0.0.1.0.0.0.2.0 17-18|0.1.0.0.1.0.0.2 15-16|0.1.0.0.1.0.0.2.0 14-15|0.1.0.0.1.0.0.2.0.0.1+0.1.0.0.1.0.0.2.0.0.0.0+0.1.0.0.1.0.0.2.0.0.0+0.1.0.0.1.0.0.2.0.0 11-12|0.1.0.0.1.0.0 10-11|0.1.0.0.1.0.0.1 8-9|0.1.0.0.1.0.0.0 7-8|0.1.0.0.1.0.0.0.1 6-7|0.1.0.0.1.0.0.0.0.1 5-6|0.1.0.0.1.0.0.0.0.1.1 4-5|0.1.0.0.1.0.0.0.0.1.0 2-3|0.1.0.0.1.0.0.0.0 1-2|0.1.0.0.1.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:04.788
+(a2 / and 
+      :op1 (t / tail-01 
+            :ARG1 (h / horse)) 
+      :op2 (c / curious-01 
+            :ARG1 (a3 / and 
+                  :op1 (c4 / costume-01 
+                        :ARG1 (a4 / and) 
+                        :ARG1-of (i / interest-01 
+                              :ARG2 (n / note-01 
+                                    :ARG1 (p3 / portrayal 
+                                          :ARG1-of (g2 / give-01 
+                                                :ARG0 (p4 / piece 
+                                                      :mod (o / old) 
+                                                      :mod (h2 / herein 
+                                                            :ARG1-of (e / embroider-01) 
+                                                            :mod (t3 / tapestry))) 
+                                                :ARG1-of (s / show-01) 
+                                                :time (d / date 
+                                                      :mod (t2 / that))) 
+                                          :mod (g / good) 
+                                          :poss (p2 / party 
+                                                :mod (w / wed-01 
+                                                      :ARG1 (c5 / city 
+                                                            :name (n2 / name 
+                                                                  :op1 "Boston") 
+                                                            :wiki "Boston"))))))) 
+                  :op2 (m / mane)) 
+            :degree (v / very) 
+            :op3-of (a / and 
+                  :op1 (p / person 
+                        :ARG0-of (c3 / coach-01)) 
+                  :op2 (c2 / cut-02))))
+
+# ::snt Mrs. Winslow's mother was Anna Pierce (sister of Sarah), and her father was Joseph Green, the fourth generation from Percival Green, whose descendants have been enumerated by Dr. Samuel Abbott Green, the president of the Massachusetts Historical Society, in his book entitled "Account of Percival and Ellen Green and some of their descendants."
+# ::tok Mrs. Winslow 's mother was Anna Pierce ( sister of Sarah ) , and her father was Joseph Green , the fourth generation from Percival Green , whose descendants have been enumerated by Dr. Samuel Abbott Green , the president of the Massachusetts Historical Society , in his book entitled " Account of Percival and Ellen Green and some of their descendants . "
+# ::alignments 61-62|0.1.1.3.0+0.1.1.3 58-59|0.1.1.3.1 57-58|0.1.1 55-57|0.1.0.1+0.1.0.0+0.1.0+0.1 54-55|0 51-52|0.0.1 49-50|0.0 48-49|0.0.0 42-45|0.1.1.2.1.2+0.1.1.2.1.1+0.1.1.2.1.0+0.1.1.2.1+0.1.1.2 39-40|0.1.1.2.0.1+0.1.1.2.0 34-37|0.1.1.2.0.0.1.0.1.2+0.1.1.2.0.0.1.0.1.1+0.1.1.2.0.0.1.0.1.0+0.1.1.2.0.0.1.0.1+0.1.1.2.0.0.1.0 33-34|0.1.1.2.0.0.1.0.0 31-32|0.1.1.2.0.0.1 28-29|0.1.1.2.0.0.0+0.1.1.2.0.0 24-26|0.1.1.1.0.0.1+0.1.1.1.0.0.0+0.1.1.1.0.0+0.1.1.1.0 22-23|0.1.1.1 21-22|0.1.1.1.1 17-19|0.1.1.0.1.2.1.1+0.1.1.0.1.2.1.0+0.1.1.0.1.2.1+0.1.1.0.1.2 15-16|0.1.1.0.1.2.0.1+0.1.1.0.1.2.0+0.1.1.0.1.2.0.0 13-14|0.1.1.0.1 10-11|0.1.1.0.1.1.0.0.1+0.1.1.0.1.1.0.0.0.0+0.1.1.0.1.1.0.0.0+0.1.1.0.1.1.0.0 8-9|0.1.1.0.1.1.0.1+0.1.1.0.1.1.0+0.1.1.0.1.1 5-7|0.1.1.0.0.1+0.1.1.0.0.0+0.1.1.0.0+0.1.1.0 3-4|0.1.1.0.1.0.0.1+0.1.1.0.1.0.0+0.1.1.0.1.0 0-2|0.1.1.0.1.0.0.0.0.1+0.1.1.0.1.0.0.0.0.0+0.1.1.0.1.0.0.0.0+0.1.1.0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:10.086
+(a2 / and 
+      :ARG2-of (e / entitle-02 
+            :ARG0 (b / book) 
+            :ARG1 (a3 / account)) 
+      :op1 (p2 / person 
+            :name (n / name 
+                  :op1 "Ellen" 
+                  :op2 "Green") 
+            :op4-of (a / and 
+                  :op1 (p11 / person 
+                        :name (n7 / name 
+                              :op1 "Anna" 
+                              :op2 "Pierce") 
+                        :op2-of (a4 / and 
+                              :op1 (p12 / person 
+                                    :ARG0-of (h4 / have-rel-role-91 
+                                          :ARG1 (t / thing 
+                                                :name (n8 / name 
+                                                      :op1 (m2 / Mrs.) 
+                                                      :op2 (w / Winslow))) 
+                                          :ARG2 (m / mother))) 
+                              :op3 (p10 / person 
+                                    :ARG0-of (h3 / have-rel-role-91 
+                                          :ARG1 (p9 / person 
+                                                :name (n6 / name 
+                                                      :op1 "Sarah") 
+                                                :wiki "Sarah_Palin") 
+                                          :ARG2 (s2 / sister))) 
+                              :op4 (p7 / person 
+                                    :ARG1-of (h2 / have-rel-role-91 
+                                          :ARG0 (p8 / person) 
+                                          :ARG2 (f2 / father)) 
+                                    :name (n5 / name 
+                                          :op1 "Joseph" 
+                                          :op2 "Green,")))) 
+                  :op2 (g / generation 
+                        :consist-of (p6 / person 
+                              :name (n4 / name 
+                                    :op1 "Percival" 
+                                    :op2 "Green,")) 
+                        :mod (f / fourth)) 
+                  :op3 (o / organization 
+                        :ARG1-of (h / have-org-role-91 
+                              :ARG0 (p5 / person 
+                                    :ARG0-of (d3 / descend-01) 
+                                    :ARG1-of (e2 / enumerate-01 
+                                          :ARG0 (p4 / person 
+                                                :mod (d2 / dr.) 
+                                                :name (n3 / name 
+                                                      :op1 "Samuel" 
+                                                      :op2 "Abbott" 
+                                                      :op3 "Green,")))) 
+                              :ARG2 (p3 / president)) 
+                        :name (n2 / name 
+                              :op1 "Massachusetts" 
+                              :op2 "Historical" 
+                              :op3 "Society,")) 
+                  :op5 (p / person 
+                        :ARG0-of (d / descend-01) 
+                        :quant (s / some)))))
+
+# ::snt Mrs. Joshua Winslow was the oldest of twelve Green children, hence the vast array of uncles and aunts and cousins in little Anna's diary.
+# ::tok Mrs. Joshua Winslow was the oldest of twelve Green children , hence the vast array of uncles and aunts and cousins in little Anna 's diary .
+# ::alignments 25-26|0.0.1.4.3 23-24|0.0.1.4.2.0+0.0.1.4.2+0.0.1.4 22-23|0.0.1.4.0 20-21|0.0.1.3 19-20|0.0.1 18-19|0.0.1.2 17-18|0 16-17|0.0 14-15|0.0.0 13-14|0.0.0.0 11-12|0.0.0.1 9-10|0.0.1.0 8-9|0.0.1.0.0.0.0+0.0.1.0.0.0+0.0.1.0.0 7-8|0.0.1.4.1 5-6|0.0.1.1.0.0+0.0.1.1.0 1-3|0.0.1.1.2.1+0.0.1.1.2.0+0.0.1.1.2+0.0.1.1 0-1|0.0.1.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:10.281
+(a3 / and 
+      :op1 (u / uncl 
+            :mod-of (a4 / array 
+                  :mod (v / vast) 
+                  :mod (h / hence)) 
+            :op2-of (a / and 
+                  :domain (c2 / child 
+                        :mod (p2 / political-party 
+                              :name (n2 / name 
+                                    :op1 "Green"))) 
+                  :op1 (p3 / person 
+                        :domain-of (o / old 
+                              :degree (m / most)) 
+                        :mod (m2 / mrs.) 
+                        :name (n3 / name 
+                              :op1 "Joshua" 
+                              :op2 "Winslow")) 
+                  :op3 (a2 / aunt) 
+                  :op4 (c / cousin) 
+                  :op5 (p / person 
+                        :mod (l / little) 
+                        :mod-of (t / twelve) 
+                        :name (n / name 
+                              :op1 "Anna's") 
+                        :poss-of (d / diary)))))
+
+# ::snt Joseph Green, Anna's maternal grandfather, was born December 0, 0, and was baptised on the same day.
+# ::tok Joseph Green , Anna 's maternal grandfather , was born December 0 , 0 , and was baptised on the same day .
+# ::alignments 21-22|0.0.2 20-21|0.0.2.0 15-16|0 13-14|0.0.2.0.1 11-12|0.0.2.0.0 10-11|0.0.3 9-10|0.0 6-7|0.0.0.0.1+0.0.0.0+0.0.0.0.0 5-6|0.0.0.0.0.0 3-4|0.0.0.1.0+0.0.0.1+0.0.0 0-2|0.0.1.0.1+0.0.1.0.0+0.0.1.0+0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:11.429
+(a / and 
+      :op1 (b / bear-02 
+            :ARG0 (p2 / person 
+                  :ARG1-of (h / have-rel-role-91 
+                        :ARG0 (p / person 
+                              :mod (m / maternal)) 
+                        :ARG2 (g / grandfather)) 
+                  :name (n / name 
+                        :op1 "Anna's")) 
+            :ARG1 (p3 / person 
+                  :name (n2 / name 
+                        :op1 "Joseph" 
+                        :op2 "Green,")) 
+            :location (d / day 
+                  :ARG1-of (s / same-01 
+                        :ARG0 0 
+                        :ARG2 0)) 
+            :time 12))
+
+# ::snt He died July 0, 0.
+# ::tok He died July 0 , 0 .
+# ::alignments 5-6|0.0 3-4|0.2 2-3|0.3 1-2|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:11.466
+(d / die-01 
+      :ARG0 0 
+      :ARG1 (h / he) 
+      :frequency 0 
+      :time 7)
+
+# ::snt He was a wealthy man for his time, being able to pay Governor Belcher Â£0,0 for a tract of land on Hanover Street.
+# ::tok He was a wealthy man for his time , being able to pay Governor Belcher Â GBP 0,0 for a tract of land on Hanover Street .
+# ::alignments 24-25|0.1.2 22-23|0.1.0.0.0 20-21|0.1.1 14-15|0.1.0.1 13-14|0.1.0.0.1+0.1.0.0+0.1.0 12-13|0.1 10-11|0 7-8|0.2 4-5|0.0 3-4|0.0.0 0-1|0.1.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:12.673
+(p3 / possible-01 
+      :ARG0 (m / man 
+            :op1-of (w / wealth)) 
+      :ARG1 (p2 / pay-01 
+            :ARG0 (p / person 
+                  :ARG0-of (h2 / have-org-role-91 
+                        :ARG1 (l / land) 
+                        :ARG2 (g / governor)) 
+                  :ARG1-of (b / belch-01 
+                        :ARG0 (h3 / he))) 
+            :ARG1 (t / tract) 
+            :ARG2 (h / hanov)) 
+      :time (t2 / time))
+
+# ::snt His firm name was Green & Walker.
+# ::tok His firm name was Green & Walker .
+# ::alignments 6-7|0.0.0+0.0+0 4-5|0.1.0.0+0.1.0+0.1 2-3|0.1.1 1-2|0.1.1.0 0-1|0.1.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:12.698
+(p / person 
+      :name (n / name 
+            :op1 "Walker.") 
+      :poss-of (p2 / political-party 
+            :name (n2 / name 
+                  :op1 "Green") 
+            :name (n3 / name 
+                  :mod (f / firm) 
+                  :poss (h / he))))
+
+# ::snt A fine portrait of him by Copley still exists.
+# ::tok A fine portrait of him by Copley still exists .
+# ::alignments 8-9|0.0 7-8|0.0.1 6-7|0.0.0.0.0+0.0.0.0+0.0.0 2-3|0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:12.745
+(p / portrait 
+      :ARG1-of (e / exist-01 
+            :ARG0 (o / organization 
+                  :name (n / name 
+                        :op1 "Copley")) 
+            :time (s / still)) 
+      :ARG1-of (f / fine-04))
+
+# ::snt Thus Anna came of good stock in all lines of descent.
+# ::tok Thus Anna came of good stock in all lines of descent .
+# ::alignments 10-11|0.0.0 8-9|0.0.0.0 7-8|0.0.0.0.0 5-6|0.1 4-5|0.1.0 2-3|0 1-2|0.0.1.0+0.0.1+0.0 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:12.909
+(c / come-01 
+      :ARG1 (p / person 
+            :ARG1-of (d / descend-01 
+                  :ARG0 (l / line 
+                        :mod (a / all))) 
+            :name (n / name 
+                  :op1 "Anna")) 
+      :ARG3 (s / stock 
+            :mod (g / good)) 
+      :mod (t / thu))
+
+# ::snt The Pierces were of the New Hampshire provincial gentry, to which the Wentworths and Langdons also belonged.
+# ::tok The Pierces were of the New Hampshire provincial gentry , to which the Wentworths and Langdons also belonged .
+# ::alignments 17-18|0.0 16-17|0.0.1 14-15|0 8-9|0.0.0 7-8|0.0.0.0 5-7|0.0.0.1.1+0.0.0.1.0.1+0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:12.949
+(a2 / and 
+      :ARG0-of (b / belong-01 
+            :ARG1 (g / gentry 
+                  :mod (p / province) 
+                  :mod (s / state 
+                        :name (n / name 
+                              :op1 "New" 
+                              :op2 "Hampshire") 
+                        :wiki "New_Hampshire")) 
+            :mod (a / also)))
+
+# ::snt Before Joshua Winslow was married, when he was but eighteen years of age, he began his soldierly career.
+# ::tok Before Joshua Winslow was married , when he was but eighteen years of age , he began his soldierly career .
+# ::alignments 19-20|0.0.0.0.0.0.0.1 18-19|0.0.0.0.0.0.0.1.0 16-17|0.0.0.0.0.0.0 13-14|0.0.0 11-12|0.0.1+0.0 10-11|0.0.1.0 9-10|0 7-8|0.0.0.0.0.0.0.0 4-5|0.0.0.0.0 1-3|0.0.0.0.1.1+0.0.0.0.1.0+0.0.0.0.1+0.0.0.0 0-1|0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:13.051
+(c2 / contrast-01 
+      :ARG2 (t / temporal-quantity 
+            :duration-of (a / age-01 
+                  :ARG1 (p / person 
+                        :ARG1-of (m / marry-01 
+                              :op1-of (b2 / before 
+                                    :time-of (b / begin-01 
+                                          :ARG0 (h / he) 
+                                          :ARG1 (c / career 
+                                                :mod (s / soldierly))))) 
+                        :name (n / name 
+                              :op1 "Joshua" 
+                              :op2 "Winslow"))) 
+            :unit (y / year 
+                  :mod (e / eighteen))))
+
+# ::snt He was a Lieutenant in Captain Light's company in the regiment of Colonel Moore at the taking of Louisburg in 0.
+# ::tok He was a Lieutenant in Captain Light 's company in the regiment of Colonel Moore at the taking of Louisburg in 0 .
+# ::alignments 21-22|0.0 19-20|0.1.0.1.0.0.0.0.0+0.1.0.1.0.0.0.0+0.1.0.1.0.0.0 17-18|0.1.0.1.0.0 13-15|0.1.0.1.0.1.1+0.1.0.1.0.1.0+0.1.0.1.0.1+0.1.0.1.0 11-12|0.1.0.1 8-9|0.1.0 6-7|0.1 5-6|0 3-4|0.1.0.0.1+0.1.0.0 0-1|0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:13.453
+(c4 / captain-01 
+      :ARG1 0 
+      :ARG1-of (l / light-01 
+            :poss-of (c3 / company 
+                  :ARG1-of (h / have-org-role-91 
+                        :ARG0 (h2 / he) 
+                        :ARG2 (l2 / lieutenant-colonel)) 
+                  :location (r / regiment 
+                        :poss (t2 / thing 
+                              :ARG0-of (t / take-01 
+                                    :ARG1 (c / country 
+                                          :name (n / name 
+                                                :op1 "Louisburg"))) 
+                              :name (n2 / name 
+                                    :op1 (c2 / Colonel) 
+                                    :op2 (m / Moore)))))))
+
+# ::snt He was then appointed Commissary-General of the British forces in Nova Scotia, and an account-book of his daily movements there still exists.
+# ::tok He was then appointed Commissary - General of the British forces in Nova Scotia , and an account - book of his daily movements there still exists .
+# ::alignments 26-27|0.0.0.0 25-26|0.0.0.0.0 24-25|0.3.1 23-24|0.3.0 19-20|0.3 17-18|0.2 15-16|0 12-14|0.0.2.0.1+0.0.2.0.0+0.0.2.0+0.0.2 10-11|0.1.0 9-10|0.1.0.0.1+0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 6-7|0.0.1 4-5|0.1 3-4|0.0 2-3|0.4 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:14.510
+(a2 / and 
+      :op1 (a3 / appoint-01 
+            :ARG0 (h / he 
+                  :ARG1-of (e / exist-01 
+                        :time (s / still))) 
+            :ARG1 (g / general) 
+            :manner (t2 / thing 
+                  :name (n / name 
+                        :op1 (n2 / Nova) 
+                        :op2 (s2 / Scotia)))) 
+      :op2 (c2 / commissary 
+            :poss (f / force 
+                  :mod (c / country 
+                        :name (n3 / name 
+                              :op1 "Britain") 
+                        :wiki "United_Kingdom"))) 
+      :op3 (a / account) 
+      :op4 (b / book 
+            :ARG0-of (m / move-01) 
+            :location (t / there)) 
+      :time (t3 / then))
+
+# ::snt Upon his return to New England he went to live at Marshfield, Massachusetts, in the house afterwards occupied by Daniel Webster.
+# ::tok Upon his return to New England he went to live at Marshfield , Massachusetts , in the house afterwards occupied by Daniel Webster .
+# ::alignments 21-23|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 19-20|0.0 18-19|0 17-18|0.0.1 13-14|0.0.2.1+0.0.2.0.0+0.0.2.0+0.0.2 11-12|0.0.1.0.2.0.0+0.0.1.0.2.0+0.0.1.0.2 9-10|0.0.1.0 7-8|0.0.1.0.1 6-7|0.0.1.0.0 5-6|0.0.1.0.1.0.0.1+0.0.1.0.1.0.0.0.0+0.0.1.0.1.0.0.0+0.0.1.0.1.0.0 2-3|0.0.1.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:15.225
+(a / afterwards 
+      :time-of (o / occupy-01 
+            :ARG0 (p / person 
+                  :name (n / name 
+                        :op1 "Daniel" 
+                        :op2 "Webster.")) 
+            :ARG1 (h / house 
+                  :location-of (l / live-01 
+                        :ARG0 (h2 / he) 
+                        :ARG1-of (g / go-02 
+                              :time (r / return-01 
+                                    :ARG1 (c2 / country 
+                                          :name (n4 / name 
+                                                :op1 "England") 
+                                          :wiki "England")) 
+                              :ARG0 h2) 
+                        :location (c / country 
+                              :name (n3 / name 
+                                    :op1 "Marshfield,")))) 
+            :ARG2 (s / state 
+                  :name (n2 / name 
+                        :op1 "Massachusetts") 
+                  :wiki "Massachusetts")))
+
+# ::snt But troublous times were now approaching for the faithful servants of the King.
+# ::tok But troublous times were now approaching for the faithful servants of the King .
+# ::alignments 12-13|0.0.0.1.0+0.0.0.1 9-10|0.0.0.0+0.0.0 8-9|0.0.0.0.0 5-6|0.0 4-5|0.0.1 1-2|0.0.0.1.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:15.279
+(c / contrast-01 
+      :ARG2 (a / approach-01 
+            :ARG1 (p / person 
+                  :ARG0-of (s / serve-01 
+                        :manner (f / faithful)) 
+                  :ARG0-of (h / have-org-role-91 
+                        :ARG2 (k / king) 
+                        :op1-of (t / troublou))) 
+            :time (n / now)))
+
+# ::snt Strange notions of liberty filled the heads of many Massachusetts men and women; and soon the Revolution became more than a dream.
+# ::tok Strange notions of liberty filled the heads of many Massachusetts men and women ; and soon the Revolution became more than a dream .
+# ::alignments 22-23|0.2.1.1.0.0 19-20|0.2.1.1.0 18-19|0.2.1 17-18|0.2.1.1 15-16|0.2.1.2 14-15|0.2 13-14|0.2.0 12-13|0.1.1.1 11-12|0.1.1 10-11|0.1.1.0 9-10|0.1.1.0.0.1+0.1.1.0.0.0.0+0.1.1.0.0.0+0.1.1.0.0 8-9|0.2.1.1.0.0.0 6-7|0.1.0+0.1 4-5|0 3-4|0.0 1-2|0.2.1.0 0-1|0.2.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:16.053
+(f / fill-01 
+      :ARG0 (l / liberty) 
+      :ARG1 (p / person 
+            :ARG0-of (h / head-01) 
+            :op1-of (a3 / and 
+                  :op2 (m2 / man 
+                        :mod (s2 / state 
+                              :name (n / name 
+                                    :op1 "Massachusetts") 
+                              :wiki "Massachusetts")) 
+                  :op3 (w / woman))) 
+      :op1-of (a / and 
+            :op1-of (a2 / and) 
+            :op2 (b / become-01 
+                  :ARG0 (n2 / notion 
+                        :mod (s3 / strange)) 
+                  :ARG1 (r / revolution-03 
+                        :ARG1 (m / more 
+                              :degree-of (d / dream-01 
+                                    :ARG1 (m3 / many)))) 
+                  :time (s / soon))))
+
+# ::snt Joshua Winslow in that crisis, with many of his Marshfield friends and neighbors, sided with his King.
+# ::tok Joshua Winslow in that crisis , with many of his Marshfield friends and neighbors , sided with his King .
+# ::alignments 18-19|0.0.0.1+0.0.0 15-16|0 13-14|0.1.1 12-13|0.1 11-12|0.1.0.0.0+0.1.0.0+0.1.0 10-11|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 7-8|0.1.0.1 4-5|0.0.1 3-4|0.0.1.0 0-2|0.0.2.1+0.0.2.0+0.0.2+0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:16.285
+(s / side-01 
+      :ARG0 (p2 / person 
+            :ARG0-of (h / have-org-role-91 
+                  :ARG1 (o / organization 
+                        :name (n2 / name 
+                              :op1 "Marshfield")) 
+                  :ARG2 (k / king)) 
+            :location (c / crisis 
+                  :mod (t / that)) 
+            :name (n3 / name 
+                  :op1 "Joshua" 
+                  :op2 "Winslow")) 
+      :ARG1 (a / and 
+            :op1 (p / person 
+                  :ARG0-of (h2 / have-rel-role-91 
+                        :ARG2 (f / friend)) 
+                  :quant (m / many)) 
+            :op2 (n / neighbor)))
+
+# ::snt He was in Marshfield certainly in June, 0, for I have a letter before me written to him there by Mrs. Deming at that date.
+# ::tok He was in Marshfield certainly in June , 0 , for I have a letter before me written to him there by Mrs. Deming at that date .
+# ::alignments 26-27|0.0.0.0.4 25-26|0.0.0.0.4.0 22-24|0+0.0.1+0.0+0.0.0 20-21|0.0.0.0.5.0.1 17-18|0.0.0.0 16-17|0.0.0.0.1 15-16|0.0.0.0.3 14-15|0.0.0.0.5 11-12|0.0.0.0.0 8-9|0.0.0.0.4.0.1 6-7|0.0.0.0.5.0.0.0+0.0.0.0.5.0.0 4-5|0.0.0.0.4.0.0 3-4|0.0.0.0.2.0.0+0.0.0.0.2.0+0.0.0.0.2 0-1|0.0.0.0.5.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:17.469
+(d2 / Deming 
+      :op2-of (n / name 
+            :name-of (t2 / thing 
+                  :medium-of (w / write-01 
+                        :ARG0 (i2 / i) 
+                        :ARG1 (i / i) 
+                        :ARG2 (o / organization 
+                              :name (n2 / name 
+                                    :op1 "Marshfield")) 
+                        :op1-of (b / before) 
+                        :time (d / date 
+                              :mod (t / that 
+                                    :mod-of (c / certain) 
+                                    :poss-of 0)) 
+                        :time-of (l / letter 
+                              :poss (h / he 
+                                    :part (d3 / date-entity 
+                                          :month 6) 
+                                    :poss (t3 / there))))) 
+            :op1 (m / Mrs.)))
+
+# ::snt One clause of this letter is so amusing that I cannot resist quoting it.
+# ::tok One clause of this letter is so amusing that I cannot resist quoting it .
+# ::alignments 12-13|0.0.0 11-12|0.0.1 9-10|0.0 7-8|0 4-5|0.1.0 3-4|0.1.0.0 1-2|0.1 0-1|0.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:17.580
+(a / amuse-01 
+      :ARG0 (i / i 
+            :ARG0-of (q / quote-01) 
+            :ARG0-of (r / resist-01 
+                  :ARG1 q)) 
+      :ARG1 (c / clause 
+            :poss (l / letter 
+                  :mod (t / this)) 
+            :quant 1))
+
+# ::snt We must remember that it was written in Connecticut, whence Mrs. Deming had fled in fright and dismay at the siege of Boston; and that she had lost her home and all her possessions.
+# ::tok We must remember that it was written in Connecticut , whence Mrs. Deming had fled in fright and dismay at the siege of Boston ; and that she had lost her home and all her possessions .
+# ::alignments 35-36|0.1.2.2.0 33-34|0.0.1.1.0 32-33|0.1.2.2 31-32|0.1.2.1 29-30|0.1.2 27-28|0.1.2.0 25-26|0.1 24-25|0 23-24|0.0.1.1.1.1+0.0.1.1.1.0.0+0.0.1.1.1.0+0.0.1.1.1 21-22|0.0.3 18-19|0.0.1.1 17-18|0.0.1 16-17|0.0.2 14-15|0.0 11-13|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 10-11|0.0.1.0 8-9|0.1.1.0.0.0+0.1.1.0.0+0.1.1.0 6-7|0.1.1 2-3|0.1.0 0-1|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:18.260
+(a4 / and 
+      :op1 (f2 / flee-05 
+            :ARG0 (t / thing 
+                  :name (n2 / name 
+                        :op1 (m / Mrs.) 
+                        :op2 (d2 / Deming))) 
+            :ARG2 (a5 / and 
+                  :op1 (w / whence) 
+                  :op2 (d / dismay-01 
+                        :ARG0 (a / all) 
+                        :ARG1 (c / city 
+                              :name (n / name 
+                                    :op1 "Boston") 
+                              :wiki "Boston"))) 
+            :manner (f / fright) 
+            :time (s2 / siege)) 
+      :op2 (a3 / and 
+            :ARG1-of (r / remember-01 
+                  :ARG0 (w3 / we)) 
+            :op1 (w2 / write-01 
+                  :location (c2 / country 
+                        :name (n3 / name 
+                              :op1 "Connecticut,"))) 
+            :op2 (l / lose-02 
+                  :ARG0 (s / she) 
+                  :ARG1 (h / home) 
+                  :op1-of (a2 / and 
+                        :op2 (p / possession)))))
+
+# ::snt She writes in answer to her brother's urgent invitation to return to Marshfield.
+# ::tok She writes in answer to her brother 's urgent invitation to return to Marshfield .
+# ::alignments 13-14|0.0.0.0.1.0.0.0+0.0.0.0.1.0.0+0.0.0.0.1.0 11-12|0.0.0.0.1 9-10|0.0.0.0 8-9|0.0.0.0.2 6-7|0.0.0.0.0.0+0.0.0.0.0 3-4|0.0.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:18.312
+(w / write-01 
+      :ARG0 (s / she 
+            :ARG0-of (a / answer-01 
+                  :ARG1 (i / invite-01 
+                        :ARG0 (h / have-rel-role-91 
+                              :ARG2 (b / brother)) 
+                        :ARG1 (r / return-01 
+                              :ARG4 (o / organization 
+                                    :name (n / name 
+                                          :op1 "Marshfield."))) 
+                        :mod (u / urgent)))))
+
+# ::snt "We have no household stuff.
+# ::tok " We have no household stuff .
+# ::alignments 5-6|0 4-5|0.0 3-4|0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:18.323
+(s / stuff 
+      :mod (h / household) 
+      :poss (w / we 
+            :quant -))
+
+# ::snt Neither could I live in the terror of constant alarms and the din of war.
+# ::tok Neither could I live in the terror of constant alarms and the din of war .
+# ::alignments 14-15|0.0.1.1.0 12-13|0.0.1.1 10-11|0.0.1 9-10|0.0 8-9|0.0.0 6-7|0.0.1.0.2 3-4|0.0.1.0 2-3|0.0.1.0.0 1-2|0.0.1.0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:18.386
+(n / neither 
+      :ARG1-of (a2 / alarm-01 
+            :manner (c / constant) 
+            :op1-of (a / and 
+                  :ARG2-of (l / live-01 
+                        :ARG0 (i / i) 
+                        :ARG1-of (p / possible-01) 
+                        :location (t / terror)) 
+                  :op2 (d / din-01 
+                        :ARG1 (w / war)))))
+
+# ::snt Besides I know not how to look you in the face, unless I could restore to you your family Expositer, which together with my Henry on the Bible & Harveys Meditations which are your daughter's (the gift of her grandmother) I pack'd in a Trunk that exactly held them, some days before I made my escape, and did my utmost to git to you, but which I am told are still in Boston.
+# ::tok Besides I know not how to look you in the face , unless I could restore to you your family Expositer , which together with my Henry on the Bible & Harveys Meditations which are your daughter 's ( the gift of her grandmother ) I pack 'd in a Trunk that exactly held them , some days before I made my escape , and did my utmost to git to you , but which I am told are still in Boston .
+# ::alignments 81-82|0.1.3.1+0.1.3.0.0+0.1.3.0+0.1.3 79-80|0.1.0.0.0.0.2 77-78|0.1 75-76|0.1.2 73-74|0 71-72|0.1.0.0.0.0.1.1.0.2.0 67-68|0.0 64-65|0.1.4 62-63|0.1.0.0 59-60|0.1.0 58-59|0.1.0.0.0 57-58|0.1.1.1+0.1.1 56-57|0.1.1.0 53-54|0.1.0.0.0.0.1.0.0.0.0.1 52-53|0.1.0.0.0.0.1.0.0.0.0.1.1 50-51|0.1.0.0.0.0.1.0.0.0.0.1.0 46-47|0.1.0.0.0.0.1.0.0.0.0 45-46|0.1.0.0.0.0.1.0.0.0.0.0 43-44|0.1.0.0.0.0.1.0.0.0.0.0.0.1+0.1.0.0.0.0.1.0.0.0.0.0.0+0.1.0.0.0.0.1.0.0.0.0.0.0.0 40-41|0.1.0.0.0.0.1.0.0.0.0.0.0.0.0+0.1.0.0.0.0.1.0.0.0.0.0.0.0.0.0 36-37|0.1.0.0.0.0.1.0.0.1+0.1.0.0.0.0.1.0.0+0.1.0.0.0.0.1.0.0.0 32-33|0.1.0.0.0.0.0 29-32|0.1.0.0.0.0.0.0.0.2+0.1.0.0.0.0.0.0.0.1+0.1.0.0.0.0.0.0.0.0+0.1.0.0.0.0.0.0.0+0.1.0.0.0.0.0.0 26-27|0.1.4.0.0.0.0+0.1.4.0.0.0+0.1.4.0.0 23-24|0.1.4.0 20-21|0.1.0.0.0.0.1.1.2.0+0.1.0.0.0.0.1.1.2+0.1.0.0.0.0.1.1 19-20|0.1.0.0.0.0.1.1.1 17-18|0.1.0.0.0.0.1.2 15-16|0.1.0.0.0.0.1 14-15|0.1.0.0.0.0 13-14|0.1.0.0.0.0.1.0 10-11|0.1.0.0.0.0.1.1.0.2 7-8|0.1.0.0.0.0.1.1.0.0 6-7|0.1.0.0.0.0.1.1.0 3-4|0.1.0.0.0.0.1.1.0.1.1 2-3|0.1.0.0.0.0.1.1.0.1 1-2|0.1.0.0.0.0.1.1.0.1.0 0-1|0.1.0.0.0.0.1.1.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:27.958
+(c2 / contrast-01 
+      :ARG1 (u / utmost) 
+      :ARG2 (t / tell-01 
+            :ARG0 (i2 / i 
+                  :ARG1-of (e / escape-01 
+                        :op2-of (b / before 
+                              :op1 (p6 / possible-01 
+                                    :ARG0 (m / meditation 
+                                          :mod (o / organization 
+                                                :name (n2 / name 
+                                                      :op1 "Bible" 
+                                                      :op2 "&" 
+                                                      :op3 "Harveys"))) 
+                                    :ARG1 (r / restore-01 
+                                          :ARG0 (i4 / i 
+                                                :ARG1-of (h3 / have-rel-role-91 
+                                                      :ARG0 (p3 / person 
+                                                            :ARG1-of (p / pack-01 
+                                                                  :ARG0 (i3 / i 
+                                                                        :ARG1-of (h2 / have-rel-role-91 
+                                                                              :ARG0 (p2 / person 
+                                                                                    :ARG0-of (g2 / gift-01 
+                                                                                          :ARG1 (t4 / thing))) 
+                                                                              :ARG2 (g / grandmother))) 
+                                                                  :ARG1-of (h / hold-04 
+                                                                        :ARG0 (t3 / trunk) 
+                                                                        :manner (e2 / exact)))) 
+                                                      :ARG2 (d2 / daughter))) 
+                                          :ARG1 (p5 / person 
+                                                :ARG0-of (l / look-01 
+                                                      :ARG1 (y3 / you) 
+                                                      :ARG1-of (k / know-01 
+                                                            :ARG0 (i5 / i 
+                                                                  :op1-of (b2 / besides)) 
+                                                            :polarity -) 
+                                                      :manner (f2 / face 
+                                                            :part-of (y / you))) 
+                                                :mod (f / family) 
+                                                :name (n4 / name 
+                                                      :op1 "Expositer,")) 
+                                          :ARG2 (y2 / you)) 
+                                    :mod (s / still))))) 
+            :ARG1 (t2 / temporal-quantity 
+                  :quant (s2 / some) 
+                  :unit (d / day)) 
+            :ARG2 (i / i) 
+            :location (c / city 
+                  :name (n / name 
+                        :op1 "Boston") 
+                  :wiki "Boston") 
+            :op1-of (a / and 
+                  :mod (t5 / together 
+                        :location-of (p4 / person 
+                              :name (n3 / name 
+                                    :op1 "Henry"))))))
+
+# ::snt It is not, nor ever will be in my power to make you Satisfaction for this Error--I should not have coveted to keep 'em so long--I am heartily sorry now that I had more than one book at a time; in that case I might have thot to have bro't it away with me, tho' I forgot my own Bible & almost every other necessary.
+# ::tok It is not , nor ever will be in my power to make you Satisfaction for this Error -- I should not have coveted to keep ' em so long -- I am heartily sorry now that I had more than one book at a time ; in that case I might have thot to have bro't it away with me , tho ' I forgot my own Bible & almost every other necessary .
+# ::alignments 72-73|0.4.2 71-72|0.4.1.1 70-71|0.4.4 68-69|0.4.1.2.1.1+0.4.1.2.1.0.0+0.4.1.2.1.0+0.4.1.2.1 65-66|0.4.1.2 64-65|0.4.1.2.0 60-61|0.4.1.2.2 58-59|0.0 51-52|0.4 50-51|0.4.1.0 49-50|0.4.1 46-47|0.4.3.1.2.1.2 45-46|0.4.3.1.2.1.2.0 42-43|0.4.3.1.2.1.0 39-40|0.4.3.0.0 37-38|0.4.3.1.1 35-36|0.2 34-35|0 33-34|0.3 31-32|0.1 29-30|0.4.3 25-26|0.4.3.1 23-24|0.4.3.1.2 21-22|0.4.3.1.2.3 20-21|0.4.3.1.2.1 19-20|0.4.3.1.2.0 17-18|0.4.3.1.2.1.3 16-17|0.4.3.1.2.1.3.0 14-15|0.4.0 13-14|0.4.3.1.2.1.1 10-11|0.4.3.1.0.0 5-6|0.4.3.0 2-3|0.4.3.1.2.2 0-1|0.4.3.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:30.829
+(s / sorry-01 
+      :ARG0 (a2 / away) 
+      :ARG1 (i5 / i) 
+      :ARG2 (n2 / now) 
+      :degree (h / hearty) 
+      :manner-of (p / possible-01 
+            :ARG0 (s2 / satisfaction) 
+            :ARG1 (c / case-03 
+                  :ARG0 (i3 / i) 
+                  :op1-of (e / every) 
+                  :purpose (f / forget-01 
+                        :ARG0 (i / i) 
+                        :ARG1 (b / book 
+                              :name (n / name 
+                                    :op1 "Bible") 
+                              :wiki "Bible") 
+                        :ARG2 (i2 / i))) 
+            :ARG2 (o / other) 
+            :ARG2-of (l / long-03 
+                  :ARG0 (e3 / ever 
+                        :mod-of (m / more)) 
+                  :ARG1 (k / keep-01 
+                        :ARG0 (i7 / it 
+                              :poss-of (p2 / power)) 
+                        :ARG1 (i4 / i) 
+                        :ARG1-of (c2 / covet-01 
+                              :ARG0 (i6 / i) 
+                              :ARG1-of (r / recommend-01 
+                                    :ARG0 (b2 / book) 
+                                    :ARG2 (y / you) 
+                                    :op1-of (a3 / and 
+                                          :op2 (t / time)) 
+                                    :topic-of (e2 / error 
+                                          :mod (t2 / this))) 
+                              :ARG2 - 
+                              :polarity -))) 
+            :mod (a / almost)))
+
+# ::snt But who can tell whether you may not git your Valuable Books.
+# ::tok But who can tell whether you may not git your Valuable Books .
+# ::alignments 11-12|0.0.0.1.0 10-11|0.0.0.1.0.0 7-8|0.0.0.0.0 6-7|0.0.0.0 5-6|0.0.0.1 3-4|0.0.0 2-3|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:30.870
+(c / contrast-01 
+      :ARG2 (p2 / possible-01 
+            :ARG1 (t / tell-01 
+                  :ARG1 (p / possible-01 
+                        :polarity -) 
+                  :ARG2 (y / you 
+                        :ARG0-of (b / book-01 
+                              :mod (v / valuable))))))
+
+# ::snt I should feel comparatively easy if you had these your Valuable property."
+# ::tok I should feel comparatively easy if you had these your Valuable property . "
+# ::alignments 11-12|0.0.2.0 10-11|0.0.2.0.0 8-9|0.0.1.0.0 6-7|0.0.2 4-5|0.0.1 3-4|0.0.1.0 2-3|0.0 1-2|0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:31.685
+(r / recommend-01 
+      :ARG1 (f / feel-01 
+            :ARG0 (i / i) 
+            :ARG1 (e / easy-05 
+                  :degree (c / compare-01 
+                        :ARG1 (t / this))) 
+            :ARG2 (y / you 
+                  :poss-of (p / property 
+                        :mod (v / valuable)))))
+
+# ::snt Her painful solicitude over the loss of a borrowed book is indeed refreshing, as well as her surprising covetousness of the Family Expositor and Harvey's Meditations.
+# ::tok Her painful solicitude over the loss of a borrowed book is indeed refreshing , as well as her surprising covetousness of the Family Expositor and Harvey 's Meditations .
+# ::alignments 27-28|0.3.1 25-26|0.3.0.0+0.3.0+0.3 24-25|0 23-24|0.2 22-23|0.2.0 19-20|0.1 18-19|0.1.0 12-13|0.0.0.0 11-12|0.0.0.0.1 9-10|0.0.0.0.0 8-9|0.0.0.0.0.0 5-6|0.0.0.1 2-3|0.0.0 1-2|0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:31.940
+(a / and 
+      :op1 (p2 / pain-01 
+            :ARG0 (s2 / solicitude 
+                  :ARG0-of (r / refresh-01 
+                        :ARG1 (b / book 
+                              :ARG1-of (b2 / borrow-01)) 
+                        :mod (i / indeed)) 
+                  :topic (l / loss)) 
+            :ARG1 (s3 / she)) 
+      :op2 (c / covetousnes 
+            :ARG1-of (s / surprise-01)) 
+      :op3 (e / expositor 
+            :mod (f / family)) 
+      :op4 (p / person 
+            :name (n / name 
+                  :op1 "Harvey's") 
+            :poss-of (m / meditation)))
+
+# ::snt And I wish to add to the posthumous rehabilitation of the damaged credit of this conscientious aunt, that Anna's book--Harvey's Meditations--was recovered and restored to the owner, and was lost at sea in 0 by another Winslow.
+# ::tok And I wish to add to the posthumous rehabilitation of the damaged credit of this conscientious aunt , that Anna 's book -- Harvey 's Meditations -- was recovered and restored to the owner , and was lost at sea in 0 by another Winslow .
+# ::alignments 44-45|0.1.0.0.1.1.0.0 43-44|0.1.0.0.1.1.0.0.0 41-42|0.1.0.0.1.1.0.3 39-40|0.1.0.0.1.1.0.2 37-38|0.1.0.0.1.1.0 35-36|0.1.0.0.1.1 33-34|0.1.0.0.1.0.0+0.1.0.0.1.0 30-31|0.1.0.0.1 29-30|0.1.0.0 28-29|0.1.0.0.0 25-26|0.1.0.0.0.0 21-22|0.1.0.0.1.1.0.1 19-20|0.1.0.0.1.1.0.1.0.0.0+0.1.0.0.1.1.0.1.0.0+0.1.0.0.1.1.0.1.0 16-17|0.1.1.0.0 15-16|0.1.1.0.0.1 14-15|0.1.1.0.0.0 12-13|0.1.1.0 11-12|0.1.1.0.1 8-9|0.1.1 7-8|0.1.1.1 4-5|0.1 2-3|0 1-2|0.0 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:32.832
+(w2 / wish-01 
+      :ARG0 (i / i) 
+      :ARG1 (a5 / add-02 
+            :ARG1 (a6 / and 
+                  :op1-of (a3 / and 
+                        :op2 (r2 / recover-02 
+                              :ARG1 (m / meditation)) 
+                        :op3 (r / restore-01 
+                              :ARG1 (p / person 
+                                    :ARG0-of (o / own-01)) 
+                              :op1-of (a2 / and 
+                                    :op2 (l / lose-02 
+                                          :ARG0 (w / winslow 
+                                                :mod (a / another)) 
+                                          :ARG1 (b / book 
+                                                :poss (p2 / person 
+                                                      :name (n / name 
+                                                            :op1 "Anna's"))) 
+                                          :location (s / sea) 
+                                          :time 0))))) 
+            :ARG2 (r3 / rehabilitate-01 
+                  :ARG1 (c2 / credit-02 
+                        :ARG1 (a4 / aunt 
+                              :mod (t / this) 
+                              :mod (c / conscientiou)) 
+                        :ARG1-of (d / damage-01)) 
+                  :mod (p3 / posthumou)) 
+            :ARG0 i))
+
+# ::snt Joshua Winslow, when exiled, went to England, and thence to Quebec, where he retained throughout his life his office as Royal Paymaster.
+# ::tok Joshua Winslow , when exiled , went to England , and thence to Quebec , where he retained throughout his life his office as Royal Paymaster .
+# ::alignments 25-26|0.0.1.0.2 24-25|0.0.1.0.2.0 22-23|0.0.1.0.1 20-21|0.0.1.0.0.0 18-19|0.0.1.0.0.0.0 17-18|0.0.1.0 16-17|0.0.1.0.0 13-14|0.0.1.2+0.0.1.1.0+0.0.1.1+0.0.1 11-12|0.1 10-11|0 8-9|0.0.2.1+0.0.2.0.0+0.0.2.0+0.0.2 6-7|0.0 4-5|0.0.0.0 0-2|0.0.0.1.1+0.0.0.1.0+0.0.0.1+0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:34.149
+(a / and 
+      :op1 (g / go-02 
+            :ARG0 (p3 / person 
+                  :ARG1-of (e / exile-01) 
+                  :name (n3 / name 
+                        :op1 "Joshua" 
+                        :op2 "Winslow,")) 
+            :ARG1 (p2 / province 
+                  :ARG3-of (r2 / retain-01 
+                        :ARG0 (h / he 
+                              :poss-of (l / life 
+                                    :op1-of (t / throughout))) 
+                        :ARG1 (o / office) 
+                        :ARG2 (p / paymast 
+                              :mod (r / royal))) 
+                  :name (n / name 
+                        :op1 "Quebec") 
+                  :wiki "Quebec") 
+            :ARG4 (c / country 
+                  :name (n2 / name 
+                        :op1 "England") 
+                  :wiki "England")) 
+      :op2 (t2 / thence))
+
+# ::snt He was separated many years from his wife and daughter, and doubtless Anna died while her father was far from her; for in a letter dated Quebec, December 0, 0, and written to his wife, he says,
+# ::tok He was separated many years from his wife and daughter , and doubtless Anna died while her father was far from her ; for in a letter dated Quebec , December 0 , 0 , and written to his wife , he says ,
+# ::alignments 42-43|0 41-42|0.0 39-40|0.0.0.1+0.0.0+0.0.0.0 36-37|0.0.0.0.0 35-36|0.0.0.0.0.1 33-34|0.0.0.0.0.2 31-32|0.1.0.1.1.0.0 30-31|0.1.0.1.2.0 28-29|0.0.0.0.0.1.0.1.1+0.0.0.0.0.1.0.1.0.0+0.0.0.0.0.1.0.1.0+0.0.0.0.0.1.0.1 27-28|0.0.0.0.0.1.0 26-27|0.0.0.0.0.1.0.0 22-23|0.1 19-20|0.0.0.0.0.0 17-18|0.1.0.1.0.0.1+0.1.0.1.0.0+0.1.0.1.0.0.0 14-15|0.1.0.1 13-14|0.1.0.1.0.1.0+0.1.0.1.0.1+0.1.0.1.0 12-13|0.1.0.1.2.1+0.1.0.1.2 11-12|0.1.0 9-10|0.1.0.0.0.1+0.1.0.0.0+0.1.0.0 8-9|0.1.0.0.1 7-8|0.1.0.0.1.0.0.0+0.1.0.0.1.0.0+0.1.0.0.1.0 4-5|0.1.0.0.0.0.1+0.1.0.0.0.0 3-4|0.1.0.0.0.0.0 2-3|0.1.0.1.1.0 0-1|0.1.0.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:38.890
+(s / say-01 
+      :ARG0 (h / he 
+            :ARG1-of (h2 / have-rel-role-91 
+                  :ARG0 (p / person 
+                        :ARG2-of (w2 / write-01 
+                              :ARG1 (f / far) 
+                              :op2-of (a / and 
+                                    :op1 (d / date-01 
+                                          :ARG0 (l / letter) 
+                                          :ARG1 (p2 / province 
+                                                :name (n / name 
+                                                      :op1 "Quebec") 
+                                                :wiki "Quebec"))) 
+                              :time 0)) 
+                  :ARG2 (w / wife))) 
+      :ARG1 (a2 / and 
+            :op1 (a3 / and 
+                  :op1 (p5 / person 
+                        :ARG0-of (h4 / have-rel-role-91 
+                              :ARG1 (t / temporal-quantity 
+                                    :op1-of (m / many) 
+                                    :unit (y / year)) 
+                              :ARG2 (d4 / daughter)) 
+                        :op2-of (a4 / and 
+                              :op1 (p6 / person 
+                                    :ARG0-of (h5 / have-rel-role-91 
+                                          :ARG2 (w3 / wife))))) 
+                  :op2 (d2 / die-01 
+                        :ARG0 (p4 / person 
+                              :ARG1-of (h3 / have-rel-role-91 
+                                    :ARG0 (p3 / person) 
+                                    :ARG2 (f2 / father)) 
+                              :name (n2 / name 
+                                    :op1 "Anna")) 
+                        :ARG1 (h6 / he 
+                              :ARG1-of (s2 / separate-01 
+                                    :ARG0 0)) 
+                        :ARG1-of (d3 / doubt-01 
+                              :ARG0 12 
+                              :polarity -)))))
+
+# ::snt "The Visiting Season is come on, a great practice here about Christmas and the New Year; on the return of which I congratulate my Dearest Anna and Friends with you, it being the fifth and I hope the last I shall be obliged to see the return of in a Separation from each other while we may continue upon the same Globe."
+# ::tok " The Visiting Season is come on , a great practice here about Christmas and the New Year ; on the return of which I congratulate my Dearest Anna and Friends with you , it being the fifth and I hope the last I shall be obliged to see the return of in a Separation from each other while we may continue upon the same Globe . "
+# ::alignments 65-66|0.1.1.1.2.1.1.0+0.1.1.1.2.1.1+0.1.1.1.2.1 64-65|0.1.1.1.2.1.0 61-62|0.1.1.1.2 60-61|0.1.1.1.2.2 59-60|0.1.1.1.2.0 57-58|0.1.1.1.0.0.0.0 56-57|0.1.1.1.0.0.0 54-55|0.1.1.0 50-51|0.1.1 48-49|0.1.1.1 46-47|0.1.1.1.1 43-44|0.1.1.1.1.0 42-43|0.1.1.1.1.0.0 40-41|0.1.1.1.0.0 39-40|0.1.1.1.0 38-39|0.1.1.1.0.0.1 37-38|0.1.1.1.0.0.1.0 32-33|0.1.3.1 30-31|0.0.0.1+0.0.0+0.0.0.0 29-30|0.1.4 28-29|0.1.3.0+0.1.3+0.1 27-28|0.1.2.0.0+0.1.2.0+0.1.2 25-26|0 24-25|0.0 21-22|0.2 18-19|0.1.1.1.2.2.0 16-18|0.1.0.0.1.1.1.0.1+0.1.0.0.1.1.1.0.0+0.1.0.0.1.1.1.0+0.1.0.0.1.1.1 14-15|0.1.0.0.1.1 13-14|0.1.0.0.1.1.0.1+0.1.0.0.1.1.0.0.0+0.1.0.0.1.1.0.0+0.1.0.0.1.1.0 11-12|0.1.0.0.0.0 10-11|0.1.0.0.1 9-10|0.1.0.0.1.0 5-6|0.1.0.0.0 3-4|0.1.0.0 2-3|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:43.190
+(c2 / congratulate-01 
+      :ARG0 (i3 / i 
+            :ARG1-of (h2 / have-rel-role-91 
+                  :ARG0 (p2 / person) 
+                  :ARG2 (f2 / friend))) 
+      :ARG1 (p3 / person 
+            :ARG0-of (v / visit-01 
+                  :ARG1 (s4 / season-01 
+                        :ARG1-of (c3 / come-01 
+                              :location (h3 / here)) 
+                        :ARG1-of (p4 / practice-01 
+                              :mod (g / great) 
+                              :topic (a4 / and 
+                                    :op1 (f4 / festival 
+                                          :name (n5 / name 
+                                                :op1 "Christmas") 
+                                          :wiki "Christmas") 
+                                    :op2 (f3 / festival 
+                                          :name (n4 / name 
+                                                :op1 "New" 
+                                                :op2 "Year")))))) 
+            :ARG1-of (r / return-01 
+                  :ARG0 (s2 / separation) 
+                  :ARG1-of (s3 / see-01 
+                        :ARG0 (i2 / i 
+                              :ARG0-of (h / hope-01 
+                                    :ARG1 (e / each 
+                                          :mod-of (o2 / other)) 
+                                    :op2-of (a / and 
+                                          :op1 (f / fifth)))) 
+                        :ARG2-of (o3 / oblige-02 
+                              :ARG1 (i / i 
+                                    :mod (l / last))) 
+                        :condition (c / continue-01 
+                              :ARG0 (w / we) 
+                              :ARG1 (o / organization 
+                                    :ARG1-of (s / same-01) 
+                                    :name (n / name 
+                                          :op1 "Globe.")) 
+                              :ARG1-of (p / possible-01 
+                                    :op1-of (a3 / and))))) 
+            :mod (o4 / organization 
+                  :name (n3 / name 
+                        :op1 "Dearest")) 
+            :name (n2 / name 
+                  :op1 "Anna" 
+                  :poss (y / you)) 
+            :op1-of (a2 / and)) 
+      :beneficiary (r2 / return-01))
+
+# ::snt She shortly after joined him in Quebec.
+# ::tok She shortly after joined him in Quebec .
+# ::alignments 6-7|0.1.1+0.1.0.0+0.1.0+0.1 3-4|0 2-3|0.2 1-2|0.2.0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:43.250
+(j / join-01 
+      :ARG1 (s2 / she) 
+      :manner (p / province 
+            :name (n / name 
+                  :op1 "Quebec") 
+            :wiki "Quebec") 
+      :op1-of (a / after 
+            :quant (s / short)))
+
+# ::snt His letters show careful preparations for her comfort on the voyage.
+# ::tok His letters show careful preparations for her comfort on the voyage .
+# ::alignments 10-11|0.1.0.0 7-8|0.1.0 4-5|0.1 3-4|0.1.1 2-3|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:43.280
+(s / show-01 
+      :ARG0 (l / letter 
+            :poss (h / he)) 
+      :ARG1 (p / prepare-02 
+            :ARG1 (c / comfort-01 
+                  :ARG1 (v / voyage-01)) 
+            :ARG1-of (c2 / care-04)))
+
+# ::snt They then were childless; Anna's brothers, George Scott and John Henry, died in early youth.
+# ::tok They then were childless ; Anna 's brothers , George Scott and John Henry , died in early youth .
+# ::alignments 18-19|0.0.0 17-18|0.0.0.0 15-16|0.0 12-14|0.3.0.1+0.3.0.0+0.3.0+0.3 11-12|0 9-11|0.2.0.1+0.2.0.0+0.2.0+0.2 7-8|0.1.2+0.1 5-6|0.1.0.0.0+0.1.0.0+0.1.0 4-5|0.1.0.1 3-4|0.1.1.0 1-2|0.0.0.0.0 0-1|0.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:43.715
+(a / and 
+      :ARG1-of (d / die-01 
+            :location (y / youth 
+                  :mod (e / early 
+                        :mod-of (t / then)))) 
+      :op1 (h / have-rel-role-91 
+            :ARG0 (p3 / person 
+                  :name (n3 / name 
+                        :op1 "Anna's") 
+                  :op1-of (a2 / and)) 
+            :ARG1 (t2 / they 
+                  :poss-of (c / childles)) 
+            :ARG2 (b / brother)) 
+      :op2 (p2 / person 
+            :name (n2 / name 
+                  :op1 "George" 
+                  :op2 "Scott")) 
+      :op3 (p / person 
+            :name (n / name 
+                  :op1 "John" 
+                  :op2 "Henry,")))
+
+# ::snt It is interesting to note that Joshua Winslow was the first of the Winslows to give his children more than one baptismal name.
+# ::tok It is interesting to note that Joshua Winslow was the first of the Winslows to give his children more than one baptismal name .
+# ::alignments 22-23|0.2.1.1 21-22|0.0 18-19|0.2.1.1.0 17-18|0.2.1.2 15-16|0.2.1 13-14|0.2.0 6-8|0.2.1.0.0.1+0.2.1.0.0.0+0.2.1.0.0+0.2.1.0 4-5|0.2 2-3|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:44.213
+(i / interest-01 
+      :ARG0 (b / baptismal) 
+      :ARG1 (i2 / it) 
+      :ARG2 (n3 / note-01 
+            :ARG0 (w / winslow) 
+            :ARG1 (g / give-01 
+                  :ARG0 (p / person 
+                        :name (n2 / name 
+                              :op1 "Joshua" 
+                              :op2 "Winslow")) 
+                  :ARG1 (n / name 
+                        :quant (m / more)) 
+                  :ARG2 (c / child))))
+
+# ::snt Joshua Winslow was a man of much dignity and of handsome person, if we can trust the Copley portrait and miniature of him which still exist.
+# ::tok Joshua Winslow was a man of much dignity and of handsome person , if we can trust the Copley portrait and miniature of him which still exist .
+# ::alignments 26-27|0.1.1.1.0 25-26|0.1.1.1.0.1 21-22|0.1.2 20-21|0.1 19-20|0.1.1.1 18-19|0.1.1.1.1.0.0+0.1.1.1.1.0+0.1.1.1.1 16-17|0.1.1 15-16|0.1.0 14-15|0.1.1.0 11-12|0.0 10-11|0.0.0 8-9|0 7-8|0.1.1.1.0.0.1 6-7|0.1.1.1.0.0.1.0 4-5|0.1.1.1.0.0 0-2|0.1.1.1.0.0.0.0.1+0.1.1.1.0.0.0.0.0+0.1.1.1.0.0.0.0+0.1.1.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:44.675
+(a2 / and 
+      :op1 (p3 / person 
+            :mod (h / handsome)) 
+      :op1-of (a / and 
+            :ARG1-of (p2 / possible-01) 
+            :ARG1-of (t / trust-01 
+                  :ARG0 (w / we) 
+                  :ARG2 (p / portrait 
+                        :ARG1-of (e / exist-01 
+                              :ARG0 (m3 / man 
+                                    :domain (p4 / person 
+                                          :name (n2 / name 
+                                                :op1 "Joshua" 
+                                                :op2 "Winslow")) 
+                                    :quant-of (d / dignity 
+                                          :quant (m2 / much))) 
+                              :mod (s / still)) 
+                        :mod (o / organization 
+                              :name (n / name 
+                                    :op1 "Copley")))) 
+            :op2 (m / miniature)))
+
+# ::snt The portrait is owned by Mr. James F. Trott of Niagara Falls, New York, the miniature by Mrs. J. F. Lindsey of Yorkville, South Carolina, both grandchildren of General John Winslow.
+# ::tok The portrait is owned by Mr. James F. Trott of Niagara Falls , New York , the miniature by Mrs. J. F. Lindsey of Yorkville , South Carolina , both grandchildren of General John Winslow .
+# ::alignments 33-35|0.0.0.0.0.0.1.2+0.0.0.0.0.0.1.1+0.0.0.0.0.0.1+0.0.0.0.0.0 32-33|0.0.0.0.0.0.1.0 30-31|0.0.0.0.0.1+0.0.0.0.0+0.0.0.0 29-30|0.0.0.2 26-28|0.0.0.0.0.0.1.0.0.0.1+0.0.0.0.0.0.1.0.0.0.0+0.0.0.0.0.0.1.0.0.0+0.0.0.0.0.0.1.0.0 24-25|0.0.0.1.0+0.0.0.1+0.0.0 20-23|0.0.1.2+0.0.1.1+0.0.1.0+0.0.1+0.0 19-20|0 17-18|0.0.0.3 13-15|0.0.0.3.0.1+0.0.0.3.0.0.1+0.0.0.3.0.0.0+0.0.0.3.0.0+0.0.0.3.0 10-12|0.0.0.0.0.0.0.1.0.1+0.0.0.0.0.0.0.1.0.0+0.0.0.0.0.0.0.1.0+0.0.0.0.0.0.0.1 6-9|0.0.0.0.0.0.0.3.2+0.0.0.0.0.0.0.3.1+0.0.0.0.0.0.0.3.0+0.0.0.0.0.0.0.3+0.0.0.0.0.0.0 5-6|0.0.0.0.0.0.0.2 3-4|0.0.0.0.0.0.0.0 1-2|0.0.0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:46.975
+(m / mrs. 
+      :mod-of (p3 / person 
+            :location (c2 / country 
+                  :mod-of (p2 / person 
+                        :ARG0-of (h / have-rel-role-91 
+                              :ARG1 (p / person 
+                                    :domain (p4 / person 
+                                          :ARG0-of (o / own-01 
+                                                :ARG1 (p5 / portrait)) 
+                                          :mod (c4 / country 
+                                                :name (n6 / name 
+                                                      :op1 "Niagara" 
+                                                      :op2 "Falls,")) 
+                                          :mod (m3 / mr.) 
+                                          :name (n7 / name 
+                                                :op1 "James" 
+                                                :op2 "F." 
+                                                :op3 "Trott")) 
+                                    :name (n / name 
+                                          :name-of (g / general 
+                                                :op1-of (c / country 
+                                                      :name (n2 / name 
+                                                            :op1 "South" 
+                                                            :op2 "Carolina,"))) 
+                                          :op1 "John" 
+                                          :op2 "Winslow.")) 
+                              :ARG2 (g2 / grandchild))) 
+                  :name (n3 / name 
+                        :op1 "Yorkville,") 
+                  :op1-of (b / both) 
+                  :poss-of (m2 / miniature 
+                        :mod-of (c3 / city 
+                              :name (n5 / name 
+                                    :op1 "New" 
+                                    :op2 "York") 
+                              :wiki "New_York_City"))) 
+            :name (n4 / name 
+                  :op1 "J." 
+                  :op2 "F." 
+                  :op3 "Lindsey")))
+
+# ::snt His letters display much intelligence.
+# ::tok His letters display much intelligence .
+# ::alignments 4-5|0.0.0 3-4|0.0.0.0 2-3|0.0 1-2|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:46.989
+(l / letter 
+      :ARG0-of (d / display-01 
+            :ARG1 (i / intelligence 
+                  :quant (m / much))) 
+      :poss (h / he))
+
+# ::snt His spelling is unusually correct; his penmanship elegant--as was that of all the Winslows; his forms of expression scholarly and careful.
+# ::tok His spelling is unusually correct ; his penmanship elegant -- as was that of all the Winslows ; his forms of expression scholarly and careful .
+# ::alignments 24-25|0.1.2 23-24|0.1 22-23|0.1.0 21-22|0 19-20|0.2 16-17|0.1.2.0.1.0 14-15|0.1.2.0.1 12-13|0.0.0 8-9|0.0.1 7-8|0.0 5-6|0.1.1 4-5|0.1.2.0.2 3-4|0.1.2.0.2.0.0+0.1.2.0.2.0 1-2|0.1.2.0 0-1|0.1.2.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:47.198
+(e / express-01 
+      :ARG0 (p / penmanship 
+            :domain (t / that) 
+            :mod (e2 / elegant)) 
+      :ARG1 (a / and 
+            :op1 (s / scholarly) 
+            :op1-of (a3 / and) 
+            :op2 (c / care-04 
+                  :ARG1 (s2 / spell-01 
+                        :ARG0 (h / he) 
+                        :ARG1 (a2 / all 
+                              :mod-of (w / winslow)) 
+                        :ARG1-of (c2 / correct-02 
+                              :manner (u / usual 
+                                    :polarity -))))) 
+      :mod (f / form))
+
+# ::snt He sometimes could joke a little, as when he began his letters to his wife Anna thus--0.
+# ::tok He sometimes could joke a little , as when he began his letters to his wife Anna thus -- 0 .
+# ::alignments 19-20|0.0 17-18|0.1.1.2 15-16|0.1.1.0.0.1+0.1.1.0.0+0.1.1.0.0.0 12-13|0.1.1.1 10-11|0.1.1 9-10|0.1.1.0 5-6|0.1.3 3-4|0.1 2-3|0 1-2|0.1.2 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:47.392
+(p2 / possible-01 
+      :ARG0 0 
+      :ARG1 (j / joke-01 
+            :ARG0 (h3 / he) 
+            :ARG1 (b / begin-01 
+                  :ARG0 (h2 / he 
+                        :ARG1-of (h / have-rel-role-91 
+                              :ARG0 (p / person) 
+                              :ARG2 (w / wife))) 
+                  :ARG1 (l / letter) 
+                  :time (t / thus-far)) 
+            :frequency (s / sometimes) 
+            :quant (l2 / little)))
+
+# ::snt N. A.--though it is possible that the "Obstructions to a free Correspondence, and the Circumspection we are obliged to practice in our Converse with each other" arising from his exiled condition, may have made him thus use a rebus in the address of his letter.
+# ::tok N. A. -- though it is possible that the " Obstructions to a free Correspondence , and the Circumspection we are obliged to practice in our Converse with each other " arising from his exiled condition , may have made him thus use a rebus in the address of his letter .
+# ::alignments 50-51|0.4.2.0 47-48|0.4.2 44-45|0.4.1 42-43|0.4 41-42|0.4.3 37-38|0.0 35-36|0.2.0.0.0 34-35|0.2.0.0 31-32|0.2.0.0.0.0 29-30|0.4.0.0 28-29|0.4.0 26-27|0.3.1.1 25-26|0.3.1.1.0 23-24|0.3.1 21-22|0.3 19-20|0.3.0 18-19|0.3.1.0 16-17|0 14-15|0.2 13-14|0.2.0 10-11|0.1.0 6-7|0.1 0-4|0.1.1.0.1+0.1.1.0.0+0.1.1.0+0.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:48.866
+(a3 / and 
+      :ARG1-of (p / possible-01) 
+      :op1 (p3 / possible-01 
+            :ARG0 (o3 / obstruction) 
+            :ARG1 (p4 / person 
+                  :name (n / name 
+                        :op1 "N." 
+                        :op2 "A.--though"))) 
+      :op2 (c4 / correspondence 
+            :ARG1-of (f / free-04 
+                  :ARG2-of (e / exile-01 
+                        :ARG1 (c / condition 
+                              :ARG2-of (a2 / arise-01))))) 
+      :op3 (o2 / oblige-02 
+            :ARG1 (w2 / we) 
+            :ARG2 (p2 / practice-01 
+                  :ARG1 (c3 / circumspection) 
+                  :time (c2 / converse-01 
+                        :ARG0 (w / we)) 
+                  :ARG0 w2)) 
+      :op4 (u / use-01 
+            :ARG0 (e2 / each 
+                  :mod-of (o / other)) 
+            :ARG1 (r / rebu) 
+            :ARG2 (a / address 
+                  :poss (l / letter)) 
+            :time (t / thus-far)))
+
+# ::snt He died in Quebec in 0.
+# ::tok He died in Quebec in 0 .
+# ::alignments 5-6|0.2 3-4|0.1.1+0.1.0.0+0.1.0+0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:48.882
+(d / die-01 
+      :ARG1 (h / he) 
+      :location (p / province 
+            :name (n / name 
+                  :op1 "Quebec") 
+            :wiki "Quebec") 
+      :time 0)
+
+# ::snt His wife returned to New England and died in Medford in 0.
+# ::tok His wife returned to New England and died in Medford in 0 .
+# ::alignments 11-12|0.1.1 9-10|0.1.0.0.0+0.1.0.0+0.1.0 7-8|0.1 6-7|0 5-6|0.0.1.1+0.0.1.0.0+0.0.1.0+0.0.1 2-3|0.0 1-2|0.0.0.0.1+0.0.0.0+0.0.0 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:48.950
+(a / and 
+      :op1 (r / return-01 
+            :ARG1 (p / person 
+                  :ARG0-of (h / have-rel-role-91 
+                        :ARG1 (h2 / he) 
+                        :ARG2 (w / wife))) 
+            :ARG4 (c2 / country 
+                  :name (n2 / name 
+                        :op1 "England") 
+                  :wiki "England")) 
+      :op2 (d / die-01 
+            :location (c / country 
+                  :name (n / name 
+                        :op1 "Medford")) 
+            :time 0))
+
+# ::snt Her funeral was at General John Winslow's house on Purchase Street, Fort Hill, Boston; she was buried in the Winslow tomb in King's Chapel burial ground.
+# ::tok Her funeral was at General John Winslow 's house on Purchase Street , Fort Hill , Boston ; she was buried in the Winslow tomb in King 's Chapel burial ground .
+# ::alignments 30-31|0.0.0.2.2 29-30|0.0.0.0 28-29|0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 26-27|0.0.0.2.2.0.1+0.0.0.2.2.0 24-25|0.0.0 20-21|0.0.0.2 18-19|0.0.0.2.1 17-18|0.0.0.2.3 16-17|0.0.0.2.3.0.1+0.0.0.2.3.0.0.0+0.0.0.2.3.0.0+0.0.0.2.3.0 13-15|0.0.0.2.0.0.1+0.0.0.2.0.0.0+0.0.0.2.0.0+0.0.0.2.0 10-12|0.0.0.3.0.1+0.0.0.3.0.0+0.0.0.3.0+0.0.0.3 8-9|0.0.0.2.2.0.0.1 5-7|0.0.0.2.2.0.0.0.2+0.0.0.2.2.0.0.0.1+0.0.0.2.2.0.0.0+0.0.0.2.2.0.0 4-5|0.0.0.2.2.0.0.0.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:50.598
+(f / funeral 
+      :part-of (s2 / she 
+            :op1 (t / tomb-01 
+                  :ARG0 (b / burial) 
+                  :ARG1 (c / country 
+                        :name (n / name 
+                              :op1 "Chapel")) 
+                  :ARG2-of (b2 / bury-01 
+                        :ARG0 (c3 / country 
+                              :name (n3 / name 
+                                    :op1 "Fort" 
+                                    :op2 "Hill,")) 
+                        :ARG1 (s / she) 
+                        :location (g / ground 
+                              :ARG3-of (h / have-org-role-91 
+                                    :ARG0 (p / person 
+                                          :name (n5 / name 
+                                                :name-of (g2 / general) 
+                                                :op1 "John" 
+                                                :op2 "Winslow's") 
+                                          :poss-of (h2 / house)) 
+                                    :ARG2 (k / king))) 
+                        :op1-of (a / and 
+                              :example-of (c2 / city 
+                                    :name (n2 / name 
+                                          :op1 "Boston") 
+                                    :wiki "Boston"))) 
+                  :op1-of (c4 / country 
+                        :name (n4 / name 
+                              :op1 "Purchase" 
+                              :op2 "Street,")))))
+
+# ::snt We know little of the last years of Anna Green Winslow's life.
+# ::tok We know little of the last years of Anna Green Winslow 's life .
+# ::alignments 12-13|0.2 8-11|0.2.1.0.2+0.2.1.0.1+0.2.1.0.0+0.2.1.0+0.2.1 6-7|0.2.0.0+0.2.0 5-6|0.2.0.0.0 2-3|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:50.725
+(k / know-01 
+      :ARG0 (w / we) 
+      :ARG1 (l3 / little) 
+      :ARG2 (l / life 
+            :part (t / temporal-quantity 
+                  :unit (y / year 
+                        :mod (l2 / last))) 
+            :poss (p / person 
+                  :name (n / name 
+                        :op1 "Anna" 
+                        :op2 "Green" 
+                        :op3 "Winslow's"))))
+
+# ::snt A journal written by her mother in 0 during their life in Marshfield is now owned by Miss Sarah Thomas of Marshfield, Mass.
+# ::tok A journal written by her mother in 0 during their life in Marshfield is now owned by Miss Sarah Thomas of Marshfield , Mass.
+# ::alignments 18-20|0.1.0.0.0.1+0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 17-18|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 15-16|0.1.0 14-15|0.1.0.1 12-13|0.2.0.0.0+0.2.0.0+0.2.0 10-11|0.2 7-8|0.3 5-6|0.0.0.1+0.0.0+0.0 2-3|0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:51.089
+(w / write-01 
+      :ARG0 (p3 / person 
+            :ARG0-of (h / have-rel-role-91 
+                  :ARG1 (p2 / person 
+                        :name (n2 / name 
+                              :op1 "Miss")) 
+                  :ARG2 (m / mother))) 
+      :ARG1 (j / journal 
+            :ARG1-of (o / own-01 
+                  :ARG0 (p / person 
+                        :name (n / name 
+                              :op1 "Sarah" 
+                              :op2 "Thomas")) 
+                  :time (n3 / now))) 
+      :time (l / life 
+            :location (c / country 
+                  :name (n4 / name 
+                        :op1 "Marshfield"))) 
+      :time 0)
+
+# ::snt It is filled chiefly with pious sermon notes and religious thoughts, and sad and anxious reflections over absent loved ones, one of whom (in the sentimental fashion of the times) she calls "my Myron"--her husband.
+# ::tok It is filled chiefly with pious sermon notes and religious thoughts , and sad and anxious reflections over absent loved ones , one of whom ( in the sentimental fashion of the times ) she calls " my Myron " -- her husband .
+# ::alignments 42-43|0.2.2.0.0.1+0.2.2.0.0+0.2.2.0.0.0 38-39|0.2.2.1.0.0+0.2.2.1.0+0.2.2.1 35-36|0.2.2 34-35|0.2.2.0 31-33|0.2.1.0.0.0.0.2+0.2.1.0.0.0.0.1.1+0.2.1.0.0.0.0.1.0+0.2.1.0.0.0.0.1+0.2.1.0.0.0.0 29-30|0.2.1.0.0.0.0.0 28-29|0.2.2.0.1 20-21|0.2.1 19-20|0.2.1.0 18-19|0.2.1.0.1 16-17|0.2.1.0.0.2 15-16|0.2.1.0.0.1 14-15|0.2.1.0.0 13-14|0.2.1.0.0.0 12-13|0.2 10-11|0.2.0.0+0.2.0 9-10|0.2.0.0.0 8-9|0.2.1.0.2 7-8|0.2.1.0.2.0 6-7|0.2.1.0.2.0.0 5-6|0.2.1.0.2.0.1 3-4|0.1 2-3|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:52.575
+(f2 / fill-01 
+      :ARG1 (i / it) 
+      :manner (c2 / chief) 
+      :op1-of (a4 / and 
+            :op2 (t / thing 
+                  :ARG1-of (t2 / think-01 
+                        :mod (r2 / religion))) 
+            :op3 (o / one 
+                  :ARG1-of (l / love-01 
+                        :ARG0 (a3 / and 
+                              :op1 (s3 / sad-02 
+                                    :ARG1 (n2 / newspaper 
+                                          :mod-of (f / fashion) 
+                                          :name (n3 / name 
+                                                :op1 "The" 
+                                                :op2 "Times") 
+                                          :wiki "Los_Angeles_Times")) 
+                              :op2 (a2 / anxious) 
+                              :op3 (r / reflection)) 
+                        :ARG1-of (a / absent-01) 
+                        :op2-of (a5 / and 
+                              :op1 (n4 / note 
+                                    :mod (s4 / sermon) 
+                                    :mod (p3 / piou))))) 
+            :op4 (c / call-03 
+                  :ARG0 (s / she 
+                        :ARG1-of (h / have-rel-role-91 
+                              :ARG0 (p / person) 
+                              :ARG2 (h2 / husband)) 
+                        :domain-of (s2 / sentimental)) 
+                  :ARG2 (p2 / person 
+                        :name (n / name 
+                              :op1 "Myron--her")))))
+
+# ::snt Through this journal we see "Nanny Green's" simple and monotonous daily life; her little tea-drinkings; her spinning and reeling and knitting; her frequent catechisings, her country walks.
+# ::tok Through this journal we see " Nanny Green 's " simple and monotonous daily life ; her little tea - drinkings ; her spinning and reeling and knitting ; her frequent catechisings , her country walks .
+# ::alignments 35-36|0.1.0 34-35|0.1.0.0 31-32|0.3 30-31|0.3.0 27-28|0.1.3.0.1.0 26-27|0.1.3.0.1 25-26|0.1.3 24-25|0.1.3.0 23-24|0.1.3.0.0 20-21|0.1.2 18-19|0.1.1 17-18|0.1.1.0 16-17|0.1.3.0.1.0.0 15-16|0.1 14-15|0.2 11-12|0 10-11|0.0.1 7-8|0.0.1.0.0.0+0.0.1.0.0+0.0.1.0 6-7|0.0.1.0.1 4-5|0.0 3-4|0.0.0 2-3|0.0.2.0 1-2|0.0.2.0.0 0-1|0.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:53.560
+(a4 / and 
+      :op1 (s4 / see-01 
+            :ARG0 (w2 / we) 
+            :ARG1 (s3 / simple-02 
+                  :ARG0 (p / political-party 
+                        :name (n / name 
+                              :op1 "Green") 
+                        :poss (n2 / nanny))) 
+            :time (t3 / through 
+                  :op1 (j / journal 
+                        :mod (t2 / this)))) 
+      :op1-of (a3 / and 
+            :ARG0-of (w / walk-01 
+                  :ARG1 (c / country)) 
+            :op2 (t / tea 
+                  :mod (l / little)) 
+            :op3 (d / drinking) 
+            :op4 (r / reel-01 
+                  :op2-of (a2 / and 
+                        :op1 (s / spin-01) 
+                        :op3 (a / and 
+                              :op1 (k / knit-01 
+                                    :ARG1 (s2 / she)))))) 
+      :op2 (l2 / life) 
+      :op3 (c2 / catechising 
+            :ARG1-of (f / frequent-02)))
+
+# ::snt We find her mother's testimony to the "appearance of reason that is in my children and for the readiness with which they seem to learn what is taught them."
+# ::tok We find her mother 's testimony to the " appearance of reason that is in my children and for the readiness with which they seem to learn what is taught them . "
+# ::alignments 29-30|0.0.1 26-27|0.0 24-25|0 23-24|0.0.0 20-21|0.1 17-18|0.1.0 16-17|0.1.0.1 11-12|0.1.0.0.0.0.0 9-10|0.1.0.0.0.0 5-6|0.1.0.0.0 3-4|0.1.0.0.1.0+0.1.0.0.1+0.1.0.0 1-2|0.1.0.0.0.1 0-1|0.1.0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:54.088
+(s / seem-01 
+      :ARG0 (l / learn-01 
+            :ARG0 (t2 / they) 
+            :ARG1 (t / teach-01)) 
+      :ARG1 (r / ready-02 
+            :op3-of (a / and 
+                  :op1 (p / person 
+                        :ARG0-of (t3 / testify-01 
+                              :ARG1 (a2 / appear-01 
+                                    :ARG1 (r2 / reason)) 
+                              :ARG1-of (f / find-01 
+                                    :ARG0 (w / we))) 
+                        :ARG0-of (h / have-rel-role-91 
+                              :ARG2 (m / mother))) 
+                  :op2 (c / child))))
+
+# ::snt And though she repeatedly thanks God for living in a warm house, she notes that "my bason of water froze on the hearth with as good a fire as we could make in the chimney."
+# ::tok And though she repeatedly thanks God for living in a warm house , she notes that " my bason of water froze on the hearth with as good a fire as we could make in the chimney . "
+# ::alignments 36-37|0.1.0.0 32-33|0.2.0 31-32|0.1.0 29-30|0.1.1.0 27-28|0.1.1.0.0 24-25|0.1.2 21-22|0.1 20-21|0.1.1.1 18-19|0.1.1 14-15|0 11-12|0.0.0.2.0 10-11|0.0.0.2.0.0 7-8|0.0.0.2 5-6|0.0.0.0.1+0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 4-5|0.0.0 3-4|0.0.0.1 2-3|0.0 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:55.161
+(n / note-01 
+      :ARG0 (s / she 
+            :ARG0-of (t / thank-01 
+                  :ARG1 (p2 / person 
+                        :name (n2 / name 
+                              :op1 "God") 
+                        :wiki "God") 
+                  :ARG1-of (r / repeat-01) 
+                  :ARG2 (l / live-01 
+                        :location (h2 / house 
+                              :ARG1-of (w3 / warm-07))))) 
+      :ARG1 (f2 / freeze-02 
+            :ARG0 (w / we 
+                  :poss-of (c / chimney)) 
+            :ARG1 (b / bason 
+                  :ARG0-of (f / fire-01 
+                        :domain-of (g / good)) 
+                  :quant-of (w2 / water)) 
+            :ARG2 (h / hearth)) 
+      :op1-of (a / and 
+            :ARG1-of (p / possible-01)))
+
+# ::snt This rigor of climate and discomfort of residence, and Anna's evident delicacy shown through the records of her fainting, account for her failing health.
+# ::tok This rigor of climate and discomfort of residence , and Anna 's evident delicacy shown through the records of her fainting , account for her failing health .
+# ::alignments 26-27|0.1.1.2.0.0 25-26|0.1.1.2.0.0.0 22-23|0.1.1.2.0 20-21|0.0.0 17-18|0.0 14-15|0 13-14|0.1 12-13|0.1.0 10-11|0.1.2.0.0+0.1.2.0+0.1.2 9-10|0.1.1 7-8|0.1.1.1 5-6|0.1.1.2.2 4-5|0.1.1.2 3-4|0.1.1.0 1-2|0.1.1.2.1 0-1|0.1.1.2.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:55.453
+(s / show-01 
+      :ARG0 (r / record 
+            :topic (f2 / faint-01)) 
+      :ARG1 (d / delicacy 
+            :mod (e / evident) 
+            :op3-of (a2 / and 
+                  :op1 (c / climate) 
+                  :op2 (r2 / reside-01) 
+                  :op3-of (a3 / and 
+                        :ARG0-of (a / account-01 
+                              :ARG1 (h / health 
+                                    :ARG1-of (f / fail-01))) 
+                        :op1 (r3 / rigor 
+                              :mod (t / this)) 
+                        :op2 (d2 / discomfort))) 
+            :poss (p / person 
+                  :name (n / name 
+                        :op1 "Anna's"))))
+
+# ::snt The last definite glimpse which we have of our gentle little Nanny is in the shape of a letter written to her by "Aunt Deming."
+# ::tok The last definite glimpse which we have of our gentle little Nanny is in the shape of a letter written to her by " Aunt Deming . "
+# ::alignments 24-26|0.0.0.0.0.0.1.0.1+0.0.0.0.0.0.1.0.0+0.0.0.0.0.0.1.0+0.0.0.0.0.0.1 21-22|0.0.0.0.0.0.0 19-20|0.0.0.0.0.0 18-19|0.0.0.0.0 15-16|0.0.0.0 11-12|0 10-11|0.1 9-10|0.0 8-9|0.2 5-6|0.0.0 3-4|0.0.0.1 2-3|0.0.0.1.1 1-2|0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:55.841
+(n2 / nanny 
+      :ARG1-of (g / gentle-01 
+            :ARG0 (w3 / we 
+                  :ARG0-of (s2 / shape-01 
+                        :ARG2 (l / letter 
+                              :ARG1-of (w / write-01 
+                                    :ARG0 (s / she) 
+                                    :medium (t / thing 
+                                          :name (n / name 
+                                                :op1 (a / Aunt) 
+                                                :op2 (d / Deming)))))) 
+                  :ARG1-of (g2 / glimpse-01 
+                        :mod (l3 / last) 
+                        :mod (d2 / definite)))) 
+      :mod (l2 / little) 
+      :poss (w2 / we))
+
+# ::snt It is dated Boston, April 0, 0, and is so characteristic of the day and so amusing also that I quote it in full.
+# ::tok It is dated Boston , April 0 , 0 , and is so characteristic of the day and so amusing also that I quote it in full .
+# ::alignments 26-27|0.1.0.0.1 23-24|0.1.0.0 22-23|0.1.0 20-21|0.1.3.0 19-20|0.1.3.1 17-18|0.1.3 16-17|0.1.1 13-14|0.1 10-11|0 8-9|0.1.0.0.0 6-7|0.1.3.1.1 5-6|0.1.3.1.0 3-4|0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 2-3|0.0 0-1|0.1.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:56.869
+(a4 / and 
+      :op1 (d2 / date-01 
+            :ARG1 (c2 / city 
+                  :name (n / name 
+                        :op1 "Boston") 
+                  :wiki "Boston")) 
+      :op2 (c / characteristic-02 
+            :ARG0 (i / i 
+                  :ARG0-of (q / quote-01 
+                        :ARG1 0 
+                        :ARG2 (f / full))) 
+            :ARG1 (d / day) 
+            :ARG2 (i2 / it) 
+            :op1-of (a3 / and 
+                  :mod (a / also) 
+                  :op2 (a2 / amuse-01 
+                        :ARG0 4 
+                        :ARG1 0))))
+
+# ::snt Dear Neice,
+# ::tok Dear Neice ,
+# ::alignments 0-2|0.0.1+0.0.0+0.0+0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:56.874
+(p / person 
+      :name (n / name 
+            :op1 "Dear" 
+            :op2 "Neice,"))
+
+# ::snt I receivd your favor of 0th instant by nephew Jack, who with the Col. his trav'ling companion, perform'd an easy journey from you to us, and arriv'd before sunset.
+# ::tok I receivd your favor of 0th instant by nephew Jack , who with the Col . his trav'ling companion , perform 'd an easy journey from you to us , and arriv 'd before sunset .
+# ::alignments 34-35|0.1 33-34|0.1.0 30-31|0 26-27|0.0.3.0.0.0.0 24-25|0.0.3.0.0.0 23-24|0.0.3.0.0.0.1 20-21|0.0.3.0 18-19|0.0.2 17-18|0.0.3.0.0 14-16|0.0.3.0.1.0.0+0.0.3.0.1.0+0.0.3.0.1 8-10|0.0.3.1.1+0.0.3.1.0+0.0.3.1+0.0.3 6-7|0.0.1 3-4|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:10:57.739
+(a / and 
+      :op1 (f / favor-01 
+            :ARG0 (i2 / i) 
+            :ARG1 (i / instant) 
+            :ARG2 (c / companion) 
+            :manner (t2 / thing 
+                  :ARG1-of (p / perform-02 
+                        :ARG0 (t / trav'l 
+                              :ARG0-of (j / journey-01 
+                                    :ARG1 (y / you) 
+                                    :ARG1-of (e / easy-05))) 
+                        :ARG2 (c2 / country 
+                              :name (n / name 
+                                    :op1 "Col."))) 
+                  :name (n2 / name 
+                        :op1 (n3 / nephew) 
+                        :op2 (j2 / Jack)))) 
+      :op2 (s / sunset 
+            :time (b / before)))
+
+# ::snt I thank you for the beads, the wire, and the beugles, I fancy I shall never execute the plan of the head dress to which you allude--if I should, some of your largest corn stalks, dril'd of the pith and painted might be more proportionable.
+# ::tok I thank you for the beads , the wire , and the beugles , I fancy I shall never execute the plan of the head dress to which you allude -- if I should , some of your largest corn stalks , dril 'd of the pith and painted might be more proportionable .
+# ::alignments 52-53|0.3 51-52|0.3.1 49-50|0.3.0 48-49|0.2 47-48|0 46-47|0.2.0 40-41|0.1.0.0 39-40|0.1.0.0.0 38-39|0.1.0.0.0.0.0+0.1.0.0.0.0 35-36|0.1.0.0.0.1 33-34|0.1 32-33|0.1.0 29-30|0.0 28-29|0.0.0 25-26|0.0.0.0.0 24-25|0.0.0.0.0.0 21-22|0.0.0.0 19-20|0.0.0.0.1 16-17|0.0.0.0.1.0 15-16|0.0.0.0.1.1 14-15|0.0.0.0.1.1.0 12-13|0.0.0.0.1.1.0.0.0.2.1 10-11|0.0.0.0.1.1.0.0.0.2 8-9|0.0.0.0.1.1.0.0.0.2.0 5-6|0.0.0.0.1.1.0.0 2-3|0.0.0.0.1.1.0.0.0.1 1-2|0.0.0.0.1.1.0.0.0 0-1|0.0.0.0.1.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:11:03.197
+(a / and 
+      :ARG1-of (a2 / allude-01 
+            :ARG0 (y / you 
+                  :ARG0-of (p5 / plan-01 
+                        :ARG1 (d / dress 
+                              :ARG0-of (h / head-01)) 
+                        :ARG1-of (e / execute-01 
+                              :ARG0 (i2 / i) 
+                              :ARG1-of (f / fancy-01 
+                                    :ARG0 (i3 / i 
+                                          :ARG0-of (b2 / bead-01 
+                                                :ARG2-of (t / thank-01 
+                                                      :ARG0 (i4 / i) 
+                                                      :ARG1 (y2 / you) 
+                                                      :purpose (a3 / and 
+                                                            :op1 (w / wire-01) 
+                                                            :op2 (b / beugl)))))))))) 
+      :ARG1-of (r / recommend-01 
+            :ARG2 (i / i 
+                  :ARG0-of (s / stalk-01 
+                        :ARG1 (c / corn 
+                              :mod (l / large 
+                                    :degree (m2 / most)) 
+                              :quant (s2 / some))))) 
+      :op1 (p3 / paint-01 
+            :ARG1 (p4 / pith-01)) 
+      :op2 (p / proportionable 
+            :ARG1-of (p2 / possible-01) 
+            :degree (m / more)))
+
+# ::snt I rejoice that your cloths came off so much better than my fears--a troublesome journey, I expected you would have; and very much did I fear for your bones.
+# ::tok I rejoice that your cloths came off so much better than my fears -- a troublesome journey , I expected you would have ; and very much did I fear for your bones .
+# ::alignments 32-33|0.0.0.0.0.2.0.0.2 29-30|0.0.0.0.0.2.0.0 28-29|0.0.0.0.0.2.0.0.0 26-27|0.0.0.0.0.2.0.0.1 25-26|0.0.0.0.0.2.0.0.1.0 24-25|0.0.0.0.0.2 23-24|0.0.0.0.0.2.0 20-21|0.0.0.0.0.1 19-20|0.0.0.0.0 18-19|0.0.0.0 16-17|0.0.0 15-16|0.0.0.1 12-13|0 9-10|0.0 8-9|0.0.0.0.0.0.0.0.0 5-6|0.0.0.0.0.0.0.0 4-5|0.0.0.0.0.0.0.0.1 1-2|0.0.0.0.0.0.0 0-1|0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:11:03.843
+(f2 / fear-01 
+      :compared-to-of (g / good 
+            :ARG1-of (j / journey-01 
+                  :ARG0 (i2 / i 
+                        :ARG0-of (e / expect-01 
+                              :ARG1 (i3 / i 
+                                    :ARG0-of (r / rejoice-01 
+                                          :ARG1 (c / come-01 
+                                                :ARG0 (m2 / much) 
+                                                :ARG1 (c2 / cloth)))) 
+                              :ARG2 (y / you) 
+                              :op1-of (a / and 
+                                    :op1-of (a2 / and 
+                                          :op2 (f / fear-01 
+                                                :ARG0 (i / i) 
+                                                :ARG1 (m / much 
+                                                      :degree (v / very)) 
+                                                :ARG2 (b / bone)))))) 
+                  :mod (t / troublesome))))
+
+# ::snt I was always unhappy in anticipating trouble--it is my constitution, I believe--and when matters have been better than my fears--I have never been so dutifully thankful as my bountiful Benefactor had a right to expect.
+# ::tok I was always unhappy in anticipating trouble -- it is my constitution , I believe -- and when matters have been better than my fears -- I have never been so dutifully thankful as my bountiful Benefactor had a right to expect .
+# ::alignments 41-42|0.0.0 39-40|0.0.0.0 36-37|0.0.0.0.0 35-36|0.0.2.0.0.0 32-33|0.0.2.0.0 31-32|0.0.2.0.0.1 26-27|0.0.2.0 24-25|0 21-22|0.1 18-19|0.1.0 16-17|0.0.1.1 14-15|0.0.1 13-14|0.0.1.0 11-12|0.0.1.1.0 6-7|0.0.2 5-6|0.0.2.1 3-4|0.0.3.0+0.0.3 2-3|0.0.3.1 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:11:05.092
+(f / fear-01 
+      :ARG0 (i3 / i 
+            :ARG0-of (e / expect-01 
+                  :ARG2-of (r / right-05 
+                        :ARG1 (b / benefactor))) 
+            :ARG1-of (b3 / believe-01 
+                  :ARG0 (i2 / i) 
+                  :op2-of (a / and 
+                        :op1 (c / constitution))) 
+            :ARG2-of (t2 / trouble-01 
+                  :ARG1 (i / i 
+                        :ARG1-of (t / thankful-02 
+                              :ARG2 (b2 / bountiful) 
+                              :mod (d / dutifully))) 
+                  :ARG1-of (a2 / anticipate-01)) 
+            :domain-of (h / happy 
+                  :polarity - 
+                  :time (a3 / always))) 
+      :compared-to-of (g / good 
+            :domain (m / matter)))
+
+# ::snt This, also, I believe, is the constitution of all my fellow race.
+# ::tok This , also , I believe , is the constitution of all my fellow race .
+# ::alignments 14-15|0.1 13-14|0.1.0 11-12|0.1.1 9-10|0 5-6|0.0.0 4-5|0.0.0.0 2-3|0.0.0.1 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:11:05.180
+(c / constitution 
+      :domain (t / this 
+            :ARG1-of (b / believe-01 
+                  :ARG0 (i / i) 
+                  :time (a2 / also))) 
+      :mod (r / race 
+            :mod (f / fellow) 
+            :quant (a / all)))
+
+# ::snt Mr. Deming had a Letter from your Papa yesterday; he mention'd your Mama & you as indispos'd & Flavia as sick in bed.
+# ::tok Mr. Deming had a Letter from your Papa yesterday ; he mention 'd your Mama & you as indispos 'd & Flavia as sick in bed .
+# ::alignments 25-26|0 23-24|0.0 21-22|0.0.1.0.0+0.0.1.0+0.0.1 18-19|0.0.3.2 16-17|0.0.0 14-16|0.0.1.1.0.1.0.1+0.0.1.1.0.1.0.0+0.0.1.1.0.1.0+0.0.1.1.0.1 11-12|0.0.1.1.0 10-11|0.0.1.1.0.0 9-10|0.0.1.1 8-9|0.0.2 7-8|0.0.3.1 4-5|0.0.3.1.0 0-2|0.0.3.0.1+0.0.3.0.0+0.0.3.0+0.0.3 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:11:05.580
+(b / bed 
+      :location-of (s / sick-05 
+            :ARG0 (y / you) 
+            :ARG1 (p / person 
+                  :name (n / name 
+                        :op1 "Flavia") 
+                  :op2-of (a / and 
+                        :op1 (m / mention-01 
+                              :ARG0 (h / he) 
+                              :ARG1 (o / organization 
+                                    :name (n2 / name 
+                                          :op1 "Mama" 
+                                          :op2 "&"))))) 
+            :op1-of (y2 / yesterday) 
+            :op1-of (t / thing 
+                  :name (n3 / name 
+                        :op1 (m2 / Mr.) 
+                        :op2 (d / Deming)) 
+                  :poss-of (p2 / papa 
+                        :source-of (l / letter)) 
+                  :poss-of (i / indispo))))
+
+# ::snt I'm at too great a distance to render you the least service, and were I near, too much out of health to--some part of the time--even speak to you.
+# ::tok I 'm at too great a distance to render you the least service , and were I near , too much out of health to -- some part of the time -- even speak to you .
+# ::alignments 35-36|0.2.1.2 33-34|0.2.1 32-33|0.2.1.3 30-31|0.2.1.1 26-27|0.2.1.0 23-24|0.0 20-21|0.2.0.0.1 19-20|0.2.0.0.1.0 17-18|0.2.0.0 16-17|0.2.0.0.0 14-15|0.2.0.0.2 12-13|0.1 9-10|0.3 8-9|0 6-7|0.2 4-5|0.2.2 3-4|0.2.2.0 0-1|0.2.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:11:06.422
+(r / render-01 
+      :ARG0 (h / health) 
+      :ARG1 (s3 / service) 
+      :ARG1-of (d / distance-01 
+            :ARG0 (i2 / i 
+                  :ARG1-of (n / near-02 
+                        :ARG0 (i / i) 
+                        :degree (m / much 
+                              :degree (t2 / too)) 
+                        :op1-of (a / and))) 
+            :ARG2 (s / speak-01 
+                  :ARG0 (s2 / some) 
+                  :ARG1 (t / time) 
+                  :ARG2 (y / you) 
+                  :mod (e / even)) 
+            :domain-of (g / great 
+                  :degree (t3 / too))) 
+      :ARG2 (y2 / you))
+
+# ::snt I am seiz'd with exceeding weakness at the very seat of life, and to a greater degree than I ever before knew.
+# ::tok I am seiz 'd with exceeding weakness at the very seat of life , and to a greater degree than I ever before knew .
+# ::alignments 23-24|0.1 22-23|0.1.1 21-22|0.1.1.0 20-21|0.1.0 18-19|0.3 17-18|0.3.0 14-15|0 12-13|0.2.0 10-11|0.2 9-10|0.2.1 6-7|0.0 5-6|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:11:06.782
+(a / and 
+      :ARG1-of (w / weak-02 
+            :ARG2-of (e2 / exceed-01 
+                  :ARG0 (i2 / i))) 
+      :ARG1-of (k / know-01 
+            :ARG0 (i / i) 
+            :time (b / before 
+                  :mod (e / ever))) 
+      :op1 (s / seat 
+            :consist-of (l / life) 
+            :mod (v / very)) 
+      :op2 (d / degree 
+            :mod (g / great)))
+
+# ::snt Could I ride, it might help me, but that is an exercise my income will not permit.
+# ::tok Could I ride , it might help me , but that is an exercise my income will not permit .
+# ::alignments 18-19|0.0.0.1 17-18|0.0.0.0.1.0 15-16|0.0.0.1.0 13-14|0.1 10-11|0.1.0 9-10|0 7-8|0.0.0.0.0 6-7|0.0.0.0 5-6|0.0.0.0.1 2-3|0.0 1-2|0.0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:11:06.854
+(c / contrast-01 
+      :ARG1 (r / ride-01 
+            :ARG0 (i3 / i 
+                  :ARG0-of (h / help-01 
+                        :ARG1 (i2 / i) 
+                        :ARG1-of (p2 / possible-01 
+                              :polarity -)) 
+                  :ARG1-of (p / permit-01 
+                        :ARG0 (i / income))) 
+            :ARG1-of (p3 / possible-01)) 
+      :ARG2 (e / exercise-02 
+            :ARG1 (t / that)))
+
+# ::snt I walk out whenever I can.
+# ::tok I walk out whenever I can .
+# ::alignments 5-6|0 4-5|0.0.0.1 3-4|0.0 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:11:06.913
+(p / possible-01 
+      :ARG1 (w / whenever 
+            :ARG1-of (w2 / walk-01 
+                  :ARG0 (i2 / i) 
+                  :ARG2 (i / i))))
+
+# ::snt The day will surely come, when I must quit this frail tabernacle, and it may be soon--I certainly know, I am not of importance eno' in this world, for any one to wish my stay--rather am I, and so I consider myself as a cumberground.
+# ::tok The day will surely come , when I must quit this frail tabernacle , and it may be soon -- I certainly know , I am not of importance eno ' in this world , for any one to wish my stay -- rather am I , and so I consider myself as a cumberground .
+# ::alignments 54-55|0.2.0.0.0.1 50-51|0.2.0.0.0 49-50|0.2.0.0.0.0 47-48|0.2.0.0.0.3 45-46|0.0 41-42|0.1 39-40|0 37-38|0.2 36-37|0.1.1 33-34|0.2.0.1 32-33|0.2.0.1.0 29-30|0.2.0.0.0.2.0 28-29|0.2.0.0.0.2 26-27|0.1.2 24-25|0.2.0.0.0.3.0.0.2.0 22-23|0.2.0 21-22|0.2.0.2 20-21|0.2.0.0 18-19|0.1.0 16-17|0.2.0.0.0.3.0.1 14-15|0.2.0.0.0.3.0 12-13|0.2.0.0.0.3.0.0.1.0.0 11-12|0.2.0.0.0.3.0.0.1.0.0.1 10-11|0.2.0.0.0.3.0.0.1.0.0.0 9-10|0.2.0.0.0.3.0.0.1.0 7-8|0.2.0.0.0.3.0.0.1 4-5|0.2.0.0.0.3.0.0 3-4|0.2.0.0.0.3.0.0.2 1-2|0.2.0.0.0.3.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:11:08.648
+(w / wish-01 
+      :ARG0 (i2 / i) 
+      :ARG1 (s / stay-01 
+            :ARG0 (s2 / soon) 
+            :ARG1 (a2 / any) 
+            :ARG2 -) 
+      :purpose-of (o / one 
+            :purpose-of (k / know-01 
+                  :ARG0 (i5 / i 
+                        :ARG1-of (c2 / consider-02 
+                              :ARG0 (i / i) 
+                              :ARG2 (c / cumberground) 
+                              :mod (i3 / important 
+                                    :mod-of (e / eno)) 
+                              :op2-of (a / and 
+                                    :op1 (a3 / and 
+                                          :op1 (c4 / come-01 
+                                                :ARG0 (d / day) 
+                                                :ARG1 (i6 / i 
+                                                      :ARG0-of (q / quit-01 
+                                                            :ARG1 (t2 / tabernacle 
+                                                                  :mod (t3 / this) 
+                                                                  :mod (f / frail)))) 
+                                                :ARG1-of (s3 / sure-02 
+                                                      :ARG0 (i4 / i))) 
+                                          :op2 (p / possible-01))))) 
+                  :ARG1 (w2 / world 
+                        :mod (t / this)) 
+                  :manner (c3 / certain))))
+
+# ::snt However I shall abide my appointed time & I desire to be found waiting for my change.
+# ::tok However I shall abide my appointed time & I desire to be found waiting for my change .
+# ::alignments 16-17|0 13-14|0.0 12-13|0.0.0.1 9-10|0.0.0.0 8-9|0.0.0 6-7|0.0.0.0.0.0.0 5-6|0.0.0.0.0.0.0.0 3-4|0.0.0.0.0.0 1-2|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:11:08.810
+(c / change-01 
+      :ARG2-of (w / wait-01 
+            :ARG0 (i / i 
+                  :ARG0-of (d / desire-01 
+                        :ARG1 (i2 / i 
+                              :ARG0-of (a2 / abide-01 
+                                    :ARG1 (t / time 
+                                          :ARG2-of (a / appoint-01))))) 
+                  :ARG0-of (f / find-01))))
+

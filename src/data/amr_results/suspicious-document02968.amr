@@ -1,0 +1,2647 @@
+# ::snt ï»¿Our forefathers of the thirteen united colonies, in acquiring their independence and in rounding this Republic of the United States of America, have devolved upon us, their descendants, the greatest and the most noble trust ever committed to the hands of man, imposing upon all, and especially such as the public will may have invested for the time being with political functions, the most sacred obligations.
+# ::tok ï " ¿ Our forefathers of the thirteen united colonies , in acquiring their independence and in rounding this Republic of the United States of America , have devolved upon us , their descendants , the greatest and the most noble trust ever committed to the hands of man , imposing upon all , and especially such as the public will may have invested for the time being with political functions , the most sacred obligations .
+# ::alignments 75-76|0+0.0 74-75|0.0.2 73-74|0.0.1 70-71|0.0.0 69-70|0.0.0.0 66-67|0.0.0.0.0.1.0.1 63-64|0.0.0.0.0.1.0 61-62|0.0.0.0.0.1 59-60|0.0.0.0.0.1.0.0 56-57|0.0.0.0.0.6 55-56|0.0.0.0.0.5 54-55|0.0.0.0.0 52-53|0.0.0.0.0.7 50-51|0.0.0.0.0.0 48-49|0.0.0.0.0.4 46-47|0.0.0.0.0.3 43-44|0.0.0.0.0.2 42-43|0.0.0.0.0.2.2 41-42|0.0.0.0.0.2.1 40-41|0.0.0.0.0.2.1.0 39-40|0.0.0.0.0.2.0 37-38|0.0.0.0.0.2.3 36-37|0.0.0.0.0.2.3.2.0+0.0.0.0.0.2.3.2 33-34|0.0.0.0.0.2.3.1.0+0.0.0.0.0.2.3.1 29-30|0.0.0.0.0.2.3.1.0.0.1 28-29|0.0.0.0.0.2.3.1.0.0 25-26|0.0.0.0.0.2.3.1.0.0.0.1+0.0.0.0.0.2.3.1.0.0.0.0.0+0.0.0.0.0.2.3.1.0.0.0.0+0.0.0.0.0.2.3.1.0.0.0 22-24|0.0.0.0.0.2.3.0.3.0.0.1+0.0.0.0.0.2.3.0.3.0.0.0.1+0.0.0.0.0.2.3.0.3.0.0.0.0+0.0.0.0.0.2.3.0.3.0.0.0+0.0.0.0.0.2.3.0.3.0.0 19-20|0.0.0.0.0.2.3.0.3.0.1 18-19|0.0.0.0.0.2.3.0.3.1.1 17-18|0.0.0.0.0.2.3.0.3.1 15-16|0.0.0.0.0.2.3.0.3 14-15|0.0.0.0.0.2.3.0.3.0.2+0.0.0.0.0.2.3.0.3.0 13-14|0.0.0.0.0.2.3.0.2 12-13|0.0.0.0.0.2.3.0 9-10|0.0.0.0.0.2.3.0.1.1 8-9|0.0.0.0.0.2.3.0.1.2+0.0.0.0.0.2.3.0.1 7-8|0.0.0.0.0.2.3.0.1.0 5-6|0.0.0.0.0.2.3.0.0.0 4-5|0.0.0.0.0.2.3.0.0 3-4|0.0.0.0.0.2.3.0.3.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:15.821
+(o / obligate-01 
+      :ARG2 (t / thing 
+            :ARG1-of (f / function-01 
+                  :ARG2 (p / politics 
+                        :op6-of (a / and 
+                              :ARG1-of (i2 / impose-01) 
+                              :ARG1-of (p2 / possible-01 
+                                    :ARG1-of (i / invest-01 
+                                          :ARG0 (p3 / public) 
+                                          :ARG2 (t2 / time))) 
+                              :op1 (c / commit-01 
+                                    :ARG0 (m3 / most) 
+                                    :ARG1-of (t3 / trust-01 
+                                          :ARG0 (n / noble)) 
+                                    :op1-of (e2 / ever) 
+                                    :op4-of (a3 / and 
+                                          :op1 (a5 / acquire-01 
+                                                :ARG1 (f2 / forefather 
+                                                      :mod-of (o2 / of)) 
+                                                :ARG2-of (u2 / unite-01 
+                                                      :ARG0 (t6 / thirteen) 
+                                                      :ARG1 (c4 / colony) 
+                                                      :polarity -) 
+                                                :op1-of (t5 / their) 
+                                                :op1-of (a4 / and 
+                                                      :op2 (d3 / depend-01 
+                                                            :ARG0 (c3 / country 
+                                                                  :name (n3 / name 
+                                                                        :op1 "United" 
+                                                                        :op2 "States") 
+                                                                  :wiki "United_States") 
+                                                            :ARG1 "Republic" 
+                                                            :polarity -) 
+                                                      :op3 (r / round-up-02 
+                                                            :ARG0 (w / we) 
+                                                            :ARG1 (t4 / this)))) 
+                                          :op2 (p4 / person 
+                                                :ARG0-of (d / descend-01 
+                                                      :ARG1 (d2 / devolve-01 
+                                                            :ARG0 (c2 / country 
+                                                                  :name (n2 / name 
+                                                                        :op1 "America") 
+                                                                  :wiki "United_States") 
+                                                            :ARG1 (u / upon)))) 
+                                          :op3 (g / great 
+                                                :degree (m4 / most)))) 
+                              :op2 (h / hand) 
+                              :op3 (m2 / man) 
+                              :op4 (e / especially) 
+                              :op5 (s2 / such) 
+                              :quant (a2 / all)))) 
+            :mod (m / most) 
+            :mod (s / sacred)))
+
+# ::snt These games were attended not by the people only, but by kings and princes, and grave magistrates.
+# ::tok These games were attended not by the people only , but by kings and princes , and grave magistrates .
+# ::alignments 18-19|0.1.0.1.1.1 17-18|0.1.0.1.1.1.0 16-17|0.1.0.1 14-15|0.1.0.1.1.0 13-14|0.1.0.1.1 12-13|0.1.0.1.0 10-11|0 8-9|0.1.0.0 7-8|0.1.0 4-5|0.0 3-4|0.1 1-2|0.1.1 0-1|0.1.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:16.136
+(c / contrast-01 
+      :ARG1 - 
+      :ARG2 (a3 / attend-01 
+            :ARG0 (p2 / person 
+                  :mod (o / only) 
+                  :op1-of (a / and 
+                        :op2 (k / king) 
+                        :op2-of (a2 / and 
+                              :op1 (p / princ) 
+                              :op3 (m / magistrat 
+                                    :mod (g / grave))))) 
+            :ARG1 (g2 / game 
+                  :mod (t / this))))
+
+# ::snt Stow says, "that in the moneth of May, the citizens of London, of all estates, lightlie in every parish, or sometimes two or three parishes joyning together, had their severall Mayinges, and did fetch in Maypoles, with divers warlike showes, with good archers, morrice-dancers, and other devices for pastime all the day long, and towards the evening they had stage-playes and bone-fires in the streetes.
+# ::tok Stow says , " that in the moneth of May , the citizens of London , of all estates , lightlie in every parish , or sometimes two or three parishes joyning together , had their severall Mayinges , and did fetch in Maypoles , with divers warlike showes , with good archers , morrice - dancers , and other devices for pastime all the day long , and towards the evening they had stage - playes and bone - fires in the streetes .
+# ::alignments 83-84|0.1.1.1.0.1.0.0 80-81|0.1.1.1.0.1.2 78-79|0.1.1.1.0.1.1 77-78|0.1.1.1.0.1 76-77|0.1.1.1.0 74-75|0.1.1.1.0.1.0 72-73|0.1.1.1 71-72|0.1.1.1.0.0.2.0 68-69|0.1.1.1.0.0.2 66-67|0.1.1.1.0.0.3.0 65-66|0.1.1.1.0.0.3.0.0 63-64|0.1.1.1.0.0.3.0.0.0 62-63|0.1.1.1.0.0.1.3 60-61|0.1.1.1.0.0.3.4 59-60|0.1.1.1.0.0.3.4.0 58-59|0.1.1.1.0.0.3 56-57|0.1.1.1.0.0.0+0.1.1.1.0.0 54-55|0.1.1.1.0.0.0.0 52-53|0.1.1.1.0.0.3.2 51-52|0.1.1.1.0.0.3.2.0 48-49|0.1.1.1.0.0.1 47-48|0.1.1.1.0.0.1.1 46-47|0.1.1.1.0.0.1.2 43-44|0.1.3.1 41-42|0.1.3 39-40|0.1 37-38|0.1.1.0.0+0.1.1.0+0.1.1 32-33|0.1.1.1.0.0.3.1 30-31|0.1.1.1.0.0.3.3.1 29-30|0.1.1.1.0.0.3.3.1.0 28-29|0.1.1.1.0.0.3.3 27-28|0.1.1.1.0.0.1.0 26-27|0.1.1.1.0.0.3.3.0 25-26|0.1.2 23-24|0.1.2.0 22-23|0.1.2.0.0 18-19|0.1.3.2 17-18|0.1.0.1 14-15|0.1.0.2+0.1.0.0.0+0.1.0.0+0.1.0 12-13|0.1.3.0 9-10|0.1.0.1.0.0.0+0.1.0.1.0.0 7-8|0.1.0.1.0 1-2|0 0-1|0.0.0.0+0.0.0+0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:21.668
+(s5 / say-01 
+      :ARG0 (p6 / person 
+            :name (n3 / name 
+                  :op1 "Stow")) 
+      :ARG1 (a6 / and 
+            :op1 (c / city 
+                  :name (n2 / name 
+                        :op1 "London") 
+                  :quant (a7 / all 
+                        :mod-of (m3 / moneth 
+                              :op1 (d5 / date-entity 
+                                    :month 5))) 
+                  :wiki "London") 
+            :op2 (t2 / thing 
+                  :name (n / name 
+                        :op1 "Mayinges,") 
+                  :poss (t / they 
+                        :ARG1-of (p / play-01 
+                              :ARG0 (p3 / person 
+                                    :ARG0-of (d3 / dance-01 
+                                          :ARG1 (m / morrice)) 
+                                    :ARG2-of (s3 / show-01 
+                                          :ARG0 2 
+                                          :ARG1 (w / warlike) 
+                                          :mod (d4 / diver) 
+                                          :op1-of (p2 / pastime)) 
+                                    :op1-of (a2 / and 
+                                          :op2 (e / evening)) 
+                                    :op2-of (a4 / and 
+                                          :ARG0-of (l / long-03 
+                                                :ARG1 (d / day 
+                                                      :mod (a3 / all))) 
+                                          :mod (t3 / together) 
+                                          :op1 (a5 / archer 
+                                                :mod (g / good)) 
+                                          :op2-of (o2 / or 
+                                                :mod (s4 / sometimes) 
+                                                :op1 (p4 / parish 
+                                                      :quant 3)) 
+                                          :op3 (d2 / device 
+                                                :mod (o / other)))) 
+                              :op2-of (a / and 
+                                    :op1 (s2 / stage 
+                                          :part-of (s / street)) 
+                                    :op3 (b / bone) 
+                                    :op4 (f / fire))))) 
+            :op2-of (o3 / or 
+                  :op1 (p5 / parish 
+                        :mod (e2 / every))) 
+            :op3 (f2 / fetch-01 
+                  :ARG0 (c2 / citizen) 
+                  :ARG1 (m2 / maypol) 
+                  :ARG2 (e3 / estate))))
+
+# ::snt These greate Mayinges and Maygames, made by governors and masters of this citie, with the triumphant setting up of the greate shafte, (a principall May-pole in Cornhill, before the parish church of S. Andrew, therefore called Undershafte,) by meane of an insurrection of youthes against alianes, on May-day, 0, have not beene so freely used as afore."
+# ::tok These greate Mayinges and Maygames , made by governors and masters of this citie , with the triumphant setting up of the greate shafte , ( a principall May - pole in Cornhill , before the parish church of S. Andrew , therefore called Undershafte , ) by meane of an insurrection of youthes against alianes , on May - day , 0 , have not beene so freely used as afore . "
+# ::alignments 71-72|0.0.2.0.1 69-70|0.0.2.0 68-69|0.0.2.0.2 65-66|0.0.2.0.4 62-63|0.0.2.0.2.1 60-61|0.0.2.0.0.0.0 55-56|0.0.2.0.2.0.0.0 53-54|0.0.2.0.2.0.0 51-52|0.0.2.0.2.0 48-49|0.0.2.0.2.0.1 43-44|0.0.2.0.0.0 39-41|0.0.2.0.0.1.1+0.0.2.0.0.1.0+0.0.2.0.0.1+0.0.2.0.0 37-38|0.0.2.0.0.2 36-37|0.0.2.0.0.2.0 34-35|0.0.2.0.0.2.1 30-31|0.0.2.0.0.2.1.1 28-29|0.0.2.0.0.2.1.0.0+0.0.2.0.0.2.1.0 23-24|0 18-19|0.0 17-18|0.0.0 13-14|0.0.2.0.3.0.0.0 12-13|0.0.2.0.3.0.0.0.0 10-11|0.0.2.0.3.1 9-10|0.0.2.0.3 8-9|0.0.2.0.3.0.0.1+0.0.2.0.3.0.0+0.0.2.0.3.0 3-4|0.0.2 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:25.623
+(s2 / shafte 
+      :ARG1-of (s3 / set-02 
+            :ARG0 (t2 / triumphant) 
+            :ARG2 (t4 / this) 
+            :op1-of (a5 / and 
+                  :ARG0-of (u / use-01 
+                        :ARG1 (t / thing 
+                              :ARG1-of (c / call-01 
+                                    :ARG0 (d / day)) 
+                              :name (n / name 
+                                    :op1 (s / S.) 
+                                    :op2 (a3 / Andrew)) 
+                              :poss-of (c2 / church 
+                                    :mod (p / parish) 
+                                    :op1-of (b / before 
+                                          :time-of (d2 / date-entity 
+                                                :month 5) 
+                                          :time-of (p2 / pole)))) 
+                        :ARG2 (a / afore) 
+                        :ARG3-of (f / free-04 
+                              :ARG0 (i / insurrection 
+                                    :mod (y / youth 
+                                          :prep-against (a2 / alian)) 
+                                    :poss-of (m / meane)) 
+                              :ARG1 0) 
+                        :op3-of (a4 / and 
+                              :op1 (p3 / person 
+                                    :ARG0-of (h / have-org-role-91 
+                                          :ARG1 (c3 / citie 
+                                                :mod (t3 / this)) 
+                                          :ARG2 (g / governor))) 
+                              :op2 (m2 / master)) 
+                        :polarity -))))
+
+# ::snt The disuse of these ancient pastimes and the consequent neglect of Archerie, are thus lamented by Richard Niccols, in his London's Artillery, 0:
+# ::tok The disuse of these ancient pastimes and the consequent neglect of Archerie , are thus lamented by Richard Niccols , in his London 's Artillery , 0 :
+# ::alignments 26-27|0.0.2 24-25|0.0.1.0 22-23|0.0.1.0.0.1+0.0.1.0.0.0.0+0.0.1.0.0.0+0.0.1.0.0 17-19|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 15-16|0.0 14-15|0 9-10|0.0.1 8-9|0.0.1.2 6-7|0.0.1.3 5-6|0.0.1.3.0 4-5|0.0.1.3.0.0 3-4|0.0.1.1 1-2|0.0.1.3.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:26.146
+(t / thus-far 
+      :time-of (l / lament-01 
+            :ARG0 (p / person 
+                  :name (n2 / name 
+                        :op1 "Richard" 
+                        :op2 "Niccols,")) 
+            :ARG1 (n3 / neglect-01 
+                  :ARG0 (a / artillery 
+                        :poss (c / city 
+                              :name (n / name 
+                                    :op1 "London") 
+                              :wiki "London")) 
+                  :mod (t2 / this) 
+                  :mod (c2 / consequent) 
+                  :op2-of (a2 / and 
+                        :op1 (p2 / pastim 
+                              :mod (a3 / ancient)) 
+                        :poss-of (d / disuse))) 
+            :ARG2 0))
+
+# ::snt How is it that our London hath laid downe This worthy practise, which was once the crowne, Of all her pastime which her Robin Hood Had wont each yeare when May did clad the wood With lustre greene, to lead his young men out, Whose brave demeanour, oft when they did shoot, Invited royall princes from their courts Into the wilde woods to behold their sports!
+# ::tok How is it that our London hath laid downe This worthy practise , which was once the crowne , Of all her pastime which her Robin Hood Had wont each yeare when May did clad the wood With lustre greene , to lead his young men out , Whose brave demeanour , oft when they did shoot , Invited royall princes from their courts Into the wilde woods to behold their sports !
+# ::alignments 71-72|0.2.1 69-70|0.2 67-68|0.2.0 66-67|0.2.0.0 63-64|0.3 60-61|0.1 58-59|0 56-57|0.1.0 54-55|0.1.0.0 52-53|0.0.0.0.2 50-51|0.0 49-50|0.0.0 45-46|0.0.0.0.0.0.1.1 44-45|0.0.0.0.0.0.1.1.0 42-43|0.0.0.0.0.0.1 39-40|0.0.0.0.0.0.0.0 38-39|0.0.0.0.0.0.0.0.0 36-37|0.0.0.0.0.0.0 34-35|0.0.0.0.0.0 32-33|0.0.0.0.0.0.2.0+0.0.0.0.0.0.2 30-31|0.0.0.0.1 29-30|0.0.0.0.1.0 27-28|0.0.0.0 25-27|0.0.0.0.0.1.1+0.0.0.0.0.1.0+0.0.0.0.0.1+0.0.0.0.0 22-23|0.0.0.0.0.0.1.2.0 20-21|0.0.0.0.0.0.1.2 17-18|0.0.0.0.0.0.1.0.0.0.0 15-16|0.0.0.0.0.0.1.0.0.0.0.0 11-12|0.0.0.0.0.0.1.0.0.0 10-11|0.0.0.0.0.0.1.0.0.0.3 9-10|0.0.0.0.0.0.1.0.0.0.2 7-8|0.0.0.0.0.0.1.0.0 6-7|0.0.0.0.0.0.1.0 5-6|0.0.0.0.0.0.1.0.1.1+0.0.0.0.0.0.1.0.1.0.0+0.0.0.0.0.0.1.0.1.0+0.0.0.0.0.0.1.0.1 4-5|0.0.0.0.0.0.1.0.2 0-1|0.0.0.0.0.0.1.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:28.579
+(i / invite-01 
+      :ARG0 (d / demeanour 
+            :ARG0-of (b2 / brave-02 
+                  :ARG1 (h / have-01 
+                        :ARG0 (p2 / person 
+                              :ARG0-of (c2 / clothe-01 
+                                    :ARG1 (w3 / wood 
+                                          :source (g / greene 
+                                                :mod (l2 / lustre))) 
+                                    :purpose (l / lead-03 
+                                          :ARG0 (h2 / hath 
+                                                :ARG0-of (l3 / lay-01 
+                                                      :ARG1 (p4 / practise-01 
+                                                            :ARG0 (c3 / crowne 
+                                                                  :time (o2 / once)) 
+                                                            :ARG1 (a2 / amr-unknown) 
+                                                            :mod (t2 / this) 
+                                                            :mod (w4 / worthy))) 
+                                                :location (c4 / city 
+                                                      :name (n2 / name 
+                                                            :op1 "London") 
+                                                      :wiki "London") 
+                                                :poss (w5 / we)) 
+                                          :ARG1 (m / man 
+                                                :mod (y / young)) 
+                                          :ARG2 (a / all 
+                                                :quant-of (p3 / pastime))) 
+                                    :time (d2 / date-entity 
+                                          :month 5)) 
+                              :name (n / name 
+                                    :op1 "Robin" 
+                                    :op2 "Hood")) 
+                        :ARG1 (y2 / yeare 
+                              :mod (e / each)) 
+                        :ARG2 (o / oft)))) 
+      :ARG1 (p / princ 
+            :ARG1-of (s2 / shoot-down-05 
+                  :ARG0 (t / they))) 
+      :ARG2 (b / behold-01 
+            :ARG0 (w / wood 
+                  :mod (w2 / wilde)) 
+            :ARG1 (s / sport)) 
+      :beneficiary (c / court))
+
+# ::snt Who thought it then a manly sight and trim, To see a youth of clene compacted lim, Who, with a comely grace, in his left hand Holding his bow, did take his steadfast stand, Setting his left leg somewhat foorth before, His Arrow with his right hand nocking sure, Not stooping, nor yet standing streight upright, Then, with his left hand little 'bove his sight, Stretching his arm out, with an easie strength To draw an arrow of a yard in length.
+# ::tok Who thought it then a manly sight and trim , To see a youth of clene compacted lim , Who , with a comely grace , in his left hand Holding his bow , did take his steadfast stand , Setting his left leg somewhat foorth before , His Arrow with his right hand nocking sure , Not stooping , nor yet standing streight upright , Then , with his left hand little ' bove his sight , Stretching his arm out , with an easie strength To draw an arrow of a yard in length .
+# ::alignments 95-96|0.0.0.0.0.2 93-94|0.0.0.0.0.1 90-91|0.0.0.0.0.0 88-89|0.0.0.0.0 86-87|0.0.0.0.0.3 80-81|0.0.0.0.1.0 78-79|0.0.0.0.1 76-77|0.0.0.0.2 72-73|0.0.0.0.2.0.0 71-72|0.0.0.0.4.0 66-67|0.0.0.0.5.0.0.2 64-65|0.0.0.0.5.0.0.0 62-63|0.0.0.0.5.0.0 61-62|0.0.0.0.5.0.0.1 58-59|0.0.0.0.2.0 57-58|0.0.0.0.2.0.1 55-56|0.0.0.0.5.0 53-54|0.0.0.0.5 52-53|0.0.0.0.5.1 49-50|0.0.0.0.6+0.0.0.0.3.0+0.0.0.0.3+0.0.0.0 48-49|0.0.0.0.4 46-47|0.0.4.2 44-45|0.0.4.1.0 43-44|0.0.4.1 40-41|0.0.4 38-39|0.0.3.0 37-38|0.0.3.0.0 35-36|0.0.3 32-33|0.1 30-31|0 29-30|0.1.0 28-29|0.1.0.0 24-25|0.0.3.1 23-24|0.0.3.1.0 19-20|0.0.4.0 17-18|0.0.2.0.0 16-17|0.0.2.0.0.0 13-14|0.0.2.0 11-12|0.0.2 8-9|0.0.1 7-8|0.0 6-7|0.0.0.2 5-6|0.0.0.2.1 3-4|0.0.0.2.0 1-2|0.0.0 0-1|0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:36.884
+(h4 / hold-01 
+      :ARG0 (a4 / and 
+            :op1 (t5 / think-01 
+                  :ARG0 (p / product 
+                        :ARG0-of (d / draw-02 
+                              :ARG1 (a / arrow) 
+                              :ARG3 (y / yard) 
+                              :location (l / length) 
+                              :purpose-of (s / strength)) 
+                        :ARG0-of (s2 / stretch-01 
+                              :ARG1 (a2 / arm)) 
+                        :ARG0-of (s3 / sight-01 
+                              :ARG1 (s5 / stoop-01 
+                                    :ARG1 (l2 / little) 
+                                    :polarity -)) 
+                        :name (n / name 
+                              :op1 "Arrow") 
+                        :poss (h3 / he 
+                              :part (h / hand)) 
+                        :topic (h2 / hand 
+                              :ARG1-of (s6 / sure-02 
+                                    :compared-to-of (s4 / stand-01 
+                                          :ARG1 (u / upright) 
+                                          :time (y2 / yet) 
+                                          :time (t / then))) 
+                              :mod (r / right)) 
+                        :wiki "Arrow_(Israeli_missile)") 
+                  :ARG1 (a5 / amr-unknown) 
+                  :ARG2 (s12 / sight-01 
+                        :manner (t4 / then) 
+                        :mod (m / manly))) 
+            :op2 (t3 / trim-01) 
+            :op3 (s11 / see-01 
+                  :ARG1 (y3 / youth 
+                        :poss (l5 / lim 
+                              :ARG1-of (c2 / compact-01)))) 
+            :op4 (t2 / take-01 
+                  :ARG1 (s9 / stand 
+                        :mod (s10 / steadfast)) 
+                  :ARG1-of (g / grace-01 
+                        :mod (c / comely))) 
+            :op5 (s8 / set-01 
+                  :ARG0 (a3 / amr-unknown) 
+                  :ARG1 (l3 / leg 
+                        :mod (s7 / somewhat)) 
+                  :op1-of (b / before))) 
+      :ARG1 (b2 / bow-01 
+            :ARG0 (h5 / hand 
+                  :mod (l4 / left))))
+
+# ::snt "Some short time after his coronation," says Hall, "he came to Westminster with the quene, and all their traine, and on a tyme being there, his grace, therles of Essex, Wilshire, and other noble menne, to the number of twelve, came sodainly in a mornyng into the quenes chambre, all appareled in short cotes of Kentish kendal, with hodes on their heddes, and hosen of the same, every one of them his bowe and arrowes, and a sworde and a bucklar, like outlawes, or Robyn Hodesmen;
+# ::tok " Some short time after his coronation , " says Hall , " he came to Westminster with the quene , and all their traine , and on a tyme being there , his grace , therles of Essex , Wilshire , and other noble menne , to the number of twelve , came sodainly in a mornyng into the quenes chambre , all appareled in short cotes of Kentish kendal , with hodes on their heddes , and hosen of the same , every one of them his bowe and arrowes , and a sworde and a bucklar , like outlawes , or Robyn Hodesmen ;
+# ::alignments 106-107|0.1.3 104-106|0.1.2.0.3.2.0.1.0.0.1.0.1+0.1.2.0.3.2.0.1.0.0.1.0.0+0.1.2.0.3.2.0.1.0.0.1.0+0.1.2.0.3.2.0.1.0.0.1 103-104|0.1.2.0.3.2.0.1.0.0 101-102|0.1.2.0.3.2.0.1.0 100-101|0.1.2.0.3.2.0.1.0.0.0 98-99|0.1.2.0.3.2.0.1 96-97|0.1.2.0.3.2.0 95-96|0.1.2.0.3.2.0.0 93-94|0.1.2.0.3.2 91-92|0.1.2.0.3.1 90-91|0.1.2.0.3 89-90|0.1.2.0.3.0 85-86|0.1.2.0.3.2.0.2.3 84-85|0.1.2.0.3.2.0.1.0.0.0.0 82-83|0.1.3.0 79-80|0.1.2.0.3.2.0.2.2 78-79|0.1.2.0.3.2.0.2 76-77|0.1.2.0.3.2.0.2.1.0 73-74|0.1.2.0.3.2.0.2.1 69-71|0.1.2.0.3.2.0.2.0.1.0.1+0.1.2.0.3.2.0.2.0.1.0.0+0.1.2.0.3.2.0.2.0.1.0+0.1.2.0.3.2.0.2.0.1 67-68|0.1.2.0.3.2.0.2.0 66-67|0.1.2.0.3.2.0.2.0.0 63-64|0.1.3.0.1 61-62|0.1.2.0.1 60-61|0.1.2.0.1.0 57-58|0.1.2.0.2 53-54|0.1.2.0 51-52|0.1.3.0.0 49-50|0.1.2.0.4.3.2 45-46|0.1.2.0.4.3 44-45|0.1.2.0.4.3.0 43-44|0.1.2.0.4.3.1 42-43|0.1.2.0.4 40-41|0.1.2.0.4.2.0.0+0.1.2.0.4.2.0+0.1.2.0.4.2 38-39|0.1.2.0.4.4.1+0.1.2.0.4.4.0.0+0.1.2.0.4.4.0+0.1.2.0.4.4 36-37|0.1.2.0.4.1 34-35|0.1.2.0.4.0 31-32|0.1.2.0.0 29-30|0.1.2.0.4.0.0 26-27|0.1.2 24-25|0.3 22-23|0.3.0 21-22|0 19-20|0.2 16-17|0.1.1.1+0.1.1.0.0+0.1.1.0+0.1.1 14-15|0.1 13-14|0.1.0 10-11|0.0.0.0.0+0.0.0.0+0.0.0 9-10|0.0 6-7|0.1.3.1.1 4-5|0.1.3.1.1.0 3-4|0.1.3.1 2-3|0.1.3.1.0 1-2|0.1.3.1.2 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:45.483
+(a11 / and 
+      :ARG1-of (s4 / say-01 
+            :ARG0 (p3 / person 
+                  :name (n8 / name 
+                        :op1 "Hall,"))) 
+      :ARG3-of (c6 / come-01 
+            :ARG1 (h4 / he) 
+            :ARG4 (c5 / city-district 
+                  :name (n7 / name 
+                        :op1 "Westminster") 
+                  :wiki "Westminster_system") 
+            :location (a9 / and 
+                  :op1 (c4 / come-01 
+                        :ARG0 (t3 / there) 
+                        :ARG1 (c3 / chambre 
+                              :mod (q / quen)) 
+                        :manner (m / mornyng) 
+                        :op1-of (a5 / and 
+                              :op2 (b2 / bowe) 
+                              :op3 (a4 / arrow) 
+                              :op4 (a3 / and 
+                                    :op1 (a2 / and 
+                                          :op1 (s / sworde) 
+                                          :op2 (b / bucklar 
+                                                :ARG1-of (o2 / outlaw-01 
+                                                      :op1-of (o / or 
+                                                            :ARG2-of (r / resemble-01 
+                                                                  :ARG1 (e / every)) 
+                                                            :op2 (p / person 
+                                                                  :name (n / name 
+                                                                        :op1 "Robyn" 
+                                                                        :op2 "Hodesmen;"))))) 
+                                          :op5-of (a6 / and 
+                                                :op1 (c2 / cot 
+                                                      :mod (s3 / short) 
+                                                      :poss (c / country 
+                                                            :name (n2 / name 
+                                                                  :op1 "Kentish" 
+                                                                  :op2 "kendal,"))) 
+                                                :op2 (h3 / hod 
+                                                      :topic (h2 / hedd)) 
+                                                :op3 (h / hosen) 
+                                                :op4 (o3 / one))))) 
+                        :op2-of (a8 / and 
+                              :ARG1-of (g / grace-01 
+                                    :ARG0 (t4 / tyme)) 
+                              :domain-of (t2 / therl) 
+                              :example-of (o5 / organization 
+                                    :name (n5 / name 
+                                          :op1 "Wilshire,")) 
+                              :mod-of (m2 / menne 
+                                    :mod (n4 / noble) 
+                                    :mod (o4 / other) 
+                                    :mod-of (n3 / number)) 
+                              :op1 (p2 / province 
+                                    :name (n6 / name 
+                                          :op1 "Essex") 
+                                    :wiki "Essex")))) 
+            :op2-of (a / and 
+                  :ARG1-of (s2 / same-01 
+                        :ARG0 (t / twelve) 
+                        :mod (a7 / all)) 
+                  :op1 (t6 / time 
+                        :mod (s5 / short) 
+                        :part-of (c7 / coronation 
+                              :op1-of (a12 / after)) 
+                        :quant (s6 / some)))) 
+      :op1 (q2 / quene) 
+      :op2 (t5 / traine 
+            :quant (a10 / all)))
+
+# ::snt whereof the quene, the ladies, and al other there were abashed as well for the straunge sight, as also for their sodain commyng, and after certayn daunces and pastime made, thei departed."
+# ::tok whereof the quene , the ladies , and al other there were abashed as well for the straunge sight , as also for their sodain commyng , and after certayn daunces and pastime made , thei departed . "
+# ::alignments 36-37|0.4.1.0.0 35-36|0.4.1.0.0.0 32-33|0.4.1 31-32|0.4 30-31|0.4.0 29-30|0.4.0.0 28-29|0.5 27-28|0.4.1.0 25-26|0.4.1.0.0.0.0.0 24-25|0.4.1.0.0.0.0 21-22|0.4.1.0.0.1.0.1 18-19|0.4.1.0.0.1.0 12-13|0.4.1.0.0.1 9-10|0.0 8-9|0.3 7-8|0 5-6|0.2 2-3|0.1 0-1|0.4.1.0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:45.952
+(a7 / and 
+      :mod (o / other) 
+      :op1 (q / quene) 
+      :op2 (l / lady) 
+      :op3 (a6 / al) 
+      :op4 (a / and 
+            :op1 (d2 / daunc 
+                  :mod (c / certayn)) 
+            :op2 (p / pastime 
+                  :quant-of (a3 / and 
+                        :ARG1-of (d / depart-01 
+                              :ARG0 (t / thei 
+                                    :prep-for (s / sodain 
+                                          :mod-of (c2 / commyng))) 
+                              :purpose (a5 / abash-01 
+                                    :ARG1 (s2 / sight-01 
+                                          :ARG0 (w / whereof) 
+                                          :ARG1 (a4 / also))))))) 
+      :time (a2 / after))
+
+# ::snt The same author gives the following curious account of a Maying, in the 0th year of that monarch, 0: "The king and quene, accompanied with many lords and ladies, rode to the high ground on Shooter's Hill to take the air, and as they passed by the way, they espied a company of tall yomen clothed all in green, with green whodes and bows and arrows, to the number of 0.
+# ::tok The same author gives the following curious account of a Maying , in the 0th year of that monarch , 0 : " The king and quene , accompanied with many lords and ladies , rode to the high ground on Shooter 's Hill to take the air , and as they passed by the way , they espied a company of tall yomen clothed all in green , with green whodes and bows and arrows , to the number of 0 .
+# ::alignments 81-82|0.1.0.1.1.1.1.0 79-80|0.1.0.1.0.0.1.1.0 75-76|0.1.0.1.0.0.1.1 74-75|0.1.0.1.0.0.1 73-74|0.1.0.1.0.0.1.0 72-73|0.1.0.1.0 71-72|0.1.0.1.0.0 70-71|0.1.0.1.0.0.0 67-68|0.1.0.1.1.1.1 65-66|0.1.0.1.1.1.1.1 64-65|0.1.0.1.1.1.0 63-64|0.1.0.1.1.1 62-63|0.1.0.1.1.1.2 60-61|0.1.0.1.1 58-59|0.1.0.1 55-56|0.1.0.1.3.0 52-53|0.1.0.1.3 51-52|0.1.0.1.3.1 49-50|0.1.0.1.2 47-48|0.1.0.1.2.1.1 45-46|0.1.0.1.2.1 43-44|0.1.0.1.2.1.2 41-42|0 39-40|0.1.2 38-39|0.1.0.1.1.1.0.0 35-36|0.1 33-34|0.1.1.0.0 32-33|0.1.1.0 31-32|0.1.1.1 30-31|0.1.1.1.0 28-29|0.1.1 26-27|0.1.0.1.2.0 25-26|0.1.0 24-25|0.1.0.1.2.1.0 20-21|0.0 18-19|0.1.0.1.1.0.1+0.1.0.1.1.0+0.1.0.1.1.0.0 17-18|0.1.0.1.1.0.0.0 15-16|0.1.0.1.1.0.0.1 10-11|0.1.0.0.1.1 7-8|0.1.0.0.1.0 6-7|0.1.0.0.1.0.0 5-6|0.1.0.0.1.0.1 3-4|0.1.0.0.1 2-3|0.1.0.0.0+0.1.0.0 1-2|0.1.0.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:50.183
+(s / shoot-01 
+      :ARG1 0 
+      :manner-of (r / ride-01 
+            :ARG0 (a9 / and 
+                  :op1 (p3 / person 
+                        :ARG0-of (a11 / author-01) 
+                        :ARG0-of (g4 / give-01 
+                              :ARG1 (a10 / account 
+                                    :ARG0-of (c3 / curious-01) 
+                                    :ARG1-of (f / follow-01)) 
+                              :ARG2 (m3 / may)) 
+                        :ARG1-of (s2 / same-01)) 
+                  :op2 (e / espy-01 
+                        :ARG0 (a3 / and 
+                              :op1 (w / whod 
+                                    :ARG1-of (g / green-02) 
+                                    :op1-of (a2 / and 
+                                          :op2 (b / bow) 
+                                          :op3 (a / arrow 
+                                                :mod-of (n / number))))) 
+                        :ARG1 (c2 / company 
+                              :ARG1-of (h3 / have-org-role-91 
+                                    :ARG0 (p2 / person 
+                                          :mod (t4 / that) 
+                                          :mod-of (y2 / year)) 
+                                    :ARG2 (m2 / monarch)) 
+                              :part-of (y / yoman 
+                                    :ARG1-of (c / clothe-01 
+                                          :ARG1-of (h2 / high-02)) 
+                                    :ARG1-of (g2 / green-02 
+                                          :ARG0 0 
+                                          :prep-from-of (a4 / all)) 
+                                    :mod (t / tall))) 
+                        :op3-of (a5 / and 
+                              :op1 (q / quene) 
+                              :op2 (t3 / take-01 
+                                    :ARG0 (k / king) 
+                                    :ARG1 (a6 / air) 
+                                    :ARG2 (h / hill))) 
+                        :time (p / pass-01 
+                              :ARG0 (w2 / way) 
+                              :ARG1 (t2 / they)))) 
+            :ARG1 (a8 / accompany-01 
+                  :ARG0 (a7 / and 
+                        :op1 (l / lady)) 
+                  :ARG1 (l2 / lord 
+                        :quant (m / many))) 
+            :destination (g3 / ground)))
+
+# ::snt One of them calling himself Robin Hood, came to the king, desiring him to see his men shoot, and the king was content.
+# ::tok One of them calling himself Robin Hood , came to the king , desiring him to see his men shoot , and the king was content .
+# ::alignments 25-26|0.1.0.1.0 23-24|0.1.0.1.0.0 21-22|0.1.0.1 19-20|0.1.0.2.0.0 18-19|0.1.0.2.0.0.0 16-17|0.1.0.2.0 13-14|0.1.0.2 11-12|0.1.0.0 8-9|0.1.0 5-7|0.1.1.1+0.1.1.0+0.1.1+0.1 3-4|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:50.293
+(c3 / call-03 
+      :ARG0 1 
+      :ARG2 (p / person 
+            :ARG1-of (c2 / come-01 
+                  :ARG4 (k2 / king) 
+                  :op1-of (a / and 
+                        :op2 (c / content 
+                              :domain (k / king))) 
+                  :purpose (d / desire-01 
+                        :ARG1 (s2 / see-01 
+                              :ARG1 (s / shoot-down-05 
+                                    :ARG0 (m / man))))) 
+            :name (n / name 
+                  :op1 "Robin" 
+                  :op2 "Hood,")))
+
+# ::snt Then he wistled, and all the 0 archers shot and losed at once, he then whistled again, and they shot again; their arrows wistled by craft of the head, so that the noise was strange and great, and much pleased the king, the quene, and all the company.
+# ::tok Then he wistled , and all the 0 archers shot and losed at once , he then whistled again , and they shot again ; their arrows wistled by craft of the head , so that the noise was strange and great , and much pleased the king , the quene , and all the company .
+# ::alignments 55-56|0.1.0.1 53-54|0.1.0.1.0 52-53|0.1.0 50-51|0.1.0.0 47-48|0.1 45-46|0 44-45|0.2 43-44|0.3 41-42|0.0.1 40-41|0.3.1 39-40|0.0.0 37-38|0.0 32-33|0.3.0.0.0.0 29-30|0.3.0.0.0.0.1 26-27|0.3.0.1.2 24-25|0.3.0.1.1 23-24|0.3.0.2.2 22-23|0.3.0.2 21-22|0.3.0.2.0 20-21|0.3.0 18-19|0.3.0.0.1 17-18|0.3.0.0 16-17|0.3.0.0.2 13-14|0.3.0.1.0.0.1 11-12|0.3.0.1.0.1 10-11|0.3.0.1.0 9-10|0.3.0.1.0.0 8-9|0.3.0.1.0.1.0 7-8|0.3.0.2.1 5-6|0.3.0.1.0.0.0 4-5|0.3.0.1 1-2|0.3.0.0.0 0-1|0.3.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:51.932
+(p / please-01 
+      :ARG0 (n / noise 
+            :domain-of (s / strange) 
+            :domain-of (g / great)) 
+      :ARG1 (k / king 
+            :op1-of (a2 / and 
+                  :op2 (q / quene) 
+                  :op3 (c / company 
+                        :mod (a / all)))) 
+      :degree (m / much) 
+      :op3-of (a3 / and 
+            :op1 (a8 / and 
+                  :op1 (w / whistle-01 
+                        :ARG0 (h2 / he 
+                              :ARG0-of (h / head-01 
+                                    :ARG1 (t3 / then) 
+                                    :ARG1-of (c2 / craft-01))) 
+                        :mod (a9 / again) 
+                        :time (t2 / then)) 
+                  :op1-of (a13 / and 
+                        :op1-of (a10 / and 
+                              :op2 (s3 / shoot-02 
+                                    :mod (a12 / all) 
+                                    :time (o / once)) 
+                              :op3 (l / lose-01 
+                                    :ARG0 (a11 / archer))) 
+                        :op1-of (a6 / and) 
+                        :op2 (a5 / arrow)) 
+                  :op2 (s2 / shoot-02 
+                        :ARG0 (t / they) 
+                        :ARG1 0 
+                        :mod (a7 / again))) 
+            :op2 (a4 / and)))
+
+# ::snt All these archers were of the king's guard, and had thus appareled themselves to make solace to the king.
+# ::tok All these archers were of the king 's guard , and had thus appareled themselves to make solace to the king .
+# ::alignments 20-21|0.0.0.0 17-18|0.0.0 12-13|0.1.1 10-11|0 8-9|0.1 6-7|0.1.0 2-3|0.0 1-2|0.0.1 0-1|0.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:52.187
+(a / and 
+      :op1 (a2 / archer 
+            :ARG0-of (s / solace-01 
+                  :ARG1 (k / king)) 
+            :mod (t2 / this) 
+            :quant (a3 / all)) 
+      :op2 (g / guard-01 
+            :ARG0 (k2 / king) 
+            :ARG2 (t / thus-far)))
+
+# ::snt Then Robin Hood desired the king and quene to come into the green wood, and see how the outlaws live.
+# ::tok Then Robin Hood desired the king and quene to come into the green wood , and see how the outlaws live .
+# ::alignments 20-21|0.0.1 19-20|0.0.1.0 16-17|0.0.3.0 15-16|0.0.3 13-14|0.0.2 12-13|0.0.2.0 9-10|0.0 6-7|0 5-6|0.0.0.0.0 3-4|0.0.0.0 1-3|0.0.0.1.1+0.0.0.1.0+0.0.0.1+0.0.0 0-1|0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:52.299
+(a2 / and 
+      :op1 (c / come-01 
+            :ARG1 (p / person 
+                  :ARG0-of (d / desire-01 
+                        :ARG1 (k / king) 
+                        :time (t / then)) 
+                  :name (n / name 
+                        :op1 "Robin" 
+                        :op2 "Hood")) 
+            :ARG1-of (l / live-01 
+                  :ARG0 (o / outlaw-01)) 
+            :ARG4 (w / wood 
+                  :ARG1-of (g / green-02)) 
+            :op1-of (a / and 
+                  :op2 (s / see-01))))
+
+# ::snt The king demanded of the quene and her ladies, if they durst venture to go into the wood with so many outlaws, and the quene was content.
+# ::tok The king demanded of the quene and her ladies , if they durst venture to go into the wood with so many outlaws , and the quene was content .
+# ::alignments 28-29|0.1 24-25|0 22-23|0.0.0.0.1.0.1 21-22|0.0.0.0.1.0.1.0 18-19|0.0.0.0.1.0.0 15-16|0.0.0.0.1.0 13-14|0.0.0.0.1.0.2 11-12|0.0.0.0.1 8-9|0.0 6-7|0.0.0 5-6|0.0.1 2-3|0.0.0.0 1-2|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:52.693
+(a / and 
+      :op1 (l / lady 
+            :op1-of (a2 / and 
+                  :ARG2-of (d / demand-01 
+                        :ARG0 (k / king) 
+                        :ARG1 (t / they 
+                              :ARG0-of (g / go-02 
+                                    :ARG4 (w / wood) 
+                                    :prep-with (o / outlaw-01 
+                                          :quant (m / many)) 
+                                    :purpose-of (v / venture))))) 
+            :poss (q / quene)) 
+      :op2 (c / content))
+
+# ::snt Then the horns blew till they came to the wood under Shooter's Hill, and there was an arbour made of boughs, with a hall and a great chamber, and an inner chamber, well made and covered with flowers and sweet herbs, which the king much praised.
+# ::tok Then the horns blew till they came to the wood under Shooter 's Hill , and there was an arbour made of boughs , with a hall and a great chamber , and an inner chamber , well made and covered with flowers and sweet herbs , which the king much praised .
+# ::alignments 51-52|0.0.0.4.0.1.1.0.0.0.0 50-51|0.0.0.4.0.1.1.0.0.0.0.1 49-50|0.0.0.4.0.1.1.0.0.0.0.0 45-46|0.0.0.4.0.1.1.1 44-45|0.0.0.4.0.1.1.1.0 43-44|0.0.0.4.0.1.1.0.0 42-43|0.0.0.4.0.1.1.0.0.0 40-41|0.0.0.4.0.1.1.0 39-40|0.0.0.4.0.1.1 35-36|0.0.0.3.0 34-35|0.0.0.3.0.0 32-33|0.0.0.3 30-31|0.0.0.2.1 29-30|0.0.0.2.1.0 27-28|0.0.0.2 26-27|0.0.0.2.0 22-23|0.1 19-20|0.0.0.4.0.1.0 15-16|0.0.0.4.0.1 13-14|0.0.1.0+0.0.1+0.0 11-12|0 9-10|0.0.0.1 6-7|0.0.0 5-6|0.0.0.0 4-5|0.0.0.4 3-4|0.0.0.4.0 2-3|0.0.0.4.0.0 0-1|0.0.0.4.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:53.513
+(s2 / shoot-01 
+      :ARG0 (p2 / person 
+            :ARG3-of (c4 / come-01 
+                  :ARG1 (t / they) 
+                  :ARG4 (w / wood) 
+                  :op1-of (a4 / and 
+                        :op2 (h2 / hall) 
+                        :op3 (c3 / chamber 
+                              :mod (g / great))) 
+                  :op1-of (a3 / and 
+                        :op2 (c2 / chamber 
+                              :mod (i / inner))) 
+                  :op1-of (t2 / till 
+                        :time-of (b2 / blow-01 
+                              :ARG1 (h3 / horn) 
+                              :op1-of (a6 / and 
+                                    :op2 (a5 / arbour) 
+                                    :op3 (a2 / and 
+                                          :op1 (c / cover-01 
+                                                :op1-of (a / and 
+                                                      :op2 (f / flower 
+                                                            :ARG1-of (p / praise-01 
+                                                                  :ARG0 (k / king) 
+                                                                  :degree (m / much))))) 
+                                          :op2 (h / herb 
+                                                :ARG1-of (s / sweet-05)))) 
+                              :time (t3 / then)))) 
+            :name (n / name 
+                  :op1 "Hill,")) 
+      :ARG1 (b / bough))
+
+# ::snt Then said Robin Hood, 'Sir, outlaws breakfasts is vensyon, and you must be content with such fare as we have.'
+# ::tok Then said Robin Hood , ' Sir , outlaws breakfasts is vensyon , and you must be content with such fare as we have . '
+# ::alignments 22-23|0.1.0.0 20-21|0.2.1.0.0 19-20|0.2.1.0.0.0 17-18|0.2.1 14-15|0.2.1.0 13-14|0.2 11-12|0.2.0 9-10|0.1.0 8-9|0.1 6-7|0.2.0.0 2-4|0.0.0.1+0.0.0.0+0.0.0+0.0 1-2|0 0-1|0.3 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:53.741
+(s3 / say-01 
+      :ARG0 (p / person 
+            :name (n / name 
+                  :op1 "Robin" 
+                  :op2 "Hood,")) 
+      :ARG1 (o / outlaw-01 
+            :ARG1 (b / breakfast-01 
+                  :ARG1 (w / we))) 
+      :op1-of (a / and 
+            :op2 (v / vensyon 
+                  :domain (s2 / sir)) 
+            :op3 (c / content 
+                  :domain (y / you 
+                        :poss-of (f / fare 
+                              :mod (s / such))))) 
+      :time (t / then))
+
+# ::snt The king and quene sat down, and were served with venison and wine by Robin Hood and his men.
+# ::tok The king and quene sat down , and were served with venison and wine by Robin Hood and his men .
+# ::alignments 19-20|0.1.0.1.0.0.1 17-18|0.1.0.1.0 15-17|0.1.0.1.0.0.0.1+0.1.0.1.0.0.0.0+0.1.0.1.0.0.0+0.1.0.1.0.0 13-14|0.1.0.1.1.1 12-13|0.1.0.1.1 11-12|0.1.0.1.1.0 9-10|0.1.0.1 7-8|0 4-5|0.1 3-4|0.0 2-3|0.1.0 1-2|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:54.321
+(a3 / and 
+      :op1 (q / quene) 
+      :op2 (s2 / sit-01 
+            :ARG0 (a4 / and 
+                  :op1 (k / king) 
+                  :op2 (s / serve-01 
+                        :ARG0 (a / and 
+                              :op1 (p / person 
+                                    :name (n / name 
+                                          :op1 "Robin" 
+                                          :op2 "Hood") 
+                                    :poss-of (m / man))) 
+                        :ARG1 (a2 / and 
+                              :op1 (v / venison) 
+                              :op2 (w / wine))))))
+
+# ::snt Then the king and his party departed, and Robin and his men conducted them.
+# ::tok Then the king and his party departed , and Robin and his men conducted them .
+# ::alignments 13-14|0.0 12-13|0.2 10-11|0 9-10|0.1 8-9|0.0.1 6-7|0.0.2.0 5-6|0.0.2.1 3-4|0.0.2 2-3|0.0.0 0-1|0.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:54.597
+(a / and 
+      :ARG0-of (c / conduct-01 
+            :ARG1 (k / king) 
+            :op1-of (a2 / and 
+                  :time (t / then)) 
+            :op2-of (a3 / and 
+                  :ARG0-of (d / depart-01) 
+                  :op1 (p / party))) 
+      :op1 "Robin_Cook" 
+      :op2 (m / man))
+
+# ::snt As they were returning, they were met by two ladies in a rich chairiot, drawn by five horses, every horse had his name on his head, and on every horse sat a lady, with her name written; and in a chair sat the Lady May, accompanied with Lady Flora, richly appareled, and they saluted the king with divers songs, and so brought him to Greenwhich."
+# ::tok As they were returning , they were met by two ladies in a rich chairiot , drawn by five horses , every horse had his name on his head , and on every horse sat a lady , with her name written ; and in a chair sat the Lady May , accompanied with Lady Flora , richly appareled , and they saluted the king with divers songs , and so brought him to Greenwhich . "
+# ::alignments 74-75|0.1.0.0.0.2.0.1.0.0+0.1.0.0.0.2.0.1.0+0.1.0.0.0.2.0.1 71-72|0.1.0.0.0.2.0 69-70|0.1.0.0.0.2 67-68|0.1.0.0.0.3 66-67|0.1.0.0.0.3.0 64-65|0.1.0.0.0.0 62-63|0.1.0.0.0 60-61|0.1.0.0.0.1 57-58|0.1.0.0.0.2.0.0 54-56|0.1.0.0.3.0.0.0.0.1+0.1.0.0.3.0.0.0.0.0+0.1.0.0.3.0.0.0.0+0.1.0.0.3.0.0.0 52-53|0.1.0.0.3.0.0 49-51|0.1.0.0.3.0.1.1+0.1.0.0.3.0.1.0+0.1.0.0.3.0.1+0.1.0.0.3.0 47-48|0.1.0.0.3.0.2.1 46-47|0.1.0.0.3.0.2.1.0 43-44|0.1.0.0.3.0.2 42-43|0.1.0.0.3.0.2.2 41-42|0.1.0.0.3.0.2.0 40-41|0.1.0.0.3.0.2.0.0 36-37|0.1.0.0.0.2.1.1.0.1 34-35|0.1.0.0.0.2.1.1.0 33-34|0.1.0.0.0.2.1.1.0.0 32-33|0.1.0.0.0.2.1.1.0.0.0 30-31|0.1.0.0.0.2.1.1 28-29|0.1.0.0.3 25-26|0.1.0.0.2 22-23|0.1.0.0 21-22|0.1.0.0.1 19-20|0.0 18-19|0.1.0.0.3.1 16-17|0 14-15|0.1 13-14|0.1.1 10-11|0.1.0.1 9-10|0.1.0.1.0 7-8|0.1.0 3-4|0.1.0.0.0.2.1 1-2|0.1.0.0.0.2.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:58.091
+(d2 / draw-02 
+      :ARG0 (h4 / horse) 
+      :ARG1 (c2 / chairiot 
+            :location-of (m / meet-03 
+                  :ARG0 (h3 / horse 
+                        :ARG0-of (s2 / salute-01 
+                              :ARG1 (k / king) 
+                              :op1-of (a2 / and) 
+                              :op1-of (a / and 
+                                    :ARG1-of (b / bring-01 
+                                          :ARG0 (r / richly) 
+                                          :ARG2 (o / organization 
+                                                :name (n / name 
+                                                      :op1 "Greenwhich."))) 
+                                    :ARG1-of (r3 / return-01 
+                                          :ARG0 (t2 / they) 
+                                          :purpose-of (a6 / and 
+                                                :op1 (s4 / sit-01 
+                                                      :ARG0 (h / horse 
+                                                            :mod (e / every)) 
+                                                      :ARG1 (l2 / lady))))) 
+                              :topic-of (s / song 
+                                    :mod (d / diver))) 
+                        :mod (e2 / every) 
+                        :part (n5 / name) 
+                        :part (h2 / head-01 
+                              :ARG0 (p / person 
+                                    :ARG0-of (a3 / accompany-01 
+                                          :ARG1 (t / thing 
+                                                :name (n2 / name 
+                                                      :op1 (l / Lady) 
+                                                      :op2 (f / Flora)))) 
+                                    :name (n3 / name 
+                                          :op1 "Lady" 
+                                          :op2 "May,") 
+                                    :op2-of (a4 / and 
+                                          :ARG0-of (w / write-01 
+                                                :ARG1 (n4 / name)) 
+                                          :op1 (s3 / sit-01 
+                                                :ARG1 (c / chair)) 
+                                          :op1-of (a5 / and))) 
+                              :ARG1 5)) 
+                  :ARG1 (l3 / lady 
+                        :quant 2)) 
+            :mod (r2 / rich)))
+
+# ::snt The games of Robin Hood seem to have been occasionally of a dramatic cast.
+# ::tok The games of Robin Hood seem to have been occasionally of a dramatic cast .
+# ::alignments 13-14|0.1.0 12-13|0.1.0.0 9-10|0.1 5-6|0 3-5|0.0.0.1+0.0.0.0+0.0.0+0.0 1-2|0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:39:58.268
+(s / seem-01 
+      :ARG0 (p / person 
+            :name (n / name 
+                  :op1 "Robin" 
+                  :op2 "Hood") 
+            :poss-of (g / game)) 
+      :ARG1 (o / occasional 
+            :poss (c / cast-01 
+                  :manner (d / dramatic))))
+
+# ::snt Sir John Paston, in the time of King Edward IV. complaining of the ingratitude of his servants, mentions one who had promised never to desert him, and "ther uppon," says he, "I have kepyd hym thys iii yer to pleye Seynt Jorge, and Robyn Hod, and the Shryf off Notyngham, and now when I wolde have good horse he is goon into Bernysdale, and I without a keeper."
+# ::tok Sir John Paston , in the time of King Edward IV . complaining of the ingratitude of his servants , mentions one who had promised never to desert him , and " ther uppon , " says he , " I have kepyd hym thys iii yer to pleye Seynt Jorge , and Robyn Hod , and the Shryf off Notyngham , and now when I wolde have good horse he is goon into Bernysdale , and I without a keeper . "
+# ::alignments 80-81|0.1.0.1.0.0.0.0.0.0.1.0 77-78|0.1.0.1.0.0.0.0.0.0.1.0.0 76-77|0.1.0.1.0.0.0.0.0.0.1 69-70|0.1.0.1.0.0.0.0.0.0.1.1.1.0.0 68-69|0.1.0.1.0.0.0.0.0.0.1.1.1.0 65-66|0.0 63-64|0.1.0.1.0.0.0.0.0.0.1.0.2 62-63|0.1.0.1.0.0.0.0.0.0.1.2 59-60|0.1.0.1.0.0.0.0.0.0.1.0.3 58-59|0.1.0.1.0.0.0.0.0.0.1.0.1 56-57|0.1.0.1.0.0.0.0.0.0.1.1 53-55|0.1.0.1.0.0.0.0.0.0.1.1.1.1.1+0.1.0.1.0.0.0.0.0.0.1.1.1.1.0+0.1.0.1.0.0.0.0.0.0.1.1.1.1+0.1.0.1.0.0.0.0.0.0.1.1.1 52-53|0.1.0.1.0.0.0.0.0.0 49-51|0.1.0.1.0.0.0.0.0.0.1.1.0.0.1+0.1.0.1.0.0.0.0.0.0.1.1.0.0.0+0.1.0.1.0.0.0.0.0.0.1.1.0.0+0.1.0.1.0.0.0.0.0.0.1.1.0 46-47|0.1.0.2.0 45-46|0.1.0.2 44-45|0.2.1.0 43-44|0.2.1 40-41|0.2.0 37-38|0.1 36-37|0 33-34|0.1.0.1.0.0.1 32-33|0.1.0.1.0.0.1.0 30-31|0.1.0.1.0.0.0.0.0.0.0.2 27-28|0.1.0.0 24-25|0.1.0 20-21|0.2 18-19|0.1.0.1.0.0.0.0+0.1.0.1.0.0.0.0.0 15-16|0.1.0.1.0.0.0 12-13|0.1.0.1.0.0 9-12|0.1.0.1.0.1.1+0.1.0.1.0.1.0+0.1.0.1.0.1+0.1.0.1.0 8-9|0.1.0.1.1+0.1.0.1 6-7|0.1.0.1.0.2 1-3|0.1.0.1.0.0.0.0.0.0.0.1.1+0.1.0.1.0.0.0.0.0.0.0.1.0+0.1.0.1.0.0.0.0.0.0.0.1+0.1.0.1.0.0.0.0.0.0.0 0-1|0.1.0.1.0.0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:02.993
+(s3 / say-01 
+      :ARG0 (i2 / i) 
+      :ARG1 (h4 / he 
+            :ARG0-of (p / promise-01 
+                  :ARG1 (d / desert) 
+                  :ARG1-of (h5 / have-org-role-91 
+                        :ARG0 (p3 / person 
+                              :ARG0-of (c / complain-01 
+                                    :ARG1 (i5 / ingratitude 
+                                          :ARG1-of (s4 / serve-01 
+                                                :ARG0 (p2 / person 
+                                                      :op2-of (a4 / and 
+                                                            :op1 (p4 / person 
+                                                                  :mod (s5 / sir) 
+                                                                  :name (n5 / name 
+                                                                        :op1 "John" 
+                                                                        :op2 "Paston,") 
+                                                                  :op1-of (a5 / and)) 
+                                                            :op3 (a / and 
+                                                                  :ARG1-of (k / keep-01 
+                                                                        :ARG0 (i / i) 
+                                                                        :op1-of (s / Shryf) 
+                                                                        :op1-of (n / now) 
+                                                                        :op1-of (o / off)) 
+                                                                  :op1 (a3 / and 
+                                                                        :op1 (t2 / thing 
+                                                                              :name (n3 / name 
+                                                                                    :op1 (s2 / Seynt) 
+                                                                                    :op2 (j / Jorge))) 
+                                                                        :op2 (t / thing 
+                                                                              :domain-of (g / good 
+                                                                                    :mod-of (h / horse)) 
+                                                                              :name (n2 / name 
+                                                                                    :op1 (r / Robyn) 
+                                                                                    :op2 (h2 / Hod)))) 
+                                                                  :op1-of (a2 / and)))))) 
+                                    :ARG2 (u / uppon 
+                                          :mod (t4 / th))) 
+                              :name (n4 / name 
+                                    :op1 "Edward" 
+                                    :op2 "IV.") 
+                              :part (t5 / time)) 
+                        :ARG2 (k2 / king)) 
+                  :ARG2 (i3 / iii 
+                        :mod-of (y / y)))) 
+      :ARG2 (m / mention-01 
+            :ARG0 (i4 / i) 
+            :ARG2 (h3 / hym 
+                  :mod-of (t3 / thy))))
+
+# ::snt So clear was this understanding on the part of the United States that in correspondence contemporaneous with the ratification of the convention it was distinctly expressed that the mutual covenants of nonoccupation were not intended to apply to the British establishment at the Balize.
+# ::tok So clear was this understanding on the part of the United States that in correspondence contemporaneous with the ratification of the convention it was distinctly expressed that the mutual covenants of nonoccupation were not intended to apply to the British establishment at the Balize .
+# ::alignments 43-44|0.0.0.1.0.0.0.1.1.1.0.0+0.0.0.1.0.0.0.1.1.1.0+0.0.0.1.0.0.0.1.1.1 40-41|0.0.0.1.0.0.0.1.1 39-40|0.0.0.1.0.0.0.1.1.0.1+0.0.0.1.0.0.0.1.1.0.0.0+0.0.0.1.0.0.0.1.1.0.0+0.0.0.1.0.0.0.1.1.0 36-37|0.0.0.1.0.0.0.1 34-35|0.0.0.1.0.0.0 33-34|0.0.0.1.0.0.0.2 31-32|0.0.0.1.0.0.0.1.0.0 29-30|0.0.0.1.0.0.0.1.0 28-29|0.0.1 25-26|0.0.0.1.0.0 24-25|0.0.0.1.0.0.1 21-22|0.0.0.0.0 18-19|0.0.0.0 15-16|0.0.0.1.0 14-15|0.0.0.1 10-12|0.0.0.1.0.0.0.0.1+0.0.0.1.0.0.0.0.0.1+0.0.0.1.0.0.0.0.0.0+0.0.0.1.0.0.0.0.0+0.0.0.1.0.0.0.0 4-5|0.0.0 3-4|0.0.0.2 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:04.037
+(c8 / cause-01 
+      :ARG1 (c7 / clear-06 
+            :ARG0 (u / understand-01 
+                  :ARG0 (r / ratification 
+                        :poss (c3 / convention)) 
+                  :ARG1 (c5 / correspondence 
+                        :mod-of (c4 / contemporaneou 
+                              :time-of (e2 / express-01 
+                                    :ARG1 (i / intend-01 
+                                          :ARG0 (c6 / country 
+                                                :name (n4 / name 
+                                                      :op1 "United" 
+                                                      :op2 "States") 
+                                                :wiki "United_States") 
+                                          :ARG1 (a / apply-01 
+                                                :ARG0 (c2 / covenant 
+                                                      :mod (n3 / nonoccupation)) 
+                                                :ARG2 (e / establish-01 
+                                                      :ARG0 (c / country 
+                                                            :name (n2 / name 
+                                                                  :op1 "Britain") 
+                                                            :wiki "United_Kingdom") 
+                                                      :ARG1 (p / person 
+                                                            :name (n / name 
+                                                                  :op1 "Balize.")))) 
+                                          :polarity -) 
+                                    :degree (d / distinct)))) 
+                  :mod (t / this)) 
+            :ARG1 (m / mutual)))
+
+# ::snt This qualification is to be ascribed to the fact that, in virtue of successive treaties with previous sovereigns of the country, Great Britain had obtained a concession of the right to cut mahogany or dyewoods at the Balize, but with positive exclusion of all domain or sovereignty; and thus it confirms the natural construction and understood import of the treaty as to all the rest of the region to which the stipulations applied.
+# ::tok This qualification is to be ascribed to the fact that , in virtue of successive treaties with previous sovereigns of the country , Great Britain had obtained a concession of the right to cut mahogany or dyewoods at the Balize , but with positive exclusion of all domain or sovereignty ; and thus it confirms the natural construction and understood import of the treaty as to all the rest of the region to which the stipulations applied .
+# ::alignments 76-77|0.1.2.0.0.0.0 75-76|0.1.2.0.0.0.0.0 71-72|0.1.2.0.0.0.0.1 68-69|0.1.2.0.0.0.0.1.0 66-67|0.1.2.0.0.0.0.1.0.0 63-64|0.1.2.0.1.0.0.0 60-61|0.1.2.0.1.0.0 59-60|0.1.2.0.1.0 58-59|0.1.2.0.1 57-58|0.1.2.0.0 56-57|0.1.2.0.0.0 54-55|0.1.2.0 52-53|0.1.3 51-52|0.1 50-51|0.1.2 49-50|0.1.1.0.1 48-49|0.1.1.0 47-48|0.1.1 46-47|0.1.1.0.2 44-45|0.1.1.0.0 43-44|0.1.1.0.0.0 41-42|0 39-40|0.0.1.1.0.0+0.0.1.1.0+0.0.1.1 36-37|0.0.1.0.1.0.0.0 35-36|0.0.1.0.1.0.0 34-35|0.0.1.0.1.0 33-34|0.0.1.0.1 31-32|0.0.1.0 28-29|0.0.1 26-27|0.0 23-25|0.0.0.1+0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 21-22|0.0.1.0.0 18-19|0.0.1.0.0.0 17-18|0.0.1.0.0.0.0 15-16|0.1.0.0.0 14-15|0.1.0.0 12-13|0.1.0.0.0.0 8-9|0.1.0.1.0 5-6|0.1.0.1 1-2|0.1.0 0-1|0.1.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:10.611
+(c3 / contrast-01 
+      :ARG1 (o3 / obtain-01 
+            :ARG0 (c6 / country 
+                  :name (n3 / name 
+                        :op1 "Great" 
+                        :op2 "Britain") 
+                  :wiki "United_Kingdom") 
+            :ARG1 (c5 / concede-03 
+                  :ARG1 (r3 / right-05 
+                        :ARG1 (c7 / country 
+                              :poss-of (s3 / sovereign 
+                                    :mod (p3 / previous))) 
+                        :ARG2 (c4 / cut-02 
+                              :ARG1 (m / mahogany 
+                                    :op1-of (o2 / or 
+                                          :op2 (d2 / dyewood))))) 
+                  :ARG2 (p2 / person 
+                        :name (n2 / name 
+                              :op1 "Balize,")) 
+                  :ARG0 c6)) 
+      :ARG2 (a4 / and 
+            :domain (q / qualify-02 
+                  :ARG1 (s4 / succeed-03 
+                        :ARG1 (t3 / treaty 
+                              :poss-of (v / virtue))) 
+                  :ARG1-of (a7 / ascribe-01 
+                        :ARG2 (f / fact)) 
+                  :mod (t4 / this)) 
+            :op1 (d / domain 
+                  :op1-of (o / or 
+                        :ARG1-of (e / exclude-01 
+                              :mod (p / positive)) 
+                        :op2 (s2 / sovereignty) 
+                        :quant (a6 / all))) 
+            :op1-of (a5 / and 
+                  :op2 (c2 / confirm-01 
+                        :ARG1 (c / construct-01 
+                              :manner (n / natural-03 
+                                    :ARG1 (a / apply-01 
+                                          :ARG0 (s / stipulation) 
+                                          :ARG1 (r / region 
+                                                :part (r2 / rest 
+                                                      :quant (a2 / all)))))) 
+                        :op1-of (a3 / and 
+                              :op2 (u / understand-01 
+                                    :ARG1 (i / import-01 
+                                          :ARG1 (t / treaty)))))) 
+            :op2 (t2 / thus-far)))
+
+# ::snt It, however, became apparent at an early day after entering upon the discharge of my present functions that Great Britain still continued in the exercise or assertion of large authority in all that part of Central America commonly called the Mosquito Coast, and covering the entire length of the State of Nicaragua and a part of Costa Rica;
+# ::tok It , however , became apparent at an early day after entering upon the discharge of my present functions that Great Britain still continued in the exercise or assertion of large authority in all that part of Central America commonly called the Mosquito Coast , and covering the entire length of the State of Nicaragua and a part of Costa Rica ;
+# ::alignments 61-62|0.0.1.1.3 59-61|0.0.1.2.1+0.0.1.2.0.1+0.0.1.2.0.0+0.0.1.2.0+0.0.1.2 55-56|0 54-55|0.0.1.0.2.0.0.1.0.0.1+0.0.1.0.2.0.0.1.0.0.0.0+0.0.1.0.2.0.0.1.0.0.0+0.0.1.0.2.0.0.1.0.0 52-54|0.0.0.1.0.1+0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 49-50|0.0.0 48-49|0.0.0.0 46-47|0.0 45-46|0.0.1 42-44|0.0.1.1.1.0.1+0.0.1.1.1.0.0+0.0.1.1.1.0+0.0.1.1.1 40-41|0.0.1.1 39-40|0.0.1.1.2 38-39|0.0.1.1.0.2+0.0.1.1.0.0.0+0.0.1.1.0.0+0.0.1.1.0 33-34|0.0.1.1.0.1 31-32|0.0.1.0.2.0.0.1.0 30-31|0.0.1.0.2.0.0.1.0.1 28-29|0.0.1.0.2.0.0.1.1.0 27-28|0.0.1.0.2.0.0.1.1 26-27|0.0.1.0.2.0.0.1 23-24|0.0.1.0.2.0.0 22-23|0.0.1.0.2.0.0.2 20-22|0.0.1.0.2.0.0.0.1+0.0.1.0.2.0.0.0.0.1+0.0.1.0.2.0.0.0.0.0+0.0.1.0.2.0.0.0.0+0.0.1.0.2.0.0.0 18-19|0.0.1.0.2.0.1.0 17-18|0.0.1.0.2.0.1.0.0 14-15|0.0.1.0.2.0.1 11-12|0.0.1.0.2.0 10-11|0.0.1.0.2 9-10|0.0.1.0.1.0 8-9|0.0.1.0.1.0.0 5-6|0.0.1.0.1 4-5|0.0.1.0 0-1|0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:14.546
+(a2 / and 
+      :ARG0-of (c3 / cover-01 
+            :ARG1 (l / length 
+                  :mod (e / entire) 
+                  :poss (o / organization 
+                        :name (n3 / name 
+                              :op1 "State" 
+                              :op2 "of"))) 
+            :op3-of (a3 / and 
+                  :op1 (b / become-01 
+                        :ARG1 (i / it) 
+                        :ARG2 (a8 / apparent 
+                              :time (d2 / day 
+                                    :mod (e4 / early))) 
+                        :time (a7 / after 
+                              :op1 (e3 / enter-01 
+                                    :ARG1 (c8 / continue-01 
+                                          :ARG0 (c9 / country 
+                                                :name (n6 / name 
+                                                      :op1 "Great" 
+                                                      :op2 "Britain") 
+                                                :wiki "United_Kingdom") 
+                                          :ARG1 (e2 / exercise-02 
+                                                :ARG1 (a5 / authority 
+                                                      :mod (c2 / country 
+                                                            :name (n2 / name 
+                                                                  :op1 "Nicaragua") 
+                                                            :wiki "Nicaragua") 
+                                                      :mod (l2 / large)) 
+                                                :op1-of (o2 / or 
+                                                      :op2 (a6 / assert-03))) 
+                                          :mod (s / still)) 
+                                    :ARG2 (d / discharge-01 
+                                          :ARG1 (f / function-01 
+                                                :time (p / present)))))) 
+                  :op2 (c5 / call-01 
+                        :ARG1 (c7 / country 
+                              :name (n5 / name 
+                                    :op1 "America") 
+                              :quant (a4 / all) 
+                              :wiki "United_States") 
+                        :ARG2 (c4 / country 
+                              :name (n4 / name 
+                                    :op1 "Mosquito" 
+                                    :op2 "Coast,")) 
+                        :mod (c6 / common) 
+                        :op1-of (a / and)) 
+                  :op4 (c / country 
+                        :name (n / name 
+                              :op1 "Costa" 
+                              :op2 "Rica") 
+                        :wiki "Costa_Rica"))))
+
+# ::snt that she regarded the Balize as her absolute domain and was gradually extending its limits at the expense of the State of Honduras, and, that she had formally colonized a considerable insular group known as the Bay Islands, and belonging of right to that State.
+# ::tok that she regarded the Balize as her absolute domain and was gradually extending its limits at the expense of the State of Honduras , and , that she had formally colonized a considerable insular group known as the Bay Islands , and belonging of right to that State .
+# ::alignments 47-48|0.1.1.1 44-45|0.1.1.0 42-43|0.1.1 41-42|0.1 38-40|0.1.0.0.0.0.0.1+0.1.0.0.0.0.0.0+0.1.0.0.0.0.0+0.1.0.0.0.0 35-36|0.1.0.0.0 34-35|0.1.0.0 33-34|0.1.0.0.1 32-33|0.1.0.0.2 30-31|0.1.0 29-30|0.1.0.1 24-25|0.0.0.0.3 22-23|0.1.1.0.0.1+0.1.1.0.0.0.0+0.1.1.0.0.0+0.1.1.0.0 20-22|0.0.0.0.1.0.0.1+0.0.0.0.1.0.0.0+0.0.0.0.1.0.0+0.0.0.0.1.0 17-18|0.0.0.0.1 14-15|0.0.0.0.0 12-13|0.0.0.0 11-12|0.0.0.0.2 9-10|0 8-9|0.0.2 7-8|0.0.2.0 4-5|0.0.1.0.0+0.0.1.0+0.0.1 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:15.264
+(a3 / and 
+      :op1 (r2 / regard-01 
+            :ARG0 (s2 / she 
+                  :ARG0-of (e2 / extend-01 
+                        :ARG1 (l / limit-01) 
+                        :ARG1-of (e / expend-01 
+                              :ARG0 (o2 / organization 
+                                    :name (n3 / name 
+                                          :op1 "State" 
+                                          :op2 "of"))) 
+                        :manner (g2 / gradual) 
+                        :op1-of (a2 / and))) 
+            :ARG1 (p / person 
+                  :name (n4 / name 
+                        :op1 "Balize")) 
+            :ARG2 (d / domain 
+                  :mod (a4 / absolute))) 
+      :op2 (a / and 
+            :op1 (c2 / colonize-01 
+                  :ARG1 (g / group 
+                        :ARG1-of (k / know-02 
+                              :ARG2 (o / organization 
+                                    :name (n / name 
+                                          :op1 "Bay" 
+                                          :op2 "Islands,"))) 
+                        :mod (i / insular) 
+                        :mod (c / considerable)) 
+                  :manner (f / formal)) 
+            :op2 (b / belong-01 
+                  :ARG0 (r / right-05 
+                        :ARG1 (c3 / country 
+                              :name (n2 / name 
+                                    :op1 "Honduras") 
+                              :wiki "Honduras")) 
+                  :ARG1 (s / state))))
+
+# ::snt All these acts or pretensions of Great Britain, being contrary to the rights of the States of Central America and to the manifest tenor of her stipulations with the United States as understood by this Government, have been made the subject of negotiation through the American minister in London.
+# ::tok All these acts or pretensions of Great Britain , being contrary to the rights of the States of Central America and to the manifest tenor of her stipulations with the United States as understood by this Government , have been made the subject of negotiation through the American minister in London .
+# ::alignments 50-51|0.1.1.0.0.0.1+0.1.1.0.0.0.0.0+0.1.1.0.0.0.0+0.1.1.0.0.0 48-49|0.1.0.0+0.1.0 44-45|0.1.0.1 42-43|0.1.0.1.1 36-37|0.0.0+0.0 35-36|0.0.1 33-34|0 30-32|0.1.3+0.1.2.1+0.1.2.0+0.1.2+0.1 27-28|0.1.1 24-25|0.1.1.0 23-24|0.1.1.0.0 20-21|0.1.0.1.0.1 19-20|0.1.0.1.0.2+0.1.0.1.0.0.0+0.1.0.1.0.0+0.1.0.1.0 16-18|0.1.0.1.0.1.0.1.0.1+0.1.0.1.0.1.0.1.0.0+0.1.0.1.0.1.0.1.0+0.1.0.1.0.1.0.1 13-14|0.1.0.1.0.1.0 10-11|0.1.0.1.0.1.0.0 6-8|0.0.0.0.2+0.0.0.0.1.1+0.0.0.0.1.0+0.0.0.0.1+0.0.0.0 4-5|0.0.0.0.0.1.1 3-4|0.0.0.0.0.1 2-3|0.0.0.0.0 1-2|0.0.0.0.0.1.0 0-1|0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:17.562
+(u / understand-01 
+      :ARG0 (g / government-organization 
+            :ARG0-of (g2 / govern-01 
+                  :ARG1 (c6 / country 
+                        :ARG0-of (a2 / act-02 
+                              :ARG1 (a3 / all) 
+                              :op1-of (o / or 
+                                    :mod (t3 / this) 
+                                    :op2 (p / pretension))) 
+                        :name (n6 / name 
+                              :op1 "Great" 
+                              :op2 "Britain") 
+                        :wiki "United_Kingdom")) 
+            :mod (t / this)) 
+      :ARG1 (c2 / country 
+            :ARG1-of (h / have-org-role-91 
+                  :ARG2 (m / minister) 
+                  :ARG2-of (n2 / negotiate-01 
+                        :ARG0 (c3 / country 
+                              :name (n4 / name 
+                                    :op1 "America") 
+                              :op2-of (a / and 
+                                    :op1 (r / right 
+                                          :ARG2-of (c5 / contrary-01) 
+                                          :poss (c4 / country 
+                                                :name (n5 / name 
+                                                      :op1 "States" 
+                                                      :op2 "of")))) 
+                              :wiki "United_States") 
+                        :topic-of (s / subject))) 
+            :accompanier-of (s2 / stipulation 
+                  :poss-of (t2 / tenor 
+                        :ARG1-of (m2 / manifest-01 
+                              :ARG0 (c / city 
+                                    :name (n / name 
+                                          :op1 "London") 
+                                    :wiki "London")))) 
+            :name (n3 / name 
+                  :op1 "United" 
+                  :op2 "States") 
+            :wiki "United_States"))
+
+# ::snt I transmit herewith the instructions to him on the subject and the correspondence between him and the British secretary for foreign affairs, by which you will perceive that the two Governments differ widely and irreconcilably as to the construction of the convention and its effect on their respective relations to Central America.
+# ::tok I transmit herewith the instructions to him on the subject and the correspondence between him and the British secretary for foreign affairs , by which you will perceive that the two Governments differ widely and irreconcilably as to the construction of the convention and its effect on their respective relations to Central America .
+# ::alignments 52-53|0.0.1.2.2+0.0.1.2.1.0+0.0.1.2.1+0.0.1.2 49-50|0.0.1 48-49|0.0.1.1 45-46|0.0 43-44|0 42-43|0.0.0 39-40|0.0.0.0 34-35|0.0.1.2.0.0.0.1 33-34|0.0.1.2.0.0.0.0 32-33|0.0.1.2.0.0.0 31-32|0.0.1.2.0+0.0.1.2.0.0 30-31|0.0.1.2.0.0.1 27-28|0.0.1.2.0.0.0.1.0 25-26|0.0.1.2.0.0.0.1.0.0 21-22|0.0.1.0.0.1 20-21|0.0.1.0.0.1.0 18-19|0.0.1.0.0 17-18|0.0.1.0.2+0.0.1.0.1.0+0.0.1.0.1+0.0.1.0 15-16|0.0.1.0.0.0 12-13|0.0.1.2.0.0.0.1.1.1 10-11|0.0.1.2.0.0.0.1.1 9-10|0.0.1.2.0.0.0.1.1.0 4-5|0.0.1.2.0.0.0.1.0.1.0 1-2|0.0.1.2.0.0.0.1.0.1 0-1|0.0.1.2.0.0.0.1.0.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:18.780
+(a / and 
+      :op1 (e / effect-03 
+            :ARG1 (c2 / convention 
+                  :ARG1-of (c3 / construct-01)) 
+            :purpose (r / relation-03 
+                  :ARG0 (c4 / country 
+                        :mod-of (s / secretary 
+                              :op1-of (a4 / and) 
+                              :purpose (a3 / affair 
+                                    :mod (f / foreign))) 
+                        :name (n2 / name 
+                              :op1 "Britain") 
+                        :wiki "United_Kingdom") 
+                  :ARG1 (r2 / respective) 
+                  :ARG2 (c / country 
+                        :ARG1-of (g2 / govern-01 
+                              :ARG0 (g / government-organization 
+                                    :ARG1-of (d / differ-02 
+                                          :degree (w / wide) 
+                                          :op2-of (a2 / and 
+                                                :op1 (p / perceive-01 
+                                                      :ARG0 (y / you) 
+                                                      :ARG1 (t / transmit-01 
+                                                            :ARG1 (i / instruction) 
+                                                            :ARG2 (i2 / i))) 
+                                                :op3-of (a5 / and 
+                                                      :op1 (s2 / subject) 
+                                                      :op2 (c5 / correspondence)))) 
+                                    :quant 2)) 
+                        :name (n / name 
+                              :op1 "America") 
+                        :wiki "United_States"))))
+
+# ::snt The immense area of surface which this picture occupies will surprise the reader: it measures 0,0 square feet, or nearly an acre in extent."[0] This may be a glowing eulogium; but it is true to the line and letter.
+# ::tok The immense area of surface which this picture occupies will surprise the reader : it measures 0,0 square feet , or nearly an acre in extent . " [ 0 ] This may be a glowing eulogium ; but it is true to the line and letter .
+# ::alignments 46-47|0.1.4 45-46|0.1 44-45|0.1.3 41-42|0.1.2 38-39|0 37-38|0.2 36-37|0.0.0 35-36|0.0 32-33|0.1.0 31-32|0.1.2.0 29-30|0.1.1.1.1 25-26|0.1.1.1.0.0.1 23-24|0.1.1.1.0.0.0.1 21-22|0.1.1.1.0.0.1.0 20-21|0.1.1.1.0.0.0 18-19|0.1.1.1.0.0.0.0 17-18|0.1.1.1.0.0.0.0.0 15-16|0.1.1.1.0.0 12-13|0.1.1.0+0.1.1 10-11|0.1.1.1 8-9|0.1.1.1.2 7-8|0.1.1.1.2.0 6-7|0.1.1.1.2.0.0 4-5|0.1.1.1.0.1 2-3|0.1.1.1.0 1-2|0.1.1.1.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:21.534
+(c / contrast-01 
+      :ARG1 (g / glow-01 
+            :ARG1 (e / eulogium)) 
+      :ARG2 (a / and 
+            :ARG1-of (p / possible-01) 
+            :op1 (p2 / person 
+                  :ARG0-of (r / read-01) 
+                  :ARG2-of (s2 / surprise-01 
+                        :ARG0 (a4 / area 
+                              :ARG0-of (m / measure-02 
+                                    :ARG1 (o / or 
+                                          :op1 (f / foot 
+                                                :mod (s / square)) 
+                                          :op2 (a3 / acre)) 
+                                    :ARG2 (e2 / extent 
+                                          :mod (n / nearly))) 
+                              :mod (s3 / surface) 
+                              :mod (i / immense)) 
+                        :ARG1 0 
+                        :ARG1-of (o2 / occupy-01 
+                              :ARG0 (p3 / picture 
+                                    :mod (t3 / this))))) 
+            :op2 (t / true 
+                  :domain (t2 / this)) 
+            :op3 (l2 / line) 
+            :op4 (l / letter)) 
+      :op1-of (a2 / and))
+
+# ::snt [0] See Mirror, vol. xiii. p. 0.
+# ::tok [ 0 ] See Mirror , vol. xiii . p. 0 .
+# ::alignments 10-11|0.1.1 7-8|0.0 4-5|0 3-4|0.1 1-2|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:21.593
+(m / mirror-01 
+      :ARG0 (x / xiii) 
+      :ARG1 (s / see-01 
+            :ARG0 0 
+            :ARG1 0))
+
+# ::snt [0] A graphic Account of the Colosseum, from the apt pen of Mr. Britton, the architect.
+# ::tok [ 0 ] A graphic Account of the Colosseum , from the apt pen of Mr. Britton , the architect .
+# ::alignments 19-20|0 15-17|0.0.0.0.1.1+0.0.0.0.1.0+0.0.0.0.1+0.0.0.0 13-14|0.0.0 12-13|0.0.0.1 8-9|0.0.1.0+0.0.1+0.0 5-6|0.0.2 4-5|0.0.2.0 1-2|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:21.766
+(a / architect 
+      :poss-of (t2 / thing 
+            :ARG0-of (p / pen-01 
+                  :ARG1 (t / thing 
+                        :mod-of 0 
+                        :name (n / name 
+                              :op1 (m / Mr.) 
+                              :op2 (b / Britton))) 
+                  :mod (a2 / apt)) 
+            :name (n2 / name 
+                  :op1 "Colosseum,") 
+            :poss-of (a3 / account 
+                  :mod (g / graphic))))
+
+# ::snt We have already illustrated the Panorama,[0] and it is our intention to introduce other embellishments of the Colosseum, as far as may be compatible with finished sketches.
+# ::tok We have already illustrated the Panorama , [ 0 ] and it is our intention to introduce other embellishments of the Colosseum , as far as may be compatible with finished sketches .
+# ::alignments 31-32|0.1.1.2 30-31|0.1.1.2.1 28-29|0.1.1.1 26-27|0.1.1 24-25|0.1.1.0 21-22|0.1.0.1.0.1.0.0+0.1.0.1.0.1.0+0.1.0.1.0.1 18-19|0.1.0.1.0 17-18|0.1.0.1.0.0 16-17|0.1.0.1 14-15|0.1.0 13-14|0.1.0.0 10-11|0.1 8-9|0.1.0.2 5-6|0.1.1.2.0 3-4|0 2-3|0.2 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:22.069
+(i3 / illustrate-01 
+      :ARG0 (w2 / we) 
+      :op1-of (a / and 
+            :op2 (i2 / intend-01 
+                  :ARG0 (w / we) 
+                  :ARG0-of (i / introduce-02 
+                        :ARG1 (e / embellishment 
+                              :mod (o / other) 
+                              :poss (t / thing 
+                                    :name (n / name 
+                                          :op1 "Colosseum,")))) 
+                  :ARG1 0) 
+            :op3 (p / possible-01 
+                  :ARG0 (f2 / far) 
+                  :ARG1 (c / compatible) 
+                  :time (s / sketch-01 
+                        :ARG1 (p2 / panorama) 
+                        :ARG1-of (f / finish-01)))) 
+      :time (a2 / already))
+
+# ::snt Our present subject is the principal apartment in the Swiss Cottage, to which the reader or visiter is conducted through a range of conservatories, containing choice exotics, with some of the most majestic proportions of leaf and flower that can be enjoyed in any clime.
+# ::tok Our present subject is the principal apartment in the Swiss Cottage , to which the reader or visiter is conducted through a range of conservatories , containing choice exotics , with some of the most majestic proportions of leaf and flower that can be enjoyed in any clime .
+# ::alignments 47-48|0.0.0.0.1.1.0.0.0.0 46-47|0.0.0.0.1.1.0.0.0.0.0 44-45|0.0.0.0.1.1.0.0.0 42-43|0.0.0.0.1.1.0.0.0.1 40-41|0.0.0.0.1.1.0.2 39-40|0.0.0.0.1.1.0 38-39|0.0.0.0.1.1.0.1 36-37|0.0.0.0.1.1.0.0 35-36|0.0.0.0.1.1.0.0.1 34-35|0.0.0.0.1.1.0.0.1.0 31-32|0.0.0.0.1.1.0.0.2 28-29|0.1 27-28|0.1.0 26-27|0 24-25|0.0 22-23|0.0.0 19-20|0.0.0.0 17-18|0.0.0.0.1.1 16-17|0.0.0.0.1 15-16|0.0.0.0.1.0.0+0.0.0.0.1.0 9-11|0.0.0.0.0.1.1+0.0.0.0.0.1.0+0.0.0.0.0.1+0.0.0.0.0 6-7|0.0.0.0.0.0 5-6|0.0.0.0.0.0.1 2-3|0.0.0.0.0.0.0 1-2|0.0.0.0.0.0.0.1 0-1|0.0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:23.638
+(c3 / contain-01 
+      :ARG0 (c4 / conservatori 
+            :ARG1-of (r / range-01 
+                  :path-of (c5 / conduct-01 
+                        :ARG0 (c6 / country 
+                              :location-of (a3 / apartment 
+                                    :domain (s2 / subject 
+                                          :poss (w / we) 
+                                          :time (p5 / present)) 
+                                    :mod (p4 / principal)) 
+                              :name (n / name 
+                                    :op1 "Swiss" 
+                                    :op2 "Cottage,")) 
+                        :ARG1 (o / or 
+                              :op1 (p3 / person 
+                                    :ARG0-of (r2 / read-01)) 
+                              :op2 (v / visit-01 
+                                    :ARG1 (a2 / and 
+                                          :op1 (p2 / proportion 
+                                                :ARG0-of (e / enjoy-01 
+                                                      :ARG1 (c / clime 
+                                                            :mod (a / any)) 
+                                                      :ARG1-of (p / possible-01)) 
+                                                :mod (m / majestic 
+                                                      :degree (m2 / most)) 
+                                                :quant (s / some)) 
+                                          :op2 (l / leaf) 
+                                          :op3 (f / flower-01))))))) 
+      :ARG1 (e2 / exotic 
+            :ARG1-of (c2 / choose-01)))
+
+# ::snt The communication is by a stone-work passage, the temperature of which is a refreshing succedaneum to that of the conservatories, or 0Â°.
+# ::tok The communication is by a stone - work passage , the temperature of which is a refreshing succedaneum to that of the conservatories , or 0Â° .
+# ::alignments 24-25|0 22-23|0.0.0.0.0 19-20|0.0.0.0.1.0.0 17-18|0.0.0.0.1.0 16-17|0.0.0.0.1 11-12|0.0.0.0.2 8-9|0.0.0 7-8|0.0 5-6|0.0.1 1-2|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:23.790
+(o / or 
+      :op1 (w / work-01 
+            :ARG1 (p / pass-01 
+                  :ARG1 (c2 / communicate-01 
+                        :ARG0 (c / conservatori) 
+                        :ARG1 (r / refresh-01 
+                              :ARG1 (s / succedaneum 
+                                    :topic (t / that))) 
+                        :op1-of (t2 / temperature))) 
+            :location (s2 / stone)))
+
+# ::snt This cottage was designed by P.F. Robinson, Esq. who has evinced considerable taste in a publication on cottages and cottage-villas, as well as in the execution of various buildings.
+# ::tok This cottage was designed by P.F. Robinson , Esq . who has evinced considerable taste in a publication on cottages and cottage - villas , as well as in the execution of various buildings .
+# ::alignments 33-34|0.4.0 32-33|0.4.0.0 30-31|0.4 23-24|0.3 21-22|0.2 20-21|0 19-20|0.1 17-18|0.0.0.0+0.0.0 14-15|0.0 13-14|0.0.3 12-13|0.0.2 8-9|0.0.1 5-7|0.0.2.0.1.1+0.0.2.0.1.0+0.0.2.0.1+0.0.2.0 3-4|0.0.2.0.0 1-2|0.0.2.0.0.0 0-1|0.0.2.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:24.969
+(a / and 
+      :op1 (t / taste-01 
+            :ARG0 (p / publication 
+                  :wiki -) 
+            :ARG1 (e3 / esq) 
+            :ARG1-of (e2 / evince-01 
+                  :ARG0 (p2 / person 
+                        :ARG0-of (d / design-01 
+                              :ARG1 (c4 / cottage 
+                                    :mod (t2 / this))) 
+                        :name (n / name 
+                              :op1 "P.F." 
+                              :op2 "Robinson,"))) 
+            :mod (c3 / considerable)) 
+      :op2 (c2 / cottag) 
+      :op3 (c / cottage) 
+      :op4 (v2 / villa) 
+      :op5 (e / execute-01 
+            :ARG1 (b / building 
+                  :mod (v / various))))
+
+# ::snt It consists of four apartments, three of which may be considered as finished.
+# ::tok It consists of four apartments , three of which may be considered as finished .
+# ::alignments 13-14|0.2.0 11-12|0.2.0.0 9-10|0.2.0.0.0 6-7|0.1 4-5|0.2 3-4|0.2.0.0.0.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:25.144
+(c2 / consist-01 
+      :ARG0 (i / it) 
+      :ARG1 3 
+      :ARG2 (a / apartment 
+            :ARG1-of (f / finish-01 
+                  :ARG1-of (c / consider-01 
+                        :ARG1-of (p / possible-01 
+                              :ARG0 4)))))
+
+# ::snt The apartment in our Engraving was completed, or nearly so, on our first visit.
+# ::tok The apartment in our Engraving was completed , or nearly so , on our first visit .
+# ::alignments 15-16|0.0.1 13-14|0.0.1.0 10-11|0 9-10|0.0.0.0.1.0 8-9|0.0.0.0.1 6-7|0.0 4-5|0.0.0.0 3-4|0.0.0.0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:25.188
+(c / cause-01 
+      :ARG1 (c2 / complete-01 
+            :ARG1 (a / apartment 
+                  :ARG0-of (e / engrave-01 
+                        :ARG1 (w2 / we) 
+                        :op1-of (o / or 
+                              :op2 (n / nearly)))) 
+            :purpose (v / visit-01 
+                  :ARG0 (w / we))))
+
+# ::snt It is wainscotted with coloured (knotted) wood, and carved in imitation of the ornamented dwelling of a Swiss family.
+# ::tok It is wainscotted with coloured ( knotted ) wood , and carved in imitation of the ornamented dwelling of a Swiss family .
+# ::alignments 21-22|0.0.0.0 17-18|0.0.0 16-17|0.0 13-14|0.2.1 11-12|0.2 10-11|0 8-9|0.1 6-7|0.0.0.1 4-5|0.1.0 0-1|0.2.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:25.433
+(a / and 
+      :ARG0-of (o / ornament-01 
+            :ARG1 (d / dwell-01 
+                  :ARG1 (f / family) 
+                  :ARG1-of (k / knot-01))) 
+      :op1 (w / wood 
+            :mod (c2 / colour)) 
+      :op2 (c / carve-01 
+            :ARG1 (i2 / it) 
+            :location (i / imitation)))
+
+# ::snt The fire-place will be recognised as the very beau ideal of cottage comfort: the raised hearthstone, massive fire-dogs and chimney-back, and its cosy seats, calculated to contain a whole family seated at the sides of its ample hearth---are characteristic of the primitive enjoyments of the happy people from among whom this model was taken.
+# ::tok The fire - place will be recognised as the very beau ideal of cottage comfort : the raised hearthstone , massive fire - dogs and chimney - back , and its cosy seats , calculated to contain a whole family seated at the sides of its ample hearth --- are characteristic of the primitive enjoyments of the happy people from among whom this model was taken .
+# ::alignments 65-66|0.1.1.2.1.4.0 63-64|0.1.1.2.1.4.0.0 62-63|0.1.1.2.1.4.0.0.0 58-59|0.1.1.2.1.4 57-58|0.1.1.2.1.4.1 54-55|0.1.1.2.1.4.2.0 53-54|0.1.1.2.1.3.0.0 50-51|0.1.1.2.1.4.2 47-48|0.1.1.2.1.3.0.1.0.0.0 46-47|0.1.1.2.1.3.0.1.0.0.0.0 43-44|0.1.1.2.1.3.0.1.0.0 40-41|0.1.1.2.1.3.0.1.0 39-40|0.1.1.2.1.3.0.1 38-39|0.1.1.2.1.3.0.1.1 36-37|0.1.1.2.1.3.0 34-35|0.1.1.2.1.3 32-33|0.1.1.2.1.2 31-32|0.1.1.0 29-30|0.1.1.2.1 27-28|0.1.1.2.1.3.1.1 25-26|0.1.1.2.1.1 24-25|0.1.1.2.1.3.1 23-24|0.1.1.2.1.0 21-22|0.1.1.2 20-21|0.1.1.2.0 18-19|0.1.1.2.1.3.1.0 17-18|0.1.1.2.1.3.1.0.0 14-15|0.1.1 13-14|0.1.1.1 11-12|0.1 10-11|0.1.0 9-10|0.1.0.0 6-7|0 3-4|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:28.809
+(r2 / recognize-01 
+      :ARG1 (p3 / place 
+            :ARG1-of (f3 / fire-01)) 
+      :ARG3 (i / ideal 
+            :mod (b2 / beau 
+                  :degree (v / very)) 
+            :poss (c6 / comfort-01 
+                  :ARG0 (c4 / cosy) 
+                  :ARG1 (c7 / cottage) 
+                  :ARG1-of (f2 / fire-01 
+                        :mod (m2 / massive) 
+                        :op1-of (a2 / and 
+                              :op2 (d / dog) 
+                              :op3 (c5 / chimney) 
+                              :op4 (s3 / seat) 
+                              :op5 (c3 / calculate-01 
+                                    :ARG1 (c2 / contain-01 
+                                          :ARG0 (p2 / primitive) 
+                                          :ARG1 (f / family 
+                                                :ARG1-of (s2 / seat-01 
+                                                      :location (s / side 
+                                                            :poss (h2 / hearth 
+                                                                  :mod (a / ample)))) 
+                                                :mod (w / whole))) 
+                                    :op3-of (a3 / and 
+                                          :op1 (h3 / hearthstone 
+                                                :ARG1-of (r / raise-01)) 
+                                          :op2 (b / back))) 
+                              :op6 (p / person 
+                                    :ARG0-of (t / take-01 
+                                          :ARG1 (m / model 
+                                                :mod (t2 / this))) 
+                                    :mod (h / happy) 
+                                    :prep-with-of (c / characteristic-02 
+                                          :ARG1 (e / enjoyment))))))))
+
+# ::snt Our view is from the extreme corner, from which point the entrance-passage is shown in the distance.
+# ::tok Our view is from the extreme corner , from which point the entrance - passage is shown in the distance .
+# ::alignments 19-20|0.2.1 16-17|0.2.1.0 14-15|0 12-13|0.1 10-11|0.2.1.0.1 6-7|0.2.1.0.0 5-6|0.0 1-2|0.2 0-1|0.2.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:28.897
+(p / pass-01 
+      :ARG0 (e2 / extreme) 
+      :ARG1 (e / entrance) 
+      :ARG1-of (v / view-02 
+            :ARG0 (w / we) 
+            :ARG1-of (d / distance-01 
+                  :time-of (s / show-01 
+                        :ARG0 (c / corner) 
+                        :ARG1 (p2 / point)))))
+
+# ::snt [0] See Mirror, vol. xiii. p. 0.
+# ::tok [ 0 ] See Mirror , vol. xiii . p. 0 .
+# ::alignments 10-11|0.1.1 7-8|0.0 4-5|0 3-4|0.1 1-2|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:28.975
+(m / mirror-01 
+      :ARG0 (x / xiii) 
+      :ARG1 (s / see-01 
+            :ARG0 0 
+            :ARG1 0))
+
+# ::snt The second Engraving shows the recessed window of the apartment, which faces the fire-place, and commands a view of a mass of rock-scenery, ornamented with waterfalls of singular contrivance and effect.
+# ::tok The second Engraving shows the recessed window of the apartment , which faces the fire - place , and commands a view of a mass of rock - scenery , ornamented with waterfalls of singular contrivance and effect .
+# ::alignments 37-38|0.0.0.2.0.0.1 36-37|0.0.0.2.0.0 35-36|0.0.0.2.0.0.0 34-35|0.0.0.2.0.0.1.0 32-33|0.0.0.2.0 30-31|0.0.0.2 28-29|0.0.0.1.0.0 26-27|0.0.0.1.0.1 24-25|0.0.0.1.0 21-22|0.0.0.1 19-20|0.0.0 18-19|0.0 16-17|0.1.0.0 14-15|0.1.0.0.0 12-13|0.1.0 9-10|0.1.2 6-7|0.1 5-6|0.1.1 3-4|0 2-3|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:30.902
+(s3 / show-01 
+      :ARG0 (a2 / and 
+            :op1 (c2 / command-02 
+                  :ARG0 (e2 / engrave-01) 
+                  :ARG1 (v / view-02 
+                        :ARG1 (m / mass 
+                              :quant-of (s2 / scenery) 
+                              :quant-of (r / rock))) 
+                  :purpose (o / ornament-01 
+                        :ARG1 (w / waterfall 
+                              :op1-of (a / and 
+                                    :op2 (c / contrivance) 
+                                    :op3 (e / effect-03 
+                                          :ARG1 (s / singular))))))) 
+      :ARG1 (w2 / window 
+            :ARG0-of (f2 / face-01 
+                  :ARG1 (p / place 
+                        :ARG1-of (f / fire-01))) 
+            :ARG1-of (r2 / recess-01) 
+            :part-of (a3 / apartment)))
+
+# ::snt The frames are filled in with plate-glass, so that the view of these artificial wonders is unobstructed.
+# ::tok The frames are filled in with plate - glass , so that the view of these artificial wonders is unobstructed .
+# ::alignments 19-20|0.0.0 17-18|0.0.0.0.0 16-17|0.0.0.0.0.0 15-16|0.0.0.0.0.1 13-14|0.0.0.0 10-11|0.0 8-9|0.2.0 6-7|0.2 3-4|0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:30.970
+(f / fill-01 
+      :ARG0-of (c / cause-01 
+            :ARG1 (u / unobstruct 
+                  :domain (v / view-02 
+                        :ARG1 (w / wonder 
+                              :mod (a / artificial) 
+                              :mod (t / this))))) 
+      :ARG1 (f2 / frame-01) 
+      :ARG2 (p / plate 
+            :mod (g / glass)))
+
+# ::snt Our artist has, in his sketch, endeavoured to convey some idea of their outline; but he hopes to supply an amplification of their scenic beauty in a future engraving.
+# ::tok Our artist has , in his sketch , endeavoured to convey some idea of their outline ; but he hopes to supply an amplification of their scenic beauty in a future engraving .
+# ::alignments 31-32|0.1.0.0 30-31|0.1.0.0.0 27-28|0.1.1.0.0 26-27|0.1.1.0.0.0 23-24|0.1.1.0 21-22|0.1.1 19-20|0.1 18-19|0.1.0 17-18|0 16-17|0.2 15-16|0.0.2.0 12-13|0.0.2 11-12|0.0.1.0 10-11|0.0 6-7|0.0.1 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:31.807
+(c / contrast-01 
+      :ARG1 (c2 / convey-01 
+            :ARG0 (a3 / artist 
+                  :poss (w / we)) 
+            :ARG1 (s4 / sketch-01 
+                  :ARG1 (s3 / some)) 
+            :ARG2 (i / idea 
+                  :topic (o / outline-01))) 
+      :ARG2 (h / hope-01 
+            :ARG0 (h2 / he 
+                  :ARG0-of (e / engrave-01 
+                        :time (f / future))) 
+            :ARG1 (s2 / supply-01 
+                  :ARG1 (a / amplification 
+                        :poss (b / beauty 
+                              :mod (s / scenic))) 
+                  :ARG0 h2)) 
+      :op1-of (a2 / and))
+
+# ::snt We may, however, observe that the view from this window deserves the character of the sublime in miniature, and presents even a microcosm, where
+# ::tok We may , however , observe that the view from this window deserves the character of the sublime in miniature , and presents even a microcosm , where
+# ::alignments 25-26|0.1.1.2.0 23-24|0.2 22-23|0.1.1.2 21-22|0.1.1 19-20|0.1.1.1 17-18|0.0 14-15|0.1.1.0.1 12-13|0.1.1.0 11-12|0.1.1.0.0.0 10-11|0.1.1.0.0.0.0 8-9|0.1.1.0.0 5-6|0.1 1-2|0 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:32.011
+(p2 / possible-01 
+      :ARG0 (s / sublime) 
+      :ARG1 (o / observe-01 
+            :ARG0 (w2 / we) 
+            :ARG1 (a / and 
+                  :op1 (d / deserve-01 
+                        :ARG0 (v / view-02 
+                              :ARG0 (w / window 
+                                    :mod (t / this))) 
+                        :ARG1 (c / character)) 
+                  :op2 (m2 / miniature) 
+                  :op3 (p / present-01 
+                        :ARG1 (m / microcosm)))) 
+      :ARG2 (e / even))
+
+# ::snt Rocks and forests, lakes, and mountains grand, Mark the true majesty of Nature's hand.
+# ::tok Rocks and forests , lakes , and mountains grand , Mark the true majesty of Nature 's hand .
+# ::alignments 17-18|0.0.0.1 15-16|0.0.0.1.0 13-14|0.0.0.0 12-13|0.0.0.0.0 10-11|0.0.0 8-9|0 7-8|0.0.2 6-7|0.0 4-5|0.0.1.0.1 2-3|0.0.1.0.0 1-2|0.0.1.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:32.295
+(g / grand 
+      :mod-of (a / and 
+            :ARG1-of (m2 / mark-02 
+                  :ARG0 (m / majesty 
+                        :mod (t / true)) 
+                  :ARG2 (h / hand 
+                        :part-of (n / nature))) 
+            :op1 (r / rock-01 
+                  :op1-of (a2 / and 
+                        :op2 (f / forest) 
+                        :op3 (l / lake))) 
+            :op2 (m3 / mountain)))
+
+# ::snt The whole apartment presents a finished specimen of joinery, with a tasteful display of ornamental carving.
+# ::tok The whole apartment presents a finished specimen of joinery , with a tasteful display of ornamental carving .
+# ::alignments 16-17|0.0.0.0 15-16|0.0.0.0.1 13-14|0.0.0 12-13|0.0.0.1 8-9|0.0.0.0.0 6-7|0.1 5-6|0.1.0 3-4|0 2-3|0.0 1-2|0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:32.571
+(p / present-01 
+      :ARG1 (a / apartment 
+            :ARG0-of (d / display-01 
+                  :ARG1 (c / carve-01 
+                        :ARG1 (j / joinery) 
+                        :mod (o / ornamental)) 
+                  :mod (t / tasteful)) 
+            :extent (w / whole)) 
+      :ARG2 (s / specimen 
+            :ARG1-of (f / finish-01)))
+
+# ::snt Its colour is a deep warm or, we think, burnt sienna, brown; the furniture is in recherchÃ© rusticated style, planned by Mr. Gray, whose taste in these matters is elaborately correct; and it requires but the social blaze on the hearth, (which our artist has liberally supplied,) to complete the well-devised illusion of the scene.
+# ::tok Its colour is a deep warm or , we think , burnt sienna , brown ; the furniture is in recherchÃ© rusticated style , planned by Mr. Gray , whose taste in these matters is elaborately correct ; and it requires but the social blaze on the hearth , ( which our artist has liberally supplied , ) to complete the well - devised illusion of the scene .
+# ::alignments 67-68|0.0.1 64-65|0.0 63-64|0 61-62|0.1 59-60|0.0.0 55-56|0.0.0.0.1.0.0.3.2.0.1.1 54-55|0.0.0.0.1.0.0.3.2.0.1.1.1 52-53|0.0.0.0.1.0.0.3.2.0.1.1.0 51-52|0.0.0.0.1.0.0.3.2.0.1.1.0.0 47-48|0.0.0.0.0 44-45|0.0.0.0 43-44|0.0.0.0.2 41-42|0.0.0.0.1 40-41|0.0.0.0.1.0 38-39|0.0.0.0.1.0.0 36-37|0.0.0.0.1.0.0.3.2.0 35-36|0.0.0.0.1.0.0.3.2.0.2 33-34|0.0.0.0.1.0.0.3.2.0.1.0 32-33|0.0.0.0.1.0.0.3.2.0.1.0.0 30-31|0.0.0.0.1.0.0.3.2.0.1 26-28|0.0.0.0.1.0.0.2.1.0.1+0.0.0.0.1.0.0.2.1.0.0+0.0.0.0.1.0.0.2.1.0+0.0.0.0.1.0.0.2.1 24-25|0.0.0.0.1.0.0.2 22-23|0.0.0.0.1.0.0.3.2.0.0 21-22|0.0.0.0.1.0.0.3.2.0.0.0 17-18|0.0.0.0.1.0.0.2.0 15-16|0.0.0.0.1.0.0.1 14-15|0.0.0.0.1.0.0.0 12-13|0.0.0.0.1.0.0.3.1.0 11-12|0.0.0.0.1.0.0.3.2 9-10|0.0.0.0.1.0.0.3.0 8-9|0.0.0.0.1.0.0.3.0.0 6-7|0.0.0.0.1.0.0.3 5-6|0.0.0.0.1.0.0.3.1 4-5|0.0.0.0.1.0.0.3.1.1 1-2|0.0.0.0.1.0.0.1.0 0-1|0.0.0.0.1.0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:34.781
+(d / devise-01 
+      :ARG1 (i / illusion 
+            :ARG1-of (c / complete-01 
+                  :ARG2-of (b / blaze-01 
+                        :ARG1 (h / hearth) 
+                        :ARG2-of (c2 / contrast-01 
+                              :ARG1 (r / require-01 
+                                    :op4-of (a2 / and 
+                                          :op1 (b2 / brown) 
+                                          :op2 (a3 / and 
+                                                :domain (c4 / colour 
+                                                      :poss (i2 / it))) 
+                                          :op3 (p / plan-01 
+                                                :ARG0 (f / furniture) 
+                                                :ARG1 (t3 / thing 
+                                                      :name (n / name 
+                                                            :op1 (m2 / Mr.) 
+                                                            :op2 (g / Gray)))) 
+                                          :op3-of (o / or 
+                                                :ARG1-of (t4 / think-01 
+                                                      :ARG0 (w3 / we)) 
+                                                :op1 (w4 / warm-07 
+                                                      :ARG1 (s5 / sienna) 
+                                                      :ARG1-of (d2 / deep-02)) 
+                                                :op2 (b3 / burn-01 
+                                                      :ARG1 (c3 / correct-02 
+                                                            :ARG0 (s4 / style 
+                                                                  :ARG1-of (r2 / rusticate-01)) 
+                                                            :ARG1 (t2 / taste-01 
+                                                                  :ARG1 (m / matter 
+                                                                        :mod (t / this)) 
+                                                                  :ARG1-of (s2 / supply-01 
+                                                                        :ARG0 (a / artist 
+                                                                              :poss (w2 / we)) 
+                                                                        :time (l / liberally))) 
+                                                            :degree (e / elaborately))))))) 
+                        :mod (s3 / society))) 
+            :poss (s / scene)) 
+      :mod (w / well))
+
+# ::snt The apartment was painted about two years since as a scene for a musical piece at Covent Garden Theatre, the incidents of which lay in Switzerland.
+# ::tok The apartment was painted about two years since as a scene for a musical piece at Covent Garden Theatre , the incidents of which lay in Switzerland .
+# ::alignments 26-27|0.1.2+0.1.0.0+0.1.0+0.1 24-25|0 21-22|0.0 17-19|0.1.1.0.0.0.0.0.1+0.1.1.0.0.0.0.0.0+0.1.1.0.0.0.0.0+0.1.1.0.0.0.0 14-15|0.1.1.0.0.0 13-14|0.1.1.0.0.0.1 10-11|0.1.1 7-8|0.1.1.0.1 6-7|0.1.1.0.1.0.0.1+0.1.1.0.1.0.0 5-6|0.1.1.0.1.0.0.0 4-5|0.1.1.0.1.0 3-4|0.1.1.0 1-2|0.1.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:34.943
+(l / lay-01 
+      :ARG0 (i / incident) 
+      :location (c / country 
+            :name (n / name 
+                  :op1 "Switzerland") 
+            :quant (s / scene 
+                  :ARG2-of (p2 / paint-01 
+                        :ARG1 (a2 / apartment 
+                              :domain-of (p / piece 
+                                    :location (t / thing 
+                                          :name (n2 / name 
+                                                :op1 (g / Garden) 
+                                                :op2 (t2 / Theatre))) 
+                                    :mod (m / music))) 
+                        :time (s2 / since 
+                              :quant (a / about 
+                                    :op1 (t3 / temporal-quantity 
+                                          :quant 2 
+                                          :unit (y / year)))))) 
+            :wiki "Switzerland"))
+
+# ::snt * * * * *
+# ::tok * * * * *
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:34.953
+(a / amr-empty)
+
+# ::snt THE VOICES OF THE NIGHT.
+# ::tok THE VOICES OF THE NIGHT .
+# ::alignments 4-5|0.0 1-2|0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:34.961
+(v / voice-01 
+      :domain-of (n / night))
+
+# ::snt BY MISS M.L. BEEVOR.
+# ::tok BY MISS M.L. BEEVOR .
+# ::alignments 3-4|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:34.969
+(m / miss-01 
+      :ARG0 (b2 / by) 
+      :ARG1 (b / BEEVOR))
+
+# ::snt (For the Mirror.)
+# ::tok ( For the Mirror . )
+# ::alignments 3-4|0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:34.973
+(m / mirror-01)
+
+# ::snt Like some young veiled Bride, Gleams the moon's hazy face, When tissues that would hide But lend her charms a grace: Each winkling starlet pale, Sleeps in its far, far fold, Wrapp'd in the heavy veil Of dewy clouds and cold.
+# ::tok Like some young veiled Bride , Gleams the moon 's hazy face , When tissues that would hide But lend her charms a grace : Each winkling starlet pale , Sleeps in its far , far fold , Wrapp 'd in the heavy veil Of dewy clouds and cold .
+# ::alignments 48-49|0.1.1.0.0.0.0.0.2 47-48|0.1.1.0.0.0.0.0 46-47|0.1.1.0.0.0.0.0.1 45-46|0.1.1.0.0.0.0.0.1.1 43-44|0.1.1.0.0.0.0.0.0 42-43|0.1.1.0.0.0.0.0.0.0 36-37|0.1.0.0 35-36|0.1.0.0.0 33-34|0.1.1.0.0.0.0.0.1.0 30-31|0.1.1.0.0.0.0 28-29|0.1.1.0.0 27-28|0.1.0.1.0 26-27|0.1.0.1 25-26|0.1.0.1.0.0 23-24|0.1.0 21-22|0.1.2 19-20|0.1 18-19|0 17-18|0.1.1 14-15|0.1.1.0 11-12|0.1.1.0.0.0 10-11|0.1.1.0.0.0.1 8-9|0.1.1.0.0.0.2 6-7|0.1.1.0.0.0.2.0 4-5|0.0.0 3-4|0.0.0.0 2-3|0.0.0.1 1-2|0.0.0.2 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:36.723
+(c4 / contrast-01 
+      :ARG1 (r / resemble-01 
+            :ARG1 (b / bride 
+                  :ARG1-of (v2 / veil-01) 
+                  :mod (y / young) 
+                  :quant (s3 / some))) 
+      :ARG2 (l / lend-01 
+            :ARG1 (g / grace-01 
+                  :ARG1 (f / fold 
+                        :mod (f2 / far)) 
+                  :ARG2-of (w / winkle-01 
+                        :ARG1 (s2 / starlet 
+                              :mod (e / each)))) 
+            :ARG1-of (h2 / hide-01 
+                  :ARG0 (t / tissue 
+                        :ARG0-of (p / pale-03 
+                              :ARG1 (f4 / face 
+                                    :ARG1-of (s / sleep-01 
+                                          :ARG0 (a / and 
+                                                :op1 (v / veil 
+                                                      :mod (h / heavy)) 
+                                                :op2 (c2 / cloud-01 
+                                                      :ARG1 (f3 / far) 
+                                                      :mod (d / dewy)) 
+                                                :op3 (c / cold))) 
+                                    :mod (h3 / hazy) 
+                                    :poss (m / moon 
+                                          :ARG1-of (g2 / gleam-01)))))) 
+            :ARG2 (c3 / charm)))
+
+# ::snt The turmoil, din, and strife, Of factious earth are o'er; The turbid waves of life Have ceas'd to roll and roar; But tones now meet the ear, Full fraught with strange delight, And intermingling fear: The Voices of the Night!
+# ::tok The turmoil , din , and strife , Of factious earth are o'er ; The turbid waves of life Have ceas 'd to roll and roar ; But tones now meet the ear , Full fraught with strange delight , And intermingling fear : The Voices of the Night !
+# ::alignments 48-49|0.1.0.1.2.0.0.0.0.1 45-46|0.1.0.1.2.0.0.0.0 42-43|0.1.0.1.2.0.0.0 41-42|0.1.0.1.2.0.0.0.0.0 40-41|0.1.0.1.2.0.0 38-39|0.1.0.1.2.0.0.2 37-38|0.1.0.1.2.0.0.2.0 35-36|0.1.0.1.2.0.0.0.0.0.0 34-35|0.1.0.0 32-33|0.1.0.1.2.0.0.1.1 30-31|0.1.0.1.2.0.0.1 29-30|0.1.0.1.2.0.0.1.3 28-29|0.1.0.1.2.0.0.1.0 27-28|0.1.0.1.2.0 25-26|0.1.0 24-25|0.1.0.1 23-24|0.1.0.1.2 20-21|0.1 19-20|0 18-19|0.0 16-17|0.1.1 15-16|0.1.1.0 13-14|0.1.0.1.1 12-13|0.1.0.1.0 10-11|0.1.0.1.2.0.0.1.2.1.0 9-10|0.1.0.1.2.0.0.1.2.1.0.0 6-7|0.1.0.1.2.0.0.1.2.2 5-6|0.1.0.1.2.0.0.1.2 3-4|0.1.0.1.2.0.0.1.2.1 1-2|0.1.0.1.2.0.0.1.2.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:38.491
+(o / obligate-01 
+      :ARG1 (l / life) 
+      :mod-of (c2 / cea 
+            :ARG1-of (r / roar-01 
+                  :ARG0 (f3 / full) 
+                  :op4-of (a2 / and 
+                        :op1 (o2 / o') 
+                        :op2 (a3 / and) 
+                        :op3 (r2 / roll 
+                              :ARG1-of (c / contrast-01 
+                                    :ARG2 (a / and 
+                                          :ARG0-of (f / fear-01 
+                                                :ARG1 (v / voice-01 
+                                                      :ARG0 (i / intermingle-01 
+                                                            :ARG1 (f2 / fraught)) 
+                                                      :ARG1 (n / night))) 
+                                          :op1 (m / meet-03 
+                                                :ARG0 (t / tone-01) 
+                                                :ARG1 (e / ear) 
+                                                :op4-of (a4 / and 
+                                                      :op1 (t3 / turmoil) 
+                                                      :op2 (d2 / din-01 
+                                                            :ARG1 (e2 / earth 
+                                                                  :mod (f4 / factiou))) 
+                                                      :op3 (s2 / strife)) 
+                                                :time (n2 / now)) 
+                                          :op2 (d / delight 
+                                                :mod (s / strange))))))) 
+            :beneficiary-of (w / wave 
+                  :mod (t2 / turbid))))
+
+# ::snt Not such as softly rise When boughs with song o'erflow, And lover's vows and sighs, Like incense breathe below; Not such as warm his breast, Whose fever'd anxious brain Toils when all else hath rest, To bring the lost again!
+# ::tok Not such as softly rise When boughs with song o'erflow , And lover 's vows and sighs , Like incense breathe below ; Not such as warm his breast , Whose fever 'd anxious brain Toils when all else hath rest , To bring the lost again !
+# ::alignments 46-47|0.0.0.0.2.2.2 45-46|0.0.0.0.2 43-44|0.0.0.0.2.2 40-41|0.0.0.0.2.2.3 38-39|0.0.0.0.2.2.0 37-38|0.0.0.0.2.2.0.0 35-36|0.0.1.0.0 34-35|0.0.1.0.0.0 33-34|0.0.1.0.0.1 31-32|0.0.1.0 28-29|0.0.1.1 26-27|0.0.1 24-25|0.0.0.0.2.1 23-24|0.0.0.0.2.0 22-23|0.0.0.0.2.3 21-22|0.0.0.0.2.2.1.0.1 20-21|0.0.0.0.2.2.1.0 19-20|0.0.0.0.2.2.1.1 18-19|0.0.0.0.2.2.1 16-17|0.0.0.0.1 15-16|0.0.0.0 14-15|0.0.0.0.0 12-13|0.0.0.0.1.0 11-12|0.0.0 8-9|0.0.0.0.2.2.1.0.0 6-7|0.0.0.0.1.1 4-5|0.0 3-4|0 1-2|0.0.0.0.1.0.1 0-1|0.0.0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:39.691
+(s4 / softly 
+      :manner-of (r3 / rise-01 
+            :ARG1 (a6 / and 
+                  :op1 (a5 / and 
+                        :op1 (v / vow) 
+                        :op2 (s2 / sigh-01 
+                              :ARG0 (l2 / love-01 
+                                    :ARG0 - 
+                                    :ARG1 (s5 / such)) 
+                              :ARG1 (b6 / bough)) 
+                        :op3 (l / lose-02 
+                              :ARG0 - 
+                              :ARG1 (s / such) 
+                              :ARG1-of (b / bring-01 
+                                    :ARG0 (e / else 
+                                          :quant (a2 / all)) 
+                                    :ARG1-of (r2 / resemble-01 
+                                          :ARG1-of (b5 / breathe-01 
+                                                :ARG0 (s3 / song) 
+                                                :ARG2 (b4 / below)) 
+                                          :ARG2 (i / incense)) 
+                                    :ARG3 (a / again) 
+                                    :mod-of (r / rest)) 
+                              :op1-of (a4 / and)))) 
+            :ARG2 (w / warm-07 
+                  :ARG0 (f / fever 
+                        :ARG0-of (t / toil-01 
+                              :ARG1 (b2 / brain) 
+                              :mod (a3 / anxious))) 
+                  :ARG1 (b3 / breast))))
+
+# ::snt But the owl's boding shriek, The death-cry of his prey; The tongues that durst not speak In bright unslumb'ring day; The murd'rer's curses fell, His quiv'ring victim's groan; The mutt'red, moody spell Which rocks ABADDON'S throne!
+# ::tok But the owl 's boding shriek , The death - cry of his prey ; The tongues that durst not speak In bright unslumb'ring day ; The murd'rer 's curses fell , His quiv'ring victim 's groan ; The mutt'red , moody spell Which rocks ABADDON 'S throne !
+# ::alignments 47-48|0.0.0.0.0.1.0 44-46|0.0.0.0.0.1.0.0.0.1+0.0.0.0.0.1.0.0.0.0+0.0.0.0.0.1.0.0.0+0.0.0.0.0.1.0.0 42-43|0.0.0.0.0.1 41-42|0.0.0.0.0.1.1 39-40|0.0.0.2.0 36-37|0.0.0.0.1 34-35|0.0.0.0.1.0 33-34|0.0.1.0.1.0 32-33|0.0.1.0.1 30-31|0.0.0.0 29-30|0.0.0.0.0 27-28|0.0.0.0.0.0 24-25|0.0.1.0.0 23-24|0.1.0 22-23|0.1 20-21|0.0.1.0 19-20|0.0.1.0.2 16-17|0.0.1 14-15|0.0 13-14|0.0.0 10-11|0.0.0.1 8-9|0.0.0.2 5-6|0.0.0.1.0.0 4-5|0.0.0.1.0.0.0 2-3|0.0.0.1.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:41.358
+(c3 / contrast-01 
+      :ARG1 (a2 / and 
+            :op1 (p / prey 
+                  :ARG0-of (f / fall-01 
+                        :ARG1 (c / curse-01 
+                              :ARG0 (m3 / murd'r) 
+                              :ARG1 (s / spell-01 
+                                    :ARG1 (t / throne 
+                                          :domain (t2 / thing 
+                                                :name (n / name 
+                                                      :op1 (r / rocks) 
+                                                      :op2 (a / ABADDON)))) 
+                                    :manner (m / moody))) 
+                        :ARG2-of (g / groan-01 
+                              :ARG1 (v / victim))) 
+                  :ARG1-of (c2 / cry-02 
+                        :ARG0 (o / owl 
+                              :ARG1-of (s3 / shriek-01 
+                                    :ARG1-of (b2 / bode-01)))) 
+                  :ARG1-of (d2 / die-01 
+                        :ARG0 (m2 / mutt'r))) 
+            :op2 (t3 / tongue 
+                  :ARG1-of (s2 / speak-01 
+                        :ARG0 (d / day) 
+                        :ARG2 (h / he 
+                              :poss-of (q / quiv'r)) 
+                        :polarity -))) 
+      :ARG1-of (b / bright-02 
+            :ARG0 (u / unslumb'r)))
+
+# ::snt This once-merry holiday, originally filled with delight and wonderment, has fallen into disregard.
+# ::tok This once - merry holiday , originally filled with delight and wonderment , has fallen into disregard .
+# ::alignments 16-17|0.0.0.0 14-15|0.0.0 11-12|0.1.1 10-11|0.1 9-10|0.1.0 7-8|0 6-7|0.2 4-5|0.0 3-4|0.0.1 1-2|0.0.1.0 0-1|0.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:41.505
+(f2 / fill-01 
+      :ARG1 (h / holiday 
+            :ARG1-of (f / fall-01 
+                  :ARG2 (d / disregard-01)) 
+            :mod (m / merry 
+                  :mod (o2 / once)) 
+            :mod (t / this)) 
+      :ARG2 (a / and 
+            :op1 (d2 / delight) 
+            :op2 (w / wonderment)) 
+      :mod (o / original))
+
+# ::snt May-Day, known also as Beltaine in some circles has been reduced to a simple, normally ignored addition to the modern calendar page.
+# ::tok May - Day , known also as Beltaine in some circles has been reduced to a simple , normally ignored addition to the modern calendar page .
+# ::alignments 25-26|0.0 24-25|0 23-24|0.0.0 20-21|0.0.1 19-20|0.0.1.1 18-19|0.0.1.1.1 16-17|0.0.1.0 13-14|0.0.1.0.1 10-11|0.0.1.0.0 9-10|0.0.0.0 5-6|0.0.1.0.1.0.1 4-5|0.0.1.0.1.0 2-3|0.0.1.1.0 0-1|0.0.1.0.1.0.0.0+0.0.1.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:41.929
+(c / calendar 
+      :mod-of (p / page 
+            :ARG1-of (m / modern-02 
+                  :ARG0 (s2 / some)) 
+            :beneficiary-of (a / addition 
+                  :ARG0-of (s / simple-02 
+                        :ARG1 (c2 / circle) 
+                        :ARG4-of (r / reduce-01 
+                              :condition-of (k / know-02 
+                                    :ARG1 (d2 / date-entity 
+                                          :month 5) 
+                                    :concession (a2 / also)))) 
+                  :ARG1-of (i / ignore-01 
+                        :ARG0 (d / day) 
+                        :ARG1-of (n / normal-02)))))
+
+# ::snt It existed in days of old as a long-expected and anxiously waited-for time to rejoice as well as pay respects to the queen.
+# ::tok It existed in days of old as a long - expected and anxiously waited - for time to rejoice as well as pay respects to the queen .
+# ::alignments 26-27|0.0.1.1.0.0.1.0.0 23-24|0.0.1.1.0.0.1.0 22-23|0.0.1.1.0.0.1 18-19|0.0.1.1.0 16-17|0.0.1.1 13-14|0.0 12-13|0 11-12|0.0.1 10-11|0.0.1.0.0.0 8-9|0.0.1.0.0 5-6|0.0.1.0 3-4|0.0.0.0+0.0.0 1-2|0.0.1.1.0.0.0 0-1|0.0.1.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:42.413
+(a / anxious 
+      :degree-of (w / wait-01 
+            :ARG0 (t2 / temporal-quantity 
+                  :unit (d / day)) 
+            :op2-of (a2 / and 
+                  :op1 (o / old 
+                        :compared-to (l / long-03 
+                              :ARG1-of (e / expect-01))) 
+                  :op3 (t / time 
+                        :ARG1-of (r2 / rejoice-01 
+                              :ARG0 (i / it 
+                                    :ARG0-of (e2 / exist-01) 
+                                    :ARG0-of (p / pay-01 
+                                          :ARG1 (r / respect-01 
+                                                :ARG1 (q / queen)))))))))
+
+# ::snt Peasants and royals alike would feast, drink, and dance from dawn till dusk.
+# ::tok Peasants and royals alike would feast , drink , and dance from dawn till dusk .
+# ::alignments 14-15|0.2.4 13-14|0.2.2 12-13|0.2.1 10-11|0.2 9-10|0 7-8|0.2.3.0 5-6|0.1 3-4|0.1.0 2-3|0.0 1-2|0.2.3 0-1|0.2.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:42.469
+(a / and 
+      :op1 (r / royal) 
+      :op2 (f / feast-01 
+            :ARG1-of (a2 / alike-05)) 
+      :op3 (d3 / dance-01 
+            :ARG0 (p / peasant) 
+            :ARG1 (d2 / dawn-01) 
+            :manner (t / till) 
+            :op2-of (a3 / and 
+                  :op1 (d4 / drink-01)) 
+            :time (d / dusk)))
+
+# ::snt Games and traditions, such as the wrapping of the May Pole, filled the day and brought the townsfolk together in gay celebration.
+# ::tok Games and traditions , such as the wrapping of the May Pole , filled the day and brought the townsfolk together in gay celebration .
+# ::alignments 23-24|0.0.1.3 22-23|0.0.1.3.1 20-21|0.0.1.2 19-20|0.0.1.1 17-18|0.0.1 16-17|0.2 15-16|0.1 13-14|0 10-12|0.0.0.0.0.0.1+0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 7-8|0.0.0.0+0.0.0 4-5|0.0.1.3.0 2-3|0.2.0 1-2|0.0 0-1|0.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:42.795
+(f / fill-01 
+      :ARG0 (a2 / and 
+            :op1 (t4 / thing 
+                  :ARG0-of (w / wrap-01 
+                        :ARG1 (t3 / thing 
+                              :name (n / name 
+                                    :op1 (m / May) 
+                                    :op2 (p / Pole))))) 
+            :op2 (b / bring-01 
+                  :ARG0 (g2 / game) 
+                  :ARG1 (t2 / townsfolk) 
+                  :mod (t / together) 
+                  :time (c / celebrate-02 
+                        :ARG1 (s / such) 
+                        :mod (g / gay)))) 
+      :ARG1 (d / day) 
+      :op2-of (a / and 
+            :op1 (t5 / tradition)))
+
+# ::snt The air itself would thrum with song and laughter as bards entertained the crowds.
+# ::tok The air itself would thrum with song and laughter as bards entertained the crowds .
+# ::alignments 13-14|0.2.1 11-12|0.2 10-11|0.2.0 8-9|0.1.1 7-8|0.1 6-7|0.1.0 4-5|0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:42.840
+(t / thrum-01 
+      :ARG1 (a2 / air) 
+      :ARG2 (a / and 
+            :op1 (s / song) 
+            :op2 (l / laught)) 
+      :condition (e / entertain-01 
+            :ARG0 (b / bard) 
+            :ARG1 (c / crowd)))
+
+# ::snt Assured of the correctness of the construction of the treaty constantly adhered to by this Government and resolved to insist on the rights of the United States, yet actuated also by the same desire which is avowed by the British Government, to remove all causes of serious misunderstanding between two nations associated by so many ties of interest and kindred, it has appeared to me proper not to consider an amicable solution of the controversy hopeless.
+# ::tok Assured of the correctness of the construction of the treaty constantly adhered to by this Government and resolved to insist on the rights of the United States , yet actuated also by the same desire which is avowed by the British Government , to remove all causes of serious misunderstanding between two nations associated by so many ties of interest and kindred , it has appeared to me proper not to consider an amicable solution of the controversy hopeless .
+# ::alignments 78-79|0.0.0.0.0.2.1+0.0.0.0.0.2 77-78|0.0.0.0.0.2.0.0.1 74-75|0.0.0.0.0.2.0.0 73-74|0.0.0.0.0.2.0.0.0 71-72|0.0.0.0.0.2.0 69-70|0.0.0.0.0.0 68-69|0.0.0.0.0.2.0.1 67-68|0.0.0.0.0.3.0 65-66|0.0.0.0.0.3.0.0 61-62|0.0.0.0.0.1.0 60-61|0.0.0.0.0.1 59-60|0.0.0.0.0.3 57-58|0.0.0.0.0 56-57|0.0.0.0.0.4 53-54|0.0.0.0 52-53|0.0.0 51-52|0.0.0.1 49-50|0.0 48-49|0.0.1 46-47|0 45-46|0.2 44-45|0.1 41-42|0.0.0.0.0.3.0.0.0.0.1.0.0.0.0.0.0+0.0.0.0.0.3.0.0.0.0.1.0.0.0.0.0.0.0 40-41|0.0.0.0.0.3.0.0.0.0.1.0.0.0.0.0.2+0.0.0.0.0.3.0.0.0.0.1.0.0.0.0.0.1.0+0.0.0.0.0.3.0.0.0.0.1.0.0.0.0.0.1+0.0.0.0.0.3.0.0.0.0.1.0.0.0.0.0 34-35|0.0.0.0.0.3.0.0.0.1.0 33-34|0.0.0.0.0.3.0.0.0.1.0.0 30-31|0.0.0.0.0.3.0.0.0.1.1 29-30|0.0.0.0.0.3.0.0.0.1 28-29|0.0.0.0.0.3.0.0.0 25-27|0.0.0.0.0.3.0.0.0.0.0.0.1+0.0.0.0.0.3.0.0.0.0.0.0.0.1+0.0.0.0.0.3.0.0.0.0.0.0.0.0+0.0.0.0.0.3.0.0.0.0.0.0.0+0.0.0.0.0.3.0.0.0.0.0.0 22-23|0.0.0.0.0.3.0.0.0.0.0 19-20|0.0.0.0.0.3.0.0.0.0 17-18|0.0.0.0.0.3.0.0.0.0.1 16-17|0.0.0.0.0.3.0.0.0.0.1.0 15-16|0.0.0.0.0.3.0.0.0.0.1.0.0.0.0+0.0.0.0.0.3.0.0.0.0.1.0.0.0 14-15|0.0.0.0.0.3.0.0.0.0.1.0.0.0.1 11-12|0.0.0.0.0.3.0.0.0.0.1.0.0 10-11|0.0.0.0.0.3.0.0.0.0.1.0.0.1 9-10|0.0.0.0.0.3.0.0.1.0.0.0 6-7|0.0.0.0.0.3.0.0.1.0.0 3-4|0.0.0.0.0.3.0.0.1.0 0-1|0.0.0.0.0.3.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:50.302
+(c3 / cause-01 
+      :ARG1 (m2 / misunderstand-01 
+            :ARG1 (n / nation 
+                  :ARG1-of (a4 / associate-01 
+                        :ARG2 (t / tie-01 
+                              :ARG0 - 
+                              :ARG1 (a3 / and 
+                                    :op1 (k / kindr)) 
+                              :ARG1-of (h / hopeful-03 
+                                    :ARG2-of (c2 / consider-02 
+                                          :ARG1 (s / solution 
+                                                :mod (a / amicable) 
+                                                :poss (c / controversy)) 
+                                          :condition-of (p / proper)) 
+                                    :polarity -) 
+                              :ARG2-of (i2 / interest-01 
+                                    :ARG1 (i / i 
+                                          :ARG2-of (a2 / appear-01 
+                                                :ARG0 (y / yet 
+                                                      :ARG0-of (i3 / insist-01 
+                                                            :ARG1 (r2 / right 
+                                                                  :poss (c5 / country 
+                                                                        :name (n3 / name 
+                                                                              :op1 "United" 
+                                                                              :op2 "States") 
+                                                                        :wiki "United_States")) 
+                                                            :ARG1-of (r3 / resolve-01 
+                                                                  :op2-of (a8 / and 
+                                                                        :op1 (a9 / adhere-01 
+                                                                              :ARG0 (g3 / government-organization 
+                                                                                    :ARG0-of (g4 / govern-01 
+                                                                                          :ARG1 (c4 / country 
+                                                                                                :ARG1-of (g2 / govern-01 
+                                                                                                      :ARG0 (g / government-organization)) 
+                                                                                                :name (n2 / name 
+                                                                                                      :op1 "Britain") 
+                                                                                                :wiki "United_Kingdom")) 
+                                                                                    :mod (t2 / this)) 
+                                                                              :manner (c6 / constant))))) 
+                                                      :op1 (a7 / actuate-01 
+                                                            :ARG0 (d / desire-01 
+                                                                  :ARG1-of (s3 / same-01)) 
+                                                            :mod (a6 / also))) 
+                                                :ARG1 (a10 / assure-01 
+                                                      :ARG1 (c8 / correctnes 
+                                                            :part-of (c7 / construct-01 
+                                                                  :ARG1 (t3 / treaty))))))) 
+                              :ARG3 (m / many))) 
+                  :quant 2) 
+            :mod (s2 / serious)) 
+      :ARG1-of (r / remove-01) 
+      :mod (a5 / all))
+
+# ::snt It was the headquarters of Essad Pasha, defender of Janina in the last war, and division commander in this sector of the front.
+# ::tok It was the headquarters of Essad Pasha , defender of Janina in the last war , and division commander in this sector of the front .
+# ::alignments 24-25|0.2.1 21-22|0.2 20-21|0.2.0 18-19|0.0.1.0.1+0.0.1.0 17-18|0.0.1.0.0 16-17|0 14-15|0.1.0 13-14|0.1.0.0 10-11|0.1.1.0.0+0.1.1.0+0.1.1 8-9|0.1 5-7|0.0.1.1.1+0.0.1.1.0+0.0.1.1+0.0.1 3-4|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:51.016
+(a / and 
+      :op1 (h2 / headquarters 
+            :domain (i / it) 
+            :poss (p / person 
+                  :ARG0-of (h / have-org-role-91 
+                        :ARG1 (d / division) 
+                        :ARG2 (c / commander)) 
+                  :name (n2 / name 
+                        :op1 "Essad" 
+                        :op2 "Pasha,"))) 
+      :op2 (d2 / defend-01 
+            :ARG0 (w / war 
+                  :mod (l / last)) 
+            :ARG1 (c2 / country 
+                  :name (n / name 
+                        :op1 "Janina"))) 
+      :source (s / sector 
+            :mod (t / this) 
+            :poss (f / front)))
+
+# ::snt He received us in his tent beside a table littered with maps and papers--a grizzled, good-natured soldier, who addressed us in German, and might indeed have passed for a German.
+# ::tok He received us in his tent beside a table littered with maps and papers -- a grizzled , good - natured soldier , who addressed us in German , and might indeed have passed for a German .
+# ::alignments 36-37|0.3.0.0.0.1+0.3.0.0.0.0.0+0.3.0.0.0.0+0.3.0.0.0 33-34|0.3.0.0 31-32|0.3.0.0.1 30-31|0.3.0 29-30|0.3 27-28|0.2.1+0.2.0.0+0.2.0+0.2 24-25|0 21-22|0.1 20-21|0.1.0.0 18-19|0.1.0 16-17|0.0 13-14|0.3.0.1.2 12-13|0.3.0.1 11-12|0.3.0.1.1.1 9-10|0.3.0.1.1 8-9|0.3.0.1.1.0 6-7|0.3.0.1.1.0.0 5-6|0.3.0.1.0.1 1-2|0.3.0.1.0 0-1|0.3.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:51.714
+(a2 / address-03 
+      :ARG0 (g2 / grizzle) 
+      :ARG1 (s / soldier 
+            :mod (g / good 
+                  :mod-of (n3 / natur))) 
+      :ARG2 (c2 / country 
+            :name (n2 / name 
+                  :op1 "Germany") 
+            :wiki "Germany") 
+      :op1-of (a / and 
+            :op2 (p2 / possible-01 
+                  :ARG1 (p / pass-01 
+                        :ARG1 (c / country 
+                              :name (n / name 
+                                    :op1 "Germany") 
+                              :wiki "Germany") 
+                        :mod (i / indeed)) 
+                  :op2-of (a3 / and 
+                        :ARG1-of (r / receive-01 
+                              :ARG0 (h / he) 
+                              :location (t2 / tent)) 
+                        :ARG2-of (l / litter-01 
+                              :ARG0 (t / table 
+                                    :op1-of (b / beside)) 
+                              :ARG1 (m / map)) 
+                        :op1 (p3 / paper)))))
+
+# ::snt He apologized for the cramped quarters, explaining that they were likely at any time to be bombarded, and had to live in what was practically a trench, and then at once, in the Turkish fashion, appeared an orderly with tiny cups of sweet coffee.
+# ::tok He apologized for the cramped quarters , explaining that they were likely at any time to be bombarded , and had to live in what was practically a trench , and then at once , in the Turkish fashion , appeared an orderly with tiny cups of sweet coffee .
+# ::alignments 48-49|0.0.1.0.2.0.1 47-48|0.0.1.0.2.0.1.0 45-46|0.0.1.0.2.0 44-45|0.0.1.0.2.0.0 42-43|0.0.1.0.2.1.0 40-41|0.0.1.0.2 38-39|0.0.1.0.3 37-38|0.0.1.0.3.0.1+0.0.1.0.3.0.0.0+0.0.1.0.3.0.0+0.0.1.0.3.0 33-34|0.0.0.0.0 31-32|0.0.1.0.2.2 30-31|0.0.1.0.2.1 28-29|0.0.1.0.2.1.1 26-27|0.0.1.0.2.1.0.0 22-23|0.0.0.0 19-20|0 17-18|0.0.1.0.1 14-15|0.0.1.0.1.0 13-14|0.0.1.0.1.0.0 11-12|0.0 9-10|0.0.0 7-8|0.0.1 5-6|0.0.1.0.0.0 4-5|0.0.1.0.0.0.0 1-2|0.0.1.0.0 0-1|0.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:52.921
+(a3 / and 
+      :op1 (l2 / likely-01 
+            :ARG1 (t5 / they 
+                  :ARG0-of (l / live-01 
+                        :ARG1 (o2 / once))) 
+            :ARG1-of (e / explain-01 
+                  :ARG0 (h / he 
+                        :ARG0-of (a5 / apologize-01 
+                              :ARG1 (q / quarter 
+                                    :ARG1-of (c4 / cramp-01))) 
+                        :ARG0-of (b / bombard-01 
+                              :ARG1 (t4 / time 
+                                    :mod (a4 / any))) 
+                        :ARG0-of (a / appear-01 
+                              :ARG1 (c2 / cup 
+                                    :mod (t / tiny) 
+                                    :mod (c / coffee 
+                                          :ARG1-of (s / sweet-05))) 
+                              :op2-of (a2 / and 
+                                    :ARG0-of (o / orderly-04 
+                                          :ARG1 (p / practical)) 
+                                    :op1 (t3 / trench)) 
+                              :time (t2 / then)) 
+                        :part (f / fashion 
+                              :mod (c3 / country 
+                                    :name (n / name 
+                                          :op1 "Turkey") 
+                                    :wiki "Turkey"))))))
+
+# ::snt Things were quiet at the moment, he said.
+# ::tok Things were quiet at the moment , he said .
+# ::alignments 8-9|0 7-8|0.0 5-6|0.1.1 2-3|0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:52.938
+(s / say-01 
+      :ARG0 (h / he) 
+      :ARG1 (q / quiet-04 
+            :ARG1 (t / thing) 
+            :time (m / moment)))
+
+# ::snt There was nothing but the desultory crack-crack of snipers, coming from one knew not just where, the every-day voice of the trenches--possibly the enemy were dismayed by the loss of the Triumph.
+# ::tok There was nothing but the desultory crack - crack of snipers , coming from one knew not just where , the every - day voice of the trenches -- possibly the enemy were dismayed by the loss of the Triumph .
+# ::alignments 39-40|0.1.2 36-37|0.1.2.0 33-34|0.1.2.0.0 31-32|0.1.1.0.0.0+0.1.1.0.0+0.1.1.0 29-30|0.1.1.1 27-28|0.1.2.0.0.0.0 24-25|0.1.2.0.0.0 23-24|0.1.0.0.0.0.1+0.1.0.0.0.0 21-22|0.1.0.0.0.0.0 17-18|0.1.3 16-17|0.1.0.0.0.1.0 15-16|0.1 12-13|0.1.1 10-11|0.1.0.0 8-9|0.1.0 6-7|0.1.0.0.0 5-6|0.1.0.0.0.1 3-4|0 2-3|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:54.184
+(c4 / contrast-01 
+      :ARG1 (n / nothing) 
+      :ARG2 (k / know-01 
+            :ARG0 (c2 / crack-02 
+                  :ARG1 (s / sniper 
+                        :ARG1-of (c3 / crack-02 
+                              :ARG0 (t3 / temporal-quantity 
+                                    :quant (e2 / every) 
+                                    :unit (d2 / day)) 
+                              :mod (d3 / desultory 
+                                    :polarity -)))) 
+            :ARG1 (c / come-01 
+                  :ARG1 (p / person 
+                        :ARG0-of (h / have-rel-role-91 
+                              :ARG2 (e / enemy))) 
+                  :ARG1-of (p2 / possible-01)) 
+            :ARG1-of (t / triumph-01 
+                  :topic-of (l / loss 
+                        :ARG0-of (d / dismay-01 
+                              :ARG1 (v / voice 
+                                    :poss (t2 / trench))))) 
+            :mod (j / just)))
+
+# ::snt He had seen it all, he said, from this very spot--a sight one was not likely to see more than once in a lifetime.
+# ::tok He had seen it all , he said , from this very spot -- a sight one was not likely to see more than once in a lifetime .
+# ::alignments 27-28|0.0.0.3 24-25|0.0.0.0.0.0 22-23|0.0.0.2 21-22|0.0.0 19-20|0.0.0.1 18-19|0.0.0.1.0 16-17|0.0.0.0 15-16|0.0.0.0.0 12-13|0.0.0.3.0.1 11-12|0.0.0.3.0.1.1 10-11|0.0.0.3.0.1.0 7-8|0 6-7|0.0 4-5|0.1 2-3|0.0.0.3.0 0-1|0.0.0.3.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:54.635
+(s4 / say-01 
+      :ARG0 (h / he 
+            :ARG0-of (s / see-01 
+                  :ARG1 (o2 / one 
+                        :mod (s2 / sight-01 
+                              :ARG1 (o / once))) 
+                  :ARG1-of (l2 / likely-01 
+                        :polarity -) 
+                  :ARG2 (m / more) 
+                  :prep-in (l / lifetime 
+                        :ARG1-of (s5 / see-01 
+                              :ARG0 (h2 / he) 
+                              :ARG2 (s3 / spot 
+                                    :mod (t / this) 
+                                    :mod (v / very)))))) 
+      :ARG1 (a / all))
+
+# ::snt The great ship had rolled over like a stricken whale.
+# ::tok The great ship had rolled over like a stricken whale .
+# ::alignments 9-10|0.1.0 8-9|0.1.0.0 6-7|0.1 4-5|0 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:54.666
+(r2 / roll-01 
+      :ARG1 (s2 / ship 
+            :mod (g / great)) 
+      :ARG1-of (r / resemble-01 
+            :ARG2 (w / whale 
+                  :mod (s / stricken))))
+
+# ::snt Her torpedo-nets were out, and as she turned over these nets closed down on the men struggling in the water, and swept them under.
+# ::tok Her torpedo - nets were out , and as she turned over these nets closed down on the men struggling in the water , and swept them under .
+# ::alignments 25-26|0.0.0.1.0 24-25|0.0.0.1.0.0 22-23|0.1 19-20|0 18-19|0.0 14-15|0.0.0 13-14|0.0.0.1 12-13|0.0.0.1.1 10-11|0.0.0.0.0 9-10|0.0.0.0 7-8|0.0.0.2 3-4|0.0.0.2.0.0.0 1-2|0.0.0.2.0 0-1|0.0.0.2.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:55.038
+(s2 / struggle-02 
+      :ARG0 (m / man 
+            :location-of (c / close-01 
+                  :ARG0 (s3 / she 
+                        :ARG0-of (t2 / turn-02)) 
+                  :ARG1 (n / net-01 
+                        :ARG1-of (s / sweep-02 
+                              :op1-of (a / and)) 
+                        :mod (t / this)) 
+                  :op1-of (a2 / and 
+                        :ARG1-of (t3 / torpedo-01 
+                              :ARG0 (s4 / she 
+                                    :ARG1-of (n2 / net-01)))))) 
+      :ARG1 (w / water))
+
+# ::snt He, too, expressed entire confidence in the Turk's ability to stop any farther advance and, calling an aid, sent us to the periscope, which poked its two eyes through a screen of pine branches a few yards away, and looked over the parapet and down on the first-line trenches and the sea.
+# ::tok He , too , expressed entire confidence in the Turk 's ability to stop any farther advance and , calling an aid , sent us to the periscope , which poked its two eyes through a screen of pine branches a few yards away , and looked over the parapet and down on the first - line trenches and the sea .
+# ::alignments 60-61|0.3.0.2 58-59|0.3.0 57-58|0.3.0.1 56-57|0.3.0.0 51-52|0.3.1.1.0.2.0.0.0 50-51|0.3.1.1.0.2.0.0 49-50|0.3.1.1.0.2.0.2 46-47|0.3.1.1.0.2.0 45-46|0.3.1.1.0.2 43-44|0.1.0.1.1.0.0 42-43|0.3.1.1.0.2.0.1 41-42|0.3.1.1.0.2.0.1.0 39-40|0.1.0.1.0.0 38-39|0.1.0.1.0 36-37|0.3.1.1.0.1 33-34|0.3.1.1.0.0 32-33|0.3.1.1.0.0.0 30-31|0.3.1.1.0 27-28|0.3.1.1 23-24|0.3.1 21-22|0.1.0.1.1.0 19-20|0.1.0.1.1 17-18|0.3 16-17|0.1.0.1 15-16|0.1.0.1.2 14-15|0.1.0.1.3 13-14|0.1.0 11-12|0.1 9-10|0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 6-7|0.0 5-6|0.0.0 4-5|0 2-3|0.2 0-1|0.3.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:57.573
+(e3 / express-01 
+      :ARG1 (c2 / confidence 
+            :mod (e2 / entire)) 
+      :manner (a9 / ability 
+            :instrument-of (s4 / stop-01 
+                  :ARG0 (t2 / thing 
+                        :name (n / name 
+                              :op1 "Turk's")) 
+                  :ARG1 (a7 / advance-01 
+                        :ARG1 (p2 / pine-01 
+                              :ARG1 (b / branch)) 
+                        :ARG2-of (c / call-03 
+                              :ARG1 (a5 / aid-01 
+                                    :ARG1 (a4 / away))) 
+                        :mod (f2 / far) 
+                        :mod (a8 / any)))) 
+      :mod (t3 / too) 
+      :op1-of (a6 / and 
+            :op1-of (a / and 
+                  :mod (l / line) 
+                  :op2 (t / trench) 
+                  :op3 (s / sea)) 
+            :op2 (s3 / send-01 
+                  :ARG0 (h / he) 
+                  :ARG2 (p4 / periscope 
+                        :ARG0-of (p3 / poke-01 
+                              :ARG1 (e / eye 
+                                    :quant 2) 
+                              :manner (s2 / screen) 
+                              :op1-of (a3 / and 
+                                    :op2 (l2 / look-01 
+                                          :ARG0 (a2 / and 
+                                                :op1 (d / down)) 
+                                          :ARG1 (y / yard 
+                                                :quant (f / few)) 
+                                          :ARG2 (p / parapet))))))))
+
+# ::snt We were high above the Aegean and opposite the island of Imbros, which lifted its hazy blue on the western horizon, and was used as a base by part of the fleet.
+# ::tok We were high above the Aegean and opposite the island of Imbros , which lifted its hazy blue on the western horizon , and was used as a base by part of the fleet .
+# ::alignments 33-34|0.0.1.1 28-29|0.0.2.0.1 25-26|0.0.2.0 23-24|0.0.2 21-22|0.0.1 20-21|0.0.1.0.1+0.0.1.0.0.0+0.0.1.0.0+0.0.1.0 17-18|0.0.0 16-17|0.0.0.0 14-15|0.0 9-10|0.0.2.0.0 7-8|0.2 6-7|0 5-6|0.1.0.1.0+0.1.0.1+0.1.0 3-4|0.1 2-3|0.1.0.0 0-1|0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:57.862
+(a2 / and 
+      :ARG0-of (l / lift-01 
+            :ARG1 (b2 / blue 
+                  :mod (h2 / hazy)) 
+            :location (h / horizon 
+                  :mod (w / world-region 
+                        :name (n / name 
+                              :op1 "West") 
+                        :wiki "Western_world") 
+                  :poss (f / fleet)) 
+            :op1-of (a / and 
+                  :ARG1-of (u / use-01 
+                        :ARG0 (i / island) 
+                        :ARG2 (b / base)))) 
+      :op1 (a3 / above 
+            :op1 (c / country 
+                  :ARG0-of (h3 / high-02 
+                        :ARG1 (w2 / we)) 
+                  :name (n2 / name 
+                        :op1 "Aegean"))) 
+      :op2 (o / opposite-01))
+
+# ::snt To the south rose the promontory of Kaba Tepe, cleared of the enemy now, our Turkish major said, and, stretching northward from it past us and Ari Burnu, the curving rim of beach held by the English.
+# ::tok To the south rose the promontory of Kaba Tepe , cleared of the enemy now , our Turkish major said , and , stretching northward from it past us and Ari Burnu , the curving rim of beach held by the English .
+# ::alignments 41-42|0.0.1.1.0.0.1+0.0.1.1.0.0.0.0+0.0.1.1.0.0.0+0.0.1.1.0.0 38-39|0.0.1 37-38|0.0.1.0 35-36|0.0.1.1 34-35|0.0.1.1.0 30-32|0.1.0.1+0.1.0.0+0.1.0+0.1 29-30|0 27-28|0.0.2 24-25|0.0.0 23-24|0.0 21-22|0.0.1.2 19-20|0.0.1.2.1 18-19|0.0.1.2.1.0 17-18|0.0.1.2.1.0.1.1+0.0.1.2.1.0.1.0.0+0.0.1.2.1.0.1.0+0.0.1.2.1.0.1 16-17|0.0.1.2.1.0.0 14-15|0.0.1.2.1.1 13-14|0.0.1.2.0.0.0+0.0.1.2.0.0+0.0.1.2.0 10-11|0.0.1.2.0.1 7-9|0.0.1.2.0.1.0.0.1+0.0.1.2.0.1.0.0.0+0.0.1.2.0.1.0.0+0.0.1.2.0.1.0 5-6|0.0.1.2.0.1.0.1 3-4|0.0.1.2.0.1.0.1.0 2-3|0.0.1.2.0.1.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:40:59.910
+(a / and 
+      :ARG0-of (s / stretch-01 
+            :ARG1 (n3 / northward) 
+            :purpose-of (h / hold-04 
+                  :ARG0 (b / beach) 
+                  :ARG1 (r / rim 
+                        :ARG1-of (c / curve-01 
+                              :ARG0 (l / language 
+                                    :name (n / name 
+                                          :op1 "English") 
+                                    :wiki "English_language"))) 
+                  :op3-of (a2 / and 
+                        :op1 (p3 / person 
+                              :ARG0-of (h2 / have-rel-role-91 
+                                    :ARG2 (e / enemy)) 
+                              :ARG1-of (c3 / clear-01 
+                                    :ARG0 (p4 / person 
+                                          :name (n6 / name 
+                                                :op1 "Kaba" 
+                                                :op2 "Tepe,") 
+                                          :poss-of (p5 / promontory 
+                                                :ARG1-of (r2 / rise-01 
+                                                      :ARG0 (s3 / south)))))) 
+                        :op2 (s2 / say-01 
+                              :ARG0 (m / major-02 
+                                    :ARG0 (w / we) 
+                                    :ARG1 (c2 / country 
+                                          :name (n4 / name 
+                                                :op1 "Turkey") 
+                                          :wiki "Turkey")) 
+                              :time (n5 / now)))) 
+            :time (p2 / past)) 
+      :op1 (p / person 
+            :name (n2 / name 
+                  :op1 "Ari" 
+                  :op2 "Burnu,")))
+
+# ::snt More than a month had passed since the landing, and the heavy fighting of the next few days, in which the Australians and New Zealanders, under a hail of shrapnel churning up the water between ships and shore, succeeded in getting a foothold; a month and more had passed, and, though they still held their ground, apparently they could do no more.
+# ::tok More than a month had passed since the landing , and the heavy fighting of the next few days , in which the Australians and New Zealanders , under a hail of shrapnel churning up the water between ships and shore , succeeded in getting a foothold ; a month and more had passed , and , though they still held their ground , apparently they could do no more .
+# ::alignments 69-70|0.0.0.0.0.0.1.0.2 68-69|0.0.0.0.0.1.1.0 67-68|0.0.0.0.0.0.1.0 66-67|0.0.0.0.0.0.1.0.1 64-65|0.0.0.0.0.1.1.1 62-63|0.0.0.0.0.0.1.0.0.0.0 60-61|0.0.0.0.0.0.1.0.0.0 59-60|0.0.0.0.0.0.1.0.0.0.1 58-59|0.0.0.0.0.0.1.0.0 55-56|0.0.0.0.0.0.1.0.1.0 53-54|0.0.0.0.0.0.1.0.1.0.0 51-52|0.0 50-51|0 49-50|0.0.0.1+0.0.0 47-48|0.0.0.0 46-47|0.0.0.0.0.0.1.0.1.1.0.1.0.0.0 42-43|0.0.0.0.0 40-41|0.0.0.0.0.1.1 39-40|0.0.0.0.0.1 38-39|0.0.0.0.0.1.0 36-37|0.0.0.0.0.0.1.0.1.1.0.1.0.0.2.0 33-34|0.0.0.0.0.0.1.0.1.1.0.1.0.0.2 32-33|0.0.0.0.0.0.1.0.1.1.0.1.0.0.1 30-31|0.0.0.0.0.0.1.0.1.1.0.1.0.0 25-27|0.0.0.0.0.0.1.1.1+0.0.0.0.0.0.1.1.0+0.0.0.0.0.0.1.1+0.0.0.0.0.0.1 24-25|0.0.0.0.0.0 23-24|0.0.0.0.0.0.0.0.1+0.0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0+0.0.0.0.0.0.0 18-19|0.0.0.0.0.0.1.0.1.0.0.0.1+0.0.0.0.0.0.1.0.1.0.0.0.1.1 17-18|0.0.0.0.0.0.1.0.1.0.0.0.1.1.0 16-17|0.0.0.0.0.0.1.0.1.0.0.0.1.0 13-14|0.0.0.0.0.0.1.0.1.0.0.0 12-13|0.0.0.0.0.0.1.0.1.0.0.0.0 10-11|0.0.0.0.0.0.1.0.1.1 8-9|0.0.0.0.0.0.1.0.1.1.0.1.0 6-7|0.0.0.0.0.0.1.0.1.1.0.1 5-6|0.0.0.0.0.0.1.0.1.1.0 3-4|0.0.0.0.0.0.1.0.1.1.0.0.1+0.0.0.0.0.0.1.0.1.1.0.0 0-1|0.0.0.0.0.0.1.0.1.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:06.515
+(a3 / and 
+      :op1 (m2 / more 
+            :compared-to (t2 / temporal-quantity 
+                  :op2-of (a4 / and 
+                        :op1 (s2 / succeed-01 
+                              :ARG0 (a6 / and 
+                                    :op1 (p3 / person 
+                                          :mod (c2 / country 
+                                                :name (n2 / name 
+                                                      :op1 "Australia") 
+                                                :wiki "Australia")) 
+                                    :op2 (t3 / thing 
+                                          :ARG1-of (d / do-02 
+                                                :ARG0 (t / they 
+                                                      :ARG0-of (h / hold-04 
+                                                            :ARG1 (g / ground) 
+                                                            :time (s / still))) 
+                                                :ARG1-of (p / possible-01 
+                                                      :op2-of (a2 / and 
+                                                            :op1 (p2 / pass-01 
+                                                                  :ARG1 (f3 / fight-01 
+                                                                        :ARG0 (h3 / heavy) 
+                                                                        :ARG1 (d2 / day 
+                                                                              :mod (n3 / next) 
+                                                                              :unit-of (t4 / temporal-quantity 
+                                                                                    :op1-of (f2 / few)))))) 
+                                                      :op2-of (a7 / and 
+                                                            :op1 (p4 / pass-01 
+                                                                  :ARG0 (t5 / temporal-quantity 
+                                                                        :op1-of (m5 / more-than) 
+                                                                        :unit (m4 / month)) 
+                                                                  :time (s6 / since 
+                                                                        :op1 (l / land-01 
+                                                                              :ARG1 (h2 / hail-01 
+                                                                                    :ARG0 (f / foothold) 
+                                                                                    :ARG1 (s5 / shrapnel) 
+                                                                                    :ARG1-of (c / churn-01 
+                                                                                          :ARG0 (w / water)))))))) 
+                                                :extent (m / more)) 
+                                          :name (n / name 
+                                                :op1 "New" 
+                                                :op2 "Zealanders,"))) 
+                              :ARG1 (a5 / and 
+                                    :op1 (s4 / ship) 
+                                    :op2 (s3 / shore-01 
+                                          :ARG0 - 
+                                          :ARG1 (a / apparent))))) 
+                  :unit (m3 / month))))
+
+# ::snt The yellow line of their first trench twisted along the rim of the hill below us, perhaps a quarter of a mile away, and directly behind it lay the blue sea.
+# ::tok The yellow line of their first trench twisted along the rim of the hill below us , perhaps a quarter of a mile away , and directly behind it lay the blue sea .
+# ::alignments 32-33|0.3.2.0 31-32|0.3.2.0.0 29-30|0.3.2 27-28|0.3.1 26-27|0.3.0 25-26|0.3 23-24|0.0.0.0 22-23|0.0.0.1.1+0.0.0.1 19-20|0.0.0.1.0 17-18|0.4 14-15|0.3.3 13-14|0.1.0 10-11|0.1 8-9|0.2 7-8|0 6-7|0.0.1 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:07.649
+(t / twist-01 
+      :ARG0 (l2 / line 
+            :ARG1-of (y / yellow-02 
+                  :ARG0 (a2 / away) 
+                  :ARG2 (d2 / distance-quantity 
+                        :ARG0-of (q / quarter-01) 
+                        :unit (m / mile))) 
+            :poss (t2 / trench)) 
+      :ARG1 (r / rim 
+            :part-of (h / hill)) 
+      :manner (a3 / along) 
+      :op1-of (a / and 
+            :ARG1-of (d / direct-02) 
+            :op2 (b2 / behind) 
+            :op3 (l / lay-01 
+                  :ARG1 (s / sea 
+                        :mod (b / blue))) 
+            :time (b3 / below)) 
+      :time (p / perhaps))
+
+# ::snt How much elbow-room they might have between their trenches and the water one could not tell, so completely foreshortened was the space between.
+# ::tok How much elbow - room they might have between their trenches and the water one could not tell , so completely foreshortened was the space between .
+# ::alignments 24-25|0.1 21-22|0 20-21|0.0 17-18|0.1.0 16-17|0.1.0.1.1 15-16|0.1.0.1 14-15|0.1.0.0 13-14|0.1.0.0.0 11-12|0.1.0.1.0 10-11|0.1.0.2.0 6-7|0.1.0.1.0.0 5-6|0.1.0.2 4-5|0.1.0.1.0.0.0 2-3|0.1.0.1.0.0.1.0 1-2|0.1.0.1.0.0.1 0-1|0.1.0.1.0.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:09.043
+(f / foreshorten 
+      :ARG1-of (c / complete-02) 
+      :domain (s / space 
+            :ARG1-of (t / tell-01 
+                  :ARG0 (o / one 
+                        :mod (w / water)) 
+                  :ARG1-of (p / possible-01 
+                        :op2-of (a / and 
+                              :op1 (p2 / possible-01 
+                                    :ARG0 (r / room) 
+                                    :ARG1 (m / much 
+                                          :degree-of (e / elbow)) 
+                                    :manner (a2 / amr-unknown))) 
+                        :polarity -) 
+                  :ARG2 (t3 / they 
+                        :poss-of (t2 / trench)))))
+
+# ::snt Cliffs rise from a narrow strip of foreshore here, however, and apparently they had pushed just over the cliff rim-- the first hill above the sea.
+# ::tok Cliffs rise from a narrow strip of foreshore here , however , and apparently they had pushed just over the cliff rim -- the first hill above the sea .
+# ::alignments 28-29|0.0.1.0.1 26-27|0.0.1.0 25-26|0.0.1.0.0 21-22|0.2.1 20-21|0.2.1.0 17-18|0.2.3 16-17|0.2 14-15|0.2.0 13-14|0.2.2 12-13|0 8-9|0.1 7-8|0.0.1.1 5-6|0.0.1 4-5|0.0.1.2 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:09.325
+(a3 / and 
+      :op1 (r2 / rise-01 
+            :ARG1 (c2 / cliff) 
+            :ARG3 (s2 / strip-01 
+                  :ARG0 (a / above 
+                        :location-of (h / hill) 
+                        :op1 (s / sea)) 
+                  :ARG1 (f / foreshore) 
+                  :ARG1-of (n / narrow-02))) 
+      :op2 (h2 / here) 
+      :op3 (p / push-01 
+            :ARG0 (t / they) 
+            :ARG1 (r / rim 
+                  :mod (c / cliff)) 
+            :ARG2 (a2 / apparent) 
+            :mod (j / just)))
+
+# ::snt Their tents, stores and landing-places were out of sight.
+# ::tok Their tents , stores and landing - places were out of sight .
+# ::alignments 11-12|0.0 7-8|0.3.0 5-6|0.3 4-5|0 3-4|0.2 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:09.349
+(a / and 
+      :ARG1-of (s / sight-01) 
+      :op1 (t / tent) 
+      :op2 (s2 / store) 
+      :op3 (l / land-01 
+            :ARG1 (p / place)))
+
+# ::snt Directly in front of the English trenches were the first-line Turkish trenches, in some places not more than fifteen or twenty feet away, so close, indeed, that when there was fighting they must have fought with revolvers, hand-grenades, shovels, anything they could lay their hands on.
+# ::tok Directly in front of the English trenches were the first - line Turkish trenches , in some places not more than fifteen or twenty feet away , so close , indeed , that when there was fighting they must have fought with revolvers , hand - grenades , shovels , anything they could lay their hands on .
+# ::alignments 55-56|0.0.0 53-54|0.0 52-53|0 50-51|0.0.2 48-49|0.1.1.0.0 46-47|0.0.1 44-45|0.0.1.0 42-43|0.1.1.1 40-41|0.1.1 37-38|0.1.1.0 36-37|0.1 30-31|0.1.1.0.0.0 25-26|0.1.1.0.0.1 24-25|0.1.0.0.0.1.0 23-24|0.1.0.0.0.1 22-23|0.1.0.0.0.0 21-22|0.1.1.2.0 19-20|0.1.1.2 18-19|0.1.1.2.1 17-18|0.1.0.0.1.0 16-17|0.1.0.0.1 13-14|0.1.0.0 12-13|0.1.0.2+0.1.0.1.0+0.1.0.1+0.1.0 11-12|0.1.1.3 6-7|0.1.0.0.1.0.0 5-6|0.1.0.0.1.0.0.0.1+0.1.0.0.1.0.0.0.0.0+0.1.0.0.1.0.0.0.0+0.1.0.0.1.0.0.0 2-3|0.1.0.0.0.2 0-1|0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:10.653
+(p / possible-01 
+      :ARG1 (l / lay-01 
+            :ARG1 (h / hand) 
+            :ARG2 (g / grenade 
+                  :mod (h2 / hand)) 
+            :time (a / anything)) 
+      :condition (f2 / fight-01 
+            :ARG0 (c / country 
+                  :mod-of (t3 / trench 
+                        :domain (d / direct-02 
+                              :ARG0 (o / or) 
+                              :ARG2 (t2 / twenty 
+                                    :quant-of (f3 / foot)) 
+                              :location (f5 / front)) 
+                        :quant (s2 / some 
+                              :mod-of (p2 / place 
+                                    :mod (t4 / trench 
+                                          :mod (l3 / language 
+                                                :name (n2 / name 
+                                                      :op1 "English") 
+                                                :wiki "English_language"))))) 
+                  :name (n / name 
+                        :op1 "Turkey") 
+                  :wiki "Turkey") 
+            :ARG1 (f / fight-01 
+                  :ARG0 (t / they 
+                        :ARG0-of (s / shovel-01 
+                              :ARG1 (i / indeed) 
+                              :op1-of (a2 / away))) 
+                  :ARG1 (r / revolver) 
+                  :ARG2 (m / more 
+                        :compared-to (f4 / fifteen) 
+                        :polarity -) 
+                  :op1-of (l2 / line))))
+
+# ::snt At the moment it was quiet but for the constant Crack.. crack-crack! of snipers.
+# ::tok At the moment it was quiet but for the constant Crack .. crack - crack ! of snipers .
+# ::alignments 17-18|0.0.0 15-16|0.0.1.0.0.0 14-15|0.0.1.0.0 12-13|0.0.1.0 10-12|0.0.1.1.1.0+0.0.1.1.1+0.0.1.1 9-10|0.0.1.1.0 6-7|0 5-6|0.0 2-3|0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:10.727
+(c5 / contrast-01 
+      :ARG1 (q / quiet-04 
+            :ARG1 (s / sniper) 
+            :time (m / moment 
+                  :time-of (c2 / crack-02 
+                        :ARG1 (c / crack-02 
+                              :ARG1 (e / expressive))) 
+                  :time-of (c3 / country 
+                        :mod (c4 / constant) 
+                        :name (n / name 
+                              :op1 "Crack..")))))
+
+# ::snt We could look down on the backs and heads of the Turkish soldiers; except for a wisp of smoke rising here and there from some hidden camp cook-stove, there was not a sign of life in the English trenches.
+# ::tok We could look down on the backs and heads of the Turkish soldiers ; except for a wisp of smoke rising here and there from some hidden camp cook - stove , there was not a sign of life in the English trenches .
+# ::alignments 42-43|0.0.4.0.0 41-42|0.0.4.0.0.0.1+0.0.4.0.0.0.0.0+0.0.4.0.0.0.0+0.0.4.0.0.0 38-39|0.0.4.0.1 36-37|0.0.4.0 34-35|0.0.4.0.2 30-31|0.0.1.1 28-29|0.0.1 27-28|0.0.1.0 26-27|0.0.1.2 25-26|0.0.1.3 23-24|0.0.3 22-23|0.0.5 21-22|0.0.2 20-21|0.0 19-20|0 17-18|0.0.0 14-15|0.0.5.0.0.2.0.0 13-14|0.0.4 12-13|0.0.5.0.0.2 11-12|0.0.5.0.0.2.0.2+0.0.5.0.0.2.0.1.0+0.0.5.0.0.2.0.1+0.0.5.0.0.2.0 8-9|0.0.5.0.0.1.0.0.0+0.0.5.0.0.1.0.0 7-8|0.0.5.0.0.1.0 6-7|0.0.5.0.0.1 2-3|0.0.5.0.0 1-2|0.0.5.0 0-1|0.0.5.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:11.848
+(s4 / smoke 
+      :ARG0-of (r / rise-01 
+            :ARG1 (w / wisp) 
+            :ARG3 (c / cook-01 
+                  :ARG0 (c2 / camp) 
+                  :ARG1 (s2 / stove) 
+                  :ARG1-of (h / hide-01) 
+                  :mod (s3 / some)) 
+            :location (h2 / here) 
+            :manner (t2 / there) 
+            :op1-of (a2 / and 
+                  :op2 (s / sign-02 
+                        :ARG0 (t / trench 
+                              :mod (l / language 
+                                    :name (n / name 
+                                          :op1 "English") 
+                                    :wiki "English_language")) 
+                        :ARG1 (l2 / life) 
+                        :polarity -)) 
+            :op2-of (a / and 
+                  :op1 (p2 / possible-01 
+                        :ARG1 (l3 / look-01 
+                              :ARG0 (w2 / we) 
+                              :ARG1 (b / back 
+                                    :op1-of (a3 / and 
+                                          :op2 (p / person 
+                                                :ARG0-of (h3 / head-01)))) 
+                              :ARG4 (s5 / soldier 
+                                    :mod (c3 / country 
+                                          :ARG1-of (e / except-01) 
+                                          :name (n2 / name 
+                                                :op1 "Turkey") 
+                                          :wiki "Turkey")))))))
+
+# ::snt Snipers were attending to that.
+# ::tok Snipers were attending to that .
+# ::alignments 4-5|0.1 2-3|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:11.860
+(a / attend-01 
+      :ARG0 (s / sniper) 
+      :beneficiary (t / that))
+
+# ::snt Even here, in the second-line trenches on top of the second hill, no one was allowed to show his head, and it was all the more curious to see a squad of Turkish soldiers digging away below as calmly as so many market-gardeners in a potato-field.
+# ::tok Even here , in the second - line trenches on top of the second hill , no one was allowed to show his head , and it was all the more curious to see a squad of Turkish soldiers digging away below as calmly as so many market - gardeners in a potato - field .
+# ::alignments 54-55|0.2.1.0.0.0.2.0 52-53|0.2.1.0.0.0.2.0.0 49-50|0.2.1.0.0.0.2.1 47-48|0.2.1.0.0.0.2 46-47|0.2.1.0.0.0.2.2 43-44|0.2.1.0.0.0.1.1 41-42|0.2.1.0.0.0.1 40-41|0.2.1.0.0.0.1.0 39-40|0.2.1.0.0.0 38-39|0.2.1.0.0 37-38|0.2.1.0.0.1.1+0.2.1.0.0.1.0.0+0.2.1.0.0.1.0+0.2.1.0.0.1 35-36|0.2.1.0 33-34|0.2.1 31-32|0.2 30-31|0.2.2 28-29|0.2.0 25-26|0 23-24|0.1.0.1 21-22|0.1.0 19-20|0.1 17-18|0.1.0.0 16-17|0.2.1.0.0.0.0 14-15|0.0.1.0.0 10-11|0.0.1.0 8-9|0.0.1 7-8|0.1.0.1.0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:13.486
+(a3 / and 
+      :op1 (h3 / here 
+            :direction (e / even) 
+            :location (t2 / trench 
+                  :location (t / top 
+                        :part-of (h2 / hill)))) 
+      :op2 (a4 / allow-01 
+            :ARG1 (s4 / show-01 
+                  :ARG0 (o / one) 
+                  :ARG1 (h / head-01 
+                        :ARG1 (l / line)))) 
+      :op3 (c3 / curious-01 
+            :ARG1 (a2 / all) 
+            :ARG2 (s3 / see-01 
+                  :ARG1 (s2 / squad 
+                        :mod (s / soldier 
+                              :ARG0-of (d / dig-01 
+                                    :ARG1 - 
+                                    :time (b / below 
+                                          :mod (a / away) 
+                                          :op1 (c / calmly)) 
+                                    :topic (m / market 
+                                          :location (f / field 
+                                                :mod (p / potato)) 
+                                          :mod-of (g / gardener) 
+                                          :quant (m2 / many))) 
+                              :mod (c2 / country 
+                                    :name (n / name 
+                                          :op1 "Turkey") 
+                                    :wiki "Turkey")))) 
+            :degree (m3 / more)))
+
+# ::snt They were running another trench behind the several that already lined the slope, and must have been hidden by a rise of ground, though looking down from above they seemed to be out in the open.
+# ::tok They were running another trench behind the several that already lined the slope , and must have been hidden by a rise of ground , though looking down from above they seemed to be out in the open .
+# ::alignments 37-38|0.0.0.1.0 31-32|0 30-31|0.1 29-30|0.1.0 26-27|0.0 23-24|0.0.0.1.1.0.0 21-22|0.0.0.1.1.0 18-19|0.0.0.1.1 14-15|0.0.0.1 12-13|0.0.0.0 10-11|0.0.0 9-10|0.0.0.2 7-8|0.0.1.2.0 5-6|0.0.1.2 4-5|0.0.1.1 3-4|0.0.1.1.0 2-3|0.0.1 0-1|0.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:14.709
+(s / seem-01 
+      :ARG0 (l / look-01 
+            :ARG1 (l2 / line-01 
+                  :ARG1 (s2 / slope-01) 
+                  :op1-of (a2 / and 
+                        :ARG1-of (o / open-01) 
+                        :op2 (h / hide-01 
+                              :ARG0 (r / rise-01 
+                                    :ARG1 (g / ground)))) 
+                  :time (a3 / already)) 
+            :ARG2 (r2 / run-01 
+                  :ARG0 (t3 / they) 
+                  :ARG1 (t2 / trench 
+                        :mod (a4 / another)) 
+                  :time (b / behind 
+                        :op1 (s3 / several)))) 
+      :ARG1 (t / they 
+            :op1-of (a / above)))
+
+# ::snt The position of the English did not seem enviable.
+# ::tok The position of the English did not seem enviable .
+# ::alignments 8-9|0.1 7-8|0 6-7|0.2 4-5|0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:14.817
+(s / seem-01 
+      :ARG1 (p / position 
+            :poss (l / language 
+                  :name (n / name 
+                        :op1 "English") 
+                  :wiki "English_language")) 
+      :ARG2 (e / enviable) 
+      :polarity -)
+
+# ::snt They had trenches directly in front of them, and several hundred feet above them a second line (from which we were looking) dominating the whole neighborhood.
+# ::tok They had trenches directly in front of them , and several hundred feet above them a second line ( from which we were looking ) dominating the whole neighborhood .
+# ::alignments 28-29|0.0.0.0.0 27-28|0.0.0.0.0.0 25-26|0.0.0.0 23-24|0.3 21-22|0.3.0 17-18|0.3.1 13-14|0.2.0 12-13|0.2 10-11|0.2.1 9-10|0 5-6|0.1 3-4|0.0.0 2-3|0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:15.169
+(a2 / and 
+      :op1 (t / trench 
+            :ARG1-of (d2 / direct-02 
+                  :ARG2-of (d / dominate-01 
+                        :ARG1 (n / neighborhood 
+                              :mod (w / whole)))) 
+            :op1 (t2 / they)) 
+      :op2 (f2 / front) 
+      :op3 (f / foot 
+            :location (a / above) 
+            :op1-of (s / several)) 
+      :op4 (l / look-01 
+            :ARG0 (w2 / we) 
+            :ARG1 (l2 / line)))
+
+# ::snt The first-line Turkish trenches were too close to their own to be bombarded from the ships, so that that preliminary advantage was cut off; the second-line defenses, in the twisting gullies over the hill, could stand bombardment about as well as could trenches anywhere--and behind them was the water.
+# ::tok The first - line Turkish trenches were too close to their own to be bombarded from the ships , so that that preliminary advantage was cut off ; the second - line defenses , in the twisting gullies over the hill , could stand bombardment about as well as could trenches anywhere -- and behind them was the water .
+# ::alignments 58-59|0.0 54-55|0.0.0 53-54|0.2.1.0.1.3 51-52|0.2.0 50-51|0.2.1.0.1.1 49-50|0.2.1.0.1 45-46|0.2.1.0.1.3.0.2 44-45|0.2.1.0.1.3.0.1 43-44|0.2.1.0.1.3.0 42-43|0.2.1.0.1.3.0.0 40-41|0.1.0 37-38|0.1 36-37|0 32-33|0.2.1.0.1.3.1 31-32|0.2.1.0.1.0 27-28|0.2.1.0.1.2 25-26|0.2.1.0 23-24|0.2.1.0.0 22-23|0.2.1.0.0.0 17-18|0.2.2 14-15|0.2 8-9|0.2.1.1 7-8|0.2.1.1.0 5-6|0.2.1 4-5|0.2.1.2.1+0.2.1.2.0.0+0.2.1.2.0+0.2.1.2 3-4|0.3 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:16.201
+(t2 / twist-01 
+      :ARG0 (w / water 
+            :location (b / behind)) 
+      :ARG1 (g / gulli 
+            :topic (h / hill)) 
+      :ARG2 (b3 / bombard-01 
+            :ARG0 (a2 / anywhere) 
+            :ARG1 (t4 / trench 
+                  :ARG0-of (c / cut-01 
+                        :ARG1 (a5 / advantage 
+                              :mod (p3 / preliminary)) 
+                        :ARG2 (p / possible-01 
+                              :ARG0 (l / line) 
+                              :ARG1 (t / trench) 
+                              :op1-of (a4 / and) 
+                              :op2-of (a / and 
+                                    :ARG1-of (s / stand-03 
+                                          :ARG1-of (p2 / possible-01) 
+                                          :ARG2 (b2 / bombardment) 
+                                          :time (a3 / about)) 
+                                    :op1 (d / defense)))) 
+                  :domain-of (c2 / close 
+                        :degree (t3 / too)) 
+                  :mod (c3 / country 
+                        :name (n / name 
+                              :op1 "Turkey") 
+                        :wiki "Turkey")) 
+            :ARG2 (s2 / ship)) 
+      :op1-of (l2 / line))
+
+# ::snt They were very literally between the devil and the deep sea.
+# ::tok They were very literally between the devil and the deep sea .
+# ::alignments 10-11|0.1 9-10|0.1.0 7-8|0 6-7|0.0 3-4|0.0.0 2-3|0.0.0.0 0-1|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:16.237
+(a / and 
+      :op1 (d2 / devil 
+            :mod (l / literal 
+                  :degree (v / very))) 
+      :op2 (s / sea 
+            :ARG1-of (d / deep-02 
+                  :ARG0 (t / they))))
+
+# ::snt With the periscope we worked from Kaba Tepe on the left clear across the ground in front of us to the north.
+# ::tok With the periscope we worked from Kaba Tepe on the left clear across the ground in front of us to the north .
+# ::alignments 21-22|0.0.0.0.0 16-17|0 14-15|0.0 12-13|0.0.0 11-12|0.0.0.0 10-11|0.0.0.0.1 6-8|0.1.2.0.1+0.1.2.0.0+0.1.2.0+0.1.2 4-5|0.1 3-4|0.1.0 2-3|0.1.1 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:16.415
+(f / front 
+      :location-of (g / ground 
+            :op1-of (a / across 
+                  :location-of (c / clear-06 
+                        :ARG0 (n / north) 
+                        :ARG1 (l / left)))) 
+      :prep-in-of (w / work-01 
+            :ARG0 (w2 / we) 
+            :ARG1 (p2 / periscope) 
+            :ARG2 (p / person 
+                  :name (n2 / name 
+                        :op1 "Kaba" 
+                        :op2 "Tepe"))))
+
+# ::snt Over in the west, by hazy Imbros, were five or six ships; there was another fleet in the north to-ward the Gulf of Saros, and little black beetles of destroyers crawled here and there across the blue sea floor.
+# ::tok Over in the west , by hazy Imbros , were five or six ships ; there was another fleet in the north to - ward the Gulf of Saros , and little black beetles of destroyers crawled here and there across the blue sea floor .
+# ::alignments 44-45|0.0.0 43-44|0.0.0.0 42-43|0.0.0.1 40-41|0.0 38-39|0.1.3 37-38|0.1.2 36-37|0.1 35-36|0.1.1.1 33-34|0.1.1 32-33|0.1.1.2 31-32|0.1.1.3 30-31|0 28-29|0.1.0.0.0.0 26-27|0.1.0.0.0.3+0.1.0.0.0.1.0+0.1.0.0.0.1+0.1.0.0.0 24-25|0.1.0.0 21-22|0.1.1.0 18-19|0.1.0 17-18|0.1.0.1 14-15|0.1.3.0 13-14|0.1.3.0.0 12-13|0.1.3.1.1 11-12|0.1.3.1 10-11|0.1.3.1.0 7-8|0.1.1.0.0.1.0+0.1.1.0.0.1+0.1.1.0.0 6-7|0.1.1.0.0.0 3-4|0.1.0.0.0.2 0-1|0.1.1.2.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:17.784
+(a3 / and 
+      :location (a / across 
+            :op1 (f / floor 
+                  :location (s / sea) 
+                  :mod (b / blue))) 
+      :op1 (c / crawl-01 
+            :ARG0 (f2 / fleet 
+                  :consist-of (w2 / ward-off-01 
+                        :ARG1 (w / world-region 
+                              :consist-of (s2 / saro) 
+                              :name (n / name 
+                                    :op1 "Gulf") 
+                              :part (w3 / west) 
+                              :wiki "Persian_Gulf")) 
+                  :mod (a4 / another)) 
+            :ARG1 (b2 / beetle-01 
+                  :ARG0 (n2 / north 
+                        :part-of (c2 / country 
+                              :mod (h2 / hazy) 
+                              :name (n3 / name 
+                                    :op1 "Imbros,"))) 
+                  :ARG1 (d / destroyer) 
+                  :ARG1-of (b3 / black-04 
+                        :ARG0 (o2 / over)) 
+                  :mod (l / little)) 
+            :location (h / here) 
+            :op1-of (a2 / and 
+                  :op2-of (a5 / and 
+                        :op1 (s3 / ship)) 
+                  :op3-of (o / or 
+                        :op1 5 
+                        :op2 6))))
+
+# ::snt The major took us into his tent for cigarettes and another thimbleful of the coffee.
+# ::tok The major took us into his tent for cigarettes and another thimbleful of the coffee .
+# ::alignments 14-15|0.2.0 11-12|0.2 10-11|0.0.0.0 9-10|0 8-9|0.1 6-7|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:17.817
+(a2 / and 
+      :beneficiary-of (t2 / tent 
+            :part-of (m / major-02 
+                  :ARG1 (a / another))) 
+      :op1 (c2 / cigarette) 
+      :op2 (t / thimbleful 
+            :mod (c / coffee)))
+
+# ::snt He, too, had been educated in Germany, spoke German and French, and with his quick, bright eyes and soft smile, would easily have passed for a Frenchman or Italian.ed for a Frenchman or Italian.
+# ::tok He , too , had been educated in Germany , spoke German and French , and with his quick , bright eyes and soft smile , would easily have passed for a Frenchman or Italian . ed for a Frenchman or Italian .
+# ::alignments 41-42|0.1.2.0.1+0.1.2.0.0.0+0.1.2.0.0+0.1.2.0 40-41|0.1.2 36-37|0.1.1.1.1 34-35|0.1.1.1.0.1+0.1.1.1.0.0.0+0.1.1.1.0.0+0.1.1.1.0 33-34|0.1.1.1 32-33|0.1.1.0.0+0.1.1.0+0.1.1 29-30|0.1 24-25|0.1.0.1 23-24|0.1.0.1.1 22-23|0.1.0 21-22|0.1.0.0 20-21|0.1.0.0.0 18-19|0.1.0.1.0 15-16|0 13-14|0.0.0 12-13|0.0.2 11-12|0.0.3.1+0.0.3.0.0+0.0.3.0+0.0.3 10-11|0.0 8-9|0.0.1.1.1+0.0.1.1.0.0+0.0.1.1.0+0.0.1.1 6-7|0.0.1 2-3|0.1.0.1.1.0 0-1|0.0.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:19.257
+(a2 / and 
+      :op1 (s3 / speak-01 
+            :ARG0 "France" 
+            :ARG1 (e3 / educate-01 
+                  :ARG1 (h / he) 
+                  :location (c4 / country 
+                        :name (n5 / name 
+                              :op1 "Germany") 
+                        :wiki "Germany")) 
+            :ARG2 (a3 / and) 
+            :manner (c3 / country 
+                  :name (n4 / name 
+                        :op1 "Germany") 
+                  :wiki "Germany")) 
+      :op2 (p / pass-01 
+            :ARG0 (a / and 
+                  :op1 (e2 / eye 
+                        :ARG1-of (b / bright-02)) 
+                  :op2 (s / smile-01 
+                        :ARG1 (q / quick-02) 
+                        :ARG1-of (s2 / soft-02 
+                              :ARG0 (t2 / too)))) 
+            :ARG1 (t / thing 
+                  :name (n3 / name 
+                        :op1 "Frenchman") 
+                  :op1-of (o2 / or 
+                        :op2 (c2 / country 
+                              :name (n2 / name 
+                                    :op1 "Italy") 
+                              :wiki "Italy") 
+                        :op3 (e / e))) 
+            :ARG2 (o / or 
+                  :op1 (c / country 
+                        :name (n / name 
+                              :op1 "Italy") 
+                        :wiki "Italy"))))
+
+# ::snt Such being the public rights and the municipal law of the United States, no solicitude on the subject was entertained by this Government when, a year since, the British Parliament passed an act to provide for the enlistment of foreigners in the military service of Great Britain.
+# ::tok Such being the public rights and the municipal law of the United States , no solicitude on the subject was entertained by this Government when , a year since , the British Parliament passed an act to provide for the enlistment of foreigners in the military service of Great Britain .
+# ::alignments 48-50|0.0.0.0.0.0.0.0.2+0.0.0.0.0.0.0.0.0.1+0.0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0 46-47|0.0.0.0.0.0.0.0.1 45-46|0.0.0.0.0.0.0.0.1.0 42-43|0.0.0.0.0.1 40-41|0.0.1 37-38|0.0 35-36|0.0.0.0.0 33-34|0.0.0.0 31-33|0.0.0.2.1+0.0.0.2.0+0.0.0.2+0.0.0 28-29|0.0.0.1 27-28|0.3 23-24|0.0.0.0.0.0.0+0.0.0.0.0.0 22-23|0.0.0.0.0.0.2 20-21|0.0.0.0.0.0.1 18-19|0.0.0.0.0.0.1.0.0 15-16|0.0.0.0.0.0.1.0 14-15|0.0.0.0.0.0.1.1 11-13|0.2.1.1+0.2.1.0.1+0.2.1.0.0+0.2.1.0+0.2.1 8-9|0.2 7-8|0.2.0 5-6|0 4-5|0.1 3-4|0.1.0 0-1|0.0.0.0.0.0.2.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:21.642
+(a2 / and 
+      :ARG1-of (p / provide-01 
+            :ARG0 (t / thing 
+                  :ARG0-of (p2 / pass-01 
+                        :ARG1 (a / act-02 
+                              :ARG0 (g / government-organization 
+                                    :ARG0-of (g2 / govern-01 
+                                          :ARG1 (c / country 
+                                                :name (n / name 
+                                                      :op1 "Great" 
+                                                      :op2 "Britain") 
+                                                :poss-of (s / service 
+                                                      :mod (m / military)) 
+                                                :wiki "United_Kingdom")) 
+                                    :ARG0-of (e2 / entertain-01 
+                                          :ARG1 (s4 / solicitude 
+                                                :topic (s3 / subject)) 
+                                          :polarity -) 
+                                    :mod (t2 / this 
+                                          :mod-of (s5 / such))) 
+                              :ARG1 (f / foreign))) 
+                  :location (s2 / since) 
+                  :name (n2 / name 
+                        :op1 (b / British) 
+                        :op2 (p3 / Parliament))) 
+            :ARG2 (e / enlistment)) 
+      :op1 (r / right 
+            :mod (p4 / public)) 
+      :op2 (l / law 
+            :mod (m2 / municipality) 
+            :poss (c2 / country 
+                  :name (n3 / name 
+                        :op1 "United" 
+                        :op2 "States") 
+                  :wiki "United_States")) 
+      :time (y / year))
+
+# ::snt Nothing on the face of the act or in its public history indicated that the British Government proposed to attempt recruitment in the United States, nor did it ever give intimation of such intention to this Government.
+# ::tok Nothing on the face of the act or in its public history indicated that the British Government proposed to attempt recruitment in the United States , nor did it ever give intimation of such intention to this Government .
+# ::alignments 37-38|0.1.0.0.0.0+0.1.0.0.0.0.0 36-37|0.1.0.0.0.0.0.1 34-35|0.1.0.0.0.0.0.1.0 33-34|0.1.0.0.0.0.0.1.0.0 31-32|0.1.0.0.0.0.0.0.0 30-31|0.1.0.0.0.0.0.0 29-30|0.1.0.0.0.0.0.0.1 23-25|0.1.1.0.1.1+0.1.1.0.1.0.1+0.1.1.0.1.0.0+0.1.1.0.1.0+0.1.1.0.1 20-21|0.1.1.0 19-20|0.1.1 17-18|0.1 16-17|0.1.0.0+0.1.0 15-16|0.1.0.0.0.2+0.1.0.0.0.1.0+0.1.0.0.0.1+0.1.0.0.0 12-13|0 11-12|0.0 10-11|0.1.1.0.0 7-8|0.0.0 6-7|0.0.0.1.0 3-4|0.0.0.1 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:22.918
+(i3 / indicate-01 
+      :ARG0 (h / history 
+            :op2-of (o / or 
+                  :location-of (n3 / nothing) 
+                  :op1 (f / face 
+                        :part-of (a2 / act-02)))) 
+      :ARG1 (p / propose-01 
+            :ARG0 (g4 / government-organization 
+                  :ARG0-of (g5 / govern-01 
+                        :ARG1 (c2 / country 
+                              :ARG1-of (g2 / govern-01 
+                                    :ARG0 (g / government-organization 
+                                          :ARG2-of (g3 / give-01 
+                                                :ARG1 (i2 / intimation) 
+                                                :time (e / ever)) 
+                                          :mod (t / this 
+                                                :ARG1-of (i / intend-01 
+                                                      :mod (s / such))))) 
+                              :name (n2 / name 
+                                    :op1 "Britain") 
+                              :wiki "United_Kingdom"))) 
+            :ARG1 (a / attempt-01 
+                  :ARG1 (r / recruit-01 
+                        :ARG1 (p2 / public) 
+                        :location (c / country 
+                              :name (n / name 
+                                    :op1 "United" 
+                                    :op2 "States") 
+                              :wiki "United_States")) 
+                  :ARG0 g4)))
+
+# ::snt It was matter of surprise, therefore, to find subsequently that the engagement of persons within the United States to proceed to Halifax, in the British Province of Nova Scotia, and there enlist in the service of Great Britain, was going on extensively, with little or no disguise.
+# ::tok It was matter of surprise , therefore , to find subsequently that the engagement of persons within the United States to proceed to Halifax , in the British Province of Nova Scotia , and there enlist in the service of Great Britain , was going on extensively , with little or no disguise .
+# ::alignments 52-53|0.1.0 51-52|0.1.0.0 50-51|0.1 49-50|0.1.1 46-47|0.0.4.0.0.0.0 40-42|0.3.1.0.1+0.3.1.0.0.1+0.3.1.0.0.0+0.3.1.0.0+0.3.1.0 38-39|0.3.1 35-36|0.3 34-35|0.3.0 33-34|0 30-32|0.2.0.1+0.2.0.0+0.2.0+0.2 27-29|0.0.1.0.1+0.0.1.0.0+0.0.1.0+0.0.1 23-24|0.0.3.1+0.0.3.0.0+0.0.3.0+0.0.3 21-22|0.0 18-20|0.0.0.1+0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 15-16|0.0.2.0 13-14|0.0.2 10-11|0.0.4.1 9-10|0.0.4 4-5|0.0.4.0.0.0 2-3|0.0.4.0.0 0-1|0.0.4.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:23.658
+(a / and 
+      :op1 (p2 / proceed-01 
+            :ARG0 (c4 / country 
+                  :name (n5 / name 
+                        :op1 "United" 
+                        :op2 "States") 
+                  :wiki "United_States") 
+            :ARG1 (t2 / thing 
+                  :name (n3 / name 
+                        :op1 (b / British) 
+                        :op2 (p / Province))) 
+            :ARG1-of (e3 / engage-01 
+                  :ARG0 (p3 / person)) 
+            :ARG2 (c3 / company 
+                  :name (n4 / name 
+                        :op1 "Halifax") 
+                  :wiki "Halifax_(bank)") 
+            :purpose-of (f / find-01 
+                  :ARG1 (i / it 
+                        :domain-of (m / matter 
+                              :ARG2-of (s3 / surprise-01 
+                                    :ARG1 (e / extensive)))) 
+                  :time (s2 / subsequent))) 
+      :op1-of (o / or 
+            :ARG1-of (d / disguise-01 
+                  :polarity -) 
+            :op2 (l / little)) 
+      :op2 (c2 / country 
+            :name (n2 / name 
+                  :op1 "Nova" 
+                  :op2 "Scotia,")) 
+      :op3 (e2 / enlist-01 
+            :ARG2 (t / there) 
+            :location (s / service 
+                  :poss (c / country 
+                        :name (n / name 
+                              :op1 "Great" 
+                              :op2 "Britain") 
+                        :wiki "United_Kingdom"))))
+
+# ::snt Ordinary legal steps were immediately taken to arrest and punish parties concerned, and so put an end to acts infringing the municipal law and derogatory to our sovereignty.
+# ::tok Ordinary legal steps were immediately taken to arrest and punish parties concerned , and so put an end to acts infringing the municipal law and derogatory to our sovereignty .
+# ::alignments 28-29|0.0.0.1.1.1.0.1.0.0 27-28|0.0.0.1.1.1.0.1.0.0.0 25-26|0.0.0.1.1.1.0.1.0 24-25|0.0.0.1.1.1.0.1 23-24|0.0.0.1.1.1.0.0 22-23|0.0.0.1.1.1.0.0.0 20-21|0.0.0.1.1.1.0 19-20|0.0.0.1.1.1 17-18|0.0.0.1.1.0 15-16|0.0.0.1.1 13-14|0.0.0.1.1.2 11-12|0 10-11|0.0 9-10|0.0.0 8-9|0.0.0.1 7-8|0.0.0.1.0 5-6|0.0.0.0.1 4-5|0.0.0.0.1.0 2-3|0.0.0.0 1-2|0.0.0.0.0 0-1|0.0.0.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:24.345
+(c / concern-01 
+      :ARG1 (p2 / party 
+            :ARG1-of (p3 / punish-01 
+                  :ARG2 (s2 / step-01 
+                        :ARG1-of (l2 / legal-02) 
+                        :ARG1-of (t / take-01 
+                              :time (i2 / immediate)) 
+                        :mod (o / ordinary)) 
+                  :op2-of (a4 / and 
+                        :op1 (a5 / arrest-01) 
+                        :op3 (p / put-01 
+                              :ARG1 (e / end-01) 
+                              :ARG2 (a2 / act-02 
+                                    :ARG0-of (i / infringe-01 
+                                          :ARG1 (l / law 
+                                                :mod (m / municipality)) 
+                                          :op1-of (a / and 
+                                                :op2 (d / derogatory 
+                                                      :purpose (s / sovereignty 
+                                                            :poss (w / we)))))) 
+                              :op1-of (a3 / and))))))
+
+# ::snt Meanwhile suitable representations on the subject were addressed to the British Government.
+# ::tok Meanwhile suitable representations on the subject were addressed to the British Government .
+# ::alignments 11-12|0.1.0+0.1 10-11|0.1.0.0.1+0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 7-8|0 5-6|0.0.0 2-3|0.0 1-2|0.0.1 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:24.422
+(a / address-02 
+      :ARG1 (r / representation-02 
+            :ARG1 (s / subject) 
+            :ARG1-of (s2 / suitable-04)) 
+      :ARG2 (g / government-organization 
+            :ARG0-of (g2 / govern-01 
+                  :ARG1 (c / country 
+                        :name (n / name 
+                              :op1 "Britain") 
+                        :wiki "United_Kingdom"))) 
+      :time (m / meanwhile))
+
+# ::snt We were lucky to be able to visit the Panorama again.
+# ::tok We were lucky to be able to visit the Panorama again .
+# ::alignments 10-11|0.0.1 9-10|0 7-8|0.0 5-6|0.0.0 2-3|0.0.0.0 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-16T21:41:24.454
+(p / panorama 
+      :ARG1-of (v / visit-01 
+            :ARG1-of (p2 / possible-01 
+                  :mod-of (l / lucky 
+                        :domain (w / we))) 
+            :mod (a / again)))
+

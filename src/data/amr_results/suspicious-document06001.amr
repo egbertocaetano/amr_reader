@@ -1,0 +1,864 @@
+# ::snt ï»¿My expedition was all the talk that day and that night, and the boys were very good to me, and made much of me, and seemed to have forgotten their vexation and disappointment, and come to be as anxious for me to hive those ogres and set those ripe old virgins loose as if it were themselves that had the contract.
+# ::tok ï " ¿ My expedition was all the talk that day and that night , and the boys were very good to me , and made much of me , and seemed to have forgotten their vexation and disappointment , and come to be as anxious for me to hive those ogres and set those ripe old virgins loose as if it were themselves that had the contract .
+# ::alignments 67-68|0.1.2.0 64-65|0.1.2.0.1 63-64|0.1.2.0.0 61-62|0.0 60-61|0 58-59|0.1.2.3 57-58|0.1.2.3.0 56-57|0.1.2.3.0.0 55-56|0.1.2.2 54-55|0.1.2.2.0 53-54|0.1.2 52-53|0.1 51-52|0.1.1 50-51|0.1.1.0 49-50|0.1.2.1 47-48|0.1.2.1.0 45-46|0.1.0.0 41-42|0.1.0 40-41|0.1.0.1 38-39|0.1.0.2.2 37-38|0.1.0.2 36-37|0.1.0.2.1 35-36|0.1.0.2.0.0.0 34-35|0.1.0.2.0.0 31-32|0.1.0.2.0 30-31|0.1.0.2.0.1 28-29|0.1.0.2.0.1.0 27-28|0.1.0.2.2.0.0 26-27|0.1.0.2.2.0 24-25|0.1.0.2.0.2 22-23|0.1.0.2.0.2.1 20-21|0.1.0.2.0.2.0 19-20|0.1.0.2.0.2.0.0 17-18|0.1.0.2.0.3.0.2.0 15-16|0.1.0.2.0.3.0.2 13-14|0.1.0.2.0.3.2.0 12-13|0.1.0.2.0.3.2 11-12|0.1.0.2.0.3 10-11|0.1.0.2.0.3.1 9-10|0.1.0.2.0.3.1.0 8-9|0.1.0.2.0.3.0 6-7|0.1.0.2.0.3.0.2.1 4-5|0.1.0.2.0.3.0.1 3-4|0.1.0.2.0.3.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:04.605
+(c2 / cause-01 
+      :ARG0 (i / it) 
+      :ARG1 (a / and 
+            :op1 (c3 / come-01 
+                  :ARG1 (a2 / anxious) 
+                  :op1-of (a3 / and) 
+                  :op4-of (a4 / and 
+                        :op1 (s2 / seem-01 
+                              :ARG1 (f / forget-01 
+                                    :ARG1 (t5 / their)) 
+                              :op2-of (a5 / and 
+                                    :op1 (i3 / i)) 
+                              :op3-of (a6 / and 
+                                    :op1 (g / good 
+                                          :degree (v3 / very)) 
+                                    :op2 (i4 / i)) 
+                              :op4-of (a8 / and 
+                                    :op1 (t8 / talk-01 
+                                          :ARG0 (i5 / i) 
+                                          :ARG1 (e / expedition) 
+                                          :op1-of (a7 / and 
+                                                :op2 (b / boy) 
+                                                :quant (a9 / all))) 
+                                    :op2 (d2 / day 
+                                          :mod (t7 / that)) 
+                                    :op3 (t6 / that 
+                                          :mod-of (n / night)))) 
+                        :op2 (v2 / vexation) 
+                        :op3 (d / disappoint-01 
+                              :ARG1 (m / much 
+                                    :mod-of (o3 / of))))) 
+            :op2 (o2 / ogr 
+                  :mod (t4 / that)) 
+            :op3 (s / set 
+                  :ARG1-of (c / contract-02 
+                        :ARG0 (t2 / themselv) 
+                        :mod (t / that)) 
+                  :ARG1-of (h / hive-01 
+                        :ARG0 (i2 / i)) 
+                  :ARG1-of (r / ripe-02 
+                        :mod (t3 / that)) 
+                  :ARG1-of (l / loose-04 
+                        :manner (v / virgin 
+                              :mod (o / old))))))
+
+# ::snt Well, they were good children--but just children, that is all.
+# ::tok Well , they were good children -- but just children , that is all .
+# ::alignments 13-14|0.0 9-10|0.2.0.0 8-9|0.2.2 7-8|0 5-6|0.2 4-5|0.2.1 2-3|0.2.0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:04.791
+(c2 / contrast-01 
+      :ARG0 (a / all) 
+      :ARG1 (w / well) 
+      :ARG2 (c3 / child 
+            :domain (t / they 
+                  :domain-of (c / child)) 
+            :mod (g / good) 
+            :mod (j / just)))
+
+# ::snt And they gave me no end of points about how to scout for giants, and how to scoop them in; and they told me all sorts of charms against enchantments, and gave me salves and other rubbish to put on my wounds.
+# ::tok And they gave me no end of points about how to scout for giants , and how to scoop them in ; and they told me all sorts of charms against enchantments , and gave me salves and other rubbish to put on my wounds .
+# ::alignments 44-45|0 41-42|0.0 39-40|0.0.0.0.0.0 38-39|0.0.0.0.0.0.0 37-38|0.0.0.0.0 36-37|0.0.0 35-36|0.0.0.0.1 34-35|0.0.0.0 33-34|0.0.0.0.2 31-32|0.0.0.0.2.0.2 29-30|0.0.0.0.2.0.0.1 27-28|0.0.0.0.2.0.0 26-27|0.0.0.0.2.0.0.0 25-26|0.0.0.0.2.0.1 24-25|0.0.0.0.2.0 22-23|0.0.0.0.2.0.3 21-22|0.0.0.0.2.0.3.1 18-19|0.0.0.0.2.0.3.0.1.0.0.1.0 15-16|0.0.0.0.2.0.3.0.1.0.0.1 13-14|0.0.0.0.2.0.3.0.1.0.0.0 11-12|0.0.0.0.2.0.3.0.1.0.0 7-8|0.0.0.0.2.0.3.0.1.0 5-6|0.0.0.0.2.0.3.0.1 4-5|0.0.0.0.2.0.3.0.3 3-4|0.0.0.0.2.0.3.0.2 2-3|0.0.0.0.2.0.3.0 1-2|0.0.0.0.2.0.3.0.0 0-1|0.0.0.0.2.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:06.396
+(w / wound 
+      :ARG2-of (p / put-01 
+            :ARG1 (s / salve-01 
+                  :ARG1-of (g / give-01 
+                        :ARG0 (a / and 
+                              :op1 (r / rubbish 
+                                    :mod (o / other))) 
+                        :ARG2 (i / i) 
+                        :op2-of (a2 / and 
+                              :op1 (t / tell-01 
+                                    :ARG1 (s2 / sort 
+                                          :mod (a3 / all) 
+                                          :mod-of (c / charm)) 
+                                    :ARG2 (i2 / i) 
+                                    :manner (e / enchantment) 
+                                    :op2-of (a4 / and 
+                                          :op1 (g3 / give-01 
+                                                :ARG0 (t2 / they) 
+                                                :ARG1 (e2 / end-01 
+                                                      :ARG1 (p2 / point 
+                                                            :topic (s4 / scout-01 
+                                                                  :ARG1 (g2 / giant) 
+                                                                  :op1-of (a6 / and 
+                                                                        :op2 (s3 / scoop-01))))) 
+                                                :ARG2 (i3 / i) 
+                                                :polarity -) 
+                                          :op1-of (a5 / and))) 
+                              :op1-of (a7 / and))))))
+
+# ::snt But it never occurred to one of them to reflect that if I was such a wonderful necromancer as I was pretending to be, I ought not to need salves or instructions, or charms against enchantments, and, least of all, arms and armor, on a foray of any kind--even against fire-spouting dragons, and devils hot from perdition, let alone such poor adversaries as these I was after, these commonplace ogres of the back settlements.
+# ::tok But it never occurred to one of them to reflect that if I was such a wonderful necromancer as I was pretending to be , I ought not to need salves or instructions , or charms against enchantments , and , least of all , arms and armor , on a foray of any kind -- even against fire - spouting dragons , and devils hot from perdition , let alone such poor adversaries as these I was after , these commonplace ogres of the back settlements .
+# ::alignments 86-87|0.1.0.1.0 85-86|0.1.0.1 81-82|0.1.3.0.1.0.0.0.0 80-81|0.1.3.0.1.0.0.0.0.0 78-79|0.1.3.0.1.0.0.0 76-77|0.1.3.0.1.0 75-76|0.1.1.0.0 73-74|0.1.2.0 72-73|0.1.2.0.1 71-72|0.1.2.0.0 70-71|0.1.2.2.0 69-70|0.1.2 67-68|0.1.0.0.1 65-66|0.1.0.0 64-65|0.1.0.0.2 63-64|0.1.0 61-62|0.1.2.2.1.0 60-61|0.1.2.2.1 58-59|0.1.2.2 56-57|0.0.2.0.0 54-55|0.1.0.0.0 53-54|0.1.0.0.0.0 51-52|0.1.3.1.0 47-48|0.1.2.1.1 46-47|0.1.2.1 45-46|0.1.2.1.0 43-44|0.1.1.0 39-40|0.1 37-38|0.1.1 35-36|0.1.3.2 34-35|0.1.3 32-33|0.1.3.1.1.0 31-32|0.1.3.1.1 30-31|0.1.3.1 29-30|0.1.3.0 27-28|0.1.3.0.2 25-26|0.1.3.0.0 21-22|0.0 19-20|0.0.0 17-18|0.0.2 16-17|0.0.2.0 14-15|0.0.2.1 12-13|0.0.1 9-10|0.1.3.0.1 3-4|0.1.3.0.1.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:13.174
+(c3 / contrast-01 
+      :ARG1 (p3 / pretend-01 
+            :ARG0 (i4 / i) 
+            :ARG1 (i5 / i) 
+            :condition-of (n2 / necromanc 
+                  :ARG1-of (w / wonderful-03 
+                        :ARG0 (e / even)) 
+                  :mod (s5 / such))) 
+      :ARG2 (a10 / and 
+            :manner (a4 / and 
+                  :op1 (h / hot-05 
+                        :ARG1 (k / kind 
+                              :mod (a5 / any)) 
+                        :ARG2 (p2 / perdition) 
+                        :degree (d / devil)) 
+                  :poss-of (b / back 
+                        :mod-of (s / settlement))) 
+            :op1 (e2 / enchantment 
+                  :mod (a9 / all 
+                        :mod-of (t2 / this))) 
+            :op2 (l / let-01 
+                  :ARG0 (a2 / adversari 
+                        :mod (s2 / such) 
+                        :mod (p / poor)) 
+                  :op3-of (a7 / and 
+                        :op1 (a8 / arm) 
+                        :op2 (a6 / armor)) 
+                  :purpose (f / fire-01 
+                        :ARG0 (a3 / alone) 
+                        :ARG1 (s3 / spout-01 
+                              :ARG1 (d2 / dragon)))) 
+            :op3-of (o / or 
+                  :ARG1-of (n / need-01 
+                        :ARG0 (i3 / i) 
+                        :ARG1-of (r / reflect-01 
+                              :ARG0 (i / i 
+                                    :ARG0-of (o3 / occur-01 
+                                          :time (a / after 
+                                                :op1 (c / commonplace 
+                                                      :mod (t / this)))))) 
+                        :polarity -) 
+                  :op1 (s4 / salve-01 
+                        :ARG1 (f2 / foray) 
+                        :op1-of (o2 / or 
+                              :op2 (i2 / instruction))) 
+                  :op2 (c2 / charm))))
+
+# ::snt I was to have an early breakfast, and start at dawn, for that was the usual way; but I had the demon's own time with my armor, and this delayed me a little.
+# ::tok I was to have an early breakfast , and start at dawn , for that was the usual way ; but I had the demon 's own time with my armor , and this delayed me a little .
+# ::alignments 37-38|0.0.0.0.0.0 35-36|0.1.1.2 34-35|0.1.1 33-34|0.1.1.1 32-33|0.1 30-31|0.1.0.0 27-28|0.1.0 24-25|0.1.0.1 21-22|0.1.1.0 20-21|0 19-20|0.3 18-19|0.2.0 17-18|0.2.0.0 14-15|0.2 11-12|0.0.0.0.0 9-10|0.0.0.0 8-9|0.0.0.0.1 6-7|0.0 5-6|0.0.1 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:14.920
+(c / contrast-01 
+      :ARG1 (b / breakfast-01 
+            :ARG2 (i3 / i 
+                  :ARG0-of (s / start-01 
+                        :ARG1 (d3 / dawn-01 
+                              :ARG1 (l / little)) 
+                        :op1-of (a4 / and))) 
+            :time (e / early)) 
+      :ARG2 (a / and 
+            :op1 (t2 / time 
+                  :accompanier (a2 / armor) 
+                  :poss (d2 / demon)) 
+            :op2 (d / delay-01 
+                  :ARG0 (i2 / i) 
+                  :ARG1 (t / this) 
+                  :ARG2 (i / i))) 
+      :condition (t3 / that 
+            :domain-of (w / way 
+                  :mod (u / usual))) 
+      :op1-of (a3 / and))
+
+# ::snt It is troublesome to get into, and there is so much detail.
+# ::tok It is troublesome to get into , and there is so much detail .
+# ::alignments 12-13|0.0 11-12|0.0.0 7-8|0.2 2-3|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:14.949
+(t / troublesome 
+      :ARG0-of (d / detail-01 
+            :degree (m / much)) 
+      :domain (i / it) 
+      :op1-of (a / and))
+
+# ::snt First you wrap a layer or two of blanket around your body, for a sort of cushion and to keep off the cold iron; then you put on your sleeves and shirt of chain mail--these are made of small steel links woven together, and they form a fabric so flexible that if you toss your shirt onto the floor, it slumps into a pile like a peck of wet fish-net;
+# ::tok First you wrap a layer or two of blanket around your body , for a sort of cushion and to keep off the cold iron ; then you put on your sleeves and shirt of chain mail -- these are made of small steel links woven together , and they form a fabric so flexible that if you toss your shirt onto the floor , it slumps into a pile like a peck of wet fish - net ;
+# ::alignments 77-78|0.0.2.1.1.0.0.0.0.0 75-76|0.0.2.1.1.0.0.0 74-75|0.0.2.1.1.0.0.0.0 72-73|0.0.2.1.1.0.0 70-71|0.0.2.1.1.0 69-70|0.0.2.1.1 66-67|0.0.2.1 63-64|0.0.2.1.0.0.1.0 61-62|0.0.2.1.0.0.1 60-61|0.0.2.1.0.0.0 58-59|0.0.2.1.0.0 57-58|0.0.2.1.0 54-55|0.0.2.0.0.3.0.0.0 52-53|0.0.2.0.0.3.0.0.0.0 50-51|0.0.2.0.0.3.0 49-50|0.0.2.0.0.3.0.0 48-49|0.0.2.0.0.3 46-47|0.0.0.0.1.0 45-46|0.0.0.0.1 44-45|0.0.0.0 43-44|0.0.0.0.0 42-43|0.0.0.0.2 38-39|0.0.2.0.0.2.0.0 36-37|0.0.3 35-36|0.0.3.0 33-34|0.1 32-33|0 31-32|0.0.1 28-29|0.0 27-28|0.0.0 26-27|0.0.4 25-26|0.0.2 24-25|0.0.2.0.0.1 23-24|0.0.2.0.0.1.0 20-21|0.0.2.0.0 18-19|0.0.2.0 17-18|0.0.2.0.0.2.0 15-16|0.0.2.0.0.2 11-12|0.0.2.0.0.0.1 9-10|0.0.2.0.0.0.1.1 8-9|0.0.2.0.0.0.1.0 6-7|0.0.2.0.0.0.1.0.0 5-6|0.0.2.0.0.0.0.0.0 4-5|0.0.2.0.0.0.0.0 2-3|0.0.2.0.0.0.0 1-2|0.0.2.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:22.377
+(a2 / and 
+      :ARG1-of (p3 / put-01 
+            :ARG0 (y2 / you 
+                  :ARG0-of (l / link-01 
+                        :ARG1 (s3 / steel) 
+                        :ARG1-of (w2 / weave-01 
+                              :manner (t3 / together)) 
+                        :mod (s4 / small))) 
+            :ARG2 (s6 / sleev) 
+            :op2-of (a3 / and 
+                  :op1 (a4 / and 
+                        :op1 (k / keep-01 
+                              :ARG0 (y3 / you 
+                                    :ARG0-of (w3 / wrap-01 
+                                          :ARG1 (l2 / layer 
+                                                :op1-of (o2 / or))) 
+                                    :poss-of (b / body 
+                                          :ARG1-of (b2 / blanket-01 
+                                                :quant 2) 
+                                          :op1-of (a5 / around))) 
+                              :ARG1 (i / iron 
+                                    :mod (c2 / cold)) 
+                              :ARG2 (s7 / sort 
+                                    :mod-of (c3 / cushion-01 
+                                          :ARG1 (t4 / this))) 
+                              :op1-of (a / and 
+                                    :op2 (f5 / form 
+                                          :ARG0 (t2 / they 
+                                                :ARG1-of (f3 / flexible-03 
+                                                      :ARG0 (f4 / fabric))))))) 
+                  :op3 (s / slump-01 
+                        :ARG1 (y / you 
+                              :ARG0-of (t / toss-01 
+                                    :ARG1 (s2 / shirt) 
+                                    :time (o / onto 
+                                          :op1 (f2 / floor)))) 
+                        :ARG2 (p2 / pile 
+                              :ARG1-of (r / resemble-01 
+                                    :ARG2 (p / peck-01 
+                                          :ARG1 (f / fish 
+                                                :mod (w / wet-01 
+                                                      :mod-of (n / net)))))))) 
+            :purpose (m / mail-01 
+                  :ARG1 (c / chain)) 
+            :time (t5 / then)) 
+      :op1 (s5 / shirt))
+
+# ::snt it is very heavy and is nearly the uncomfortablest material in the world for a night shirt, yet plenty used it for that--tax collectors, and reformers, and one-horse kings with a defective title, and those sorts of people; then you put on your shoes--flat-boats roofed over with interleaving bands of steel--and screw your clumsy spurs into the heels.
+# ::tok it is very heavy and is nearly the uncomfortablest material in the world for a night shirt , yet plenty used it for that -- tax collectors , and reformers , and one - horse kings with a defective title , and those sorts of people ; then you put on your shoes -- flat - boats roofed over with interleaving bands of steel -- and screw your clumsy spurs into the heels .
+# ::alignments 72-73|0.2.1 69-70|0.2.0 68-69|0.2.0.0 66-67|0.2 65-66|0.2.2 63-64|0.2.2.0.2.1.0 61-62|0.2.2.0.2.1 60-61|0.2.2.0.2 57-58|0.2.2.0 56-57|0.2.2.0.1 54-55|0.2.2.0.0 52-53|0.0.1 49-50|0.0 48-49|0.0.0 47-48|0.0.3 46-47|0 45-46|0.1 43-44|0.1.0 41-42|0.1.1.0.0 39-40|0.1.1.0.0.0 38-39|0.2.2.0.2.0 35-36|0.1.1.1.0.1 34-35|0.1.1.1.0.1.0 32-33|0.1.1.1.0.1.0.0 31-32|0.1.1 29-30|0.1.1.1 28-29|0.1.1.1.0 26-27|0.0.2.2 25-26|0.0.2 23-24|0.1.1.1.0.0 20-21|0.1.1.0 19-20|0.0.2.1 18-19|0.1.1.0.1 16-17|0.1.1.0.1.0 15-16|0.0.2.0 12-13|0.1.1.0.1.0.0 9-10|0.1.1.0.2.1 8-9|0.1.1.0.2.1.0 6-7|0.1.1.0.2.1.1 4-5|0.1.1.0.2 3-4|0.1.1.0.2.0 2-3|0.1.1.0.2.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:24.985
+(a2 / and 
+      :ARG1-of (p / put-01 
+            :ARG0 (y / you) 
+            :ARG2 (s4 / shoe) 
+            :ARG2-of (t3 / tax-01 
+                  :ARG0 (n / night) 
+                  :ARG1 (p3 / plenty) 
+                  :source-of (c2 / collector)) 
+            :time (t / then)) 
+      :op1 (p2 / person 
+            :mod (s5 / sort) 
+            :op2-of (a4 / and 
+                  :ARG1-of (u / use-01 
+                        :ARG0 (a3 / and 
+                              :op1 (t2 / title)) 
+                        :op2-of (y2 / yet 
+                              :op1 (s6 / shirt 
+                                    :prep-for-of (w / world))) 
+                        :op3-of (a6 / and 
+                              :op1 (h3 / heavy 
+                                    :degree (v / very)) 
+                              :op2 (m / material 
+                                    :mod (u2 / uncomfortable) 
+                                    :quant (n2 / nearly)))) 
+                  :op1 (r2 / reformer 
+                        :op2-of (a5 / and 
+                              :op1 (t4 / that) 
+                              :op3 (k / king 
+                                    :mod (h2 / horse 
+                                          :quant 1)))))) 
+      :op2 (s2 / screw-over-05 
+            :ARG1 (s / spur-01 
+                  :mod (c / clumsy)) 
+            :ARG2 (h / heel-01) 
+            :op2-of (a / and 
+                  :op1 (r / roof-01 
+                        :ARG0 (f / flat) 
+                        :ARG1 (b2 / boat) 
+                        :manner (i / interleave-01 
+                              :ARG0 (d / defective) 
+                              :ARG1 (b / band 
+                                    :consist-of (s3 / steel)))))))
+
+# ::snt Next you buckle your greaves on your legs, and your cuisses on your thighs; then come your backplate and your breastplate, and you begin to feel crowded; then you hitch onto the breastplate the half-petticoat of broad overlapping bands of steel which hangs down in front but is scolloped out behind so you can sit down, and isn't any real improvement on an inverted coal scuttle, either for looks or for wear, or to wipe your hands on;
+# ::tok Next you buckle your greaves on your legs , and your cuisses on your thighs ; then come your backplate and your breastplate , and you begin to feel crowded ; then you hitch onto the breastplate the half - petticoat of broad overlapping bands of steel which hangs down in front but is scolloped out behind so you can sit down , and is n't any real improvement on an inverted coal scuttle , either for looks or for wear , or to wipe your hands on ;
+# ::alignments 86-87|0.1.2.1.0 84-85|0.1.2.1 82-83|0.1.2 80-81|0.1.2.1.1.1.0.0 78-79|0.1.2.1.1.1.0.0.0 77-78|0.1.2.1.1.1.0.0.0.0 75-76|0.1.2.1.1.1.0.2 73-74|0.1.2.1.1.1.0 72-73|0.0.1 71-72|0.1.2.1.1.1.0.1 68-69|0.1.2.1.1.1 67-68|0.1.2.1.1.1.2 66-67|0.1.2.1.1.1.1 65-66|0.1.2.1.1.1.3 63-64|0.1.2.1.1 60-61|0.1.2.0.0 59-60|0.1.2.0 58-59|0.1.2.0.0.0 57-58|0.1.2.1.1.0 56-57|0.0.2 54-55|0.1 52-53|0 51-52|0.0.3 48-49|0.0 46-47|0.1.0.2 44-45|0.1.0 43-44|0.1.0.0 42-43|0.1.0.1 40-41|0.0.0.0.0 38-39|0.1.1 36-37|0.0.0.0.1.0 34-35|0.0.0.0.1 33-34|0.0.0.0 32-33|0.0.0 31-32|0.0.0.0.2 29-30|0.1.2.1.1.0.0.2.1.0 28-29|0.1.2.1.1.0.0.2.1 26-27|0.1.2.1.1.0.0.2 25-26|0.1.2.1.1.0.0.2.0 24-25|0.1.2.1.1.0.0 22-23|0.1.2.1.1.0.0.0.2.0 20-21|0.1.2.1.1.0.0.0.2 19-20|0.1.2.1.1.0.0.0.1 17-18|0.1.2.1.1.0.0.0 16-17|0.1.2.1.1.0.0.0.3 15-16|0.1.2.1.1.0.0.2.2.0 14-15|0.1.2.1.1.0.0.1.0 11-12|0.1.2.1.1.0.0.1 9-10|0.1.2.1.1.0.0.2.2 7-8|0.1.2.1.1.0.0.0.0.0.2 4-5|0.1.2.1.1.0.0.0.0.0.0 2-3|0.1.2.1.1.0.0.0.0.0 1-2|0.1.2.1.1.0.0.0.0 0-1|0.1.2.1.1.0.0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:36.945
+(c3 / contrast-01 
+      :ARG1 (h2 / hanging-07 
+            :ARG0 (y2 / you 
+                  :ARG0-of (h4 / hitch-01 
+                        :ARG1 (p2 / petticoat) 
+                        :time (o4 / onto 
+                              :op1 (b4 / breastplate)) 
+                        :time (t / then))) 
+            :ARG1 (c / coal) 
+            :ARG2 (b / behind) 
+            :manner (f / front)) 
+      :ARG2 (s3 / scollop-01 
+            :ARG0 (b2 / band 
+                  :ARG1-of (o3 / overlap-01) 
+                  :ARG1-of (b3 / broad-02) 
+                  :consist-of (s4 / steel)) 
+            :ARG1 (h3 / half) 
+            :op1-of (o / or 
+                  :op2 (p / possible-01 
+                        :ARG1 (s2 / sit-01 
+                              :ARG1 (y / you))) 
+                  :op3 (w / wipe-out-02 
+                        :ARG1 (h / hand) 
+                        :op2-of (a2 / and 
+                              :ARG1-of (c2 / cause-01 
+                                    :ARG0 (a3 / and 
+                                          :ARG1-of (c5 / come-01 
+                                                :ARG0 (y4 / you 
+                                                      :ARG0-of (b8 / buckle-01 
+                                                            :ARG1 (g / greav) 
+                                                            :ARG2 (n / next) 
+                                                            :time (l2 / leg))) 
+                                                :ARG2 (b7 / backplate) 
+                                                :ARG3 (a4 / and 
+                                                      :op1 (b6 / breastplate)) 
+                                                :time (t2 / then)) 
+                                          :op1 (c6 / cuiss 
+                                                :topic (t3 / thigh)) 
+                                          :op2 (b5 / begin-01 
+                                                :ARG0 (y3 / you) 
+                                                :ARG1 (f2 / feel-01 
+                                                      :ARG1 (c4 / crowd-01) 
+                                                      :ARG0 y3) 
+                                                :op2-of (a6 / and 
+                                                      :op1 (a5 / and))))) 
+                              :op1 (i2 / improve-01 
+                                    :ARG1 (s / scuttle-01 
+                                          :ARG1-of (w2 / wear-01 
+                                                :op2-of (o2 / or 
+                                                      :op1 (l / look-02))) 
+                                          :ARG1-of (i / invert-01) 
+                                          :op1-of (e / either)) 
+                                    :mod (a / any) 
+                                    :mod (r / real) 
+                                    :polarity -))))))
+
+# ::snt next you belt on your sword; then you put your stove-pipe joints onto your arms, your iron gauntlets onto your hands, your iron rat-trap onto your head, with a rag of steel web hitched onto it to hang over the back of your neck--and there you are, snug as a candle in a candle-mould.
+# ::tok next you belt on your sword ; then you put your stove - pipe joints onto your arms , your iron gauntlets onto your hands , your iron rat - trap onto your head , with a rag of steel web hitched onto it to hang over the back of your neck -- and there you are , snug as a candle in a candle - mould .
+# ::alignments 66-67|0.0.2.0.0.0.0 64-65|0.0.2.0.0.0.0.0 61-62|0.0.2.0.0.0.0.0.0 55-56|0.0.2.0.0.1.0 54-55|0.0.2.0.0.1.2 53-54|0 51-52|0.0.2.0.0.0.1.0 48-49|0.0.2.0.0.0.1 45-46|0.0.2.0.0.0 42-43|0.0.2.0.0.2 41-42|0.0.2.0.0 40-41|0.0.2.0 39-40|0.0.4 37-38|0.0.2 33-34|0.0.2.0.0.1 31-32|0.0.2.0.0.1.3 30-31|0.0.2.0.0.1.1 28-29|0.0.2.0.0.1.1.0 27-28|0.0.2.0.0.1.1.0.0 24-25|0.0.2.0.0.1.1.0.1.0 22-23|0.0.2.0.0.1.1.0.1 21-22|0.0.2.0.0.1.1.0.1.0.0 20-21|0.0.2.0.0.1.1.0.1.0.0.0 17-18|0.0.5.0 15-16|0.0.5 14-15|0.0.1 13-14|0.0.1.0 11-12|0.0.1.0.0 9-10|0.0 8-9|0.0.1.1 7-8|0.0.6 6-7|0.0.3 5-6|0.0.0.0 2-3|0.0.0.0.0 1-2|0.0.0 0-1|0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:43.660
+(a / and 
+      :op1 (p2 / put-01 
+            :ARG0 (y3 / you 
+                  :poss-of (s3 / sword 
+                        :location-of (b2 / belt 
+                              :location (n2 / next)))) 
+            :ARG1 (j / joint 
+                  :mod (p / pipe 
+                        :mod (s2 / stove)) 
+                  :poss (y2 / you)) 
+            :ARG2 (r / rag-01 
+                  :ARG1 (w / web 
+                        :ARG0-of (h2 / hitch-01 
+                              :ARG1 (h / hang-01 
+                                    :ARG0 (m / mould 
+                                          :mod (c / candle 
+                                                :location-of (c2 / candle))) 
+                                    :ARG1 (b / back 
+                                          :part-of (n / neck))) 
+                              :ARG1-of (h3 / head-01 
+                                    :ARG0 (y / you) 
+                                    :ARG1-of (t2 / trap-01 
+                                          :ARG0 (r2 / rat 
+                                                :mod (i / iron) 
+                                                :op2-of (o3 / onto 
+                                                      :op1 (h4 / hand 
+                                                            :time-of (g / gauntlet 
+                                                                  :mod (i2 / iron)))))) 
+                                    :ARG2 (t / there) 
+                                    :op1-of (o2 / onto)) 
+                              :time (o / onto)))) 
+            :op1-of (a3 / and) 
+            :op1-of (s / steel) 
+            :time (o4 / onto 
+                  :op1 (a2 / arm)) 
+            :time (t3 / then)))
+
+# ::snt This is no time to dance.
+# ::tok This is no time to dance .
+# ::alignments 5-6|0 3-4|0.0 2-3|0.0.1 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:43.673
+(d / dance-01 
+      :ARG1 (t / time 
+            :domain (t2 / this) 
+            :polarity -))
+
+# ::snt Well, a man that is packed away like that is a nut that isn't worth the cracking, there is so little of the meat, when you get down to it, by comparison with the shell.
+# ::tok Well , a man that is packed away like that is a nut that is n't worth the cracking , there is so little of the meat , when you get down to it , by comparison with the shell .
+# ::alignments 39-40|0.1.0.0 36-37|0.1.0 29-30|0.1 26-27|0.0.0 23-24|0.0.0.0 18-19|0.0.1.0.0.0 16-17|0.0.1.0.0 15-16|0.0.1.0.0.1 12-13|0.0.1.0 8-9|0 7-8|0.0.2 6-7|0.0 3-4|0.0.1 0-1|0.0.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:43.901
+(r / resemble-01 
+      :ARG1 (p / pack-01 
+            :ARG0 (m / meat 
+                  :location-of (l / little)) 
+            :ARG1 (m2 / man 
+                  :domain-of (n / nut 
+                        :mod (w / worth 
+                              :domain (c2 / crack-02 
+                                    :ARG0 (w2 / well)) 
+                              :polarity -))) 
+            :ARG3 (a / away)) 
+      :ARG2 (y / you 
+            :ARG0-of (c / compare-01 
+                  :ARG1 (s / shell))))
+
+# ::snt The boys helped me, or I never could have got in.
+# ::tok The boys helped me , or I never could have got in .
+# ::alignments 10-11|0.0.0.0 8-9|0.1 6-7|0.0.0.0.0 5-6|0 3-4|0.0.1 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:43.999
+(o / or 
+      :op1 (h / help-01 
+            :ARG0 (b / boy 
+                  :ARG0-of (g / get-02 
+                        :ARG1 (i / i))) 
+            :ARG1 (i2 / i)) 
+      :op2 (p / possible-01))
+
+# ::snt Just as we finished, Sir Bedivere happened in, and I saw that as like as not I hadn't chosen the most convenient outfit for a long trip.
+# ::tok Just as we finished , Sir Bedivere happened in , and I saw that as like as not I had n't chosen the most convenient outfit for a long trip .
+# ::alignments 29-30|0.2.2 28-29|0.2.2.0 25-26|0.2.1 24-25|0.2.1.0 23-24|0.2.1.0.0 21-22|0.2 20-21|0.1.1.1 18-19|0.2.0 17-18|0.0.1.0 15-16|0.0.1 12-13|0.1 11-12|0.1.0 10-11|0 5-7|0.1.1.0.1+0.1.1.0.0+0.1.1.0+0.1.1 3-4|0.0 2-3|0.0.0 0-1|0.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:45.125
+(a / and 
+      :condition (f / finish-01 
+            :ARG0 (w / we) 
+            :ARG1 (r / resemble-01 
+                  :ARG1 -) 
+            :time (j / just)) 
+      :op1 (s / see-01 
+            :ARG0 (i2 / i) 
+            :ARG1 (t2 / thing 
+                  :name (n / name 
+                        :op1 (s2 / Sir) 
+                        :op2 (b / Bedivere)) 
+                  :polarity -)) 
+      :op2 (c2 / choose-01 
+            :ARG0 (i / i) 
+            :ARG1 (o / outfit 
+                  :mod (c / convenient 
+                        :degree (m / most))) 
+            :ARG3 (t / trip-03 
+                  :ARG1-of (l / long-03))))
+
+# ::snt How stately he looked; and tall and broad and grand.
+# ::tok How stately he looked ; and tall and broad and grand .
+# ::alignments 10-11|0.1 9-10|0 8-9|0.0 7-8|0.2 6-7|0.2.0 5-6|0.2.0.0 4-5|0.2.0.0.1 3-4|0.2.0.0.0 2-3|0.2.0.0.0.0 1-2|0.2.0.0.0.1 0-1|0.2.0.0.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:45.180
+(a / and 
+      :op1 (b / broad-02) 
+      :op2 (g / grand) 
+      :op2-of (a2 / and 
+            :op1 (t / tall 
+                  :op2-of (a3 / and 
+                        :op1 (l / look-01 
+                              :ARG0 (h / he) 
+                              :ARG1 (s / stately) 
+                              :ARG2 (a5 / amr-unknown)) 
+                        :op1-of (a4 / and)))))
+
+# ::snt He had on his head a conical steel casque that only came down to his ears, and for visor had only a narrow steel bar that extended down to his upper lip and protected his nose; and all the rest of him, from neck to heel, was flexible chain mail, trousers and all.
+# ::tok He had on his head a conical steel casque that only came down to his ears , and for visor had only a narrow steel bar that extended down to his upper lip and protected his nose ; and all the rest of him , from neck to heel , was flexible chain mail , trousers and all .
+# ::alignments 57-58|0.2.0.1.1.0 56-57|0 55-56|0.1 53-54|0.0 52-53|0.0.1 51-52|0.0.2 48-49|0.0.3 46-47|0.0.3.0 41-42|0.0.0 39-40|0.0.0.0 38-39|0.2 37-38|0.2.1 36-37|0.2.0.1.1.1.1 34-35|0.2.0.1.1.1 33-34|0.2.0.1.1 32-33|0.2.0.1.0 31-32|0.2.0.1.0.0 27-28|0.2.0.1 25-26|0.2.0 24-25|0.2.0.2 23-24|0.2.0.3 21-22|0.2.0.5 19-20|0.2.0.0 17-18|0.2.2 15-16|0.2.0.1.1.1.0.0.0 11-12|0.2.0.1.1.1.0.0 10-11|0.2.0.1.1.1.0.0.1 8-9|0.2.0.1.1.1.0 7-8|0.2.0.4.1 6-7|0.2.0.1.1.1.0.1 4-5|0.2.0.4 0-1|0.2.0.4.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:46.937
+(a2 / and 
+      :op1 (m / mail-01 
+            :ARG0 (r / rest 
+                  :quant (a3 / all)) 
+            :ARG1 (c / chain) 
+            :ARG1-of (f / flexible-03) 
+            :ARG2 (h / heel-01 
+                  :ARG1 (n / neck))) 
+      :op2 (t / trousers) 
+      :op2-of (a4 / and 
+            :op1 (b / bar-01 
+                  :ARG0 (v / visor) 
+                  :ARG0-of (e / extend-01 
+                        :ARG1 (l / lip 
+                              :mod (u / upper)) 
+                        :op1-of (a6 / and 
+                              :mod (a / all) 
+                              :op2 (p / protect-01 
+                                    :ARG0 (c3 / casque 
+                                          :ARG0-of (c2 / come-01 
+                                                :ARG1 (e2 / ear) 
+                                                :mod (o2 / only)) 
+                                          :mod (c4 / conical)) 
+                                    :ARG1 (n2 / nose)))) 
+                  :ARG1 (s / steel) 
+                  :ARG1-of (n3 / narrow-02) 
+                  :manner (h2 / head-01 
+                        :ARG0 (h3 / he) 
+                        :ARG1 (s2 / steel)) 
+                  :mod (o / only)) 
+            :op1-of (a5 / and) 
+            :op1-of (a7 / and)))
+
+# ::snt But pretty much all of him was hidden under his outside garment, which of course was of chain mail, as I said, and hung straight from his shoulders to his ankles; and from his middle to the bottom, both before and behind, was divided, so that he could ride and let the skirts hang down on each side.
+# ::tok But pretty much all of him was hidden under his outside garment , which of course was of chain mail , as I said , and hung straight from his shoulders to his ankles ; and from his middle to the bottom , both before and behind , was divided , so that he could ride and let the skirts hang down on each side .
+# ::alignments 64-65|0.0.1.0.0.0.0.0.1 63-64|0.0.1.0.0.0.0.0.1.0 60-61|0.0.1.0.0.0.0.0 59-60|0.0.1.0.0.0.0.0.0 57-58|0.0.1.0.0.0.0 56-57|0.0.1.0 55-56|0.0.1.0.0 54-55|0.0.1 53-54|0.0.1.0.0.0 49-50|0.0.2 46-47|0.0.1.0.0.0.0.0.0.0 45-46|0.0.2.0.1 44-45|0.0.2.0.0 43-44|0.0.2.0 41-42|0.0.2.1 38-39|0.0.2.2 35-36|0.0 34-35|0.0.3 33-34|0.0.0.0.1.1.0 30-31|0.0.0.0.1.1 27-28|0.0.0.0.1.0 26-27|0.0.0.0.1 25-26|0.0.0.0.1.2 23-24|0.0.0 22-23|0.0.0.0 19-20|0.0.0.1 18-19|0.0.0.1.0 11-12|0.0.0.0.0.1 10-11|0.0.0.0.0.1.0 7-8|0.0.0.0.0 3-4|0.0.0.0.0.0 2-3|0.0.0.0.0.2 1-2|0.0.0.0.0.2.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:49.035
+(c2 / contrast-01 
+      :ARG2 (a3 / and 
+            :ARG1-of (s5 / say-01 
+                  :ARG0 (i / i 
+                        :ARG0-of (h4 / hide-01 
+                              :ARG1 (a7 / all) 
+                              :ARG2 (g / garment 
+                                    :mod (o / outside)) 
+                              :degree (m3 / much 
+                                    :degree (p2 / pretty))) 
+                        :ARG0-of (h3 / hang-on-04 
+                              :ARG1-of (s4 / straight-04) 
+                              :ARG2 (s3 / shoulder-01 
+                                    :ARG1 (a5 / ankl)) 
+                              :op1-of (a6 / and))) 
+                  :condition-of (m2 / mail-01 
+                        :ARG1 (c / chain))) 
+            :condition (p / possible-01 
+                  :ARG1 (a / and 
+                        :op1 (r / ride-01 
+                              :ARG0 (h2 / he 
+                                    :ARG0-of (l / let-01 
+                                          :ARG1 (h / hang-01 
+                                                :ARG0 (s2 / skirt-01 
+                                                      :ARG1 (b / behind)) 
+                                                :ARG1 (s / side 
+                                                      :mod (e / each)))))))) 
+            :op1 (d / divide-02 
+                  :ARG0 (b3 / both 
+                        :mod (b2 / before) 
+                        :op1-of (a2 / and)) 
+                  :ARG1 (b4 / bottom) 
+                  :ARG2 (m / middle)) 
+            :op1-of (a4 / and)))
+
+# ::snt He was going grailing, and it was just the outfit for it, too.
+# ::tok He was going grailing , and it was just the outfit for it , too .
+# ::alignments 14-15|0.0.0.0 10-11|0.1 8-9|0.1.0 5-6|0 3-4|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:49.077
+(a / and 
+      :op1 (g / grail 
+            :domain (h / he 
+                  :op1 (t / too))) 
+      :op2 (o / outfit 
+            :mod (j / just)))
+
+# ::snt I would have given a good deal for that ulster, but it was too late now to be fooling around.
+# ::tok I would have given a good deal for that ulster , but it was too late now to be fooling around .
+# ::alignments 20-21|0.1.1.0 19-20|0.1.1 16-17|0.1.1.1 15-16|0.1 14-15|0.1.0 11-12|0 9-10|0.0.1.0 8-9|0.0.1.0.0 6-7|0.0.1 5-6|0.0.1.1 3-4|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:49.304
+(c / contrast-01 
+      :ARG1 (g2 / give-01 
+            :ARG0 (i / i) 
+            :ARG1 (d / deal-01 
+                  :ARG0 (u / ulst 
+                        :mod (t2 / that)) 
+                  :mod (g / good))) 
+      :ARG2 (l / late 
+            :degree (t / too) 
+            :domain (f / fool-around-02 
+                  :ARG2 (a / around) 
+                  :time (n / now))))
+
+# ::snt The sun was just up, the king and the court were all on hand to see me off and wish me luck; so it wouldn't be etiquette for me to tarry.
+# ::tok The sun was just up , the king and the court were all on hand to see me off and wish me luck ; so it would n't be etiquette for me to tarry .
+# ::alignments 33-34|0.0.0.0 31-32|0.0.0 29-30|0.0.0.0.1 27-28|0.0.0.0.1.0 24-25|0.0.3.0 23-24|0.0.3.0.0 22-23|0 21-22|0.0.1 20-21|0.0 19-20|0.0.2 17-18|0.0.2.0.1 16-17|0.0.2.0 14-15|0.0.2.0.0 12-13|0.0.0.0.0 10-11|0.0.3.2 8-9|0.0.3 7-8|0.0.3.1 3-4|0.0.3.0.1 1-2|0.0.3.0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:49.857
+(l / luck 
+      :ARG1-of (w / wish-01 
+            :ARG0 (i / i 
+                  :ARG0-of (t / tarry-01 
+                        :ARG1 (a3 / all) 
+                        :condition-of (e / etiquette 
+                              :polarity -))) 
+            :ARG2 (i2 / i) 
+            :op2-of (a2 / and 
+                  :op1 (s / see-01 
+                        :ARG0 (h / hand) 
+                        :ARG1 (i3 / i))) 
+            :op3-of (a4 / and 
+                  :ARG0-of (c / cause-01 
+                        :ARG1 (a / and 
+                              :op1 (s2 / sun)) 
+                        :mod (j / just)) 
+                  :op1 (k / king) 
+                  :op2 (c2 / court))))
+
+# ::snt You don't get on your horse yourself; no, if you tried it you would get disappointed.
+# ::tok You do n't get on your horse yourself ; no , if you tried it you would get disappointed .
+# ::alignments 18-19|0.0 15-16|0.0.1 13-14|0.0.0 12-13|0.0.0.0 9-10|0.0.0.1 8-9|0 6-7|0.0.2 2-3|0.0.0.3 0-1|0.0.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:50.052
+(a / and 
+      :op1 (d / disappoint-01 
+            :ARG0 (t / try-01 
+                  :ARG0 (y2 / you) 
+                  :ARG1 - 
+                  :ARG3 (y3 / you) 
+                  :time -) 
+            :ARG1 (y / you) 
+            :op1-of (h / horse)))
+
+# ::snt They carry you out, just as they carry a sun-struck man to the drug store, and put you on, and help get you to rights, and fix your feet in the stirrups; and all the while you do feel so strange and stuffy and like somebody else--like somebody that has been married on a sudden, or struck by lightning, or something like that, and hasn't quite fetched around yet, and is sort of numb, and can't just get his bearings.
+# ::tok They carry you out , just as they carry a sun - struck man to the drug store , and put you on , and help get you to rights , and fix your feet in the stirrups ; and all the while you do feel so strange and stuffy and like somebody else -- like somebody that has been married on a sudden , or struck by lightning , or something like that , and has n't quite fetched around yet , and is sort of numb , and ca n't just get his bearings .
+# ::alignments 95-96|0.1.0.5.1.1 92-93|0.1.0.4.3 91-92|0.0.0 89-90|0.1.0.3 87-88|0.0 85-86|0.0.1 83-84|0 81-82|0.1.0.5.1.4 80-81|0.1.0.5.1.2 79-80|0.1.0.5.1 78-79|0.1.0.4.2 77-78|0.1.0.5.1.3 75-76|0.1.0.5 72-73|0.1.0.4.1.1 71-72|0.1.0.4.1.0.0.0 70-71|0.1.0.4.1.0.0 68-69|0.1.0.4.1.0 66-67|0.1.0.4.1 65-66|0.1.0.4 63-64|0.1.0.4.0 60-61|0.1.0.1.0.0.0 56-57|0.1.0.1.0.0 55-56|0.1.0.1.0 53-54|0.1.0.2 52-53|0.1.0.1 51-52|0.1.0 50-51|0.1 49-50|0.1.0.0.0.1.0 48-49|0.1.0.0.0.1 47-48|0.1.0.0.0.0 45-46|0.1.0.0.0 43-44|0.1.0.0 42-43|0.1.0.0.0.3 40-41|0.1.0.0.0.3.0 39-40|0.1.0.5.0 38-39|0.1.0.5.0.0 37-38|0.1.0.1.0.0.0.0 34-35|0.1.0.0.0.2.0.2.1.0 32-33|0.1.0.0.0.2.0.2.1 31-32|0.1.0.0.0.2.0.2 29-30|0.1.0.0.0.2.0.2.0 27-28|0.1.0.0.0.2.0.3.0.0 25-26|0.1.0.0.0.2.1 24-25|0.1.0.0.0.2 21-22|0.1.0.0.0.2.0.1 20-21|0.1.0.0.0.2.0 19-20|0.1.0.0.0.2.0.3 17-18|0.1.0.0.0.2.0.0.0 16-17|0.1.0.0.0.2.1.0 13-14|0.1.0.0.0.2.0.3.0.1 12-13|0.1.0.0.0.2.0.3.0.1.0 10-11|0.1.0.0.0.2.0.3.0.1.1 8-9|0.1.0.0.0.2.0.3.0 7-8|0.1.0.0.0.2.0.0 5-6|0.1.0.0.0.2.0.3.0.2 2-3|0.1.0.5.1.0.0.0 1-2|0.1.0.5.1.0.0 0-1|0.1.0.5.1.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:02:59.929
+(a2 / and 
+      :op1 (n / numb-01 
+            :ARG1 - 
+            :degree (s / sort)) 
+      :op2-of (a5 / and 
+            :op1 (l2 / like-02 
+                  :ARG0 (y2 / you 
+                        :ARG0-of (f2 / feel-01 
+                              :ARG1 (s8 / strange) 
+                              :ARG2 (a6 / and 
+                                    :op1 (s7 / stuffy)) 
+                              :op3-of (a11 / and 
+                                    :op1 (p / put-01 
+                                          :ARG0 (t / they 
+                                                :poss-of (s10 / store)) 
+                                          :ARG1 (y4 / you) 
+                                          :op1-of (a10 / and 
+                                                :op2 (r3 / right) 
+                                                :op3 (f4 / fix-02 
+                                                      :ARG1 (f3 / foot))) 
+                                          :op2-of (a12 / and 
+                                                :op1 (c / carry-out-03 
+                                                      :ARG0 (y3 / you) 
+                                                      :ARG1 (m2 / man 
+                                                            :ARG1-of (s11 / strike-01) 
+                                                            :mod (s12 / sun)) 
+                                                      :mod (j2 / just)))) 
+                                    :op2 (h / help-01 
+                                          :ARG0 (d / drug))) 
+                              :time (w / while 
+                                    :mod (a7 / all)))) 
+                  :ARG1 (s6 / somebody 
+                        :ARG1-of (r2 / resemble-01 
+                              :ARG2 (s5 / somebody 
+                                    :ARG1-of (m / marry-01 
+                                          :ARG0 (s9 / stirrup))))) 
+                  :location (e / else) 
+                  :op1-of (a / and) 
+                  :op1-of (o2 / or 
+                        :op2 (s4 / sudden) 
+                        :op3 (s3 / strike-01 
+                              :ARG0 (l / lightning 
+                                    :op1-of (o / or 
+                                          :op2 (s2 / something))) 
+                              :ARG1-of (r / resemble-01)) 
+                        :op4 (q / quite) 
+                        :op5 (j / just)) 
+                  :op1-of (a4 / and 
+                        :op1-of (a8 / and 
+                              :op1-of (a9 / and)) 
+                        :op2 (f / fetch-01 
+                              :ARG0 (t2 / they 
+                                    :ARG0-of (c2 / carry-01 
+                                          :ARG1 (y5 / you))) 
+                              :ARG1 (b / bearing) 
+                              :ARG2 (a3 / around) 
+                              :polarity - 
+                              :time (y / yet))))))
+
+# ::snt Then they stood up the mast they called a spear, in its socket by my left foot, and I gripped it with my hand; lastly they hung my shield around my neck, and I was all complete and ready to up anchor and get to sea.
+# ::tok Then they stood up the mast they called a spear , in its socket by my left foot , and I gripped it with my hand ; lastly they hung my shield around my neck , and I was all complete and ready to up anchor and get to sea .
+# ::alignments 49-50|0.0.1.0.0.0 46-47|0 45-46|0.0 42-43|0.0.1 41-42|0.0.1.1 40-41|0.0.1.0.0 39-40|0.0.0 37-38|0.0.1.0 36-37|0.0.1.0.0.1 34-35|0.0.1.0.0.1.1.0 32-33|0.0.1.0.0.1.1 31-32|0.0.1.0.0.1.0.0 29-30|0.0.1.0.0.1.0 27-28|0.0.1.0.0.1.0.1 26-27|0.0.1.0.0.1.2 25-26|0.0.1.0.0.1.2.0.0.1.0 21-22|0.0.1.0.0.1.2.0.0 20-21|0.0.1.0.0.1.2.0.0.1 19-20|0.0.1.0.0.1.2.0 17-18|0.0.1.0.0.1.2.0.0.0.0.0.0.0 16-17|0.0.1.0.0.1.2.0.0.0.0.0.0.0.0 13-14|0.0.1.0.0.1.2.0.0.0.0.0.0.0.1 9-10|0.0.1.0.0.1.2.0.0.0.0.0.0.1 7-8|0.0.1.0.0.1.2.0.0.0.0.0.0 5-6|0.0.1.0.0.1.2.0.0.0.0.0 2-3|0.0.1.0.0.1.2.0.0.0.0 1-2|0.0.1.0.0.1.2.0.0.0 0-1|0.0.1.0.0.1.2.0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:01.000
+(a / and 
+      :op1 (a2 / anchor-01 
+            :ARG0 (a4 / all) 
+            :ARG2-of (r / ready-02 
+                  :ARG1 (i / i 
+                        :ARG1-of (c / complete-02 
+                              :ARG2 (s / sea) 
+                              :op2-of (a5 / and 
+                                    :op1 (h / hang-on-04 
+                                          :ARG1 (s2 / shield) 
+                                          :time (l / last)) 
+                                    :op2-of (a6 / around 
+                                          :op1 (n / neck)) 
+                                    :op2-of (a7 / and 
+                                          :op1 (a8 / and 
+                                                :op1 (g / grip-01 
+                                                      :ARG0 (t / they 
+                                                            :ARG0-of (s5 / stand-01 
+                                                                  :ARG1 (m / mast 
+                                                                        :ARG1-of (c2 / call-01 
+                                                                              :ARG0 (f / foot 
+                                                                                    :mod (l2 / left) 
+                                                                                    :poss-of (s3 / socket)) 
+                                                                              :ARG2 (s4 / spear-01))) 
+                                                                  :time (t2 / then))) 
+                                                      :ARG1 (i2 / i 
+                                                            :poss-of (h2 / hand)))))))) 
+                  :op1-of (a3 / and))))
+
+# ::snt Everybody was as good to me as they could be, and a maid of honor gave me the stirrup-cup her own self.
+# ::tok Everybody was as good to me as they could be , and a maid of honor gave me the stirrup - cup her own self .
+# ::alignments 24-25|0.2.0.0 21-22|0.2.0.1 19-20|0.2.0.1.0 17-18|0.1 16-17|0.2.0 15-16|0 13-14|0.2 11-12|0.2.0.2 8-9|0.2.0.2.1 7-8|0.0 5-6|0.2.0.2.0.1 3-4|0.2.0.2.0 0-1|0.2.0.2.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:01.628
+(h / honor-01 
+      :ARG0 (t / they) 
+      :ARG1 (i / i) 
+      :mod-of (m / maid 
+            :ARG0-of (g / give-01 
+                  :ARG1 (s / self) 
+                  :ARG2 (c / cup 
+                        :mod (s2 / stirrup)) 
+                  :op3-of (a / and 
+                        :op1 (g2 / good 
+                              :domain (e / everybody) 
+                              :prep-to (i2 / i)) 
+                        :op2 (p / possible-01)))))
+
+# ::snt There was nothing more to do now, but for that damsel to get up behind me on a pillion, which she did, and put an arm or so around me to hold on.
+# ::tok There was nothing more to do now , but for that damsel to get up behind me on a pillion , which she did , and put an arm or so around me to hold on .
+# ::alignments 34-35|0.1.0.0.4 32-33|0.1.0.0.4.0 31-32|0.0.1 29-30|0.1.0.0.1 28-29|0.1.0.0.2 26-27|0.1.0.0 25-26|0.1.0 22-23|0.1.0.0.3.0 19-20|0.1.0.0.3 16-17|0.0.0 15-16|0.0.0.0 11-12|0.1 10-11|0.1.0.0.0 8-9|0 6-7|0.0.3 5-6|0.0 3-4|0.0.2 2-3|0.0.2.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:02.596
+(c / contrast-01 
+      :ARG1 (d2 / do-02 
+            :ARG0 (i2 / i 
+                  :op1-of (b / behind)) 
+            :ARG1 (a / around) 
+            :compared-to-of (m / more 
+                  :degree-of (n2 / nothing)) 
+            :time (n / now)) 
+      :ARG2 (d / damsel 
+            :purpose (a3 / and 
+                  :op1 (p / put-01 
+                        :ARG0 (t / that) 
+                        :ARG1 (o / or) 
+                        :ARG2 (a2 / arm) 
+                        :manner (p2 / pillion 
+                              :poss (s / she)) 
+                        :purpose (h / hold-04 
+                              :ARG0 (i / i))))))
+
+# ::snt And so we started, and everybody gave us a goodbye and waved their handkerchiefs or helmets.
+# ::tok And so we started , and everybody gave us a goodbye and waved their handkerchiefs or helmets .
+# ::alignments 16-17|0.0.0.0.1.0.1.0 15-16|0.0.0.0.1.0.1 14-15|0.0.0.0.1.0.2 12-13|0.0.0.0.1.0 11-12|0.0.0.0.1 10-11|0.0.0.0.0 7-8|0.0.0.0 6-7|0.0.0.0.1.0.0 5-6|0.1.0 3-4|0.0 2-3|0.0.0 1-2|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:03.205
+(c / cause-01 
+      :ARG1 (s / start-01 
+            :ARG0 (w2 / we 
+                  :ARG0-of (g2 / give-01 
+                        :ARG1 (g / goodbye) 
+                        :op1-of (a / and 
+                              :op2 (w / wave-01 
+                                    :ARG0 (e / everybody) 
+                                    :ARG1 (o / or 
+                                          :op1 (h / helmet)) 
+                                    :ARG2 (h2 / handkerchief)))))) 
+      :op1-of (a3 / and 
+            :op2 (a2 / and)))
+
+# ::snt And everybody we met, going down the hill and through the village was respectful to us, except some shabby little boys on the outskirts.
+# ::tok And everybody we met , going down the hill and through the village was respectful to us , except some shabby little boys on the outskirts .
+# ::alignments 25-26|0.0.0.3 22-23|0.0.0.4.0 21-22|0.0.0.4.0.0 20-21|0.0.0.4.1 19-20|0.0.0.4.0.1 18-19|0.0.0.4 14-15|0.0.1 12-13|0.0.1.0 9-10|0 8-9|0.0.1.1 6-7|0.0.0.2 3-4|0.0.0 2-3|0.0.0.0 1-2|0.0.0.1 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:03.477
+(a / and 
+      :op1 (a2 / and 
+            :ARG2-of (m / meet-03 
+                  :ARG0 (w / we) 
+                  :ARG1 (e2 / everybody) 
+                  :mod (d / down) 
+                  :op1-of (o / outskirt) 
+                  :time (e / except-01 
+                        :ARG1 (b / boy 
+                              :mod (l / little) 
+                              :quant (s2 / some)) 
+                        :ARG2 (s / shabby))) 
+            :op1 (r / respect-01 
+                  :ARG1 (v / village) 
+                  :op1-of (h / hill))))
+
+# ::snt They said:
+# ::tok They said :
+# ::alignments 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:03.483
+(s / say-01 
+      :ARG0 (t / they))
+
+# ::snt "Oh, what a guy!"
+# ::tok " Oh , what a guy ! "
+# ::alignments 5-6|0.0 1-2|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:03.491
+(o / oh 
+      :domain (g / guy))
+
+# ::snt And hove clods at us.
+# ::tok And hove clods at us .
+# ::alignments 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:03.498
+(a / and 
+      :example-of (h / heave-01))
+
+# ::snt In my experience boys are the same in all ages.
+# ::tok In my experience boys are the same in all ages .
+# ::alignments 9-10|0.1 8-9|0.0.0.0 6-7|0 3-4|0.0 2-3|0.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:03.516
+(s / same-01 
+      :ARG1 (b / boy 
+            :ARG0-of (e / experience-01 
+                  :ARG1 (a2 / all))) 
+      :location (a / age))
+
+# ::snt They don't respect anything, they don't care for anything or anybody.
+# ::tok They do n't respect anything , they do n't care for anything or anybody .
+# ::alignments 13-14|0.1 12-13|0 11-12|0.0.1 9-10|0.0 8-9|0.0.3 6-7|0.0.0 4-5|0.0.2.0.0 3-4|0.0.2.0 2-3|0.0.2.0.1 0-1|0.0.2 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:04.370
+(o / or 
+      :ARG2-of (c / care-01 
+            :ARG0 (t / they) 
+            :ARG1 (a2 / anything) 
+            :instrument (t2 / they 
+                  :ARG0-of (r / respect-01 
+                        :ARG1 (a3 / anything) 
+                        :polarity -)) 
+            :polarity -) 
+      :op1 (a / anybody))
+
+# ::snt They say "Go up, baldhead" to the prophet going his unoffending way in the gray of antiquity; they sass me in the holy gloom of the Middle Ages; and I had seen them act the same way in Buchanan's administration; I remember, because I was there and helped.
+# ::tok They say " Go up , baldhead " to the prophet going his unoffending way in the gray of antiquity ; they sass me in the holy gloom of the Middle Ages ; and I had seen them act the same way in Buchanan 's administration ; I remember , because I was there and helped .
+# ::alignments 55-56|0.0.0.2.1.1.1 54-55|0.0.0.2.1.1 53-54|0.0.1.1.0 51-52|0.0.0.2.1.1.1.0 50-51|0.0.0.2.1.1.0 48-49|0.0.0.2.1 47-48|0.0.0.2.1.0 45-46|0.0.0.0.0.2 43-44|0.0.0.0.0.2.0.1+0.0.0.0.0.2.0.0.0+0.0.0.0.0.2.0.0+0.0.0.0.0.2.0 41-42|0.0.0.0.0.0 40-41|0.0.0.0.0.0.0 38-39|0.0.0.0.0 36-37|0.0.0 34-35|0.0.0.0 33-34|0.0.0.2 31-32|0.0.1.1 30-31|0.0.1.1.1 27-28|0.0.1.1.2 26-27|0.0.1.1.2.0 23-24|0.0.0.2.1.1.1.1 21-22|0.0.1.0 20-21|0.0.0.0.0.3 19-20|0.0.0.0.0.1.0 17-18|0.0.0.0.0.1 14-15|0.0.0.1 10-11|0.0.0.2.0 6-7|0.1 3-4|0.0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:07.717
+(s3 / say-01 
+      :ARG0 (t3 / they 
+            :ARG0-of (s2 / see-01 
+                  :ARG1 (i3 / i 
+                        :ARG0-of (a3 / act-02 
+                              :ARG1 (w / way 
+                                    :ARG1-of (s / same-01)) 
+                              :ARG1-of (g2 / gray-02 
+                                    :ARG2 (a7 / antiquity)) 
+                              :ARG2 (a2 / administrate-01 
+                                    :ARG1 (p / person 
+                                          :name (n / name 
+                                                :op1 "Buchanan") 
+                                          :wiki "James_Buchanan")) 
+                              :op1-of (a6 / and))) 
+                  :ARG2 (w2 / way) 
+                  :op2-of (a4 / and 
+                        :op1 (p2 / prophet) 
+                        :op3 (r / remember-01 
+                              :ARG0 (i2 / i) 
+                              :ARG1 (a / and 
+                                    :ARG0-of (c / cause-01) 
+                                    :op1 (h / help-01 
+                                          :ARG0 (i / i) 
+                                          :ARG2 (i4 / i)))))) 
+            :ARG0-of (g3 / go-02 
+                  :ARG1 (t2 / they) 
+                  :time (a5 / age-01 
+                        :ARG0 (t / there) 
+                        :ARG1 "Middle_East" 
+                        :compared-to-of (g / gloom 
+                              :mod (h2 / holy))))) 
+      :ARG1 (b / baldhead))
+
+# ::snt The prophet had his bears and settled with his boys; and I wanted to get down and settle with mine, but it wouldn't answer, because I couldn't have got up again.
+# ::tok The prophet had his bears and settled with his boys ; and I wanted to get down and settle with mine , but it would n't answer , because I could n't have got up again .
+# ::alignments 35-36|0.0.3.1.0.0.0.1 33-34|0.0.3.1.0.0.0 31-32|0.0.3.1.0.0.1 30-31|0.0.3.1.0.0 29-30|0.0.3.1.0.0.0.0 28-29|0.0.3.1.0 26-27|0.0.3.1 25-26|0.0.3.1.1 22-23|0 20-21|0.0.1.1.0 18-19|0.0.1.1 17-18|0.0.1 16-17|0.0.1.0 13-14|0.0 12-13|0.0.0 11-12|0.0.2 10-11|0.0.2.0 9-10|0.0.3.0.1 6-7|0.0.3.0 5-6|0.0.3 4-5|0.0.3.0.0.0+0.0.3.0.0.0.0 1-2|0.0.3.0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:08.461
+(c2 / contrast-01 
+      :ARG2 (w / want-01 
+            :ARG0 (i2 / i) 
+            :ARG1 (a3 / and 
+                  :op1 (d / down) 
+                  :op2 (s / settle-02 
+                        :ARG1 (m / mine))) 
+            :op1-of (a4 / and 
+                  :op1-of (a5 / and)) 
+            :op2-of (a6 / and 
+                  :op1 (s2 / settle-03 
+                        :ARG0 (p2 / prophet 
+                              :ARG0-of (b2 / bear-01 
+                                    :manner (t / thing))) 
+                        :ARG2 (b / boy)) 
+                  :op3 (a2 / answer-01 
+                        :ARG1-of (c / cause-01 
+                              :ARG0 (p / possible-01 
+                                    :ARG1 (g / get-02 
+                                          :ARG0 (i / i) 
+                                          :mod (a / again)) 
+                                    :polarity -)) 
+                        :polarity -))))
+
+# ::snt I hate a country without a derrick.
+# ::tok I hate a country without a derrick .
+# ::alignments 6-7|0.2 3-4|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2019-02-18T21:03:08.483
+(h / hate-01 
+      :ARG0 (i / i) 
+      :ARG1 (c / country) 
+      :manner (d / derrick))
+

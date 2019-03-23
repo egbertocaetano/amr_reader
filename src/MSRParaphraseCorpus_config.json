@@ -1,0 +1,19 @@
+{
+  "dataset": {
+    "name": "MSRParaphraseCorpus",
+    "process_type": "in_file"
+  },
+  "preprocess": {
+    "path_list": "/home/egberto/workspace/amr/dataset/MSRParaphraseCorpus/data.txt",
+    "output_path": "/home/egberto/workspace/amr/results"
+  },
+  "amr": {
+    "jamr_root_path": "/home/egberto/workspace/amr/jamr",
+    "output_path": "/home/egberto/workspace/amr/results",
+    "log_path": "/home/egberto/workspace/amr/results"
+  },
+  "classification": {
+    "matrix_path": "/home/egberto/workspace/amr/results",
+    "targets_path": "/home/egberto/workspace/plagiarism_rae_rst/datasets/MSRParaphraseCorpus/msr_paraphrase_data.txt"
+  }
+}

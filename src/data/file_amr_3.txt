@@ -1,0 +1,14 @@
+# ::snt companies like IBM and Google
+# ::tok companies like IBM and Google
+# ::alignments 4-5|0.0.2.1+0.0.2.0.0+0.0.2.0+0.0.2 3-4|0.0 2-3|0.0.1.1+0.0.1.0.0+0.0.1.0+0.0.1 1-2|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2019-01-17T09:45:46.942
+(c3 / company 
+      :example (a / and 
+            :ARG2-of (r / resemble-01) 
+            :op1 (c2 / company 
+                  :name (n2 / name 
+                        :op1 "IBM") 
+                  :wiki "IBM") 
+            :op2 (c / company 
+                  :name (n / name 
+                        :op1 "Google") 
+                  :wiki "Google")))

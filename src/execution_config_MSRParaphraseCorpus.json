@@ -4,7 +4,7 @@
     "process_type": "in_file"
   },
   "preprocess": {
-    "path_list": "/home/forrest/workspace/LINE/Baselines/AMR/reader/Dataset/MSRParaphraseCorpus/sample_data.txt",
+    "path_list": "/home/forrest/workspace/LINE/Baselines/AMR/reader/Dataset/MSRParaphraseCorpus/data.txt",
     "output_path": "/home/forrest/workspace/LINE/Baselines/AMR/results"
   },
   "amr": {

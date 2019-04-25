@@ -4,8 +4,8 @@ import os
 import networkx as nx
 from preprocessor.preprocessor import Preprocessor
 import pickle as pkl
-import matplotlib.pyplot as plt
-
+from nltk.stem.porter import PorterStemmer
+from sklearn.feature_extraction.text import CountVectorizer
 
 
 class AMRTools(object):
@@ -56,7 +56,7 @@ class AMRTools(object):
                 # Getting root concept
                 line = lines[i].replace("(", "").replace(")", "").replace("\n", "")
 
-                vertex = {"name": line.strip(), "children_vertices": {}}
+                vertex = {"name": self.clean_node_name(line), "children_vertices": {}}
 
                 stack_vertex.append(vertex)
                 stack_nodes.append(vertex["name"])
@@ -97,7 +97,7 @@ class AMRTools(object):
                         stack_nodes.pop()
 
                     # Building vertex
-                    vertex = {"name": line[label_edge.end() + 1:].strip(), "children_vertices": {}}
+                    vertex = {"name": self.clean_node_name(line[label_edge.end() + 1:]), "children_vertices": {}}
 
                     stack_vertex[-1]["children_vertices"][edge_name] = vertex
                     stack_vertex.append(vertex)
@@ -213,11 +213,12 @@ class AMRTools(object):
 
         return parse__graph_list
 
-    def generate_bag_of_concepts(self, generate__path_list, only_main_concept=False, with_prefix=False):
+    def generate_bag_of_concepts(self, generate_boc__path_list, generate_boc__only_main_concept=False,
+                                 generate_boc__with_prefix=False):
 
         generate__bOC = []
 
-        for generate__path in generate__path_list:
+        for generate__path in generate_boc__path_list:
 
             generate__graph_list = self.amr_graph_reader(generate__path)
 
@@ -225,25 +226,79 @@ class AMRTools(object):
 
             for generate__graph in generate__graph_list:
 
-                if only_main_concept:
-                    generate__concepts = [node for node in generate__graph.nodes][0]
+                if generate_boc__only_main_concept:
+                    generate__concepts = [self.clean_node_name(node) for node in generate__graph.nodes][0]
                 else:
-                    generate__concepts = [node for node in generate__graph.nodes]
+                    generate__concepts = [self.clean_node_name(node) for node in generate__graph.nodes]
 
-                for generate__concept in generate__concepts:
+                for node_name in generate__concepts:
 
-                    entity = generate__concept.split('/')[-1].strip()
+                    if node_name not in generate__bOC:
 
-                    if entity not in generate__bOC:
+                        if generate_boc__with_prefix is False:
 
-                        if with_prefix is False:
-
-                            generate__bOC.append(entity)
+                            generate__bOC.append(node_name)
 
                         else:
-                            generate__bOC.append(generate__concept.strip())
+                            generate__bOC.append(node_name)
 
         return generate__bOC
+
+    def clean_node_name(self, node_name):
+        """
+
+        :param node_name:
+        :return:
+        """
+
+        name = node_name.split('/')[-1]
+
+        # name = name.split('-')[0]
+
+        name = name.replace('"', '')
+
+        name = name.strip()
+
+        return name
+
+    @staticmethod
+    def production_file_object(pfo__path_list):
+        """
+
+        :param pfo__path_list:
+        :return:
+        """
+        path_list = []
+
+        for file_path in pfo__path_list:
+
+            path_list.append(open(file_path, 'r'))
+
+        return path_list
+
+    def generate_bag_of_words(self, generate_bow__path_list):
+        """
+
+        :param generate_bow__path_list:
+        :return:
+        """
+
+        vectorizer = CountVectorizer(input='filename')
+
+        analyzer = vectorizer.build_analyzer()
+
+        def stemm(doc):
+            stemmer = PorterStemmer()
+            return (stemmer.stem(word) for word in analyzer(doc))
+
+        vectorizer.analyzer = stemm
+
+        term_document_matrix = vectorizer.fit_transform(generate_bow__path_list)
+
+        vocabulary = vectorizer.vocabulary_
+
+
+        return term_document_matrix, vocabulary
 
     def amr_parse(self, parse_amr__jamr_path, parse_amr__file_list, parse_amr__output_path):
 
@@ -682,7 +737,7 @@ if __name__ == '__main__':
     # files_splitted = tool.document_to_splitted_sentences(document__file_list=file_list,
     #                                                     document__result_path=output_path_splitted)
     """
-
+    """
     files_splitted = [
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/source-document00015_splitted.txt',
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/suspicious-document06001.txt',
@@ -695,7 +750,7 @@ if __name__ == '__main__':
     tool.amr_parse(parse_amr__jamr_path="/home/forrest/workspace/LINE/Baselines/AMR/jamr/scripts",
                    parse_amr__file_list=files_splitted,
                    parse_amr__output_path='/home/forrest/workspace/LINE/Baselines/AMR/results/19-03-17__17-23-29__TestCorpus/amrs')
-
+    """
     """
     files_amr = [
         '/home/forrest/workspace/LINE/Baselines/AMR/reader/amr_reader/src/data/document_splitted/source-document00015_splitted.amr',
@@ -707,3 +762,15 @@ if __name__ == '__main__':
 
     print(tool.generate_bag_of_concepts(files_amr, False))
     """
+
+    file_list = [
+        "/home/forrest/workspace/LINE/plagiarism_rae_rst/datasets/pan-plagiarism-corpus-2010/suspicious-document/part6/suspicious-document02968.txt",
+        "/home/forrest/workspace/LINE/plagiarism_rae_rst/datasets/pan-plagiarism-corpus-2010/suspicious-document/part21/suspicious-document10403.txt",
+        "/home/forrest/workspace/LINE/plagiarism_rae_rst/datasets/pan-plagiarism-corpus-2010/suspicious-document/part4/suspicious-document01501.txt",
+        "/home/forrest/workspace/LINE/plagiarism_rae_rst/datasets/pan-plagiarism-corpus-2010/suspicious-document/part13/suspicious-document06001.txt"]
+
+    tool = AMRTools("/home/forrest/workspace/LINE/Baselines/AMR/jamr/scripts")
+
+    matrix, vocabulary = tool.generate_bag_of_words(file_list)
+
+    print(len(vocabulary))

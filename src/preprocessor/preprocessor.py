@@ -10,6 +10,7 @@ import subprocess
 import re
 from nltk.tokenize import sent_tokenize
 
+
 class Preprocessor:
 
     def __init__(self):
@@ -69,8 +70,7 @@ class Preprocessor:
         
         seg_sents = []
         cmd = 'perl %s/boundary.pl -d %s/HONORIFICS -i %s' % (self.SPLITTER_SENTENCE, self.SPLITTER_SENTENCE, os.path.abspath(file_path))
-        
-#         p = subprocess.Popen(cmd, stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell = True, universal_newlines=True)
+
         p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, encoding='latin1')
         output, errdata = p.communicate()
         
@@ -93,8 +93,7 @@ class Preprocessor:
                         seg_sents.append(raw_sent)
         else:
             raise NameError("*** Sentence splitter crashed, with trace %s..." % errdata)
-            
-        
+
         return seg_sents
      
     
